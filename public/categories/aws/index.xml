@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aws on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/categories/aws/</link>
+    <description>Recent content in Aws on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Mon, 06 Jun 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/categories/aws/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Serverless jako něco víc než Docker</title>
+      <link>https://blog.prskavec.net/2016/06/06/serverless-jako-neco-vic-nez-docker/</link>
+      <pubDate>Mon, 06 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2016/06/06/serverless-jako-neco-vic-nez-docker/</guid>
+      <description>Serverless Zkusím popsat co je to serverless trochu lidsky. Samotné bez serveru je asi moc široký pojem. Pokud se podíváte na Awesome Serverless najdete zde všechno možné od databází jako Firebase, Hoodie, které poskytují frontendovým aplikacím vše co potřebují k běhu, až k systémům, které vám umožňují více než stávající řešení na principu virtuálních serverů. O těch se hodně mluví a nejstarší z nich je Amazon Web Service Lambda.</description>
+    </item>
+    
+  </channel>
+</rss>

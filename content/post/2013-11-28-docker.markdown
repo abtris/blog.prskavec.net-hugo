@@ -1,0 +1,20 @@
+---
+categories: [deployment,docker]
+comments: true
+date: 2013-11-28T00:00:00Z
+title: docker
+url: /2013/11/28/docker/
+---
+
+Pokud se zajímáte o to jak nasazovat aplikace na svoje servery, pronajaté VPS nebo doc cloudu, měli by jste si něco o této poměrně mladé technologii přečíst nebo vidět.
+## Co to je docker?
+Pěkně podrobně to najdete na samotném webu [docker.io](http://www.docker.io/the_whole_story/) a také jsem to snažil postihnout ve své [přednášce na letošním Devfestu](http://youtu.be/oZ86BoAUtSQ).
+
+<iframe width="640" height="360" src="//www.youtube.com/embed/oZ86BoAUtSQ?rel=0" frameborder="0" allowfullscreen></iframe>
+<!--more-->
+## Co se do přednášky nevešlo
+Všechny příklady, které jsem nestihl předvést naživo jsou v [repository](https://github.com/abtris/devfest-2013) a jsou pro verzi 0.6.7 a mezi Devfestem a tímto článkem už stačila vyjít verze 0.7, která je revoluční v podpoře více distribucí (Fedora, RHEL, Ubuntu, Debian, Suse, Gentoo, Arch). Přidáný storage drivers o kterých jsem mluvil kromě AuFS je to VFS a DEVICEMAPPER a brzo budou další ZFS, Gluster, Ceph. 
+
+## Závěr 
+Autoři slibují v další verzi se zaměřit hlavně na kvalitu, doplnění dokumentace a api. Je před nimi mnoho práce, ale čím dál více lidí docker používá i v produkci. O dockeru budu mluvit 13.12. také v rámci [Web Inkognito](http://webovky.vse.cz/web-inkognito) a 3-4.12.2013 se koná celosvětový Docker [HackDay](http://www.meetup.com/Docker-Prague-Czech-Republic/events/152779712/), pokud by jste se chtěli zůčastnit nebo pomocí s organizací místa kde se to bude konat dejte vědět mě nebo organizátorům.
+

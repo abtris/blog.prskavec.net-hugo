@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rabbitmq on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/rabbitmq/</link>
+    <description>Recent content in Rabbitmq on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Sun, 10 Apr 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/rabbitmq/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PHP a RabbitMQ</title>
+      <link>https://blog.prskavec.net/2011/04/10/php-a-rabbitmq/</link>
+      <pubDate>Sun, 10 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2011/04/10/php-a-rabbitmq/</guid>
+      <description>V poslední době se objevilo hodně článků o RabbitMQ a připravuje se kniha kde většina příkladů je v PHP. Připravil jsem malou demonstraci jak se message queue dobře využit. RabbitMQ je napsaný v Erlangu podobně jako CouchDB a hodí ke zpracování dávkových úloh. V demonstraci využívám knihovnu wkhtmltopdf která umí zpracovat html stránku na PDF, používá k tomu webkit jádro. Design Malý design aplikace jsem zvolil takto: Kód Základ aplikace jsou dva úlohy producer a consumer.</description>
+    </item>
+    
+  </channel>
+</rss>

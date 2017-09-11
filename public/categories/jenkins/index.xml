@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jenkins on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/categories/jenkins/</link>
+    <description>Recent content in Jenkins on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Tue, 20 Dec 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/categories/jenkins/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jenkins Declarative Pipelines</title>
+      <link>https://blog.prskavec.net/2016/12/20/jenkins-declarative-pipelines/</link>
+      <pubDate>Tue, 20 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2016/12/20/jenkins-declarative-pipelines/</guid>
+      <description>&lt;p&gt;Dnes Jenkins &lt;a href=&#34;https://jenkins.io/blog/2016/12/19/declarative-pipeline-beta/&#34; target=&#34;_blank&#34;&gt;zveřejnil betu&lt;/a&gt; nového formátu pro popis Continues Delivery Pipelines.&lt;/p&gt;
+
+&lt;p&gt;Pipeline se serie kroků, které vám dovolí orchestovat práci, kterou potřebujete k buildu, testovaní a nasazení aplikace. Pipelines jsou definovány v souboru &lt;code&gt;Jenkinsfile&lt;/code&gt; a je uložen v
+kořenovém adresáři repozitáře projektu.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jenkins 2.0 - novinky a vylepšení - 2.část</title>
+      <link>https://blog.prskavec.net/2016/10/31/jenkins-2-dot-0-novinky-a-vylepseni-2-dot-cast/</link>
+      <pubDate>Mon, 31 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2016/10/31/jenkins-2-dot-0-novinky-a-vylepseni-2-dot-cast/</guid>
+      <description>&lt;p&gt;V minulé části jsem probíral proč je důležité mít definice v souboru a proč potřebujeme Continues Delivery Pipelines.&lt;/p&gt;
+
+&lt;p&gt;V tomto příspěvku se budu věnovat dalším bodům:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;distributed job across multiple nodes&lt;/li&gt;
+&lt;li&gt;autoscaling on traffic with lowest possible price&lt;/li&gt;
+&lt;li&gt;solution for caching for installations&lt;/li&gt;
+&lt;li&gt;docker support&lt;/li&gt;
+&lt;li&gt;matrix builds&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;V Jenkinsu je podpora pro distribuované agenty, dnes můžete mít jednotlivé stroje v AWS (pomocí ec2, ec2-fleet pluginů), OpenStack, Docker, Kubernetes apod.&lt;/p&gt;
+
+&lt;p&gt;Aby jste byli schopni dosáhnou kvalitního autoscalingu za velmi dobrou cenu dají se velmi dobře využít &lt;a href=&#34;https://aws.amazon.com/ec2/spot/&#34; target=&#34;_blank&#34;&gt;spot instance&lt;/a&gt; od AWS. Můžete ušetřit až 90% nákladů oproti normálním instancím.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jenkins 2.0 - novinky a vylepšení</title>
+      <link>https://blog.prskavec.net/2016/10/26/jenkins-2-dot-0-novinky-a-vylepseni/</link>
+      <pubDate>Wed, 26 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2016/10/26/jenkins-2-dot-0-novinky-a-vylepseni/</guid>
+      <description>&lt;p&gt;Jenkins je nejznámější řešení na Continues Integration, který existuje už řadu let. Od září je venku konečně verze 2.x (aktuálně 2.19.1 LTS), která obsahuje několik zásadních novinek.&lt;/p&gt;
+
+&lt;p&gt;Jenkins používám řadu let a také ho &lt;a href=&#34;https://blog.prskavec.net/skoleni-a-kurzy/&#34;&gt;školím ve firmách&lt;/a&gt; co chtějí toto řešení nasadit. Před 2 lety jsem si řekl, že není Jenkins moc dobrá cesta. Žádné použitelné novinky se dlouho neobjevovali a vůbec se nezlepšovalo použití pro větší nasazení Jenkinusů ve firmách.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jenkins polling a git-notify</title>
+      <link>https://blog.prskavec.net/2013/09/05/jenkins-polling-a-git-notify/</link>
+      <pubDate>Thu, 05 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2013/09/05/jenkins-polling-a-git-notify/</guid>
+      <description>&lt;p&gt;Minulý rok jsem psal o tom, že &lt;a href=&#34;http://blog.prskavec.net/2012/06/jenkins-scm-polling-je-zlo/&#34; target=&#34;_blank&#34;&gt;polling v Jenkinsu je zlo&lt;/a&gt;. To stále platí, ale i když máte tento přístup nemusí to stačit.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jenkins SCM polling je zlo!</title>
+      <link>https://blog.prskavec.net/2012/06/20/jenkins-scm-polling-je-zlo/</link>
+      <pubDate>Wed, 20 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2012/06/20/jenkins-scm-polling-je-zlo/</guid>
+      <description>&lt;p&gt;Moc jsem nechápal problémy, které řešil &lt;a href=&#34;http://kohsuke.org/2011/12/01/polling-must-die-triggering-jenkins-builds-from-a-git-hook/&#34; target=&#34;_blank&#34;&gt;Kohsuke Kawaguchi&lt;/a&gt; na konci roku. Ale brzo jsem to měl zjistit. Před časem přišel za mnou kolega, že chce zkonfigurovat polling stylem popisovaným v článku.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jenkins - jak na Continuous Integration v PHP a Javascriptu 26.6.2012</title>
+      <link>https://blog.prskavec.net/2012/06/14/jenkins-jak-na-continuous-integration-v-php-a-javascriptu-26-dot-6-2012/</link>
+      <pubDate>Thu, 14 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2012/06/14/jenkins-jak-na-continuous-integration-v-php-a-javascriptu-26-dot-6-2012/</guid>
+      <description>Aktuání školeni 26.6.2012 Přijděte si popovídat o integraci vašich aplikací v PHP a Javascriptu na moje školení v úterý 26.6. bit.ly/k-ci.
+Pro tento termín jsem připravil aktualnizaci, kde kromě PHP je přidána continous integration pro Javascript.
+Přednášku jsem o tom měl na poledním čtvrtku. Slidy jsou k dispozici http://slidesha.re/MtbUvD.
+Pokud vám na školení o integraci něco chybí co by jste tam chtěli, neváhejte a oslovte mě emailem nebo v komentářích.</description>
+    </item>
+    
+    <item>
+      <title>Jenkins – použití Continuous Integration engine pro PHP</title>
+      <link>https://blog.prskavec.net/2011/11/24/jenkins-pouziti-continuous-integration-engine-pro-php/</link>
+      <pubDate>Thu, 24 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2011/11/24/jenkins-pouziti-continuous-integration-engine-pro-php/</guid>
+      <description>&lt;p&gt;Vyvíjíte větší PHP projekt a potřebujete zlepšit koordinaci vašeho týmu a vaše softwarové procesy? Přístup Continuous Integration a nástroj Jenkins, který jej umožňuje implementovat, vám pomohou. Dozvíte se, jak Jenkins nainstalovat, jak ověřovat kvalitu softwarového produktu, jak řešit spouštění automatických testů, jak testovat coding standard, jaké si stanovovat softwarové metriky či jak kontinuálně deployovat vaše průběžné výsledky.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

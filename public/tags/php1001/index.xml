@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Php1001 on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/php1001/</link>
+    <description>Recent content in Php1001 on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Thu, 23 Dec 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/php1001/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Křest knihy 1001 tipů a triků pro PHP</title>
+      <link>https://blog.prskavec.net/2010/12/23/krest-knihy-1001-tipu-a-triku-pro-php/</link>
+      <pubDate>Thu, 23 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2010/12/23/krest-knihy-1001-tipu-a-triku-pro-php/</guid>
+      <description>Včera se konal křest knihy 1001 tipů a triků pro PHP Jakuba Vrány, prostředí Lokády v Praze Holešovicích bylo pekně vybráno. Jako ostatní jsem přišel podpořit Jakuba a koupit si jeho knihu s podpisem. Jirka Kosek se ujal role patrona knihy a pokřtil ji šampaňským jak se patří.
+Zlatým hřebem večera byla dražba 1 výtisku knihy, který Jakub vlastnoručně vytiskl a měl první návrh obálky a autorovy poznámku. Tento výtisk vydražili po dramatickém boji zástupci skype.</description>
+    </item>
+    
+  </channel>
+</rss>

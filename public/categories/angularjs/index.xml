@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Angularjs on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/categories/angularjs/</link>
+    <description>Recent content in Angularjs on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Thu, 29 Aug 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/categories/angularjs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Firebase a AngularJS</title>
+      <link>https://blog.prskavec.net/2013/08/29/firebase-a-angularjs/</link>
+      <pubDate>Thu, 29 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2013/08/29/firebase-a-angularjs/</guid>
+      <description>&lt;p&gt;Dnešní většina aplikací v javascriptu má architekturu klient server. Pokud nechcete psát nějaký backend pro vaši aplikaci, můžete se tomu vyhnout pokud použijete nějaký druh úložiště (databáze), která vám k tomu přidá i funkce, které má nějaký backend napsaný např. v nodejs nebo php.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Šablony v AngularJS</title>
+      <link>https://blog.prskavec.net/2012/08/14/angualarjs-templates/</link>
+      <pubDate>Tue, 14 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2012/08/14/angualarjs-templates/</guid>
+      <description>&lt;p&gt;Pokud začínáte s &lt;a href=&#34;http://www.angularjs.org&#34; target=&#34;_blank&#34;&gt;AngularJS&lt;/a&gt; je dobré pro aplikace použít &lt;a href=&#34;https://github.com/angular/angular-seed&#34; target=&#34;_blank&#34;&gt;angular-seed&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>AngularJS 1.0.0</title>
+      <link>https://blog.prskavec.net/2012/06/15/angularjs-1-dot-0-0/</link>
+      <pubDate>Fri, 15 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2012/06/15/angularjs-1-dot-0-0/</guid>
+      <description>&lt;h2 id=&#34;konečně-tady&#34;&gt;Konečně tady!&lt;/h2&gt;
+
+&lt;p&gt;Po celkem dlouhém čekání a 12 RC verzí 1.0 je konečně venku finální verze na kterou od jara čekáme. Trochu jsem si říkal zda se nečeká na něco jiné například &lt;a href=&#34;http://blog.angularjs.org/2012/06/doubleclick-super-powered-by-angularjs.html&#34; target=&#34;_blank&#34;&gt;DoubleClick&lt;/a&gt; jako stěžení referenci pro AngularJS.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Angular Meetup v Praze</title>
+      <link>https://blog.prskavec.net/2012/05/07/angular-meetup-v-praze/</link>
+      <pubDate>Mon, 07 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2012/05/07/angular-meetup-v-praze/</guid>
+      <description>AngularJS Meetup proběhl v Praze Dne 4.5.2012 16-21h proběhl meetup přiznivců AngularJS v Hub Praha na Smíchově. Po New Yorku a Mountain View byla Praha doufám třetí na světě kde se něco takového konalo. Angular tým Misko Hevery, Igor Minar, Vojta Jína nám dělali podporu a to Vojta dokonce osobně v Praze. Přes hangout jsme pozdravili i zbytek týmu.
+Pár fotek z mobilu z akce je k dispozici.
+Celá akce byla postavená na dotazech a společné práci nad vlastními projekty nebo nad ukázkovou aplikací angular-phonecat.</description>
+    </item>
+    
+    <item>
+      <title>AngularJS v Praze</title>
+      <link>https://blog.prskavec.net/2012/03/27/angularjs-v-praze/</link>
+      <pubDate>Tue, 27 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2012/03/27/angularjs-v-praze/</guid>
+      <description>AngularJS je MVC javascriptový framework, opensource, podporovaný firmou Google. Jeden z hlavních vývojářů je Vojta Jína, který v dubnu/květnu bude v Praze a potřebujeme zjistit zda by byl zájem o něco více než jenom přednášku co bude v rámci.
+2.5. Vojta Jina - Google Mountain View USA. Introduction to Angular. Vojta is a developer in Google actively developing a Javascript architecture Angular. eClubu
+4.5. hacking party sponzored by Google - meetup</description>
+    </item>
+    
+  </channel>
+</rss>

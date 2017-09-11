@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Php on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/php/</link>
+    <description>Recent content in Php on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Sun, 10 Apr 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PHP a RabbitMQ</title>
+      <link>https://blog.prskavec.net/2011/04/10/php-a-rabbitmq/</link>
+      <pubDate>Sun, 10 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2011/04/10/php-a-rabbitmq/</guid>
+      <description>V poslední době se objevilo hodně článků o RabbitMQ a připravuje se kniha kde většina příkladů je v PHP. Připravil jsem malou demonstraci jak se message queue dobře využit. RabbitMQ je napsaný v Erlangu podobně jako CouchDB a hodí ke zpracování dávkových úloh. V demonstraci využívám knihovnu wkhtmltopdf která umí zpracovat html stránku na PDF, používá k tomu webkit jádro. Design Malý design aplikace jsem zvolil takto: Kód Základ aplikace jsou dva úlohy producer a consumer.</description>
+    </item>
+    
+    <item>
+      <title>phpfog - cloudové řešení pro PHP?</title>
+      <link>https://blog.prskavec.net/2011/03/14/phpfog-cloudove-reseni-pro-php/</link>
+      <pubDate>Mon, 14 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2011/03/14/phpfog-cloudove-reseni-pro-php/</guid>
+      <description>Pokud se zajímáte o cloudové technologie, tak možná znáte Heroku. Heroku je pěkné řešení pro Ruby, které vám umožní vytvářet aplikace v Sinatře nebo v Rails a deployment provádět pomocí Gitu. Pro PHP mi něco takového dlouho chybělo, ale začíná se částečně situace vylepšovat, protože je na světe PHP Fog.
+ Co vám přinese PHP Fog Mě se na cloudovém řešení libí, že je to pro vývojáře jednoduché a praktické. Nemusím řešit server, jeho provoz.</description>
+    </item>
+    
+    <item>
+      <title>Podpora profilování cachegrind/KCachegrind v Xdebugu</title>
+      <link>https://blog.prskavec.net/2011/02/23/podpora-profilovani-cachegrindkcachegrind/</link>
+      <pubDate>Wed, 23 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2011/02/23/podpora-profilovani-cachegrindkcachegrind/</guid>
+      <description>Dnes je část profilování v Xdebugu (http://xdebug.org) ukládána do souborů v KCacheGrind formátu. Tato funkce byla přidána do Xdebugu, ale není dle specifikace formátu. Byla vytvořena revezním inženýrstvým a tato stávající implementace obsahuje chyby a nepřesnosti.
+Od verze 0.6 je KCacheGrind více striktní ohledně interpretace formátu a to způsobuje chyby při jeho používání s výstupy Xdebugu https://bugs.kde.org/show_bug.cgi?id=256425.
+Vybraná částka bude použita, aby Derick Rethans mohl správně vyřešit problém s integrací Xdebugu/KCacheGrindu.</description>
+    </item>
+    
+    <item>
+      <title>PHPStorm 2.0 - nová verze multiplatformního vývojového prostředí</title>
+      <link>https://blog.prskavec.net/2011/02/14/phpstorm-2-0/</link>
+      <pubDate>Mon, 14 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2011/02/14/phpstorm-2-0/</guid>
+      <description>Dnes 14.2.2011 vyšela nová verze IDE pro PHP od JetBrains PHPStorm 2.0. Hlavní výhody tohoto IDE  základní vlastnosti IDE  jednoduchá instalace rychlý start funguje na Windows, Linux a Mac OS X jednoduchá konfigurace projektů, můžete začít kde chcete   inteligentní php editor  doplňování kódu  refaktoring podpora pro Smarty a PhpDoc   rychlá navigace (fuzzy search) editor pro mixování jazyků (html, js, xml, xsl) vlastní různé konfigurace vzhledů IDE kompatibilní s IDEA platform (IDEA, Rubymine)   pokročilý javascriptový editor  procházení DOMu javascriptový debugger javascriptový refaktoring jako u php je navigace v kódu a vyhledávání užití   html a css editor  podpora HTML5 Zen coding validace a rychlé opravy ukázky aplikovaných stylů   chytré prostředí  podpora pro phpunit podpora verzovacích systémů (SVN, CVS, Git, Mercurial a další) FTP a synchronizace vzdálených souborů Lokální historie souborů   visuální debugger  podpora pro xdebug i zend debugger jednoduchá konfigurace breakpointy v PHP, JS, HTML    Minulý rok jsem psal o verzi 1.</description>
+    </item>
+    
+    <item>
+      <title>Xdebug 2.1 instalace ze zdrojových kódů</title>
+      <link>https://blog.prskavec.net/2010/06/30/xdebug-2-1-instalace-ze-zdrojovych-kodu/</link>
+      <pubDate>Wed, 30 Jun 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2010/06/30/xdebug-2-1-instalace-ze-zdrojovych-kodu/</guid>
+      <description>Včera vyšela nová verze Xdebug 2.1. Z hlavních novinek bych zdůraznil podporu pro PHP 5.3 a další můžete vyčíst z Derickova oznámení.
+Xdebug jsem instaloval na Mac OS X 10.6.4 a Ubuntu 9.10 a bez problémů jsem to zkompiloval ze zdrojových kódů.
+V Ubuntu i na Macu je potřeba mít podporu pro kompilaci ze zdrojových kódů. V ubuntu je to balíček build-essential a autoconf a na Macovi Xcode s příslušenstvím, případně si přes Port doinstalujete co potřebujete.</description>
+    </item>
+    
+    <item>
+      <title>JetBrains PhpStorm</title>
+      <link>https://blog.prskavec.net/2010/02/25/jetbrains-phpstorm/</link>
+      <pubDate>Thu, 25 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2010/02/25/jetbrains-phpstorm/</guid>
+      <description>Vývojových prostředí pro PHP je docela hojnost. Sám používám v práci Zend Studio 7.1 a doma Netbeans 6.8. Minulý rok přišla firma JetBrains, která je známá svým IDE pro Javu IDEA, s vývojovým prostředím pro PHP, které se jmenuje PhpStorm (dříve WebIDE). V současné době je nové IDE stále ve vývoji. Brzo se dočkáme beta verze a myslím do léta snad i finální verze.
+PhpStorm (dále PS) je na platformě IDEA, což považuji za velkou výhodu.</description>
+    </item>
+    
+    <item>
+      <title>NetBeans 6.8 a PHPUnit</title>
+      <link>https://blog.prskavec.net/2009/12/28/netbeans-6-8-a-phpunit/</link>
+      <pubDate>Mon, 28 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/12/28/netbeans-6-8-a-phpunit/</guid>
+      <description>Pokud používáte pro vývoj v PHP nějaké IDE, je to většinou PDT based (Eclipse, Zend Studio) nebo Netbeans. Samozřejmě jsou tu i další a vznikají nové, které stojí za zmínku. Mě oslovilo WebIDE od autorů IDEA firmy JetBrains, kde si myslím roste velká konkurence Zend Studiu.
+V práci používám primárně Zend Studio a pro sebe většinou Netbeans. V Netbeans nejvíce oceňují propojení s PHPUnit a pokud rád vyvíjíte metodikou TDD. V verzi 6.</description>
+    </item>
+    
+    <item>
+      <title>PHP CodeBrowser a Hudson</title>
+      <link>https://blog.prskavec.net/2009/12/11/php-codebrowser/</link>
+      <pubDate>Fri, 11 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/12/11/php-codebrowser/</guid>
+      <description>Před časem se objevil nový reportovací nástroj, který vezme logy z PHPUnit, PHP_Codesniffer a umí je pěkně zobrazit.
+Instalace je z PEAR (http://pear.phpunit.de/get/)
+
+pear config-set preferred_state alpha
+pear channel-discover pear.phpunit.de
+pear install --alldeps phpunit/PHP_CodeBrowser
+
+nebo z SVN
+svn co svn://phpunit.de/phpunit/phpcb/trunk PHP_CodeBrowser
+Integrace
+Tento tool jde integrovat do CIE
+ phpundercontrol (dostupné od verze 0.5) atlassion bamboo (zatím asi není oficiálně dostupně ale, jde to) hudson  Postup integrace do Hudsonu si ukážeme</description>
+    </item>
+    
+    <item>
+      <title>NoSQL Databáze v PHP</title>
+      <link>https://blog.prskavec.net/2009/11/05/nosql-databze-v-php/</link>
+      <pubDate>Thu, 05 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/11/05/nosql-databze-v-php/</guid>
+      <description>V&amp;#269;era jsem byl na p&amp;#345;edn&amp;aacute;&amp;scaron;ce Honzy Kr&amp;aacute;le na t&amp;eacute;ma Necho&amp;#271;te s kan&amp;oacute;nem na data aneb key value datab&amp;aacute;ze. P&amp;#345;edn&amp;aacute;&amp;scaron;ka nebyla jen o key value datab&amp;aacute;z&amp;iacute;ch, ale obecn&amp;#283; o NO SQL.
+Honza shrnul probl&amp;eacute;my RDBMS datab&amp;aacute;z&amp;iacute; s ohledem na ACID a co m&amp;#367;&amp;#382;ou p&amp;#345;in&amp;eacute;st jin&amp;eacute; typy datab&amp;aacute;z&amp;iacute; ne&amp;#382; sql. Nap&amp;#345;&amp;iacute;klad key value a dokumentov&amp;eacute; pro nasazen&amp;iacute; ve webov&amp;yacute;ch slu&amp;#382;b&amp;aacute;ch, kde mnoh&amp;eacute; tak&amp;eacute; vznikly pou&amp;#382;&amp;iacute;v&amp;aacute;j&amp;iacute; je Google, Amazon, Facebook a jin&amp;iacute;.
+P&amp;#345;ehled NoSQL najdete tak&amp;eacute; ve wikipedii.</description>
+    </item>
+    
+    <item>
+      <title>Co mě zaujalo na ZendConu 2009</title>
+      <link>https://blog.prskavec.net/2009/10/23/co-me-zaujalo-na-zendconu-2009/</link>
+      <pubDate>Fri, 23 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/10/23/co-me-zaujalo-na-zendconu-2009/</guid>
+      <description>Ve dnech 19-22 října se v San Jose v Kalifornii konal 5. ročník konference ZendCon (Zend PHP Conference for Developers). Na této konferenci je skvělé to, že je opravdu pro vývojáře a i když jsem se tam letos nedostal tak si ze slidů z konference a probíraných témat něco odnesu. To se tolik nedá říci o lokálním Webexpu, kde jsou přednášky cíleny spíše na začátečníky a na ty co s danou problematikou většinou nepřišli do styku.</description>
+    </item>
+    
+    <item>
+      <title>Jak na výpadek služby Twitter při použití Zend_Service_Twitter</title>
+      <link>https://blog.prskavec.net/2009/08/06/jak-na-vypadek-sluzby-twitter-pri-pouziti-zend-service-twitter/</link>
+      <pubDate>Thu, 06 Aug 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/08/06/jak-na-vypadek-sluzby-twitter-pri-pouziti-zend-service-twitter/</guid>
+      <description>Během dneška (6.8.2009) byl výpadek služby Twitter a koukal jsem, že mi to položilo php-frameworks.net na kolena.
+Jak jsem se zjišťovat co s tím a proč mi to hlásí:  Zend_Http_Client_Adapter_Exception: Unable to Connect to tcp://twitter.com:80. Error #110: Connection timed out in /srv/lib/php/Zend/Http/Client/Adapter/Socket.php on line 213 
+Tento kód nějak selhal a výpadek nastal dříve, asi to vypadá na nějakou chybu v Zendu, protože se Zend_Service_Twitter_Exception nevrátí i při výpadku spojení jak jsem očekával.</description>
+    </item>
+    
+    <item>
+      <title>PEAR a Zend Server CE 4.0.4</title>
+      <link>https://blog.prskavec.net/2009/07/20/pear-a-zend-server-ce-4-0-4/</link>
+      <pubDate>Mon, 20 Jul 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/07/20/pear-a-zend-server-ce-4-0-4/</guid>
+      <description>Pokud jste instalovali Zend Server CE ve verzi 4.0.4 a předtím jste neměli provedený upgrade PEARu z 1.8.0 na 1.8.1 možná se setkáte s chybovou hláškou pokud budete chtít něco z PEARu nainstalovat.
+ pear.php.net is using a unsupported protocal - This should never happen. install failed  Řešení je následující, instalujte přímo z PEARu (řešení je pro Ubuntu, ale mělo by fungovat i jinde).
+lynx -source http://pear.php.net/go-pear | php Spustí se installer a tam nastavte cesty podle Zend Serveru a nainstalujete tam kam Zend Server instaluje také, neměl by potom být problém s upgradem.</description>
+    </item>
+    
+    <item>
+      <title>PHP Bytekit</title>
+      <link>https://blog.prskavec.net/2009/07/01/php-bytekit/</link>
+      <pubDate>Wed, 01 Jul 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/07/01/php-bytekit/</guid>
+      <description>Bytekit Bytekit je nová extenze pro PHP, která umožňuje analyzovat PHP kód na úrovni opcodes, které generuje compiler v PHP. Také nám umožňuje pomocí disassembleru sledovat jak probíhá program na úrovni compileru. Je to další z nástrojů, které umožní zlepšit kvalitu kódu a určitě přinese řadu další analytických nástrojů. Autorem je Stefan Esser, kterého jistě každý zná. Jeho blog a příspěvky k bezpečnosti PHP jsou známy. Bytekit-cli  Samotná extenze, ale není všechno.</description>
+    </item>
+    
+    <item>
+      <title>Zend Server CE a vlastni logy v konzoli</title>
+      <link>https://blog.prskavec.net/2009/05/05/zend-server-ce-a-vlastni-logy-v-konzoli/</link>
+      <pubDate>Tue, 05 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/05/05/zend-server-ce-a-vlastni-logy-v-konzoli/</guid>
+      <description>Zend Server 4.0.2  Zend aktualizoval Zend Server na verzi 4.0.2, přidána hlavně podpora pro ZF 1.8 a další drobné změny. Jen mi z repozitory pro Ubuntu nefunguje Zend_Tool, doufám, že tuto drobnost brzo opraví zatím ji stejně s Zend Studiem moc nevyužiji. Update 6.5.2009 po mém upozornění dnes Zend provedl update ZF 1.8 v repozitory pro Zend Server CE a už to funguje, soubor najdete v /usr/local/zend/share/ZendFramework/bin/zf.sh. Doporučuji si udělat symlink nebo přidat adresář do $PATH.</description>
+    </item>
+    
+    <item>
+      <title>PhpHudson</title>
+      <link>https://blog.prskavec.net/2009/04/29/phphudson/</link>
+      <pubDate>Wed, 29 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/04/29/phphudson/</guid>
+      <description>Vyvořil jsem pro mě užitečnou třídu v php pro práci s Hudsonem, která má zatím implementovány základní věci z remote api, kterým Hudson disponuje. Knihovna používá Curl a pracuje s Hudsonem přes REST.
+Používám tuto knihovnu např. pro migraci všech jobů z jednoho hudsona na druhý.
+Lehce můžeme totiž stáhnout všechny konfigurační soubory do jednoho adresáře.  getAllConfigs(&amp;ldquo;/tmp/hudson/&amp;rdquo;);  Potom můžeme projít adresář a založit jednotlivé joby.  createJob(basename(str_replace(&amp;ldquo;-config.xml&amp;rdquo;,&amp;ldquo;&amp;rdquo;,$file)), file_get_contents($dir.$file)); } closedir($handle); }</description>
+    </item>
+    
+    <item>
+      <title>Zend Server CE a phpMinAdmin, phpMyAdmin na Ubuntu</title>
+      <link>https://blog.prskavec.net/2009/04/08/zend-server-ce-a-phpminadmin-phpmyadmin-na-ubuntu/</link>
+      <pubDate>Wed, 08 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/04/08/zend-server-ce-a-phpminadmin-phpmyadmin-na-ubuntu/</guid>
+      <description>Zend Server CE má administrační konzoli, která umožňuje práci s extenzemi php, čtení logu apod. Celá konzole běží na lighthttpd a nemá z vlastní konfiguraci, která neodpovídá té, kterou máte pro Apache nebo IIS. Instalace phpMyAdmin do konzole Předpokládám, že Zend Server nainstalovaný z DEB balíku z repozitory jak jsem popisoval vminulém článku. sudo apt-get install phpmyadmin-zend-ce Po instalaci, která u mě obsahovala i vlastní Mysql5 server je k dispozici phpmyadmin https://localhost:10082/phpmyadmin/ v konzoli.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu, CentOS 5 a PHP 5.2.9 v Zend Server CE</title>
+      <link>https://blog.prskavec.net/2009/04/02/ubuntu-centos-5-a-php-529-v-zend-server-ce/</link>
+      <pubDate>Thu, 02 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/04/02/ubuntu-centos-5-a-php-529-v-zend-server-ce/</guid>
+      <description>CentOS 5 Pokud jste někdo musel pracovat na serveru s touto distribucí tak vězte, že v repozitory i pro verzi 5.3 je PHP 5.1.6 a pokud potřebujete novější musíte si ji zkompilovat nebo sehnat jiný zdroj, kde může být problém s ověřením. Jako vývojáře mě příliš nezajímá na čem běží servery, kde se provozují moje aplikace, jen verze PHP a příslušné moduly je třeba hlídat.
+Moje stanice je Ubuntu 8.10 a aktuální PHP 5.</description>
+    </item>
+    
+    <item>
+      <title>Zend Studio 6.1.1. zkušenosti z prvních 14 dní</title>
+      <link>https://blog.prskavec.net/2009/03/30/zend-studio-611-zkusenosti-z-prvnich-14-dni/</link>
+      <pubDate>Mon, 30 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/03/30/zend-studio-611-zkusenosti-z-prvnich-14-dni/</guid>
+      <description>V poslední době jsme přešli ve firmě z Eclipse PDT 2.0 na Zend Studio 6.1.1, přechod byl víceméně bezbolestný, ale pár drobností mě trápilo, vše jsem ale pořešil zatím k mojí spokojenosti. xDebug Narozdíl od PDT mi vadilo, že není volitelný debugger a funguje jen Zend Debugger. Ale to jde naštěstí lehce napravit.  Zavřete Zend Studio pokud zrovna běží jinak jděte na další bod. Cesty jsou jak je mám na linuxu, na windows to bude obdobné.</description>
+    </item>
+    
+    <item>
+      <title>pDepend a php frameworky dodatek</title>
+      <link>https://blog.prskavec.net/2009/03/20/pdepend-a-php-frameworky-dodatek/</link>
+      <pubDate>Fri, 20 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/03/20/pdepend-a-php-frameworky-dodatek/</guid>
+      <description>V příspěvku pDepend a php frameworky jsem uvedl porovnání několika frameworků pomocí PHP Depend. Do příspěvku už se nevešli Akelos, YII a Kohana. Kohana je fork CodeIgniteru, tak vás nepřekvapí podobné výsledky, jen posunuté trochu více do abtraktního pole v grafu. YII neprošel kvůli chybě: Invalid token &amp;ldquo;{&amp;rdquo; on line 158 in file: /phpdepend/yii-read-only/framework/cli/views/shell/crud/controller.php Ještě jsem zkoušel eZ components a to havarovalo na Fatal error: Maximum function nesting level of &amp;lsquo;100&amp;rsquo; reached, aborting!</description>
+    </item>
+    
+    <item>
+      <title>pDepend a php frameworky</title>
+      <link>https://blog.prskavec.net/2009/03/16/pdepend-a-php-frameworky/</link>
+      <pubDate>Mon, 16 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/03/16/pdepend-a-php-frameworky/</guid>
+      <description>pDepend http://www.pdepend.org
+Php Depend (pDepend) patří do skupiny nástrojů QA (Quality assurance) pro kód a je odvozen od JDepend, kde je také popis části metrik, které pDepend používá. V nedávné době byla spuštěny nové stránky projektu a verzí 0.9.4 se mi zdá již velmi použitelný. Abych vyzkoušel jak to funguje vzal jsem si z SVN repozitářů několik frameworků a pustil nad nimi pDepend. CodeIgniter http://codeigniter.com
+Nette http://nettephp.com/
+Zend Framework http://framework.zend.com/</description>
+    </item>
+    
+    <item>
+      <title>phpUnderControl vs Xinc</title>
+      <link>https://blog.prskavec.net/2008/11/04/phpundercontrol-vs-xinc/</link>
+      <pubDate>Tue, 04 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/11/04/phpundercontrol-vs-xinc/</guid>
+      <description>Nedávno jsem se snažil trochu vylepšit vývoj o některé aspekty, které mají spíše formálnější charakter. Celý vývojový proces jsem načrtl na následujícím obrázku.
+ Vývojář PHP má výhodu libovolného IDE (preferuji Eclipse PDT). Pro zdrojové kódy používám jako SCM Subversion. Nedávno jsem přidal pre-commit hook skript na kontrolu syntaxe. Používám ho hlavně pro kontrolu projektů v Zend Frameworku. PHP_CodeSniffer podporuje Checkstyle tak není problém výstup zaintegrovat i do jiných programů. Jako post-commit skript používám generován XML logů, které používá stránka s náhledy na projekty na kterých pracuji.</description>
+    </item>
+    
+    <item>
+      <title>Gettext a PHP</title>
+      <link>https://blog.prskavec.net/2008/07/15/gettext-a-php/</link>
+      <pubDate>Tue, 15 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/07/15/gettext-a-php/</guid>
+      <description>Gettext je Open Source nástroj na překlad aplikací. Kdo s tímto nástrojem pracuje může můj článek rovnou vynechat, protože tyto věci zná.
+Getext má jedinou nevýhodu, kterou lze celkem přejít, nejde přímo lidsky číst, ukládájí se v binárním tvaru do souboru s příponou *.mo. Pokud používáte nějakou vlastní metodu pro překlad určitě to bude něco z toho co nabízí Zend Framework (ZF) v Zend_Translate (pole, csv, xml – tbx, xliff, xmltm, gettext) nebo nějakou metodu založenou na databázi.</description>
+    </item>
+    
+    <item>
+      <title>NetBeans, PDT a Subversion 1.5</title>
+      <link>https://blog.prskavec.net/2008/07/01/netbeans-pdt-a-subversion-15/</link>
+      <pubDate>Tue, 01 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/07/01/netbeans-pdt-a-subversion-15/</guid>
+      <description>Před časem, jsem přešel z Eclipse PDT na NetBeans IDE Early Access for PHP a to hlavně z důvodu, že projektový adresář je umístněný libovolně mimo zdrojové kódy a také pro lepší práci se subversion než mi poskytoval Subclipse. Když vyšel nový Subversion 1.5 měl jsem obavy, že budu muset čekat na novou verzi pluginu pro Subversion jako je to u PDT. Subclipse 1.4.x pro Eclipse je už venku, tak to naštěstí u PDT není problém.</description>
+    </item>
+    
+    <item>
+      <title>Phing - SvnLogTask</title>
+      <link>https://blog.prskavec.net/2008/06/29/phing-svnlogtask/</link>
+      <pubDate>Sun, 29 Jun 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/06/29/phing-svnlogtask/</guid>
+      <description>Phing obsahuje ve verzi 2.3 tyto Tasky pro práci se Subversion.  SvnCheckoutTask SvnExportTask SvnLastRevisionTask SvnUpdateTask  To se hodí a také ve svém buildu používám tento postup:  udělám export HEAD revision (SvnExportTask) načtu si číslo HEAD revision (SvnLastRevisionTask) potom vygeneruju SVN Log (SvnLogTask) vygeneruju API dokumentaci pro build (PhpDocumentorTask) všechno zakomprimuji do souboru s dokumentací a se zdrojáky a uložím kam potřebuju (ZipTask)  V postupu je něco co není standardní součástí Phingu i když si myslím, že se to tam objeví.</description>
+    </item>
+    
+    <item>
+      <title>Jednoduchá aplikace v PHP a Flex</title>
+      <link>https://blog.prskavec.net/2008/06/12/jednoduch-aplikace-v-php-a-flex/</link>
+      <pubDate>Thu, 12 Jun 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/06/12/jednoduch-aplikace-v-php-a-flex/</guid>
+      <description>Protože jsem byl na Adobe Air nedalo mi to a řekl jsem si že udělám jednoduchou aplikaci pro vyhledávání v našem univerzitním LDAPu. Stáhnul jsem si trial verzi Flex Builduru 3, to se ocení zvláště pokud chcete dát aplikaci nějaký design. Výsledná aplikace vypadá takto, skládá se z několika prvků, textové pole (mx:TextInput), tlačítka (mx:Button), výběr (mx:ComboBox), ty jsou strčené do společného hboxu. Potom dole je umístěný datagrid (mx:DataGrid) pro zobrazování dat.</description>
+    </item>
+    
+    <item>
+      <title>Windows Live Partner Day - Praha 29. 5. 2008</title>
+      <link>https://blog.prskavec.net/2008/05/30/windows-live-partner-day-praha-29-5-2008/</link>
+      <pubDate>Fri, 30 May 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/05/30/windows-live-partner-day-praha-29-5-2008/</guid>
+      <description>Včera se konala akce Microsoftu na podporu Live služeb. Jistě znáte Live.com a ostatní služby se rozšiřují. O svých mapových podkladech minulý týden Balmer tvrdí, že jsou v USA někdy mnohem přesnější než v Google Earth. Kdo se nemohl zůčastnit může se podívat na prezentace a časem i na záznamy, taky je k dispozici program.
+Jako vývojáře PHP mě zaujmulo několik věcí. Mnohé služby Live jsou nezávislé na programovacím jazyce na serveru, nemusíte být zrovna .</description>
+    </item>
+    
+    <item>
+      <title>Pár tipů pro práci s formátem iCalendar</title>
+      <link>https://blog.prskavec.net/2008/05/13/pr-tipu-pro-prci-s-formtem-icalendar/</link>
+      <pubDate>Tue, 13 May 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/05/13/pr-tipu-pro-prci-s-formtem-icalendar/</guid>
+      <description>Dělám na PHP aplikaci, která kromě RSS generuje také iCalendar pro Lighting a iCal na Mac OS X. Někomu stačí asi RFC 2445 a hravě si s tím poradí, ale pro ty ostatní pár tipů, které mi pomohli a které mě trochu mátli. Ještě může bý napomocný iCalendar Specification Excerpts. Data mám v mysql kde je datum a čas odděleně a pokud událost nemá čas (je NULL) tak je to celodenní událost.</description>
+    </item>
+    
+    <item>
+      <title>Zkušenosti s Zend_Auth_Adapter_Ldap</title>
+      <link>https://blog.prskavec.net/2008/05/05/zkuenosti-s-zend_auth_adapter_ldap/</link>
+      <pubDate>Mon, 05 May 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/05/05/zkuenosti-s-zend_auth_adapter_ldap/</guid>
+      <description>V nové verzi Zend Framework 1.5 byla do Zend_Auth přidána podpora pro LDAP. Protože u mě v práci se bez toho neobejde ani ta nejjednoduší aplikace, zkusil jsem ho a seznámím vás s problémy na které jsem narazil a jak jsem je obešel.
+Nejprve standarní řešení přes Ldap modul v PHP. Něco o našem LDAPu, používáme port 1636 a pro bind vlastní DN, které kopíruje naší strukturu. Pro bind nepotřebuje aplikace žádného vlastního uživatele použije se jméno a heslo toho kdo se hlásí.</description>
+    </item>
+    
+    <item>
+      <title>Webcamp&#39;08</title>
+      <link>https://blog.prskavec.net/2008/04/23/webcamp08/</link>
+      <pubDate>Wed, 23 Apr 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/04/23/webcamp08/</guid>
+      <description>Ve dnech 27-28. 3. 2008 se uskutečnila v Praze Dejvicích v Masarykově koleji konference věnovaná webdevelopmentu a webdesignu. Konferenci pořádali Jakub Vrána a Vilém Málek. Jakub Vrána je odborník na programování v jazyku PHP, tuto problematiku školí v rámci vlastních školení a učí na MFF UK. Píše vynikající blog PHP triky (http://php.vrana.cz). Vilém Málek je šéfredaktor známého webového odborného časopisu o internetu Interval (http://www.interval.cz). 27. 3. 2008 - webdevelopment Konference začala přednáškou Štěpána Bechynského na téma PHP a IIS 7.</description>
+    </item>
+    
+    <item>
+      <title>print_r() a var_dump() ve verzi 2.0</title>
+      <link>https://blog.prskavec.net/2008/04/11/print_r-a-var_dump-ve-verzi-20/</link>
+      <pubDate>Fri, 11 Apr 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/04/11/print_r-a-var_dump-ve-verzi-20/</guid>
+      <description>Nevím zda jste už viděli projekt Krumo, ale je to náhrada na dva často používané příkazy print_r() a var_dump(). Já sám jsem si udělal vlastní variantu print_d(), která je velmi jednoduchá a jen rozeznává zda je argumentem pole, objekt nebo proměná a podle toho automaticky zobrazí něco jiného. Krumo, jde dál a vylepšené zobrazení do detailů a má podporu skinů, aby jste si mohli vzhled sami upravit.</description>
+    </item>
+    
+    <item>
+      <title>WebCamp&#39;08 rozhovor s organizátory</title>
+      <link>https://blog.prskavec.net/2008/04/07/webcamp08-rozhovor-s-organiztory/</link>
+      <pubDate>Mon, 07 Apr 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/04/07/webcamp08-rozhovor-s-organiztory/</guid>
+      <description>Celkově lze konstatovat, že konference WebCamp&amp;rsquo;08 byla úspěšná. Organizátoři Jakub Vrána a Vilém Málek poskytli odpověď na pár otázek. Kdy vznikla myšlenka na to uspořádat WebCamp a koho to vlastně napadlo? Jakub Vrána: Já jsem měl předloni nápad uspořádat PHP konferenci, který jsem ale neuskutečnil. Proto když Vilém loni na podzim přišel s myšlenkou uspořádat konferenci o webdesignu, tak mě oslovil, jestli nechci uspořádat druhý den o webdevelopmentu.
+Vilém Málek: Kdy a koho to vlastně napadlo, je těžké říci.</description>
+    </item>
+    
+    <item>
+      <title>Subversion a další hrátky s ním pod Windows</title>
+      <link>https://blog.prskavec.net/2008/04/02/subversion-a-dal-hrtky-s-nm-pod-windows/</link>
+      <pubDate>Wed, 02 Apr 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/04/02/subversion-a-dal-hrtky-s-nm-pod-windows/</guid>
+      <description>Minule jsem psal o tom jak jsem potřeboval doinstalovat server SVN jako service pod Windows a to pro moji startovací stránku (kus vidíte na obrázku). Stránka načítá moje working copy z adresářů a umožňuje mě na ně se přímo prokliknout, pomocí exportu, která jsem dodělal vidím poslední záznam z logu a můžu prokliknout na kompletní log, který se zobrazí po jediném kliknutí. Jediné co zatím nefunguje je parsování napojení Bug/Issue tracker, který v práci používáme.</description>
+    </item>
+    
+    <item>
+      <title>Wordpress 2.5 je venku</title>
+      <link>https://blog.prskavec.net/2008/04/01/wordpress-25-je-venku/</link>
+      <pubDate>Tue, 01 Apr 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/04/01/wordpress-25-je-venku/</guid>
+      <description>Venku je nový WordPress 2.5 a mě bude čekat upgrade, doufám že to bude k lepšímu. Vývojáři slibují řadu novinek.
+Pro uživatele
+ Rychlejší a čistější dashboard  Wigety pro dashboard  Nahrávání více souborů najednou s ukazatelem nahrávání  Vyplešené hledání v příspěvcích a stránkách  Správu tagů  Měřič síly hesla  Zabránění současné editaci  Aktualizace pluginů  Nový TinyMCE 3.0  Zabudované galerie   Pro vývojáře</description>
+    </item>
+    
+    <item>
+      <title>WebCamp&#39;08</title>
+      <link>https://blog.prskavec.net/2008/03/28/webcamp08-development-2732008/</link>
+      <pubDate>Fri, 28 Mar 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/03/28/webcamp08-development-2732008/</guid>
+      <description>Včera 27.3. jsem se byl podívat na první PHP konferenci Webcamp&amp;rsquo;08 kterou pořádal Jakub Vrána a Vilém Málek. Podrobnosti o jednotlivých přednáškách a celkové shrnutí akce přinesu v dalším příspěvku po ukončení konference. Některé příspěvky byli velmi zajímavé i poučné.
+UPDATE:
+Druhý den 28.3. probíhal ve znamení webdesignu, dopoledne se věnovalo hlavně přístupnosti. Nejzajímavější pro mě bylo vidět naživo jak si s procházením stránky poradí nevidomí co používal JAWS. Jako vidící člověk jsem neměl tu představu jak to v realu vypadá dokud jsem to neviděl.</description>
+    </item>
+    
+    <item>
+      <title>PHP 5.2.5 je venku!</title>
+      <link>https://blog.prskavec.net/2007/11/10/php-525-je-venku/</link>
+      <pubDate>Sat, 10 Nov 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2007/11/10/php-525-je-venku/</guid>
+      <description>Venku je nov&amp;#xE1; verze PHP, ke stažen&amp;#xED; na na php.net. Kompletn&amp;#xED; seznam změn obsahuje přes 60 oprav a někter&amp;#xE9; jsou z hlediska bezpečnosti velmi z&amp;#xE1;važn&amp;#xE9;. V&amp;#x161;em uživatelům PHP je doporučen&amp;#xFD; upgrade na tuto verzi. Připom&amp;#xED;n&amp;#xE1;m pro ty co použ&amp;#xED;vaj&amp;#xED; PHP4, podpora pro PHP4 vypr&amp;#x161;&amp;#xED; na konci roku tedy 31.12.2007. </description>
+    </item>
+    
+    <item>
+      <title>Tvorba čárového kódu v PHP</title>
+      <link>https://blog.prskavec.net/2007/11/05/tvorba-caroveho-kodu-v-php/</link>
+      <pubDate>Mon, 05 Nov 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2007/11/05/tvorba-caroveho-kodu-v-php/</guid>
+      <description>Nedávno jsem tvořil apliakci, která obsahuje čárový kód. Doposud jsem neměl s tím co dočinění, ale získal jsem cenné zkušenosti, které se mohou hodit i vám.
+Čárový kód (barcode) má různé normy. Já jsem musel podle naší aplikace použít Code 128B. Je několik možností jak danou problematiku řešit.  máte font, který umí přímo psát v daném čárovém kódu budete generovat obrázek pomocí nějaké aplikace (tuto variantu jsem zvolil já) pokud generujete PDF, můžete použít XSL-FO a generovat kód přímo v něm  Vzhledem k problémům s nákupem fontu a časové tísni jsem zvolil variantu 2.</description>
+    </item>
+    
+    <item>
+      <title>XMLRPC a Google docs</title>
+      <link>https://blog.prskavec.net/2007/10/26/xmlrpc-a-google-docs/</link>
+      <pubDate>Fri, 26 Oct 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2007/10/26/xmlrpc-a-google-docs/</guid>
+      <description>Nový blog Tento blog jsem založil i přesto, že už jeden mám na ladislav.prskavec.net. Potřeboval jsem vyzkoušet možnosti Google docs, chtěl bych je použít pro publikovaní obsahu na různé weby pomocí XMLRPC.
+Kromně vlastní implementace XMLRPC serveru, pro kterou použil jsem Zend Framework, jsem narazil na problém s kterým jsem nepočítal. Zkusil jsem publikaci z docs.google.com sem na www.blogger.com, což je také produkt google, tak jsem myslel bude to ok.</description>
+    </item>
+    
+    <item>
+      <title>Zend Studio NEON beta - pokračování</title>
+      <link>https://blog.prskavec.net/2007/10/26/zend-studio-neon-beta/</link>
+      <pubDate>Fri, 26 Oct 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2007/10/26/zend-studio-neon-beta/</guid>
+      <description>Nedávno vyšla beta nového Zend Studia a tak jsem se jí vyzkoušel.
+Instalace pod Windows Vista Stáhnete si installer ze stránek Zendu (musíte být u nich zaregistrovaní). Spustíte instalaci která je velmi jednoduchá. Začnete úvodem, přejděte dál (Next).
+V konfiguraci nastavíte co chcete instalovat (zvolil jsme vše) a pokračujete v intalaci. Vyberete koncovky, které bude otevírat Zend Studio. Instalace zabere neco kolem 400MB.
+Během instalace pár reklam na Zend a je třeba vidět, že zrovna instaluje PHP manuál.</description>
+    </item>
+    
+    <item>
+      <title>Zend Studio NEON beta</title>
+      <link>https://blog.prskavec.net/2007/10/11/zend-studio-for-eclipse-beta-neon/</link>
+      <pubDate>Thu, 11 Oct 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2007/10/11/zend-studio-for-eclipse-beta-neon/</guid>
+      <description>Zend spolupracuje na vývoji PDT pro Eclipse, nedávno vyšlo PDT ve verzi 1.0 a také Zend ukázal beta verzi svého nového Zend Studia založené na stejné technologii, jen vylepšené o dost dalších věcí.
+Osobně mi PDT docela vyhovuje a nejvíc mi chybí asi podpora Zend Frameworku, jinak většinu věcí vyřešili pluginy, kterých je do Eclipse opravdu mnoho. Uvidíme co budu říkat po měsíci provozu v nové Zendu.
+Další o novém Zendu:</description>
+    </item>
+    
+  </channel>
+</rss>

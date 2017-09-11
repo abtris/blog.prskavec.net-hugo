@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Phpfog on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/phpfog/</link>
+    <description>Recent content in Phpfog on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Mon, 14 Mar 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/phpfog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>phpfog - cloudové řešení pro PHP?</title>
+      <link>https://blog.prskavec.net/2011/03/14/phpfog-cloudove-reseni-pro-php/</link>
+      <pubDate>Mon, 14 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2011/03/14/phpfog-cloudove-reseni-pro-php/</guid>
+      <description>Pokud se zajímáte o cloudové technologie, tak možná znáte Heroku. Heroku je pěkné řešení pro Ruby, které vám umožní vytvářet aplikace v Sinatře nebo v Rails a deployment provádět pomocí Gitu. Pro PHP mi něco takového dlouho chybělo, ale začíná se částečně situace vylepšovat, protože je na světe PHP Fog.
+ Co vám přinese PHP Fog Mě se na cloudovém řešení libí, že je to pro vývojáře jednoduché a praktické. Nemusím řešit server, jeho provoz.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Qa on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/qa/</link>
+    <description>Recent content in Qa on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Fri, 11 Dec 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/qa/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PHP CodeBrowser a Hudson</title>
+      <link>https://blog.prskavec.net/2009/12/11/php-codebrowser/</link>
+      <pubDate>Fri, 11 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/12/11/php-codebrowser/</guid>
+      <description>Před časem se objevil nový reportovací nástroj, který vezme logy z PHPUnit, PHP_Codesniffer a umí je pěkně zobrazit.
+Instalace je z PEAR (http://pear.phpunit.de/get/)
+
+pear config-set preferred_state alpha
+pear channel-discover pear.phpunit.de
+pear install --alldeps phpunit/PHP_CodeBrowser
+
+nebo z SVN
+svn co svn://phpunit.de/phpunit/phpcb/trunk PHP_CodeBrowser
+Integrace
+Tento tool jde integrovat do CIE
+ phpundercontrol (dostupné od verze 0.5) atlassion bamboo (zatím asi není oficiálně dostupně ale, jde to) hudson  Postup integrace do Hudsonu si ukážeme</description>
+    </item>
+    
+    <item>
+      <title>PHP Bytekit</title>
+      <link>https://blog.prskavec.net/2009/07/01/php-bytekit/</link>
+      <pubDate>Wed, 01 Jul 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/07/01/php-bytekit/</guid>
+      <description>Bytekit Bytekit je nová extenze pro PHP, která umožňuje analyzovat PHP kód na úrovni opcodes, které generuje compiler v PHP. Také nám umožňuje pomocí disassembleru sledovat jak probíhá program na úrovni compileru. Je to další z nástrojů, které umožní zlepšit kvalitu kódu a určitě přinese řadu další analytických nástrojů. Autorem je Stefan Esser, kterého jistě každý zná. Jeho blog a příspěvky k bezpečnosti PHP jsou známy. Bytekit-cli  Samotná extenze, ale není všechno.</description>
+    </item>
+    
+    <item>
+      <title>pDepend a php frameworky dodatek</title>
+      <link>https://blog.prskavec.net/2009/03/20/pdepend-a-php-frameworky-dodatek/</link>
+      <pubDate>Fri, 20 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/03/20/pdepend-a-php-frameworky-dodatek/</guid>
+      <description>V příspěvku pDepend a php frameworky jsem uvedl porovnání několika frameworků pomocí PHP Depend. Do příspěvku už se nevešli Akelos, YII a Kohana. Kohana je fork CodeIgniteru, tak vás nepřekvapí podobné výsledky, jen posunuté trochu více do abtraktního pole v grafu. YII neprošel kvůli chybě: Invalid token &amp;ldquo;{&amp;rdquo; on line 158 in file: /phpdepend/yii-read-only/framework/cli/views/shell/crud/controller.php Ještě jsem zkoušel eZ components a to havarovalo na Fatal error: Maximum function nesting level of &amp;lsquo;100&amp;rsquo; reached, aborting!</description>
+    </item>
+    
+    <item>
+      <title>pDepend a php frameworky</title>
+      <link>https://blog.prskavec.net/2009/03/16/pdepend-a-php-frameworky/</link>
+      <pubDate>Mon, 16 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/03/16/pdepend-a-php-frameworky/</guid>
+      <description>pDepend http://www.pdepend.org
+Php Depend (pDepend) patří do skupiny nástrojů QA (Quality assurance) pro kód a je odvozen od JDepend, kde je také popis části metrik, které pDepend používá. V nedávné době byla spuštěny nové stránky projektu a verzí 0.9.4 se mi zdá již velmi použitelný. Abych vyzkoušel jak to funguje vzal jsem si z SVN repozitářů několik frameworků a pustil nad nimi pDepend. CodeIgniter http://codeigniter.com
+Nette http://nettephp.com/
+Zend Framework http://framework.zend.com/</description>
+    </item>
+    
+  </channel>
+</rss>

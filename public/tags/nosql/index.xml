@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nosql on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/nosql/</link>
+    <description>Recent content in Nosql on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Fri, 28 Jan 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/nosql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Zend Framework a NoSQL pro ukládání logů ve webových aplikací, díl druhý o MongoDb</title>
+      <link>https://blog.prskavec.net/2011/01/28/zend-framework-a-nosql-pro-ukladani-logu-ve-webovych-aplikaci-druhy-dil-o-mongodb/</link>
+      <pubDate>Fri, 28 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2011/01/28/zend-framework-a-nosql-pro-ukladani-logu-ve-webovych-aplikaci-druhy-dil-o-mongodb/</guid>
+      <description>Jak už jsem psal v minulém díle o CouchDb není žádný problém v použití dokumentových databází na logy. Výhodou je že se nemusíte starat o schema, což se u aplikace tohoto druhu opravdu hodí.
+Pro napojení Zend Frameworku na logování do MongoDb musíte mít nainstalovanou MongoDb extenzi do PHP. Bez ní se bohužel neobejdete. Log writer si vytvoříte snadno pomocí extenze Zend_Log_Writer_Abstract a provedete drobné úpravy pro práci s MongoDb jak obsahuje ukázka.</description>
+    </item>
+    
+    <item>
+      <title>Zend Framework a NoSQL pro ukládání logů ve webových aplikací, díl prvnío CouchDb</title>
+      <link>https://blog.prskavec.net/2010/08/24/zend-framework-a-nosql-pro-ukladani-logu-ve-webovych-aplikaci-dil-1-couchdb/</link>
+      <pubDate>Tue, 24 Aug 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2010/08/24/zend-framework-a-nosql-pro-ukladani-logu-ve-webovych-aplikaci-dil-1-couchdb/</guid>
+      <description>Použití databáze pro ukládání logů se používá často pro analýzu logů. Technicky napojit databázi RBMS (MySQL) pomocí Zend_Log_Writer_Db není žádný problém. Ale vidím tu nevýhodu v tom, že musíte mít schema podle toho co ukládáte za logy. Pokud se rozhodnete použít NOSQL databázi (CouchDb, MongoDb) nemusíte se o schema starat.
+V tomto článku si napsat vlastní Zend_Log_Writer pro CouchDb a jak si potom lehce zobrazíme příslušné logy. Napíšeme si také jednoduchou map funkci pro view v CouchDb, kterou v aplikaci použijeme.</description>
+    </item>
+    
+    <item>
+      <title>NoSQL Databáze v PHP</title>
+      <link>https://blog.prskavec.net/2009/11/05/nosql-databze-v-php/</link>
+      <pubDate>Thu, 05 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/11/05/nosql-databze-v-php/</guid>
+      <description>V&amp;#269;era jsem byl na p&amp;#345;edn&amp;aacute;&amp;scaron;ce Honzy Kr&amp;aacute;le na t&amp;eacute;ma Necho&amp;#271;te s kan&amp;oacute;nem na data aneb key value datab&amp;aacute;ze. P&amp;#345;edn&amp;aacute;&amp;scaron;ka nebyla jen o key value datab&amp;aacute;z&amp;iacute;ch, ale obecn&amp;#283; o NO SQL.
+Honza shrnul probl&amp;eacute;my RDBMS datab&amp;aacute;z&amp;iacute; s ohledem na ACID a co m&amp;#367;&amp;#382;ou p&amp;#345;in&amp;eacute;st jin&amp;eacute; typy datab&amp;aacute;z&amp;iacute; ne&amp;#382; sql. Nap&amp;#345;&amp;iacute;klad key value a dokumentov&amp;eacute; pro nasazen&amp;iacute; ve webov&amp;yacute;ch slu&amp;#382;b&amp;aacute;ch, kde mnoh&amp;eacute; tak&amp;eacute; vznikly pou&amp;#382;&amp;iacute;v&amp;aacute;j&amp;iacute; je Google, Amazon, Facebook a jin&amp;iacute;.
+P&amp;#345;ehled NoSQL najdete tak&amp;eacute; ve wikipedii.</description>
+    </item>
+    
+  </channel>
+</rss>

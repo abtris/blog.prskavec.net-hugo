@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webexpo2011 on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/categories/webexpo2011/</link>
+    <description>Recent content in Webexpo2011 on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Sun, 25 Sep 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/categories/webexpo2011/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deployment prakticky - WebExpo 2011</title>
+      <link>https://blog.prskavec.net/2011/09/25/deployment-prakticky-webexpo-2011/</link>
+      <pubDate>Sun, 25 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2011/09/25/deployment-prakticky-webexpo-2011/</guid>
+      <description>Letos jsem přednášel na Webexpu na téma deployment. Ve 30 minutách se nedá říci dost, aby jste se dozvěděli všechno tak zkusím v tomto článku shrnout o čem jsem mluvil a přidat nějaké zdroje, které pomůžou v dalších úsilí při automatizaci deploymentu.
+Deployment  Nasazení dané aplikace na dané prostředí v daném čase s možností vrácení původní verze aplikace pokud možno s minimálními prostředky a náklady.  Configuration Management  Služba, která se stará, aby námi zadaná konfigurace byla konzistentní napříč prostředím a na všech strojích a je to jeden nezbytných kroků pro CI.</description>
+    </item>
+    
+  </channel>
+</rss>

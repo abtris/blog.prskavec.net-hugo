@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vcs on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/categories/vcs/</link>
+    <description>Recent content in Vcs on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Wed, 26 Oct 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/categories/vcs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Motivace a Verzovací systémy</title>
+      <link>https://blog.prskavec.net/2011/10/26/motivace-a-vcs/</link>
+      <pubDate>Wed, 26 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2011/10/26/motivace-a-vcs/</guid>
+      <description>&lt;h2 id=&#34;proč-bychom-potřebovali-verzovací-systém&#34;&gt;Proč bychom potřebovali verzovací systém?&lt;/h2&gt;
+
+&lt;p&gt;Toto je častá otázka, kterou slyším. Spousta lidí používá sdílené adresáře pro práci s dokumenty. Přejmenovávají soubory a adresáře. Pokud znáte dokumenty typu Projekt-Final-Update!!.doc apod. tak víte o čem mluvím.&lt;/p&gt;
+
+&lt;h2 id=&#34;každý-programátor-pracuje-v-jiné-podadresáři&#34;&gt;Každý programátor pracuje v jiné podadresáři?&lt;/h2&gt;
+
+&lt;p&gt;Tak to trochu může lidem připadat, ale programátoři používají verzovací systém, který dokumentovou databází, která sleduje změny a pomůže v mnoha věcech.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/windows/</link>
+    <description>Recent content in Windows on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Wed, 30 Apr 2008 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Webshot - screenshot z webu</title>
+      <link>https://blog.prskavec.net/2008/04/30/webshot-screenshot-z-webu/</link>
+      <pubDate>Wed, 30 Apr 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/04/30/webshot-screenshot-z-webu/</guid>
+      <description>Pro projekt jsem potřeboval zobrazit celou stránku, ale při tak dlouhé stránce to není možné, ale existuje freeware Webshot, který udělal právě co chci.
+ a dostanete tohle požadovaný screenshot obrazovky.
+ Docela jednoduché a účinné. Díky za takové prográmky.</description>
+    </item>
+    
+    <item>
+      <title>Subversion a hook skripty pod Windows</title>
+      <link>https://blog.prskavec.net/2008/04/28/subversion-a-hook-skripty-pod-windows/</link>
+      <pubDate>Mon, 28 Apr 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/04/28/subversion-a-hook-skripty-pod-windows/</guid>
+      <description>Pokud pracujete s TSVN nebo přímo s repozitory pod Windows časem přijdete na to, že potřebujete občas nějakou operaci před commitem nebo commitem k tomu slouží hook skripty. Hook je program, který je spuštěn nějakým triggrem, každé repozitory obsahuje předdefinované skripty. Nutnou podmínkou je mít samozřejmě nainstalovaný i Subversion ne jenom TSVN. Adresář repozitory: \path-to-repozitory\project-name [conf] [dav] [hooks] [locks] format README.TXT v adresáři hooks jsou skripty:  post-commit.tmpl post-lock.tmpl post-revprop-change.tmpl post-unlock.</description>
+    </item>
+    
+    <item>
+      <title>Commit monitor pro Subversion (SVN)</title>
+      <link>https://blog.prskavec.net/2008/04/25/commit-monitor-pro-subversion-svn/</link>
+      <pubDate>Fri, 25 Apr 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/04/25/commit-monitor-pro-subversion-svn/</guid>
+      <description>Stefan K&amp;#252;ng vytvořil tuto &amp;#353;ikovnou utilitu, kter&amp;#225; monituruje commity na repozitory, kde si nastav&amp;#237;te. Je to velmi užitečn&amp;#233; pokud pracujete na v&amp;#237;ce projektech a kr&amp;#225;sně se v&amp;#225;m to zobraz&amp;#237; v taskbaru. N&amp;#225;hled obrazovky monitoru.   Zobrazn&amp;#237; v taskbaru potom co je detekov&amp;#225;n nov&amp;#253; commit.
+ Nastaven&amp;#237; repozitory, Commit Monitor (CM) použ&amp;#237;v&amp;#225; SVNParentPath directivu z Apache a tak&amp;#233; dovoluje nastavit repozitory pomoc&amp;#237; svnrobots.txt, kde můžete určit jak často se CM může připojovat k repozitory.</description>
+    </item>
+    
+    <item>
+      <title>TortoiseSVN 1.5.0-beta1</title>
+      <link>https://blog.prskavec.net/2008/04/23/tortoisesvn-150-beta1/</link>
+      <pubDate>Wed, 23 Apr 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/04/23/tortoisesvn-150-beta1/</guid>
+      <description>V nové verzi jsou toto hlavní novinky:  Merge Tracking Cyrus SASL support for svnserve Sparse checkouts Changelist support Log message caching Repository browser Revision graph Client side hook scripts TortoiseMerge  Pro Cyrus SASL support for svnserve a Merge tracking bude potřeba i vlastní Subversion 1.5 pokud ho používate a nemáte TSVN zcela samostatně. Bude možný také opakovaný merge (Repeated Merge) a rozšíří se informace o každé Merge.</description>
+    </item>
+    
+    <item>
+      <title>Subversion pod Windows</title>
+      <link>https://blog.prskavec.net/2008/03/31/subversion-pod-windows/</link>
+      <pubDate>Mon, 31 Mar 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/03/31/subversion-pod-windows/</guid>
+      <description>Pokud jste vývojáři a používáte Subversion (SVN) pod Windows máte několik možností jak to dělat. Donedávna jsem používal jen klienta buď Subclipse nebo Tortoisesvn (TSVN) a tím jsem to řešil. Buď jsem se vzdáleně připojil na SVN server nebo jsem používal lokální repozitory, které umí TSVN vytvořit a zpracovat. Pro vývoj je vcelku jedno které řešení používáte, pokud máte stálé připojení k internetu, musíte používat stejně centrální repozitory. Pro některé moje projekty, ale vlastní repozitory server nemám a hostuji to jen lokálně a celé repozitory jen zálohuji jako soubory.</description>
+    </item>
+    
+    <item>
+      <title>Screencast snadno a rychle</title>
+      <link>https://blog.prskavec.net/2008/03/28/screencast-snadno-a-rychle/</link>
+      <pubDate>Fri, 28 Mar 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/03/28/screencast-snadno-a-rychle/</guid>
+      <description>Řešil jsem minulý rok v příspěvku o Eclipse jak udělat screencast, tehdy jsem ho dělal pomocí Wink, výstup je ve Flash a dá se to celkem použít. Ale nebyl jsem plně spokojený s kvalitou výstupu a problémy se ukazují zvláště pokud máte vetší monitor (např. 1680x1050) a chcete aby to bylo vidět všechno a dalo se to přitom pohížet z webu. Ideální HD streaming, ale to není každému dostupné. Proto spíše preferuji stažení takového screencastu k sobě a puštění v přehrávači MPlayer, VLC, Quicktime apod.</description>
+    </item>
+    
+  </channel>
+</rss>

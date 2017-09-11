@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/linux/</link>
+    <description>Recent content in Linux on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Mon, 30 Nov 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linux Mint 8 Helena</title>
+      <link>https://blog.prskavec.net/2009/11/30/linux-mint-8-helena/</link>
+      <pubDate>Mon, 30 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/11/30/linux-mint-8-helena/</guid>
+      <description>Linux Mint &amp;ldquo;Helena&amp;rdquo; je konečně venku. Tato distribuce je založená na Ubuntu 9.10, ale má několik vlastností proč jí na desktopu rád preferuji oproti klasickému Ubuntu.  neobsahuje standardně v Ubuntu instalovaný Evolution, ale Thunderbird má stále Pidgin jako IM vypadá dobře a má dostupné kodeky (mediaubuntu.org) vlastní vylepšení (mintInstaller, mintUploader, mintUpdater)  
+Je to prostě dotažené a např. ve Ubuntu 9.04 mi nefungovalo v MC klávesa CTRL+\ pro hotlist a v Linux Mint 7 bez problémů.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu, CentOS 5 a PHP 5.2.9 v Zend Server CE</title>
+      <link>https://blog.prskavec.net/2009/04/02/ubuntu-centos-5-a-php-529-v-zend-server-ce/</link>
+      <pubDate>Thu, 02 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/04/02/ubuntu-centos-5-a-php-529-v-zend-server-ce/</guid>
+      <description>CentOS 5 Pokud jste někdo musel pracovat na serveru s touto distribucí tak vězte, že v repozitory i pro verzi 5.3 je PHP 5.1.6 a pokud potřebujete novější musíte si ji zkompilovat nebo sehnat jiný zdroj, kde může být problém s ověřením. Jako vývojáře mě příliš nezajímá na čem běží servery, kde se provozují moje aplikace, jen verze PHP a příslušné moduly je třeba hlídat.
+Moje stanice je Ubuntu 8.10 a aktuální PHP 5.</description>
+    </item>
+    
+    <item>
+      <title>Export poslední revize ze Subversion</title>
+      <link>https://blog.prskavec.net/2009/01/19/export-posledni-revize-ze-subversion/</link>
+      <pubDate>Mon, 19 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/01/19/export-posledni-revize-ze-subversion/</guid>
+      <description>Dneska za mnou přišel kolega, že mu vadí na SVN, že neumí exportovat poslední revizi s plnou cestou. Potřebuje to na server kde nemá shell aby mohl spustit patch, který si můžeme vygenerovat pomocí svn diff. A nechce všechny soubory jak to standardně dělá svn export, ale jen ty které se změnili.
+Trochu jsem se na to díval a myslím si, že řešení přímo jen pomocí SVN není, pokud někdo ví jak to udělat elegantně ať mi dá vědět.</description>
+    </item>
+    
+    <item>
+      <title>LinuxExpo&#39;08</title>
+      <link>https://blog.prskavec.net/2008/04/18/linuxexpo08/</link>
+      <pubDate>Fri, 18 Apr 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/04/18/linuxexpo08/</guid>
+      <description>Ve dnech 15.-16.4.2008 se uskutečnila tradiční konference a výstava o Linuxu a Open Source. Tradičně se celá akce odehrávala v Hotelu Olympik. Bouhužel jsem nemohl z časových důvodů absolhovat všechny přednášky ani by to asi nebylo v lidských silách, ale témata byla zajímavá a zaměřená do komerční sféry, kde si Linux získává na popularitě zvláště tam kde chtějí podnikatelé ušetřit na desktopech a velká část serverů tradičně běží na Linuxu.</description>
+    </item>
+    
+  </channel>
+</rss>

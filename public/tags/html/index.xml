@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Html on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/html/</link>
+    <description>Recent content in Html on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Mon, 26 Apr 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>5 alternativních systémů jak tvořit slidy</title>
+      <link>https://blog.prskavec.net/2010/04/26/5-alternativnich-systemu-jak-tvorit-slidy/</link>
+      <pubDate>Mon, 26 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2010/04/26/5-alternativnich-systemu-jak-tvorit-slidy/</guid>
+      <description>Pokud občas nebo více přednášíte, určitě jste zkusili nějaký tento program na tvorbu slidů. Já žádný z nich nepovažuji za ideální, hlavně pokud potřebujete mít ve slidech zdrojové kódy. Pokud máte slidy v html nebo xml můžete je verzovat pomocí například Gitu nebo SVN, to vám půjde s binárními formáty také, ale neuvidíte ty diffy, které jsou užitečné.  Microsoft PowerPoint OpenOffice Impress Apple Keynote Prezi - více v článku Martina Hassmana Umí tohle i váš prezentační systém?</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Todo on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/todo/</link>
+    <description>Recent content in Todo on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Wed, 01 Jul 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/todo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GTD a Android</title>
+      <link>https://blog.prskavec.net/2009/07/01/gtd-a-android/</link>
+      <pubDate>Wed, 01 Jul 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/07/01/gtd-a-android/</guid>
+      <description>O GTD většina vás asi slyšela, pokud ne doporučuji si tuto knihu o timemanagmentu přečíst, dokáže všem zaměstnaným lidem pomoci zvládat svoji práci lépe a efektivně a vyšetřit čas i na další věci, které nestíháte. České vydání knihy David Allen: Mít vše Hotovo, vydal Jan Melvin Publishing a současně spustili webové stránky, které se této problematice věnují, o různých platformách byla řeč a já přidám malé info o Androidu. Na Marketu najdete tyto aplikace, které se dají pro GTD použít, ja jsem ještě přidal aspekt propojení s RTM, které používám.</description>
+    </item>
+    
+  </channel>
+</rss>

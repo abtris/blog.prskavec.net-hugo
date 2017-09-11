@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webcamp on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/webcamp/</link>
+    <description>Recent content in Webcamp on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Mon, 07 Apr 2008 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/webcamp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>WebCamp&#39;08 rozhovor s organizátory</title>
+      <link>https://blog.prskavec.net/2008/04/07/webcamp08-rozhovor-s-organiztory/</link>
+      <pubDate>Mon, 07 Apr 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/04/07/webcamp08-rozhovor-s-organiztory/</guid>
+      <description>Celkově lze konstatovat, že konference WebCamp&amp;rsquo;08 byla úspěšná. Organizátoři Jakub Vrána a Vilém Málek poskytli odpověď na pár otázek. Kdy vznikla myšlenka na to uspořádat WebCamp a koho to vlastně napadlo? Jakub Vrána: Já jsem měl předloni nápad uspořádat PHP konferenci, který jsem ale neuskutečnil. Proto když Vilém loni na podzim přišel s myšlenkou uspořádat konferenci o webdesignu, tak mě oslovil, jestli nechci uspořádat druhý den o webdevelopmentu.
+Vilém Málek: Kdy a koho to vlastně napadlo, je těžké říci.</description>
+    </item>
+    
+    <item>
+      <title>WebCamp&#39;08</title>
+      <link>https://blog.prskavec.net/2008/03/28/webcamp08-development-2732008/</link>
+      <pubDate>Fri, 28 Mar 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/03/28/webcamp08-development-2732008/</guid>
+      <description>Včera 27.3. jsem se byl podívat na první PHP konferenci Webcamp&amp;rsquo;08 kterou pořádal Jakub Vrána a Vilém Málek. Podrobnosti o jednotlivých přednáškách a celkové shrnutí akce přinesu v dalším příspěvku po ukončení konference. Některé příspěvky byli velmi zajímavé i poučné.
+UPDATE:
+Druhý den 28.3. probíhal ve znamení webdesignu, dopoledne se věnovalo hlavně přístupnosti. Nejzajímavější pro mě bylo vidět naživo jak si s procházením stránky poradí nevidomí co používal JAWS. Jako vidící člověk jsem neměl tu představu jak to v realu vypadá dokud jsem to neviděl.</description>
+    </item>
+    
+  </channel>
+</rss>

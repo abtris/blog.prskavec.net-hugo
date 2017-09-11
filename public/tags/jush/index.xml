@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jush on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/jush/</link>
+    <description>Recent content in Jush on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Mon, 26 Apr 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/jush/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>5 alternativních systémů jak tvořit slidy</title>
+      <link>https://blog.prskavec.net/2010/04/26/5-alternativnich-systemu-jak-tvorit-slidy/</link>
+      <pubDate>Mon, 26 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2010/04/26/5-alternativnich-systemu-jak-tvorit-slidy/</guid>
+      <description>Pokud občas nebo více přednášíte, určitě jste zkusili nějaký tento program na tvorbu slidů. Já žádný z nich nepovažuji za ideální, hlavně pokud potřebujete mít ve slidech zdrojové kódy. Pokud máte slidy v html nebo xml můžete je verzovat pomocí například Gitu nebo SVN, to vám půjde s binárními formáty také, ale neuvidíte ty diffy, které jsou užitečné.  Microsoft PowerPoint OpenOffice Impress Apple Keynote Prezi - více v článku Martina Hassmana Umí tohle i váš prezentační systém?</description>
+    </item>
+    
+    <item>
+      <title>JUSH Wordpress plugin</title>
+      <link>https://blog.prskavec.net/2010/04/02/jush-wordpress-plugin/</link>
+      <pubDate>Fri, 02 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2010/04/02/jush-wordpress-plugin/</guid>
+      <description>Pokud chcete použít ve Wordpressu odkazy do dokumentace pomocí JUSH, můžete použít plugin do Wordpressu.
+Ukázka: &amp;lt;table onclick=&amp;ldquo;alert(this.rows.length);&amp;rdquo; cellspacing=&amp;ldquo;0&amp;rdquo; cellpadding=&amp;ldquo;2&amp;rdquo;&amp;gt; &amp;lt;meta http-equiv=&amp;ldquo;Content-Type: text/html&amp;rdquo;&amp;gt; 
+mail(&#34;&#34;, &#34;&#34;, &#34;&#34;, &#34;From:&#34;) ini_set(&#34;display_errors&#34;, true)  SELECT NOW() FROM `table` WHERE `id`  22 GROUP BY `text` ORDER BY `name`  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Akce on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/akce/</link>
+    <description>Recent content in Akce on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Thu, 23 Dec 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/akce/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Křest knihy 1001 tipů a triků pro PHP</title>
+      <link>https://blog.prskavec.net/2010/12/23/krest-knihy-1001-tipu-a-triku-pro-php/</link>
+      <pubDate>Thu, 23 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2010/12/23/krest-knihy-1001-tipu-a-triku-pro-php/</guid>
+      <description>Včera se konal křest knihy 1001 tipů a triků pro PHP Jakuba Vrány, prostředí Lokády v Praze Holešovicích bylo pekně vybráno. Jako ostatní jsem přišel podpořit Jakuba a koupit si jeho knihu s podpisem. Jirka Kosek se ujal role patrona knihy a pokřtil ji šampaňským jak se patří.
+Zlatým hřebem večera byla dražba 1 výtisku knihy, který Jakub vlastnoručně vytiskl a měl první návrh obálky a autorovy poznámku. Tento výtisk vydražili po dramatickém boji zástupci skype.</description>
+    </item>
+    
+    <item>
+      <title>Subversion dnes a zítra</title>
+      <link>https://blog.prskavec.net/2010/04/30/subversion-dnes-a-zitra/</link>
+      <pubDate>Fri, 30 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2010/04/30/subversion-dnes-a-zitra/</guid>
+      <description>Já osobně jsem začal pracovat s někde kolem roku 2000 se systémem CVS z kterého jsem nebyl vůbec nadšený, hned jak jsem se pokusil něco přejmenovat. Později jsem přešel na Subversion, který mě v té době nadechl a to mi celkem vydrželo po dlouhou dobu než jsem před několika lety začal koketovat s distribuovanými systémy a teď asi rok už aktivně používám Git a pře ním jsem si hrál s Bazaar a Mercurialem.</description>
+    </item>
+    
+    <item>
+      <title>on Air Tour v Praze</title>
+      <link>https://blog.prskavec.net/2008/06/10/on-air-tour-v-praze/</link>
+      <pubDate>Tue, 10 Jun 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/06/10/on-air-tour-v-praze/</guid>
+      <description>Adobe nás přivítala ve velkém stylu, tak dobře organizačně připravenou akci jsem dlouho nezažil. Na začátku jsem dostal materiály, vizitku, k dispozici je internet, občerstvení po celou dobu akce a každý byl osobně uveden jejich pracovníkem a obsluha se o vás stará.&amp;nbsp; Balíček co jsem dostal obsahoval: Adobe AIR for Javascript Developers, ActionScript Reference, Flex Early Evalutation: Assessing Flex Your Project Needs. Nejsou to jen propagační materiály, ale příručka co se může opravdu hodit a reference ActionScriptu, která je sice k dispozici online, ale někdy se to hodí i vytištěné.</description>
+    </item>
+    
+  </channel>
+</rss>

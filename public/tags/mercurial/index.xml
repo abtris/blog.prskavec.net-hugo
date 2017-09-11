@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mercurial on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/mercurial/</link>
+    <description>Recent content in Mercurial on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Tue, 03 Nov 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/mercurial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Proč jsem přešel z Mercurial na Git</title>
+      <link>https://blog.prskavec.net/2009/11/03/proc-jsem-presel-z-mercurial-na-git/</link>
+      <pubDate>Tue, 03 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/11/03/proc-jsem-presel-z-mercurial-na-git/</guid>
+      <description>Verzovací systémy už používám asi 5 let, vystřídal jsem CVS, Subversion, Mercurial, Bazaar a Git. V nedávné době v souvislosti také s tím, že Nette přešlo na Git a vůbec se spousta open source projektů přesunula na Github.com jsem také přešel na distribuovaný systém.
+V práci používám Subversion a také přispívám do několika projektů, které pracují na Subversion. Dělal jsem migrace z CVS na SVN ve firmě, kde pracuji apod. Subversion má jednu velkou výhodu, kterou nemají distribuované systémy a to velmi dobré a detailní ACL a různé metody autentizace (LDAP, Active Directory).</description>
+    </item>
+    
+    <item>
+      <title>Má dnes cenu psát knihu o verzovacích systémech?</title>
+      <link>https://blog.prskavec.net/2009/10/05/ma-dnes-cenu-psat-knihu-o-verzovacich-systemech/</link>
+      <pubDate>Mon, 05 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/10/05/ma-dnes-cenu-psat-knihu-o-verzovacich-systemech/</guid>
+      <description>Řeším dilema o tom, zda napsat knihu o verzovacích systémech, ale potřebují uživatelé českou knihu o verzování. Na internetu najdete skvělé online knihy o většině používaných systémů.
+Subversion  Version Control with Subversion 
+Mercurial  Mercurial: The Definitive Guide 
+Git  Pro Git The Git Community Book Git Magic 
+S těmi vcelku vystačíte pokud se systémem začínáte, v případě Subversion je to kniha do detailů přesná a obsahuje skoro všechny.</description>
+    </item>
+    
+  </channel>
+</rss>

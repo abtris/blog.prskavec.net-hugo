@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fotky on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/fotky/</link>
+    <description>Recent content in Fotky on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Mon, 12 Nov 2007 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/fotky/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Flickr vs Picasa</title>
+      <link>https://blog.prskavec.net/2007/11/12/flickr-vs-picasa/</link>
+      <pubDate>Mon, 12 Nov 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2007/11/12/flickr-vs-picasa/</guid>
+      <description>Na fotografie použ&amp;#xED;v&amp;#xE1;m oba syst&amp;#xE9;my, ale st&amp;#xE1;l jsem před &amp;#xFA;kolem kam si d&amp;#xE1;t fotografie v pln&amp;#xE9; kvalitě jako z&amp;#xE1;lohu fotek co m&amp;#xE1;m na disk&amp;#xE1;ch. U picasa je cena 20$/rok za 10GB a oproti tomu na Flickru je za poplatek 25$/rok k dispozici neomezen&amp;#xE1; velikost, tak jsem pře&amp;#x161;el masivně na Flickr, jen jsem si sehnal plugin do Picasa na upload fotek z Picasy do Flickru. Moje produkce fotek nen&amp;#xED; velik&amp;#xE1; asi tak 4-8GB ročně ale stejně politika Googlu mi nevyhovuje a nerad bych migroval někam jinam.</description>
+    </item>
+    
+  </channel>
+</rss>

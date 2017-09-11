@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/javascript/</link>
+    <description>Recent content in Javascript on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Mon, 26 Apr 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>5 alternativních systémů jak tvořit slidy</title>
+      <link>https://blog.prskavec.net/2010/04/26/5-alternativnich-systemu-jak-tvorit-slidy/</link>
+      <pubDate>Mon, 26 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2010/04/26/5-alternativnich-systemu-jak-tvorit-slidy/</guid>
+      <description>Pokud občas nebo více přednášíte, určitě jste zkusili nějaký tento program na tvorbu slidů. Já žádný z nich nepovažuji za ideální, hlavně pokud potřebujete mít ve slidech zdrojové kódy. Pokud máte slidy v html nebo xml můžete je verzovat pomocí například Gitu nebo SVN, to vám půjde s binárními formáty také, ale neuvidíte ty diffy, které jsou užitečné.  Microsoft PowerPoint OpenOffice Impress Apple Keynote Prezi - více v článku Martina Hassmana Umí tohle i váš prezentační systém?</description>
+    </item>
+    
+    <item>
+      <title>Zend Framework 1.6 a moje zkušenosti s Dojo TabContainer</title>
+      <link>https://blog.prskavec.net/2008/09/11/zend-framework-16-a-moje-zkuenosti-s-dojo-tabcontainer/</link>
+      <pubDate>Thu, 11 Sep 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/09/11/zend-framework-16-a-moje-zkuenosti-s-dojo-tabcontainer/</guid>
+      <description>Zrovna dělám na jednom malém projektu, který jsem hned začal psát zrovna jak vyšel ZF 1.6, celkem standardní věci až na to, že jsem potřeboval rozdělit formulář na více stránek a udělat záložky.
+Postupoval jsem podle manulálu, vyvořil jsem si formulář se subformy a celkem to dobře funguje. Potom když jsem potřeboval rozbrazit záložky narazil jsem na několik problémů se kterými jsem si různě poradil.
+Takto vypadají záložky pomocí Dojo frameworku.</description>
+    </item>
+    
+    <item>
+      <title>on Air Tour v Praze</title>
+      <link>https://blog.prskavec.net/2008/06/10/on-air-tour-v-praze/</link>
+      <pubDate>Tue, 10 Jun 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/06/10/on-air-tour-v-praze/</guid>
+      <description>Adobe nás přivítala ve velkém stylu, tak dobře organizačně připravenou akci jsem dlouho nezažil. Na začátku jsem dostal materiály, vizitku, k dispozici je internet, občerstvení po celou dobu akce a každý byl osobně uveden jejich pracovníkem a obsluha se o vás stará.&amp;nbsp; Balíček co jsem dostal obsahoval: Adobe AIR for Javascript Developers, ActionScript Reference, Flex Early Evalutation: Assessing Flex Your Project Needs. Nejsou to jen propagační materiály, ale příručka co se může opravdu hodit a reference ActionScriptu, která je sice k dispozici online, ale někdy se to hodí i vytištěné.</description>
+    </item>
+    
+  </channel>
+</rss>

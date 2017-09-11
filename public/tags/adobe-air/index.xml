@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adobe Air on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/adobe-air/</link>
+    <description>Recent content in Adobe Air on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Thu, 12 Jun 2008 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/adobe-air/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jednoduchá aplikace v PHP a Flex</title>
+      <link>https://blog.prskavec.net/2008/06/12/jednoduch-aplikace-v-php-a-flex/</link>
+      <pubDate>Thu, 12 Jun 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/06/12/jednoduch-aplikace-v-php-a-flex/</guid>
+      <description>Protože jsem byl na Adobe Air nedalo mi to a řekl jsem si že udělám jednoduchou aplikaci pro vyhledávání v našem univerzitním LDAPu. Stáhnul jsem si trial verzi Flex Builduru 3, to se ocení zvláště pokud chcete dát aplikaci nějaký design. Výsledná aplikace vypadá takto, skládá se z několika prvků, textové pole (mx:TextInput), tlačítka (mx:Button), výběr (mx:ComboBox), ty jsou strčené do společného hboxu. Potom dole je umístěný datagrid (mx:DataGrid) pro zobrazování dat.</description>
+    </item>
+    
+    <item>
+      <title>on Air Tour v Praze</title>
+      <link>https://blog.prskavec.net/2008/06/10/on-air-tour-v-praze/</link>
+      <pubDate>Tue, 10 Jun 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/06/10/on-air-tour-v-praze/</guid>
+      <description>Adobe nás přivítala ve velkém stylu, tak dobře organizačně připravenou akci jsem dlouho nezažil. Na začátku jsem dostal materiály, vizitku, k dispozici je internet, občerstvení po celou dobu akce a každý byl osobně uveden jejich pracovníkem a obsluha se o vás stará.&amp;nbsp; Balíček co jsem dostal obsahoval: Adobe AIR for Javascript Developers, ActionScript Reference, Flex Early Evalutation: Assessing Flex Your Project Needs. Nejsou to jen propagační materiály, ale příručka co se může opravdu hodit a reference ActionScriptu, která je sice k dispozici online, ale někdy se to hodí i vytištěné.</description>
+    </item>
+    
+  </channel>
+</rss>

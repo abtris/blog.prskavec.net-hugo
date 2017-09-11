@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vista on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/vista/</link>
+    <description>Recent content in Vista on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Tue, 13 Nov 2007 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/vista/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Switcher for Windows Vista</title>
+      <link>https://blog.prskavec.net/2007/11/13/switcher/</link>
+      <pubDate>Tue, 13 Nov 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2007/11/13/switcher/</guid>
+      <description>Na www.qr.cz jsem se dnes dočetl o Windows Switcher 2.0 tato drobná utilitka pro Windows Vista vám vylepší přepínání mezi okny. Zkusil jsem ji a docela jsem si ji hned oblibil, protože je zdarma a umožňuje expose a to ještě vlastně v několika variantách. Klávesová zkratka je na LWin+` a dá se v oknech i vyhledávat. Kromě toho je k dispozici celá řada nastavení což je příjemné. Následují obrázky různých nastavení View (title, dock, grid) pro jedny ty stejné okna.</description>
+    </item>
+    
+  </channel>
+</rss>

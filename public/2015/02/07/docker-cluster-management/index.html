@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+
+  
+  
+  <link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+  
+
+  
+  <title>Docker cluster management</title>
+
+  
+  
+  <link rel="stylesheet" href="https://blog.prskavec.net/css/hugo-octopress.css">
+
+  
+  
+
+  
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+  
+  <link href="https://blog.prskavec.net/favicon.png" rel="icon">
+
+  
+  
+  
+
+  
+
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <meta name="author" content="Author&#39;s name">
+
+  
+  <meta name="generator" content="Hugo 0.27" />
+
+  
+  
+
+</head>
+<body>
+
+
+<header role="banner"><hgroup>
+  
+  <h1><a href="https://blog.prskavec.net/">Prskavčí blog</a></h1>
+    <h2>Subtitle appears under website title</h2>
+</hgroup></header>
+
+
+<nav role="navigation">
+
+<ul class="main-navigation">
+  
+  
+    
+      <li><a href="https://blog.prskavec.net/" title="Blog">Blog</a></li>
+    
+  
+    
+      <li><a href="https://www.google.com/" title="Google"  target="_blank" >Google</a></li>
+    
+  
+    
+      <li><a href="https://www.github.com/parsiya/hugo-octopress" title="This theme on Github"  target="_blank" >This theme on Github</a></li>
+    
+  
+</ul>
+
+
+<ul class="subscription">
+  
+    
+        <a href="https://blog.prskavec.net/index.xml" target="_blank" type="application/rss+xml" title="RSS"><i class="fa fa-rss-square fa-lg"></i></a>
+    
+  
+
+</ul>
+
+
+<form action="https://www.google.com/search" method="get" target="_blank">
+  <fieldset role="search">
+  	<input class="search" type="text" name="q" results="0" placeholder="Search"/>
+    <input type="hidden" name="q" value="site:https://blog.prskavec.net/" />
+  </fieldset>
+</form>
+
+</nav>
+
+
+<div id="main">
+  <div id="content">
+    <div>
+      <article class="hentry" role="article">
+
+        
+        
+
+<header>
+    <p class="meta">Feb 7, 2015
+         - 2 minute read 
+         - <a href="https://blog.prskavec.net/2015/02/07/docker-cluster-management/#disqus_thread">Comments</a>
+
+        
+        
+        
+            - <a class="label" href="https://blog.prskavec.net/categories/docker/">docker </a>
+        
+    </p>
+    <h1 class="entry-title">
+         Docker cluster management 
+    </h1>
+</header>
+
+
+        <div class="entry-content">
+          
+          
+          
+          
+          <ul>
+<li>Update: přidal jsem do článku další věci zmíněné v komentářích, všem děkuji za příspěvky.</li>
+<li>Update 23.2.2015: Přidán odkaz na Centurion od New Relic</li>
+</ul>
+
+<p>V poslední době se zabývám technologiemi pro řízení clusterů s docker konteinery.</p>
+
+<p>Pokud by to někoho zajímalo, zkusím jsem shrnout s čím jsem se potkal a kde vidím možné využití.</p>
+
+<p>Nástroje, které můžete použít cluster management:</p>
+
+<ul>
+<li><a href="http://mesos.apache.org/" target="_blank">Apache Mesos</a> (cpp, api for java, python, c++)</li>
+<li><a href="https://github.com/docker/swarm/" target="_blank">Docker Swarm</a> (golang)</li>
+<li><a href="https://coreos.com/using-coreos/clustering/" target="_blank">CoreOS Fleet</a> (golang)</li>
+<li><a href="http://kubernetes.io/" target="_blank">Google Kubernetes</a> (golang)</li>
+<li><a href="https://github.com/spotify/helios" target="_blank">Spotify Helios</a> (java)</li>
+<li><a href="https://github.com/newrelic/centurion" target="_blank">New Relic Centurion</a> (ruby)</li>
+</ul>
+
+<p>potom k tomu ješte patří některé frameworky pro Mesos a to <a href="https://mesosphere.github.io/marathon/" target="_blank">Marathon</a> a <a href="http://airbnb.github.io/chronos/" target="_blank">Chronos</a>. <a href="https://github.com/mesosphere/kubernetes-mesos" target="_blank">A Kubernetes Framework for Apache Mesos</a>.</p>
+
+<p></p>
+
+<p>Ještě potřebujete nástroj pro service discovery:</p>
+
+<ul>
+<li><a href="https://coreos.com/using-coreos/etcd/" target="_blank">CoreOS Etcd</a> (golang)</li>
+<li><a href="https://consul.io/" target="_blank">Hashicorp Consul</a> (golang)</li>
+<li><a href="http://zookeeper.apache.org/" target="_blank">Apache Zookeeper</a> (java)</li>
+</ul>
+
+<p>Etcd používá Kubernetes a další projekty. Service discovery je potřeba pro management clusteru. Můžete použít stejně jednoduše i ostatní projekty.</p>
+
+<p>Apache Mesos umí pracovat s různorodým prostředím včetně Amazon ECS service. Framework Marathon vám potom slouží k pouštění dlouho běžících konteinerů pro aplikace a Chronos typicky pro batch processing například pro zpracování velkých dat. S Mesosem musíte provozovat ZooKeeeper pro discovery service.</p>
+
+<p>Protože se snažím Javě vyhnout a raději volím nástroje v jiných jazycích, kde mám větší znalosti. Pro discovery service clusteru bych raději použil Consul nebo Etcd.</p>
+
+<p>Google Kubernetes je poměrně vyspělý nástroj používaný pro Google Cloud a adaptovaný například RedHatem pro OpenShift V3. Tam mám trochu výhradu, že to nemá podporu pro více uživatelů a neumí pracovat s externím filesystémy co vím. Ale dá se používat na tvorbu dokonce hybridních clusterů mezi více poskytovateli (AWS, Google Cloud, OpenShift, fyzické stroje).</p>
+
+<p>Docker Swarm je nástroj pro řízení clusterů konteinerů přímo od Dockeru, ale kromě základních příkladů není k dispozici nic většího, poporuje několik discovery service (etcs, consul, zookeeper). Nevím o nikom, kdo by to používal ve větším měřítku.</p>
+
+<p>CoreOS Fleet je <a href="https://coreos.com/using-coreos/systemd/" target="_blank">systemd</a> a <a href="https://coreos.com/using-coreos/etcd/" target="_blank">etcd</a> a nemám s ním zkušenosti vůbec žádné. Projekty kolem <a href="https://coreos.com/" target="_blank">CoreOS</a> jsou zajímavé. Mají vlastní technologii konteinerů <a href="https://coreos.com/blog/rocket/" target="_blank">Rocket</a>.</p>
+
+<p>Stejně jako CoreOS snaží se o podobnou věc i <a href="http://www.projectatomic.io/" target="_blank">Project Atomic</a> od RedHatu. Vytvořit základní systém pro práci s konteinery.</p>
+
+<p>Závěr je asi takový, že pokud budete chtít řídít vlastní cluster asi zvolíte buď Mesos nebo Kubernetes. Osobně asi budu volit Kubernetes, co vy?</p>
+        </div>
+        
+
+<footer>
+  <p class="meta">
+    <span class="byline author vcard">Posted by <span class="fn">Author&#39;s name</span></span>
+    
+    <time>Feb 7, 2015</time>
+    
+    </span>
+  </p>
+
+  
+  
+
+  
+
+  <p class="meta">
+    
+        <a class="basic-alignment left" href="https://blog.prskavec.net/2014/12/11/zapier-a-zasilani-zustatku-z-banky-zdarma-na-mobil/" title="Zapier a zasílání zůstatku z banky zdarma na mobil">Zapier a zasílání zůstatku z banky zdarma na mobil</a>
+    
+
+    
+      <a class="basic-alignment right" href="https://blog.prskavec.net/2015/05/14/amazon-elastic-beanstalk-a-docker/" title="Amazon Elastic Beanstalk a docker">Amazon Elastic Beanstalk a docker</a>
+    
+  </p>
+  
+    
+      <div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'prskavecblog';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    
+  
+</footer>
+
+      </article>
+    </div>
+    
+
+<aside class="sidebar thirds">
+  <section class="first odd">
+
+    
+      <h1>Sidebar Header</h1>
+    
+
+    <p>
+      
+        Here&rsquo;s a <a href="https://www.google.com" target="_blank">link to google</a>
+  </br>
+  Second line
+  </br>
+  Third line
+  This line has two spaces in the end to create a new line using markdown
+  Forth line
+      
+    </p>
+  </section>
+
+
+
+  
+  <ul class="sidebar-nav">
+    <li class="sidebar-nav-item">
+      <a target="_blank" href="https://github.com/abtris/" title="https://github.com/abtris/"><i class="fa fa-github fa-3x"></i></a>
+      <a target="_blank" href="https://bitbucket.org/abtris/" title="https://bitbucket.org/abtris/"><i class="fa fa-bitbucket fa-3x"></i></a>
+      
+      <a target="_blank" href="https://twitter.com/abtris/" title="https://twitter.com/abtris/"><i class="fa fa-twitter fa-3x"></i></a>
+      <a target="_blank" href="https://keybase.io/abtris/" title="https://keybase.io/abtris/"><i class="fa fa-key fa-3x"></i></a> 
+      
+      
+      
+      
+      
+      
+
+    
+    
+    </li>
+  </ul>
+
+  
+
+  
+    
+      <section class="odd">
+        
+          <h1>Sidebar Links</h1>
+        
+        
+          <li>
+            <a href="https://blog.prskavec.net/categories/hugo/" title="Hugo" >Hugo</a>
+          </li>
+        
+          <li>
+            <a href="https://blog.prskavec.net/" title="Homepage" >Homepage</a>
+          </li>
+        
+          <li>
+            <a href="https://www.google.com" title="Google" >Google</a>
+          </li>
+        
+      </section>
+    
+  
+
+  
+  
+  
+    
+      <section class="even">
+        <h1>Recent Posts</h1>
+        <ul id="recent_posts">
+          
+            <li class="post">
+              <a href="/2017/06/28/jam-stack/">JAM stack</a>
+            </li>
+          
+            <li class="post">
+              <a href="/2017/04/21/docker-multi-stage-build/">Docker - multi stage build</a>
+            </li>
+          
+            <li class="post">
+              <a href="/2016/12/20/jenkins-declarative-pipelines/">Jenkins Declarative Pipelines</a>
+            </li>
+          
+            <li class="post">
+              <a href="/2016/10/31/jenkins-2-dot-0-novinky-a-vylepseni-2-dot-cast/">Jenkins 2.0 - novinky a vylepšení - 2.část</a>
+            </li>
+          
+            <li class="post">
+              <a href="/2016/10/26/jenkins-2-dot-0-novinky-a-vylepseni/">Jenkins 2.0 - novinky a vylepšení</a>
+            </li>
+          
+        </ul>
+      </section>
+    
+  
+
+</aside>
+
+  </div>
+</div>
+
+<footer role="contentinfo">
+  <p>Copyright &copy; 2017 Author&#39;s name - <a href="https://blog.prskavec.net/license/">License</a> -
+  <span class="credit">Powered by <a target="_blank" href="https://gohugo.io">Hugo</a> and <a target="_blank" href="https://github.com/parsiya/hugo-octopress/">Hugo-Octopress</a> theme.
+</p>
+
+</footer>
+
+
+</body>
+</html>
+

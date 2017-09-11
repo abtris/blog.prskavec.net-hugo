@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+
+  
+  
+  <link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+  
+
+  
+  <title>Ubuntu, CentOS 5 a PHP 5.2.9 v Zend Server CE</title>
+
+  
+  
+  <link rel="stylesheet" href="https://blog.prskavec.net/css/hugo-octopress.css">
+
+  
+  
+
+  
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+  
+  <link href="https://blog.prskavec.net/favicon.png" rel="icon">
+
+  
+  
+  
+
+  
+
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <meta name="author" content="Author&#39;s name">
+
+  
+  <meta name="generator" content="Hugo 0.27" />
+
+  
+  
+
+</head>
+<body>
+
+
+<header role="banner"><hgroup>
+  
+  <h1><a href="https://blog.prskavec.net/">Prskavčí blog</a></h1>
+    <h2>Subtitle appears under website title</h2>
+</hgroup></header>
+
+
+<nav role="navigation">
+
+<ul class="main-navigation">
+  
+  
+    
+      <li><a href="https://blog.prskavec.net/" title="Blog">Blog</a></li>
+    
+  
+    
+      <li><a href="https://www.google.com/" title="Google"  target="_blank" >Google</a></li>
+    
+  
+    
+      <li><a href="https://www.github.com/parsiya/hugo-octopress" title="This theme on Github"  target="_blank" >This theme on Github</a></li>
+    
+  
+</ul>
+
+
+<ul class="subscription">
+  
+    
+        <a href="https://blog.prskavec.net/index.xml" target="_blank" type="application/rss+xml" title="RSS"><i class="fa fa-rss-square fa-lg"></i></a>
+    
+  
+
+</ul>
+
+
+<form action="https://www.google.com/search" method="get" target="_blank">
+  <fieldset role="search">
+  	<input class="search" type="text" name="q" results="0" placeholder="Search"/>
+    <input type="hidden" name="q" value="site:https://blog.prskavec.net/" />
+  </fieldset>
+</form>
+
+</nav>
+
+
+<div id="main">
+  <div id="content">
+    <div>
+      <article class="hentry" role="article">
+
+        
+        
+
+<header>
+    <p class="meta">Apr 2, 2009
+         - 2 minute read 
+         - <a href="https://blog.prskavec.net/2009/04/02/ubuntu-centos-5-a-php-529-v-zend-server-ce/#disqus_thread">Comments</a>
+
+        
+    </p>
+    <h1 class="entry-title">
+         Ubuntu, CentOS 5 a PHP 5.2.9 v Zend Server CE 
+    </h1>
+</header>
+
+
+        <div class="entry-content">
+          
+          
+          
+          
+          <p><h2>CentOS 5</h2>
+Pokud jste někdo musel pracovat na serveru s touto distribucí tak vězte, že v repozitory i pro verzi 5.3 je PHP 5.1.6 a pokud potřebujete novější musíte si ji zkompilovat nebo sehnat jiný zdroj, kde může být problém s ověřením. Jako vývojáře mě příliš nezajímá na čem běží servery, kde se provozují moje aplikace, jen verze PHP a příslušné moduly je třeba hlídat.</p>
+
+<p>Moje stanice je Ubuntu 8.10 a aktuální PHP 5.2.6-2ubuntu4.1 with Suhosin-Patch 0.9.6.2, které mi celkem přijde jako ok produkční verze i s ohledem, že mám i jeden Ubuntu server, kde je verze stejná.
+<h2>Zend Server CE</h2>
+Pokud chcete provozovat server s nejnovější verzí PHP 5.2.9 na linuxu nebo windows objevila se zajímavá alternativa <a href="http://www.zend.com/en/community/zend-server-ce">Zend Server CE</a>. CE (Community editon) je zdarma a nemá všechny vlastnosti <a href="http://www.zend.com/en/products/server/editions">Zend Serveru</a>, ale mě se líbí hlavně proto, že jsou k dispozici RPM a DEB balíčky s kterýmí je instalace bezproblémová (zkoušel jsem Ubuntu a CentOS5). Máte za chvíli k dispozici server s PHP pro vývoj včetně ladící konzole, která umožňuje jednoduchou administraci php.ini, čtení logů  a práci s extenzemi.</p>
+
+<p>V základní instalaci Zend Server CE 4.0.0 beta je obsaženo:
+<ul>
+    <li>PHP 5.2.9</li>
+    <li>Zend Framework  1.7.5</li>
+    <li>Zend Data Cache 4.0</li>
+    <li>Zend Debugger 5.2</li>
+    <li>Zend Optimizer+ 4.0</li>
+</ul>
+Zend Server pro běh konzole na <a href="https://localhost:10082/ZendServer/">https://localhost:10082/ZendServer/</a> používá <a href="http://www.lighttpd.net/">LightHttpd</a> a konzole je napsaná v Zend Frameworku. Apache pro běh aplikací jak jsem měl nainstalován to neovlivní a přidá si to jen do konfigurace pár nastavení. Nic vám nebraní používat váš  document root jak jste zvyklí a to je velká přednost Zend Serveru.</p>
+
+<p>Plná verze má další komponenty jako Guard Loader, Java Bridge, Monitor, Page Cache a ZDS (Zend Download Server). Tyto části jsem nevyzkoušel, ale Monitor pro předcházení problémů pomocí nastavených událostí nebo ZDS pro paralelní stahování souborů se zdají být také užitečné ale ne nezbytné.
+<h2>Instalace na CentOS5</h2>
+<ol>
+    <li>Otevřete konzoli a přejděte do režimu root <code>su</code></li>
+    <li>Vytvořte nový zdroj pro YUM:
+<pre>nano /etc/yum.repos.d/zend.repo</pre>
+Do souboru vložte tento obsah
+<pre>[Zend]
+name=Zend CE $releasever - $basearch - Released Updates
+baseurl=<a href="http://repos.zend.com/rpm/ce/$basearch/" target="_blank">http://repos.zend.com/rpm/ce/$basearch/</a>
+enabled=1
+gpgcheck=0</p>
+
+<p>[Zendce-noarch]
+name=Zend CE - noarch
+baseurl=<a href="http://repos.zend.com/rpm/ce/noarch" target="_blank">http://repos.zend.com/rpm/ce/noarch</a>
+enabled=1
+gpgcheck=0</pre>
+</li>
+    <li>Aktualizace balíčků:
+<pre>yum clean all</pre>
+</li>
+    <li>Instalace Zend Serveru CE:
+<pre>yum install zend-ce</pre>
+</li>
+</ol>
+<a href="http://files.zend.com/help/Zend-Server-Community-Edition/zend-server-community-edition.htm#rpm_installation.htm">Detailní postup v angličtině pro RPM balíčky.</a>
+<h2>Instalace na Ubuntu</h2>
+<ol>
+    <li>Otevřete konzoli a přejděte do režimu root <code>sudo -i</code></li>
+    <li>Přidejte do seznamu repozitory:
+<pre>nano /etc/apt/sources.list</pre>
+nový zdroj (řádek):
+<pre>deb <a href="http://repos.zend.com/deb/ce" target="_blank">http://repos.zend.com/deb/ce</a> ce non-free</pre>
+</li>
+    <li>Veřejný klíč k repozitory:
+<pre>wget <a href="http://repos.zend.com/deb/zend.key" target="_blank">http://repos.zend.com/deb/zend.key</a> -O- |apt-key add -</pre>
+</li>
+    <li>Aktualizace balíčků:
+<pre>apt-get update</pre>
+</li>
+    <li>Instalace Zend Serveru CE:
+<pre>aptitude install zend-ce</pre>
+</li>
+</ol>
+<a href="http://files.zend.com/help/Zend-Server-Community-Edition/zend-server-community-edition.htm#deb_installation.htm">Detailní postup v angličtině pro DEB balíčky.</a></p>
+
+        </div>
+        
+
+<footer>
+  <p class="meta">
+    <span class="byline author vcard">Posted by <span class="fn">Author&#39;s name</span></span>
+    
+    <time>Apr 2, 2009</time>
+    
+      <span class="categories">
+        Tags:
+        
+          <a class="category" href="https://blog.prskavec.net/tags/centos">centos</a>  <a class="category" href="https://blog.prskavec.net/tags/linux">linux</a>  <a class="category" href="https://blog.prskavec.net/tags/php">php</a>  <a class="category" href="https://blog.prskavec.net/tags/ubuntu">ubuntu</a>  <a class="category" href="https://blog.prskavec.net/tags/zend-server">zend server</a>  
+    
+    </span>
+  </p>
+
+  
+  
+
+  
+
+  <p class="meta">
+    
+        <a class="basic-alignment left" href="https://blog.prskavec.net/2009/03/30/zend-studio-611-zkusenosti-z-prvnich-14-dni/" title="Zend Studio 6.1.1. zkušenosti z prvních 14 dní">Zend Studio 6.1.1. zkušenosti z prvních 14 dní</a>
+    
+
+    
+      <a class="basic-alignment right" href="https://blog.prskavec.net/2009/04/08/zend-server-ce-a-phpminadmin-phpmyadmin-na-ubuntu/" title="Zend Server CE a phpMinAdmin, phpMyAdmin na Ubuntu">Zend Server CE a phpMinAdmin, phpMyAdmin na Ubuntu</a>
+    
+  </p>
+  
+    
+      <div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'prskavecblog';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    
+  
+</footer>
+
+      </article>
+    </div>
+    
+
+<aside class="sidebar thirds">
+  <section class="first odd">
+
+    
+      <h1>Sidebar Header</h1>
+    
+
+    <p>
+      
+        Here&rsquo;s a <a href="https://www.google.com" target="_blank">link to google</a>
+  </br>
+  Second line
+  </br>
+  Third line
+  This line has two spaces in the end to create a new line using markdown
+  Forth line
+      
+    </p>
+  </section>
+
+
+
+  
+  <ul class="sidebar-nav">
+    <li class="sidebar-nav-item">
+      <a target="_blank" href="https://github.com/abtris/" title="https://github.com/abtris/"><i class="fa fa-github fa-3x"></i></a>
+      <a target="_blank" href="https://bitbucket.org/abtris/" title="https://bitbucket.org/abtris/"><i class="fa fa-bitbucket fa-3x"></i></a>
+      
+      <a target="_blank" href="https://twitter.com/abtris/" title="https://twitter.com/abtris/"><i class="fa fa-twitter fa-3x"></i></a>
+      <a target="_blank" href="https://keybase.io/abtris/" title="https://keybase.io/abtris/"><i class="fa fa-key fa-3x"></i></a> 
+      
+      
+      
+      
+      
+      
+
+    
+    
+    </li>
+  </ul>
+
+  
+
+  
+    
+      <section class="odd">
+        
+          <h1>Sidebar Links</h1>
+        
+        
+          <li>
+            <a href="https://blog.prskavec.net/categories/hugo/" title="Hugo" >Hugo</a>
+          </li>
+        
+          <li>
+            <a href="https://blog.prskavec.net/" title="Homepage" >Homepage</a>
+          </li>
+        
+          <li>
+            <a href="https://www.google.com" title="Google" >Google</a>
+          </li>
+        
+      </section>
+    
+  
+
+  
+  
+  
+    
+      <section class="even">
+        <h1>Recent Posts</h1>
+        <ul id="recent_posts">
+          
+            <li class="post">
+              <a href="/2017/06/28/jam-stack/">JAM stack</a>
+            </li>
+          
+            <li class="post">
+              <a href="/2017/04/21/docker-multi-stage-build/">Docker - multi stage build</a>
+            </li>
+          
+            <li class="post">
+              <a href="/2016/12/20/jenkins-declarative-pipelines/">Jenkins Declarative Pipelines</a>
+            </li>
+          
+            <li class="post">
+              <a href="/2016/10/31/jenkins-2-dot-0-novinky-a-vylepseni-2-dot-cast/">Jenkins 2.0 - novinky a vylepšení - 2.část</a>
+            </li>
+          
+            <li class="post">
+              <a href="/2016/10/26/jenkins-2-dot-0-novinky-a-vylepseni/">Jenkins 2.0 - novinky a vylepšení</a>
+            </li>
+          
+        </ul>
+      </section>
+    
+  
+
+</aside>
+
+  </div>
+</div>
+
+<footer role="contentinfo">
+  <p>Copyright &copy; 2017 Author&#39;s name - <a href="https://blog.prskavec.net/license/">License</a> -
+  <span class="credit">Powered by <a target="_blank" href="https://gohugo.io">Hugo</a> and <a target="_blank" href="https://github.com/parsiya/hugo-octopress/">Hugo-Octopress</a> theme.
+</p>
+
+</footer>
+
+
+</body>
+</html>
+

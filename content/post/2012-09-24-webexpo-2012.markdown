@@ -1,0 +1,69 @@
+---
+categories: [webexpo,konference]
+comments: true
+date: 2012-09-24T00:00:00Z
+title: Webexpo 2012
+url: /2012/09/24/webexpo-2012/
+---
+
+Ocenil jsem na webexpu spoustu malých zlepšení, cedulka byla oboustranná. Každý účasník měl vyrobeny vizitky, které jsem využil při networkingu.
+
+<!--more-->
+
+## Pátek 21.9.2012
+
+V pátek jsem začal v Development Hall na přednášce [Ano, Chefe!](http://www.slideshare.net/karmi/shells-kitchen-infrastructure-as-code-webexpo-2012) Karel Minařík, Vojtěch Hýža byli úžasní, ale nevím zda to bylo pochopitelné pro všechny, já mám s Chefem zkušenosti a tak jsem si to skvěle užil.
+
+Po pauze kdy jsem si dal něco k obědu, těstoviny s masem nebyly špatné.
+
+Byl jsem na několika přednáškách v bussiness hall, kterým jsem moc nerozumněl a moc mi to nedalo.
+
+Další přednášku Mr. LAW and the Typos od Josefa Pospíšila jsem viděl už na Ruby srazu. Jak dělat agilně pokud jste na to sami. Tohle téma je trochu specifické. Důležitost testování a správně nastavené komunikace s klientem je klíčová. Pepa jel prezentaci z Ipadu a měl jí vytvořenou pomocí aplikace [Haiku Deck](http://www.haikudeck.com/).
+
+Přednáška Jakuba Nešetřila Jak (ne)dělat API mi moc nového neřekla, protože Apiary.io už používám a toto téma se zajímám delší dobu. Každopádně developer co dělá api a nepoužívá Apiary.io by měl začít.
+
+Poslední přednáška Bena Kamense o [Khan Academy](http://www.khanacademy.org/) mě zaujala rozborem A/B testování za použití frameworku Abingo (např. implementace v [Ruby](http://www.bingocardcreator.com/abingo), dále je v [Pythonu](https://github.com/kamens/gae_bingo) a DotNet).
+
+Kromě výzvy k překládání do [češtiny](http://josefstepanek.cz/2283/pojdte-spoluutvaret-budoucnost-vzdelavani.html) bylo asi kolem testování, že nemůžete výsledkům vždy věřit. Na příkladu A/A testování je vidět, že pokud obě skupiny mají různé výsledky je něco špatně.
+
+Večer byl raut, ten byl celkem zajímavý, potkal jsem se s mnoha lidmi. Je byl poněkud hladový.
+
+## Sobota 22.9.2012
+
+V sobotu jsem začal na přednášce Nepoužívejte Git jako SVN! Vašek představil workflow [Git-flow](http://nvie.com/posts/a-successful-git-branching-model/), [Github flow](http://scottchacon.com/2011/08/31/github-flow.html) a Medio workflow.
+
+Trochu mi chybělo v přednášce detailní vysvětlení rebase.
+
+{% blockquote Scott Chacon http://git-scm.com/book/en/Git-Branching-Rebasing The Perils of Rebasing %}
+Do not rebase commits that you have pushed to a public repository.
+{% endblockquote %}
+
+Vašek to moc stavěl jako rebase vs merge, ale z mých zkušeností to nikdy tak není. Je potřeba kombinovat přístupy oba tam, kde se mají kombinovat.
+
+Takže rebase na privátních větvích, kde není sdílený kód s ostatními. Podle mě bylo by spíše zajímavé představit řešení jak to mají implementované na serveru. Zda používají forky nebo personální větve apod. A to netuším, zda by zajímalo většinu lidí, je to dost specifické pro lidi co do problematiky asi proniknou více.
+
+Přednáška Tomáše Jukina na téma Ekosystém. Jak se tvoří weby! Tomáš představil Railsy a jejich systém. Tomáš je šoumen a zabavná přednáška přinesla i pěkné představení [rails_admin](https://github.com/Juicymo/rails_admin) a Ruby Scaffolding Toolboxu.
+
+V rámci minibarcampu jsem byl na pokecu o Bitcoinech.
+
+Další přednáška o Web Performance od Hooman Beheshti mi nepřinesla nic nového, bylo jen shrnuto co znám, ale kdo v této problematice není odborník jistě se dozvěděl mnohé.
+
+Přednáška o Dartu nebyla špatná, ale spíš nudná. Nic nového a inovativního jsem se nedozvěděl.
+
+Lukáš Linhart a jeho přednáška o Node.js byla jako obvykle kritická i zábavná.
+
+Michal Bachman byl vynikající a jeho přednáška o Neo4j byla opravdu pěkně připravená a příklady názorné a zajímavé.
+
+Těšil jsem se na přednášku o PHPUnit od Sebastiana Bergmanna. Podání bylo dost nudné až ke konci bylo něco zajímavého. Pro mě asi nejvíce zklamání od zahraničního hosta, který měl určitě co říct.
+
+Na konec jsem zvolil přednášku od Ash Maurya o Lean Canvasu, ale nepřišla mi nějak zajímavá, celkem jsem viděl co jsem někde viděl na youtube.
+
+Příští ročník má být mezinárodní a v angličtině. Pokud se to Vaškovy a jeho týmu podaří, vylepší drobnosti v organizaci, tak přednášející a třeba konečně budou mít nějaké nosné téma i celky přednášek, které zaujmou.
+
+
+
+
+
+
+
+

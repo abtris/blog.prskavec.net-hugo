@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hudson on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/hudson/</link>
+    <description>Recent content in Hudson on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Fri, 11 Dec 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/hudson/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PHP CodeBrowser a Hudson</title>
+      <link>https://blog.prskavec.net/2009/12/11/php-codebrowser/</link>
+      <pubDate>Fri, 11 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/12/11/php-codebrowser/</guid>
+      <description>Před časem se objevil nový reportovací nástroj, který vezme logy z PHPUnit, PHP_Codesniffer a umí je pěkně zobrazit.
+Instalace je z PEAR (http://pear.phpunit.de/get/)
+
+pear config-set preferred_state alpha
+pear channel-discover pear.phpunit.de
+pear install --alldeps phpunit/PHP_CodeBrowser
+
+nebo z SVN
+svn co svn://phpunit.de/phpunit/phpcb/trunk PHP_CodeBrowser
+Integrace
+Tento tool jde integrovat do CIE
+ phpundercontrol (dostupné od verze 0.5) atlassion bamboo (zatím asi není oficiálně dostupně ale, jde to) hudson  Postup integrace do Hudsonu si ukážeme</description>
+    </item>
+    
+    <item>
+      <title>PhpHudson</title>
+      <link>https://blog.prskavec.net/2009/04/29/phphudson/</link>
+      <pubDate>Wed, 29 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/04/29/phphudson/</guid>
+      <description>Vyvořil jsem pro mě užitečnou třídu v php pro práci s Hudsonem, která má zatím implementovány základní věci z remote api, kterým Hudson disponuje. Knihovna používá Curl a pracuje s Hudsonem přes REST.
+Používám tuto knihovnu např. pro migraci všech jobů z jednoho hudsona na druhý.
+Lehce můžeme totiž stáhnout všechny konfigurační soubory do jednoho adresáře.  getAllConfigs(&amp;ldquo;/tmp/hudson/&amp;rdquo;);  Potom můžeme projít adresář a založit jednotlivé joby.  createJob(basename(str_replace(&amp;ldquo;-config.xml&amp;rdquo;,&amp;ldquo;&amp;rdquo;,$file)), file_get_contents($dir.$file)); } closedir($handle); }</description>
+    </item>
+    
+  </channel>
+</rss>

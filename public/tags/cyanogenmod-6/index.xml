@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cyanogenmod 6 on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/cyanogenmod-6/</link>
+    <description>Recent content in Cyanogenmod 6 on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Tue, 31 Aug 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/cyanogenmod-6/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Upgrade Androidu na T-mobile G1 z 1.6 na 2.2 (aktualizováno 22.3.2011)</title>
+      <link>https://blog.prskavec.net/2010/08/31/upgrade-android-na-t-mobile-g1-z-1-6-na-2-2/</link>
+      <pubDate>Tue, 31 Aug 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2010/08/31/upgrade-android-na-t-mobile-g1-z-1-6-na-2-2/</guid>
+      <description>Mám G1 koupenou u T-mobille. Mám ji sotva rok a ve světě Androidu je celkem už skoro nepoužitelný telefon. Nikdy jsem nepřišel na chuť nahrávat si tam nové romky apod. Ale když vydal Google nový Android 2.2 Froyo s JIT tak jsem si říkal, že tohle přesně G1 potřebuje. Bohužel T-mobile i HTC se vykašlali na uživatele a jediné co chtějí aby jste si koupili nový telefon. Protože svoji G1 mám celkem rád a nechtěl jsem ji poslat do věčných lovišť tak jsem přistoupil na upgrade CyanogenMod 6.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobil on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/mobil/</link>
+    <description>Recent content in Mobil on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Mon, 02 Jun 2008 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/mobil/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Android žije!</title>
+      <link>https://blog.prskavec.net/2008/06/02/android-zije/</link>
+      <pubDate>Mon, 02 Jun 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/06/02/android-zije/</guid>
+      <description>Jistě jste již slyšeli o operačním systému Android pro mobily, který má na svědomí Google. Jejich SDK je plně otevřené a může pro tuto platformu vyvíjet každý. Na webu komunity Androidu se objevil článek First LIVE images and videos of FULLSCREEN Android demos!. Konečně je vidět Android v akci a osobně se mi dost libí jaká konkurence tu na trhu s operačními systémy pro mobily vzniká.
+ &amp;lt;img src=&amp;quot;http://blog.prskavec.net/wp-content/uploads/2008/05/video036f0fb94ded.jpg&amp;quot; galleryimg=&amp;quot;no&amp;quot; onload=&amp;quot;var downlevelDiv = document.</description>
+    </item>
+    
+  </channel>
+</rss>

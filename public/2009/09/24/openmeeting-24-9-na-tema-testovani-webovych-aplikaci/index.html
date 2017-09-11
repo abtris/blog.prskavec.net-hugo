@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+
+  
+  
+  <link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+  
+
+  
+  <title>OpenMeeting 24.9. na téma Testování webových aplikací</title>
+
+  
+  
+  <link rel="stylesheet" href="https://blog.prskavec.net/css/hugo-octopress.css">
+
+  
+  
+
+  
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+  
+  <link href="https://blog.prskavec.net/favicon.png" rel="icon">
+
+  
+  
+  
+
+  
+
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <meta name="author" content="Author&#39;s name">
+
+  
+  <meta name="generator" content="Hugo 0.27" />
+
+  
+  
+
+</head>
+<body>
+
+
+<header role="banner"><hgroup>
+  
+  <h1><a href="https://blog.prskavec.net/">Prskavčí blog</a></h1>
+    <h2>Subtitle appears under website title</h2>
+</hgroup></header>
+
+
+<nav role="navigation">
+
+<ul class="main-navigation">
+  
+  
+    
+      <li><a href="https://blog.prskavec.net/" title="Blog">Blog</a></li>
+    
+  
+    
+      <li><a href="https://www.google.com/" title="Google"  target="_blank" >Google</a></li>
+    
+  
+    
+      <li><a href="https://www.github.com/parsiya/hugo-octopress" title="This theme on Github"  target="_blank" >This theme on Github</a></li>
+    
+  
+</ul>
+
+
+<ul class="subscription">
+  
+    
+        <a href="https://blog.prskavec.net/index.xml" target="_blank" type="application/rss+xml" title="RSS"><i class="fa fa-rss-square fa-lg"></i></a>
+    
+  
+
+</ul>
+
+
+<form action="https://www.google.com/search" method="get" target="_blank">
+  <fieldset role="search">
+  	<input class="search" type="text" name="q" results="0" placeholder="Search"/>
+    <input type="hidden" name="q" value="site:https://blog.prskavec.net/" />
+  </fieldset>
+</form>
+
+</nav>
+
+
+<div id="main">
+  <div id="content">
+    <div>
+      <article class="hentry" role="article">
+
+        
+        
+
+<header>
+    <p class="meta">Sep 24, 2009
+         - 2 minute read 
+         - <a href="https://blog.prskavec.net/2009/09/24/openmeeting-24-9-na-tema-testovani-webovych-aplikaci/#disqus_thread">Comments</a>
+
+        
+    </p>
+    <h1 class="entry-title">
+         OpenMeeting 24.9. na téma Testování webových aplikací 
+    </h1>
+</header>
+
+
+        <div class="entry-content">
+          
+          
+          
+          
+          <p>Dnes se konal <a href="http://www.openmeeting.biz">OpenMeeting</a> na téma <em>Testování webových aplikací</em>.</p>
+
+<p>První přednášku měl Michal Špaček ze Skypu o systému <a href="http://seleniumhq.org/">Selenium</a>. Pokud jste viděli jeho přednášku na webExpu 2008 tak to bylo totéž v kratší variantě.</p>
+
+<p>Druhá přednáška byla na téma opět Selenium a měl ji Filip Braun z Benety, ukazoval testování jak je dělají oni.</p>
+
+<p>Do třetice také Selenium a to ukazoval <a href="http://php.vrana.cz">Jakub Vrána</a> na Adminerovi. <a href="http://www.adminer.org">Adminer</a> je z velké části pokryt testy z hlediska funkčnosti. Jakub si měří pokrytí napříč aplikací (coverage) na co má vlastní skript, který mu to přehledně vyhodnocuje. Zazněla tady dobrá rada, pokud používáte Selenium RC v Internet Exploreru, vyvarujte se xpath výrazům a používejte CSS selektory, ušetříte tím hromadu času.</p>
+
+<p>Čtvrtá přednáška od <a href="http://www.karmi.cz">Karla Minaříka</a> na téma <a href="http://cukes.info">Cucumber</a> a testování v Ruby světe. Cucumber má velmi pěkný styl <a href="http://www.test147.com/">testů</a>, které se dají psát například i česky a jazykem blízkým normálnímu člověku. Není omezeny jen na Ruby a měl by jít využít i pro další platformy. Určitě to brzo <a href="http://wiki.github.com/aslakhellesoy/cucumber/php">vyzkouším na php</a>. Cucumber používá HTTP adaptér <a href="http://wiki.github.com/brynary/webrat">webrat</a> pomocí, kterého se připojíte na Selenium nebo další nástroje (např. pro <a href="http://www.test147.com/testovaci">testování</a> Flexu).</p>
+
+<p>Pátá přednáška byla od Štěpána Bechyňského z Microsoftu. Ukazoval nám jak můžete testovat v prostředí Visual Studia 2008. Pokud chcete nějak testovat dobře aplikace v Internet Exploreru, přijde mi to jako jediná spolehlivá cesta. V novém Visual Studiu 2010 by to mělo být značně ještě vylepšeno.</p>
+
+<p>Poslední přednáška od Vratislava Sejka z Unicornu se věnovala Bezpečnostnímu testování. Unicorn kromě funkčních a výkonových testů také dělá bezpečnostní testy na které se dá dobře využít nástroj <a href="http://www-01.ibm.com/software/awdtools/appscan/">IBM Rational AppScaner</a>. Komplexní komerční nástroj, pokud někdo znáte nějaký dobrý podobný open source nástroj, prosím zmiňte ho do komentářů.</p>
+
+<p>To je v souhrnu všechno co bylo obsahem formální části a potom samozřejmě probíhala už neformální diskuse jak to pravidelně bývá.</p>
+
+        </div>
+        
+
+<footer>
+  <p class="meta">
+    <span class="byline author vcard">Posted by <span class="fn">Author&#39;s name</span></span>
+    
+    <time>Sep 24, 2009</time>
+    
+      <span class="categories">
+        Tags:
+        
+          <a class="category" href="https://blog.prskavec.net/tags/cucumber">cucumber</a>  <a class="category" href="https://blog.prskavec.net/tags/openmeeting">openmeeting</a>  <a class="category" href="https://blog.prskavec.net/tags/selenium">selenium</a>  
+    
+    </span>
+  </p>
+
+  
+  
+
+  
+
+  <p class="meta">
+    
+        <a class="basic-alignment left" href="https://blog.prskavec.net/2009/09/14/ie-8-bug-s-cookie-a-domenou-jobs-cz/" title="IE 8 bug s cookie a doménou jobs.cz">IE 8 bug s cookie a doménou jobs.cz</a>
+    
+
+    
+      <a class="basic-alignment right" href="https://blog.prskavec.net/2009/10/05/ma-dnes-cenu-psat-knihu-o-verzovacich-systemech/" title="Má dnes cenu psát knihu o verzovacích systémech?">Má dnes cenu psát knihu o verzovacích systémech?</a>
+    
+  </p>
+  
+    
+      <div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'prskavecblog';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    
+  
+</footer>
+
+      </article>
+    </div>
+    
+
+<aside class="sidebar thirds">
+  <section class="first odd">
+
+    
+      <h1>Sidebar Header</h1>
+    
+
+    <p>
+      
+        Here&rsquo;s a <a href="https://www.google.com" target="_blank">link to google</a>
+  </br>
+  Second line
+  </br>
+  Third line
+  This line has two spaces in the end to create a new line using markdown
+  Forth line
+      
+    </p>
+  </section>
+
+
+
+  
+  <ul class="sidebar-nav">
+    <li class="sidebar-nav-item">
+      <a target="_blank" href="https://github.com/abtris/" title="https://github.com/abtris/"><i class="fa fa-github fa-3x"></i></a>
+      <a target="_blank" href="https://bitbucket.org/abtris/" title="https://bitbucket.org/abtris/"><i class="fa fa-bitbucket fa-3x"></i></a>
+      
+      <a target="_blank" href="https://twitter.com/abtris/" title="https://twitter.com/abtris/"><i class="fa fa-twitter fa-3x"></i></a>
+      <a target="_blank" href="https://keybase.io/abtris/" title="https://keybase.io/abtris/"><i class="fa fa-key fa-3x"></i></a> 
+      
+      
+      
+      
+      
+      
+
+    
+    
+    </li>
+  </ul>
+
+  
+
+  
+    
+      <section class="odd">
+        
+          <h1>Sidebar Links</h1>
+        
+        
+          <li>
+            <a href="https://blog.prskavec.net/categories/hugo/" title="Hugo" >Hugo</a>
+          </li>
+        
+          <li>
+            <a href="https://blog.prskavec.net/" title="Homepage" >Homepage</a>
+          </li>
+        
+          <li>
+            <a href="https://www.google.com" title="Google" >Google</a>
+          </li>
+        
+      </section>
+    
+  
+
+  
+  
+  
+    
+      <section class="even">
+        <h1>Recent Posts</h1>
+        <ul id="recent_posts">
+          
+            <li class="post">
+              <a href="/2017/06/28/jam-stack/">JAM stack</a>
+            </li>
+          
+            <li class="post">
+              <a href="/2017/04/21/docker-multi-stage-build/">Docker - multi stage build</a>
+            </li>
+          
+            <li class="post">
+              <a href="/2016/12/20/jenkins-declarative-pipelines/">Jenkins Declarative Pipelines</a>
+            </li>
+          
+            <li class="post">
+              <a href="/2016/10/31/jenkins-2-dot-0-novinky-a-vylepseni-2-dot-cast/">Jenkins 2.0 - novinky a vylepšení - 2.část</a>
+            </li>
+          
+            <li class="post">
+              <a href="/2016/10/26/jenkins-2-dot-0-novinky-a-vylepseni/">Jenkins 2.0 - novinky a vylepšení</a>
+            </li>
+          
+        </ul>
+      </section>
+    
+  
+
+</aside>
+
+  </div>
+</div>
+
+<footer role="contentinfo">
+  <p>Copyright &copy; 2017 Author&#39;s name - <a href="https://blog.prskavec.net/license/">License</a> -
+  <span class="credit">Powered by <a target="_blank" href="https://gohugo.io">Hugo</a> and <a target="_blank" href="https://github.com/parsiya/hugo-octopress/">Hugo-Octopress</a> theme.
+</p>
+
+</footer>
+
+
+</body>
+</html>
+

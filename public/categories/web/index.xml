@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/categories/web/</link>
+    <description>Recent content in Web on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Thu, 11 Dec 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/categories/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Zapier a zasílání zůstatku z banky zdarma na mobil</title>
+      <link>https://blog.prskavec.net/2014/12/11/zapier-a-zasilani-zustatku-z-banky-zdarma-na-mobil/</link>
+      <pubDate>Thu, 11 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2014/12/11/zapier-a-zasilani-zustatku-z-banky-zdarma-na-mobil/</guid>
+      <description>&lt;h2 id=&#34;motivace&#34;&gt;Motivace&lt;/h2&gt;
+
+&lt;p&gt;Banky posílají změnu zůstatku emailem a SMS. Za SMS začínájí účtovat třeba i 2Kč což mi přijde fakt hrůza. Tak jsem si řekl jak dostat ten email do telefonu pomocí push notifikace, aby mě to nestálo moc peněz a dalo se případně používat univerzálně.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Google Developer Day 2011</title>
+      <link>https://blog.prskavec.net/2011/10/18/google-developer-day-2011/</link>
+      <pubDate>Tue, 18 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2011/10/18/google-developer-day-2011/</guid>
+      <description>&lt;p&gt;GDD již tradičně v Clarionu, registrace se dneska pěkně protáhla pokud jste nepřišli včas a nevyužili některé jiné fronty než té první.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

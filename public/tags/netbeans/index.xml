@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Netbeans on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/netbeans/</link>
+    <description>Recent content in Netbeans on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Mon, 28 Dec 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/netbeans/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>NetBeans 6.8 a PHPUnit</title>
+      <link>https://blog.prskavec.net/2009/12/28/netbeans-6-8-a-phpunit/</link>
+      <pubDate>Mon, 28 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/12/28/netbeans-6-8-a-phpunit/</guid>
+      <description>Pokud používáte pro vývoj v PHP nějaké IDE, je to většinou PDT based (Eclipse, Zend Studio) nebo Netbeans. Samozřejmě jsou tu i další a vznikají nové, které stojí za zmínku. Mě oslovilo WebIDE od autorů IDEA firmy JetBrains, kde si myslím roste velká konkurence Zend Studiu.
+V práci používám primárně Zend Studio a pro sebe většinou Netbeans. V Netbeans nejvíce oceňují propojení s PHPUnit a pokud rád vyvíjíte metodikou TDD. V verzi 6.</description>
+    </item>
+    
+    <item>
+      <title>Vi a integrace s IDE</title>
+      <link>https://blog.prskavec.net/2009/06/23/vi-a-integrace-s-ide/</link>
+      <pubDate>Tue, 23 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/06/23/vi-a-integrace-s-ide/</guid>
+      <description>Jak jsem přešel na Ubuntu oblíbil jsem si editor Vim, který v terminálu používám primárně a i když ho neumím využít jistě zatím naplno, hodně věcí mi ulehčuje a dobře se v něm pracuje. Hlavně jsem si oblíbil vyhledávání.
+Pokud chcete Vim využívat naplno chce to pracovat v něm co nejvíce a proto jsem se podíval zda některé IDE podporují Vim a jak jsou na tom.
+Podporu jsem otestoval v těchto IDE:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Idea on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/idea/</link>
+    <description>Recent content in Idea on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Thu, 25 Feb 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/idea/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>JetBrains PhpStorm</title>
+      <link>https://blog.prskavec.net/2010/02/25/jetbrains-phpstorm/</link>
+      <pubDate>Thu, 25 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2010/02/25/jetbrains-phpstorm/</guid>
+      <description>Vývojových prostředí pro PHP je docela hojnost. Sám používám v práci Zend Studio 7.1 a doma Netbeans 6.8. Minulý rok přišla firma JetBrains, která je známá svým IDE pro Javu IDEA, s vývojovým prostředím pro PHP, které se jmenuje PhpStorm (dříve WebIDE). V současné době je nové IDE stále ve vývoji. Brzo se dočkáme beta verze a myslím do léta snad i finální verze.
+PhpStorm (dále PS) je na platformě IDEA, což považuji za velkou výhodu.</description>
+    </item>
+    
+  </channel>
+</rss>

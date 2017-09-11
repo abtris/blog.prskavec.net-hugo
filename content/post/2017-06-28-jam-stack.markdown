@@ -1,0 +1,41 @@
+---
+categories: [jamstack]
+comments: true
+date: 2017-06-28T00:00:00Z
+title: JAM stack
+url: /2017/06/28/jam-stack/
+---
+
+Co to je [JAM Stack](https://jamstack.org/)? To je pojmenování moderního způsobu jak vytvářet weby pomocí clientského Javascriptu, API a Markupu.
+
+Tento stack není žádná novinka, ale dlouho chybělo dobré pojmenování. Nejlepší příklad většího použití podle mne je přechod [Smashing Magazine](https://www.smashingmagazine.com/), který pěkně poslali v [článku](https://www.netlify.com/blog/2017/03/16/smashing-magazine-just-got-10x-faster/).
+
+Nejdůležitější věci co definují JAMstack:
+
+- používá CDN
+- používá místo databáze Git
+- markup se převádí pomocí automatického buildu
+
+<!--more-->
+
+## Javascript
+
+Pokud máte JAMstack nemusíte rezignovat na CMS, je tu několik CMS napsaných jako Javascriptové SPA aplikace - [A List of Content Management Systems for JAMstack Sites](https://headlesscms.org/). Nejznámější řešení je [Netlify CMS - An open-source CMS for your Git workflow](https://www.netlifycms.org/), které je open source, ale i nabízená jako [SaaS](https://www.netlify.com/). Další zajímvé řešení je [Contentful](https://www.contentful.com), kde máte editor nejenom na počítači, ale i na mobil nebo hodinky.
+
+Zajímavé řešení nění jen na Javascriptu, ale například na [WordPressu](https://getshifter.io), kde Wordpress funguje jako CMS, ale stránky jsou staticky vygenerované. Další podobné řešení je [Forestry](https://forestry.io) a určitě najdete další.
+
+## API
+
+Samozřejmě nevystačíte jen statickými stránkami a potřebujete přidat funkce na zpracování formulářů nebo napojit na eshop. Například [Javascript Shopping Cart](https://snipcart.com) řeší eshop a můžete využít [Serverless](https://serverless.com/) a implementovat co potřebujete pokud využijete [GraphQL](http://graphql.org/) a například [Graphcool](https://www.graph.cool/) kombinuje GraphQL a AWS Lambdu i jiné FaaS.
+
+Další API které se používají například v Smashing magazine a jsou [open source](https://www.netlify.com/open-source/).
+
+## Markup 
+
+Statické generátory ([jekyll](http://jekyllrb.com/), [hugo](http://gohugo.io/)) jsou oblíbené a najdete jich velký seznam na [Top Open-Source Static Site Generators](https://www.staticgen.com/). Například Hugo je napsaný v Go langu a je velmi rychlý a stále se hodně rozvíjí. Jekyll se součást [Github Pages](https://pages.github.com/) a proto je hodně oblíbený mezi vývojáři na Githubu.
+
+## Závěr
+
+Pokud vás to zajímá tak doporučuji [podcast JAMstack Radio](http://www.heavybit.com/library/podcasts/jamstack-radio/ep-1-introducing-jamstack-radio/), kde je spousta zajímavých hostů a zdrojů k inspiraci.
+
+Pokud si chcete popovídat o GraphQL zastavte se na [Hive talks](https://www.meetup.com/apiaryio/events/240962821/) 11.7. v Karlíně.

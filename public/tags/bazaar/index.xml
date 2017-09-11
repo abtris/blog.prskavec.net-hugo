@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bazaar on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/bazaar/</link>
+    <description>Recent content in Bazaar on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Mon, 23 Feb 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/bazaar/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Git-SVN vs Bzr-SVN</title>
+      <link>https://blog.prskavec.net/2009/02/23/git-svn-vs-bzr-svn/</link>
+      <pubDate>Mon, 23 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/02/23/git-svn-vs-bzr-svn/</guid>
+      <description>Aktualizace (1.7.2009) Dnes jsem zkoušel novy git 1.6.0.4 (svn 1.5.4) na práci s SVN repozitory. Konečně práce s repozitory funguje bez problémů a když provádím clone netrvá to 25min, ale pár vteřin jako u bzr. Asi to byla nějaká chyba, kterou vývojáři opravili.
+Nedávno se tu vedla debata o tom jak nejlépe pracovat s Subversion když jsme offline. Nejlepší řešení je přejít na distribuovaný verzovací systém. Bavíme se o řešení na straně klienta, server bude stále Subversion.</description>
+    </item>
+    
+  </channel>
+</rss>

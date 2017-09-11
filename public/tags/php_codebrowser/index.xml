@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Php_codebrowser on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/php_codebrowser/</link>
+    <description>Recent content in Php_codebrowser on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Fri, 11 Dec 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/php_codebrowser/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PHP CodeBrowser a Hudson</title>
+      <link>https://blog.prskavec.net/2009/12/11/php-codebrowser/</link>
+      <pubDate>Fri, 11 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/12/11/php-codebrowser/</guid>
+      <description>Před časem se objevil nový reportovací nástroj, který vezme logy z PHPUnit, PHP_Codesniffer a umí je pěkně zobrazit.
+Instalace je z PEAR (http://pear.phpunit.de/get/)
+
+pear config-set preferred_state alpha
+pear channel-discover pear.phpunit.de
+pear install --alldeps phpunit/PHP_CodeBrowser
+
+nebo z SVN
+svn co svn://phpunit.de/phpunit/phpcb/trunk PHP_CodeBrowser
+Integrace
+Tento tool jde integrovat do CIE
+ phpundercontrol (dostupné od verze 0.5) atlassion bamboo (zatím asi není oficiálně dostupně ale, jde to) hudson  Postup integrace do Hudsonu si ukážeme</description>
+    </item>
+    
+  </channel>
+</rss>

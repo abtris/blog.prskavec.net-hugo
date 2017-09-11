@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jquery on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/jquery/</link>
+    <description>Recent content in Jquery on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Tue, 23 Sep 2008 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/jquery/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Zend Framework 1.6 a ajax pomocí jQuery</title>
+      <link>https://blog.prskavec.net/2008/09/23/zend-framework-16-a-ajax-pomoc-jquery/</link>
+      <pubDate>Tue, 23 Sep 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/09/23/zend-framework-16-a-ajax-pomoc-jquery/</guid>
+      <description>Jak jsem psal v Zend Framework 1.6 a moje zkušenosti s Dojo TabContainer, nakonec jsem použil jQuery. Ve formuláři se dají měnit některá data, které jsou závislá na dalších, které automaticky předvyplňuji a na to jsem použil při změnách ajax. Docela mě potěšilo jak jednoduše a pěkně se to dá udělat pomocí jQuery. &amp;lt;script&amp;gt; $(document).ready(function(){ $(&amp;ldquo;#example &amp;gt; ul&amp;rdquo;).tabs(); $(&amp;lsquo;#page1-deadline_vyzva&amp;rsquo;).datepicker(); $(&amp;lsquo;#page3-datum_zahajeni&amp;rsquo;).datepicker(); $(&amp;lsquo;#page3-datum_ukonceni&amp;rsquo;).datepicker();
+ $(&#39;#page1-editor&#39;).change(function(){ $.ajax({ type: &amp;quot;POST&amp;quot;, url: &amp;quot;&amp;amp;lt;?php echo $this-&amp;amp;gt;baseUrl();?&amp;amp;gt;/user/info/idcvut/&amp;quot; + $(this).</description>
+    </item>
+    
+    <item>
+      <title>Zend Framework 1.6 a moje zkušenosti s Dojo TabContainer</title>
+      <link>https://blog.prskavec.net/2008/09/11/zend-framework-16-a-moje-zkuenosti-s-dojo-tabcontainer/</link>
+      <pubDate>Thu, 11 Sep 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/09/11/zend-framework-16-a-moje-zkuenosti-s-dojo-tabcontainer/</guid>
+      <description>Zrovna dělám na jednom malém projektu, který jsem hned začal psát zrovna jak vyšel ZF 1.6, celkem standardní věci až na to, že jsem potřeboval rozdělit formulář na více stránek a udělat záložky.
+Postupoval jsem podle manulálu, vyvořil jsem si formulář se subformy a celkem to dobře funguje. Potom když jsem potřeboval rozbrazit záložky narazil jsem na několik problémů se kterými jsem si různě poradil.
+Takto vypadají záložky pomocí Dojo frameworku.</description>
+    </item>
+    
+  </channel>
+</rss>

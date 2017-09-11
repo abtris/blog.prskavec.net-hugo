@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/categories/google/</link>
+    <description>Recent content in Google on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Tue, 18 Oct 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/categories/google/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Google Developer Day 2011</title>
+      <link>https://blog.prskavec.net/2011/10/18/google-developer-day-2011/</link>
+      <pubDate>Tue, 18 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2011/10/18/google-developer-day-2011/</guid>
+      <description>&lt;p&gt;GDD již tradičně v Clarionu, registrace se dneska pěkně protáhla pokud jste nepřišli včas a nevyužili některé jiné fronty než té první.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+
+  
+  
+  <link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+  
+
+  
+  <title>IE 8 bug s cookie a doménou jobs.cz</title>
+
+  
+  
+  <link rel="stylesheet" href="https://blog.prskavec.net/css/hugo-octopress.css">
+
+  
+  
+
+  
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+  
+  <link href="https://blog.prskavec.net/favicon.png" rel="icon">
+
+  
+  
+  
+
+  
+
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <meta name="author" content="Author&#39;s name">
+
+  
+  <meta name="generator" content="Hugo 0.27" />
+
+  
+  
+
+</head>
+<body>
+
+
+<header role="banner"><hgroup>
+  
+  <h1><a href="https://blog.prskavec.net/">Prskavčí blog</a></h1>
+    <h2>Subtitle appears under website title</h2>
+</hgroup></header>
+
+
+<nav role="navigation">
+
+<ul class="main-navigation">
+  
+  
+    
+      <li><a href="https://blog.prskavec.net/" title="Blog">Blog</a></li>
+    
+  
+    
+      <li><a href="https://www.google.com/" title="Google"  target="_blank" >Google</a></li>
+    
+  
+    
+      <li><a href="https://www.github.com/parsiya/hugo-octopress" title="This theme on Github"  target="_blank" >This theme on Github</a></li>
+    
+  
+</ul>
+
+
+<ul class="subscription">
+  
+    
+        <a href="https://blog.prskavec.net/index.xml" target="_blank" type="application/rss+xml" title="RSS"><i class="fa fa-rss-square fa-lg"></i></a>
+    
+  
+
+</ul>
+
+
+<form action="https://www.google.com/search" method="get" target="_blank">
+  <fieldset role="search">
+  	<input class="search" type="text" name="q" results="0" placeholder="Search"/>
+    <input type="hidden" name="q" value="site:https://blog.prskavec.net/" />
+  </fieldset>
+</form>
+
+</nav>
+
+
+<div id="main">
+  <div id="content">
+    <div>
+      <article class="hentry" role="article">
+
+        
+        
+
+<header>
+    <p class="meta">Sep 14, 2009
+         - 2 minute read 
+         - <a href="https://blog.prskavec.net/2009/09/14/ie-8-bug-s-cookie-a-domenou-jobs-cz/#disqus_thread">Comments</a>
+
+        
+    </p>
+    <h1 class="entry-title">
+         IE 8 bug s cookie a doménou jobs.cz 
+    </h1>
+</header>
+
+
+        <div class="entry-content">
+          
+          
+          
+          
+          <p>V práci jsme se setkali se zajímavým problémem, který se vyskytuje ojediněle, ale zato postihuje jen určitou doménu. Máme problém s Microsoft Internet Explorerem 8 a doménou jobs.cz.</p>
+
+<p>IE8 odmítá nastavit cookies na doménu druhé úrovně. Nefunguje to pouze a jen pro jobs.cz, pro všechny jiné domény je to v pořádku. Je to záhada, kterou nebude jednoduché vyřešit.</p>
+
+<p>Fungují všechny starší verze MS IE i všechny ostatní prohlížeče i všechny jiné domény druhé úrovně, které jsme zkusili. Nefunguje zápis serverový ani klientský. Cookies na domény třetí úrovně (www.jobs.cz apod.) rovněž bez problémů.</p>
+
+<p>Zkušební skript může vypadat takto:
+<pre></p>
+
+<p><title>cookie test</title></p>
+
+<p>YAHOO.util.Cookie.set(&ldquo;jobsClientFull&rdquo;, &ldquo;client&rdquo;, { path: &ldquo;/&rdquo;});
+YAHOO.util.Cookie.set(&ldquo;jobsClient2ndA&rdquo;, &ldquo;client&rdquo;, { path: &ldquo;/&rdquo;, domain: &ldquo;.jobs.cz&rdquo; });
+YAHOO.util.Cookie.set(&ldquo;jobsClient2ndB&rdquo;, &ldquo;client&rdquo;, { path: &ldquo;/&rdquo;, domain: &ldquo;jobs.cz&rdquo; });
+YAHOO.util.Cookie.set(&ldquo;jopsClientFull&rdquo;, &ldquo;client&rdquo;, { path: &ldquo;/&rdquo;});
+YAHOO.util.Cookie.set(&ldquo;jopsClient2ndA&rdquo;, &ldquo;client&rdquo;, { path: &ldquo;/&rdquo;, domain: &ldquo;.jops.cz&rdquo; });
+YAHOO.util.Cookie.set(&ldquo;jopsClient2ndB&rdquo;, &ldquo;client&rdquo;, { path: &ldquo;/&rdquo;, domain: &ldquo;jops.cz&rdquo; });</p>
+
+<h2>Cookies obtained</h2>
+
+<p></pre>
+nebo v jednodušší podobě
+<pre>&lt;?php
+setcookie(&quot;serverTestCookie&quot;, &quot;server&quot;, 0, &quot;/&quot;, &quot;.<a href="http://jobs.cz/">jobs.cz</a>&rdquo;);
+?&gt;</p>
+
+<p><title>cookie test</title>
+&lt;script type=&quot;text/javascript&quot; src=&quot;<a href="http://yui.yahooapis.com/2.7.0/build/yahoo/yahoo-min.js">http://yui.yahooapis.com/2.7.0/build/yahoo/yahoo-min.js</a>&ldquo;&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;<a href="http://yui.yahooapis.com/2.7.0/build/cookie/cookie-min.js">http://yui.yahooapis.com/2.7.0/build/cookie/cookie-min.js</a>&ldquo;&gt;</p>
+
+<p>YAHOO.util.Cookie.set(&ldquo;clientTestCookie&rdquo;, &ldquo;client&rdquo;, { path: &ldquo;/&rdquo;, domain: &ldquo;.<a href="http://jobs.cz/">jobs.cz</a>&rdquo; });</p>
+
+<h2>Cookies obtained</h2>
+
+<p></pre>
+příslušní virtualní host si na lokálním počítači nastavím třeba takto
+<pre>
+DocumentRoot /srv/cookie
+ServerName <a href="http://jobs.cz/">jobs.cz</a>
+ServerAlias <a href="http://www.jobs.cz/">www.jobs.cz</a> <a href="http://jobs.cz/">jobs.cz</a> <a href="http://jops.cz/">jops.cz</a> <a href="http://www.jops.cz/">www.jops.cz</a>
+</pre>
+a k tomu nějakého hosta
+<pre>127.0.0.1    wwww.jobs.cz jobs.cz www.jops.cz jops.cz</pre>
+Po prvním načtení bude kolekce cookies samozřejmě prázdná, ale už po tom druhem jsou v IE8 nastaveny pouze cookies na doménu třetí úrovně, druhé nic.</p>
+
+<p><strong>Závěr</strong></p>
+
+<p>Problém zřejmě souvisí s implementaci prohlížečích viz (<a href="http://docs.google.com/gview?a=v&amp;q=cache%3AtwPPceC8eq4J%3Awww.ietf.org%2Fproceedings%2F66%2Fslides%2Fdnsop-1.pdf+opera+cookie+domain+problem&amp;hl=cs&amp;pli=1">1</a>, <a href="http://tools.ietf.org/html/draft-pettersen-dns-cookie-validate-00">2</a>). V <a href="http://en.wikipedia.org/wiki/List_of_Internet_top-level_domains">TLD</a> existuje .jobs a proto se dá usuzovat, že k ní IE8 chová nějak jinak. Ale proč to nepostihuje např. travel.cz, museum.cz info.cz je záhadou. Zatím to vypadá na chybu v IE8, která nám opravdu hodně znepříjemňuje život.</p>
+
+<p>Všichni si to můžete vyzkoušet na <a href="http://lmc.jobs.cz/cookie.php">http://lmc.jobs.cz/cookie.php</a>.</p>
+
+<p>Udělejte refresh stránky a dostanete tento výsledek kromě MS IE8, proboha proč?</p>
+
+<p><a href="http://blog.prskavec.net/wp-content/uploads/2009/09/cookie_test_ok.png"><img src="http://blog.prskavec.net/wp-content/uploads/2009/09/cookie_test_ok.png" alt="cookie_test_ok" width="205" height="161" class="aligncenter size-full wp-image-709" /></a></p>
+
+<p><a href="http://blog.prskavec.net/wp-content/uploads/2009/09/cookie_test_fail.png"><img src="http://blog.prskavec.net/wp-content/uploads/2009/09/cookie_test_fail-300x182.png" alt="cookie_test_fail" width="300" height="182" class="aligncenter size-medium wp-image-712" /></a></p>
+
+<p>Pokud by byl někdo schopný pomoci s nápravou této chyby budeme vděční za pomoc.</p>
+
+<p><strong>Aktualizace:</strong>
+Pokud si dáte v Internet Exploreru <a href="//urlmon.dll/ietldlist.xml">res://urlmon.dll/ietldlist.xml</a> dostanete se k blokovaným TLD doménám. Bohužel na něm je z ČR i jobs.cz.</p>
+
+        </div>
+        
+
+<footer>
+  <p class="meta">
+    <span class="byline author vcard">Posted by <span class="fn">Author&#39;s name</span></span>
+    
+    <time>Sep 14, 2009</time>
+    
+      <span class="categories">
+        Tags:
+        
+          <a class="category" href="https://blog.prskavec.net/tags/ie8-bug">ie8 bug</a>  <a class="category" href="https://blog.prskavec.net/tags/microsoft">microsoft</a>  <a class="category" href="https://blog.prskavec.net/tags/msie">msie</a>  
+    
+    </span>
+  </p>
+
+  
+  
+
+  
+
+  <p class="meta">
+    
+        <a class="basic-alignment left" href="https://blog.prskavec.net/2009/09/12/ceska-verze-pluginu-pro-wordpress/" title="Česká verze pluginů pro Wordpress">Česká verze pluginů pro Wordpress</a>
+    
+
+    
+      <a class="basic-alignment right" href="https://blog.prskavec.net/2009/09/24/openmeeting-24-9-na-tema-testovani-webovych-aplikaci/" title="OpenMeeting 24.9. na téma Testování webových aplikací">OpenMeeting 24.9. na téma Testování webových aplikací</a>
+    
+  </p>
+  
+    
+      <div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'prskavecblog';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    
+  
+</footer>
+
+      </article>
+    </div>
+    
+
+<aside class="sidebar thirds">
+  <section class="first odd">
+
+    
+      <h1>Sidebar Header</h1>
+    
+
+    <p>
+      
+        Here&rsquo;s a <a href="https://www.google.com" target="_blank">link to google</a>
+  </br>
+  Second line
+  </br>
+  Third line
+  This line has two spaces in the end to create a new line using markdown
+  Forth line
+      
+    </p>
+  </section>
+
+
+
+  
+  <ul class="sidebar-nav">
+    <li class="sidebar-nav-item">
+      <a target="_blank" href="https://github.com/abtris/" title="https://github.com/abtris/"><i class="fa fa-github fa-3x"></i></a>
+      <a target="_blank" href="https://bitbucket.org/abtris/" title="https://bitbucket.org/abtris/"><i class="fa fa-bitbucket fa-3x"></i></a>
+      
+      <a target="_blank" href="https://twitter.com/abtris/" title="https://twitter.com/abtris/"><i class="fa fa-twitter fa-3x"></i></a>
+      <a target="_blank" href="https://keybase.io/abtris/" title="https://keybase.io/abtris/"><i class="fa fa-key fa-3x"></i></a> 
+      
+      
+      
+      
+      
+      
+
+    
+    
+    </li>
+  </ul>
+
+  
+
+  
+    
+      <section class="odd">
+        
+          <h1>Sidebar Links</h1>
+        
+        
+          <li>
+            <a href="https://blog.prskavec.net/categories/hugo/" title="Hugo" >Hugo</a>
+          </li>
+        
+          <li>
+            <a href="https://blog.prskavec.net/" title="Homepage" >Homepage</a>
+          </li>
+        
+          <li>
+            <a href="https://www.google.com" title="Google" >Google</a>
+          </li>
+        
+      </section>
+    
+  
+
+  
+  
+  
+    
+      <section class="even">
+        <h1>Recent Posts</h1>
+        <ul id="recent_posts">
+          
+            <li class="post">
+              <a href="/2017/06/28/jam-stack/">JAM stack</a>
+            </li>
+          
+            <li class="post">
+              <a href="/2017/04/21/docker-multi-stage-build/">Docker - multi stage build</a>
+            </li>
+          
+            <li class="post">
+              <a href="/2016/12/20/jenkins-declarative-pipelines/">Jenkins Declarative Pipelines</a>
+            </li>
+          
+            <li class="post">
+              <a href="/2016/10/31/jenkins-2-dot-0-novinky-a-vylepseni-2-dot-cast/">Jenkins 2.0 - novinky a vylepšení - 2.část</a>
+            </li>
+          
+            <li class="post">
+              <a href="/2016/10/26/jenkins-2-dot-0-novinky-a-vylepseni/">Jenkins 2.0 - novinky a vylepšení</a>
+            </li>
+          
+        </ul>
+      </section>
+    
+  
+
+</aside>
+
+  </div>
+</div>
+
+<footer role="contentinfo">
+  <p>Copyright &copy; 2017 Author&#39;s name - <a href="https://blog.prskavec.net/license/">License</a> -
+  <span class="credit">Powered by <a target="_blank" href="https://gohugo.io">Hugo</a> and <a target="_blank" href="https://github.com/parsiya/hugo-octopress/">Hugo-Octopress</a> theme.
+</p>
+
+</footer>
+
+
+</body>
+</html>
+

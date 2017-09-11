@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/categories/tools/</link>
+    <description>Recent content in Tools on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Mon, 28 May 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/categories/tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dash - snippet manager a prohlížeč dokumentace</title>
+      <link>https://blog.prskavec.net/2012/05/28/dash-snippet-manager-a-prohlizec-dokumentace/</link>
+      <pubDate>Mon, 28 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2012/05/28/dash-snippet-manager-a-prohlizec-dokumentace/</guid>
+      <description>&lt;h2 id=&#34;dash-další-užitečný-nástroj-pro-programátory&#34;&gt;Dash - další užitečný nástroj pro programátory&lt;/h2&gt;
+
+&lt;p&gt;Před nedávnem jsem měl problém s dostupností sítě v nejmenovaném dopravním prostředku na trase Praha Liberec, potřeboval jsem maličkost z dokumentace PHP. Nebyl to problém, protože jsem pár dní předtím objevil nástroj &lt;a href=&#34;http://kapeli.com/dash/&#34; target=&#34;_blank&#34;&gt;Dash&lt;/a&gt;, který to elegantně řeší. Kromě dokumentace si v něm můžete uchovávat snippety, ale tam mi chybí integrace s gisty na githubu.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ostatnã on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/ostatn%C3%A3/</link>
+    <description>Recent content in Ostatnã on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Mon, 26 Apr 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/ostatn%C3%A3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>5 alternativních systémů jak tvořit slidy</title>
+      <link>https://blog.prskavec.net/2010/04/26/5-alternativnich-systemu-jak-tvorit-slidy/</link>
+      <pubDate>Mon, 26 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2010/04/26/5-alternativnich-systemu-jak-tvorit-slidy/</guid>
+      <description>Pokud občas nebo více přednášíte, určitě jste zkusili nějaký tento program na tvorbu slidů. Já žádný z nich nepovažuji za ideální, hlavně pokud potřebujete mít ve slidech zdrojové kódy. Pokud máte slidy v html nebo xml můžete je verzovat pomocí například Gitu nebo SVN, to vám půjde s binárními formáty také, ale neuvidíte ty diffy, které jsou užitečné.  Microsoft PowerPoint OpenOffice Impress Apple Keynote Prezi - více v článku Martina Hassmana Umí tohle i váš prezentační systém?</description>
+    </item>
+    
+    <item>
+      <title>Internet Developer Forum 2010</title>
+      <link>https://blog.prskavec.net/2010/04/07/internet-developer-forum-2010/</link>
+      <pubDate>Wed, 07 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2010/04/07/internet-developer-forum-2010/</guid>
+      <description>Dnes 7.4.2010 se koná v NTK v Praze, Dejvicích konference pro vývojáře webových aplikaci, kterou pořádá Iinfo.cz
+V průběhu dne tu na blogu budu aktualizovat reportáž z konference a postřehy.
+9:01 Konference stále nazačala, ale sedím v sále a mám wifi připojení a přes NTK-SIMPLE, pro jistotu jsem si rychle zřídil na svoji OpenCard členství v knihovně NTK.
+9:03 Petr Krčmář oznamuje, že se start protáhne, snad to nebude platit o celé konferenci.</description>
+    </item>
+    
+    <item>
+      <title>Top Ten 2008</title>
+      <link>https://blog.prskavec.net/2009/01/12/top-ten-2008/</link>
+      <pubDate>Mon, 12 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2009/01/12/top-ten-2008/</guid>
+      <description>Jako jiné blogy, jsem udělal žebříček podle toho kolik lidí který příspěvek shlédlo.
+Wordpress Themes Zend Framework 1.6 a moje zkušenosti s Dojo TabContainer Zend Framework 1.6 a ajax pomocí jQuery Subversion pro každého Gettext a PHP Subversion pod Windows phpUnderControl vs Xinc NetBeans, PDT a Subversion 1.5 Jednoduchá aplikace v PHP a Flex Tvorba čárového kódu v PHP
+Jsem rád, že se některé články líbíli i když většinou žádná extra diskuze neproběhla, za ohlasy ke všem článkům všem přispěvovatelům děkuji a snad to se mnou vydržíte i v novém roce.</description>
+    </item>
+    
+    <item>
+      <title>PF 2009</title>
+      <link>https://blog.prskavec.net/2008/12/23/pf-2009/</link>
+      <pubDate>Tue, 23 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/12/23/pf-2009/</guid>
+      <description>Přejí veselé vánoce a šťasný nový rok také čtenářům mého blogu.
+ </description>
+    </item>
+    
+    <item>
+      <title>OpenSuSE 11 a jak to nakonec dopadlo</title>
+      <link>https://blog.prskavec.net/2008/06/19/opensuse-11-a-jak-to-nakonec-dopadlo/</link>
+      <pubDate>Thu, 19 Jun 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/06/19/opensuse-11-a-jak-to-nakonec-dopadlo/</guid>
+      <description>Dnes vyšlo čerstvé OpenSUSE 11 a já jsem myslel, že by to mohlo být to pravé pro můj Sony VIAO VGN-TZ31XN. Ale bohužel jsem opět zkrachoval na tom, že moje rozlišení 1366x768 nějak nebrali v úvahu. Ať jsem to nastavil nebo ne. Detekce to nepozná a ruční nastavení nefungovalo. Nemyslím, že pokud nefunguje taková triviální věc jako nastavení rozlišení tak by to obyčejný člověk používal. Tak jsem se vrátil k Ubuntu 8.</description>
+    </item>
+    
+    <item>
+      <title>a tři videa ode mne</title>
+      <link>https://blog.prskavec.net/2008/06/18/a-tri-videa-ode-mne/</link>
+      <pubDate>Wed, 18 Jun 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/06/18/a-tri-videa-ode-mne/</guid>
+      <description>Myslel jsem, že ten mail od Pavla Šindelky smažu, ale prece jenom si ho vážím a Petra Ocáska znám z OpenMeetingu také celkem dobře a hlavně jsem celkem pro každou srandu. Jak říká jeden můj známý, není důležité zda je zážitek hezký nebo ošklivý, důležitý je, aby byl extrémní!
+S výběrem videa byl celkem problém, protože na video zrovna moc nekoukám, nějak mě to nebaví čekat až se něco stane, raději si to přečtu.</description>
+    </item>
+    
+    <item>
+      <title>Subversion a hook skripty pod Windows</title>
+      <link>https://blog.prskavec.net/2008/04/28/subversion-a-hook-skripty-pod-windows/</link>
+      <pubDate>Mon, 28 Apr 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/04/28/subversion-a-hook-skripty-pod-windows/</guid>
+      <description>Pokud pracujete s TSVN nebo přímo s repozitory pod Windows časem přijdete na to, že potřebujete občas nějakou operaci před commitem nebo commitem k tomu slouží hook skripty. Hook je program, který je spuštěn nějakým triggrem, každé repozitory obsahuje předdefinované skripty. Nutnou podmínkou je mít samozřejmě nainstalovaný i Subversion ne jenom TSVN. Adresář repozitory: \path-to-repozitory\project-name [conf] [dav] [hooks] [locks] format README.TXT v adresáři hooks jsou skripty:  post-commit.tmpl post-lock.tmpl post-revprop-change.tmpl post-unlock.</description>
+    </item>
+    
+    <item>
+      <title>Screencast snadno a rychle</title>
+      <link>https://blog.prskavec.net/2008/03/28/screencast-snadno-a-rychle/</link>
+      <pubDate>Fri, 28 Mar 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/03/28/screencast-snadno-a-rychle/</guid>
+      <description>Řešil jsem minulý rok v příspěvku o Eclipse jak udělat screencast, tehdy jsem ho dělal pomocí Wink, výstup je ve Flash a dá se to celkem použít. Ale nebyl jsem plně spokojený s kvalitou výstupu a problémy se ukazují zvláště pokud máte vetší monitor (např. 1680x1050) a chcete aby to bylo vidět všechno a dalo se to přitom pohížet z webu. Ideální HD streaming, ale to není každému dostupné. Proto spíše preferuji stažení takového screencastu k sobě a puštění v přehrávači MPlayer, VLC, Quicktime apod.</description>
+    </item>
+    
+  </channel>
+</rss>

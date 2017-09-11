@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webexpo on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/webexpo/</link>
+    <description>Recent content in Webexpo on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Sun, 12 Sep 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/webexpo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Webexpo 2010 - Na co půjdu na konferenci</title>
+      <link>https://blog.prskavec.net/2010/09/12/webexpo-2010-na-co-pujdu-na-konferenci/</link>
+      <pubDate>Sun, 12 Sep 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2010/09/12/webexpo-2010-na-co-pujdu-na-konferenci/</guid>
+      <description>Webexpo 2010 je před námi a já se s vámi podělím na které přednášky chci jít. Čtvrtek 23.9. Workshopy Program je velmi nabitý a jasno je jen na workshopy, tam jsem si zamluvil hned dva.
+Těším se na Symfony2 s kterým si celkem hraju, ale chci se naučit něco více a od koho lépe než hlavního vývojáře Symfony. Doctrine používám již nějaký rok v předchozí verzi 1.2 a sleduji Honzův seriál o Doctrine2 na zdrojáku.</description>
+    </item>
+    
+  </channel>
+</rss>

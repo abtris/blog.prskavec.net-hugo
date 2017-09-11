@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+
+  
+  
+  <link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+  
+
+  
+  <title>Zend Framework a NoSQL pro ukládání logů ve webových aplikací, díl prvnío CouchDb</title>
+
+  
+  
+  <link rel="stylesheet" href="https://blog.prskavec.net/css/hugo-octopress.css">
+
+  
+  
+
+  
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+  
+  <link href="https://blog.prskavec.net/favicon.png" rel="icon">
+
+  
+  
+  
+
+  
+
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <meta name="author" content="Author&#39;s name">
+
+  
+  <meta name="generator" content="Hugo 0.27" />
+
+  
+  
+
+</head>
+<body>
+
+
+<header role="banner"><hgroup>
+  
+  <h1><a href="https://blog.prskavec.net/">Prskavčí blog</a></h1>
+    <h2>Subtitle appears under website title</h2>
+</hgroup></header>
+
+
+<nav role="navigation">
+
+<ul class="main-navigation">
+  
+  
+    
+      <li><a href="https://blog.prskavec.net/" title="Blog">Blog</a></li>
+    
+  
+    
+      <li><a href="https://www.google.com/" title="Google"  target="_blank" >Google</a></li>
+    
+  
+    
+      <li><a href="https://www.github.com/parsiya/hugo-octopress" title="This theme on Github"  target="_blank" >This theme on Github</a></li>
+    
+  
+</ul>
+
+
+<ul class="subscription">
+  
+    
+        <a href="https://blog.prskavec.net/index.xml" target="_blank" type="application/rss+xml" title="RSS"><i class="fa fa-rss-square fa-lg"></i></a>
+    
+  
+
+</ul>
+
+
+<form action="https://www.google.com/search" method="get" target="_blank">
+  <fieldset role="search">
+  	<input class="search" type="text" name="q" results="0" placeholder="Search"/>
+    <input type="hidden" name="q" value="site:https://blog.prskavec.net/" />
+  </fieldset>
+</form>
+
+</nav>
+
+
+<div id="main">
+  <div id="content">
+    <div>
+      <article class="hentry" role="article">
+
+        
+        
+
+<header>
+    <p class="meta">Aug 24, 2010
+         - 4 minute read 
+         - <a href="https://blog.prskavec.net/2010/08/24/zend-framework-a-nosql-pro-ukladani-logu-ve-webovych-aplikaci-dil-1-couchdb/#disqus_thread">Comments</a>
+
+        
+    </p>
+    <h1 class="entry-title">
+         Zend Framework a NoSQL pro ukládání logů ve webových aplikací, díl prvnío CouchDb 
+    </h1>
+</header>
+
+
+        <div class="entry-content">
+          
+          
+          
+          
+          <p>Použití databáze pro ukládání logů se používá často pro analýzu logů. Technicky napojit databázi RBMS (MySQL) pomocí Zend_Log_Writer_Db není žádný problém. Ale vidím tu nevýhodu v tom, že musíte mít schema podle toho co ukládáte za logy. Pokud se rozhodnete použít NOSQL databázi (CouchDb, MongoDb) nemusíte se o schema starat.</p>
+
+<p>V tomto článku si napsat vlastní Zend_Log_Writer pro CouchDb a jak si potom lehce zobrazíme příslušné logy. Napíšeme si také jednoduchou map funkci pro view v CouchDb, kterou v aplikaci použijeme.</p>
+
+<p>Nejprve si projedeme jak se používá <a href="http://framework.zend.com/manual/en/zend.log.writers.html">Zend_Log_Writer_Db, syntaxi najdete v manuálu</a>. Tabulka v db musí mít pevně dané schéma, která namapujete v konfiguraci writeru.</p>
+
+<p>Implementaci vlastního App_Log_Writer_CouchDb provedeme třeba takto:
+<pre class="code php">class App_Log_Writer_CouchDb extends Zend_Log_Writer_Abstract
+{
+    /**
+     * Db
+     * @var Phly_Couch
+     */
+    private $_db;
+    /**
+     * CouchDb host localhost default
+     * @var string
+     */
+    private $_host;
+    /**
+     * Couchdb port 3184 default
+     * @var int
+     */
+    private $_port;
+    /**
+     *
+     * @param array $params
+     * @return void
+     */
+    public function __construct($dbname, $options = null)
+    {
+        if (is_null($options)) {
+            $options[&lsquo;host&rsquo;] = &ldquo;localhost&rdquo;;
+            $options[&lsquo;port&rsquo;] = &ldquo;5984&rdquo;;
+            $options[&lsquo;db&rsquo;] = $dbname;
+        }
+        $this-&gt;_db = new Phly_Couch($options);
+    }</p>
+
+<pre><code>static public function factory($config)
+{
+    $config = self::_parseConfig($config);
+    return $config;
+}
+/**
+ * @param array $event
+ * @return void
+ */
+protected function _write($event)
+{
+    // action body
+    $doc = new Phly_Couch_Document($event);
+    $result = $this-&amp;gt;_db-&amp;gt;docSave($doc);
+    // return array ok, id, rev
+    $info = $result-&amp;gt;getInfo();
+    if (!$info['ok']) {
+        throw new Zend_Log_Exception(&quot;Error in save to CouchDb&quot;);
+    }
+}
+</code></pre>
+
+<p>}</pre>
+Není na tom jak vidíte nic složitého, implementuje funkce __constructor, factory a _write funkci a je to.</p>
+
+<p>Samozřejmě je to kus Zend Frameworku, který potrebuje konfiguraci.
+<pre class="code">autoloaderNamespaces.phly = &ldquo;Phly<em>&ldquo;
+autoloaderNamespaces.app = &ldquo;App</em>&ldquo;
+; Options for CouchDb
+couchdb.host = prskavec.couchone.com
+couchdb.port = 80
+couchdb.db = &ldquo;test-log&rdquo;
+</pre>
+Pro správu CouchDb jsem použil vestavěný Futon.</p>
+
+<p><a href="http://blog.prskavec.net/wp-content/uploads/2010/08/Screen-shot-2010-08-22-at-8.04.37.png"><img class="aligncenter size-medium wp-image-2613" title="CouchDb" src="http://blog.prskavec.net/wp-content/uploads/2010/08/Screen-shot-2010-08-22-at-8.04.37-300x187.png" alt="" width="300" height="187" /></a></p>
+
+<p>Vytvořil jsem testovací db <strong>&ldquo;test-log&rdquo;</strong> a v ní pohled, který v kódu potom používám. Vytvoříte temporary_view, které potom při ukládání ložíte do příslušného designu a view. U mě to bylo použité <code>logger/log_by_prior</code>.
+<pre class="jush">  function(doc) {
+    if (doc.priority) {
+       emit(doc.priority, [doc.priorityName, doc.timestamp, doc.message, doc.module, doc.controller]);
+    }
+  }
+</pre>
+Toto view potom volá controller, který načítá data pro zobrazení dat z databáze.
+<pre class="code">class IndexController extends Zend_Controller_Action
+{
+    protected $_config;</p>
+
+<pre><code>public function preDispatch()
+{
+        $this-&amp;gt;_config = new Zend_Config_Ini('../application/configs/'.
+                'application.ini', APPLICATION_ENV);
+}
+
+public function indexAction()
+{
+     $db = new Phly_Couch($this-&amp;gt;_config-&amp;gt;couchdb);
+
+     $this-&amp;gt;view-&amp;gt;form = $form = new App_Form_Filter();
+     if ($this-&amp;gt;getRequest()-&amp;gt;isPost()) {
+         $formData = $this-&amp;gt;getRequest()-&amp;gt;getPost();
+         if ($form-&amp;gt;isValid($formData)) {
+             $filterValue = $form-&amp;gt;getValue('filter');
+             Zend_Debug::dump($filterValue);
+             if (empty($filterValue) &amp;amp;&amp;amp; $filterValue===0) $filterValue = null;
+             $result = $db-&amp;gt;view('logger','log_by_prior', $filterValue, array(&quot;db&quot;=&amp;gt;$this-&amp;gt;_config-&amp;gt;couchdb-&amp;gt;db));
+         } else {
+         $form-&amp;gt;populate($formData);
+         }
+     } else {
+        $result = $db-&amp;gt;view('logger','log_by_prior', null, array(&quot;db&quot;=&amp;gt;$this-&amp;gt;_config-&amp;gt;couchdb-&amp;gt;db));
+     }
+     $this-&amp;gt;view-&amp;gt;docs = $result-&amp;gt;toArray();
+     $this-&amp;gt;view-&amp;gt;messages = $this-&amp;gt;_helper-&amp;gt;flashMessenger-&amp;gt;getMessages();
+
+     $logger = new Zend_Log();
+     $r = new ReflectionClass($logger);
+     $this-&amp;gt;view-&amp;gt;priorities = array_flip($r-&amp;gt;getConstants());
+
+}
+
+public function logAction()
+{
+      $id = $this-&amp;gt;_request-&amp;gt;getParam('id', 0);  
+
+      $logger = new Zend_Log();
+      $format = '%timestamp% %priorityName% (%priority%): '.
+        '[%module%] [%controller%] %message%';
+      $formatter = new Zend_Log_Formatter_Simple($format);
+
+      $writer = new App_Log_Writer_CouchDb($this-&amp;gt;_config-&amp;gt;couchdb-&amp;gt;db, $this-&amp;gt;_config-&amp;gt;couchdb);
+      $writer-&amp;gt;setFormatter($formatter);
+
+      $logger-&amp;gt;addWriter($writer);
+      $logger-&amp;gt;setEventItem('module', $this-&amp;gt;getRequest()-&amp;gt;getModuleName());
+      $logger-&amp;gt;setEventItem('controller', $this-&amp;gt;getRequest()-&amp;gt;getControllerName());
+      $logger-&amp;gt;log(&quot;Testovani chyba&quot;, $id);
+      $this-&amp;gt;_helper-&amp;gt;flashMessenger-&amp;gt;addMessage('Log item saved');
+      $this-&amp;gt;_helper-&amp;gt;redirector('index');
+}
+</code></pre>
+
+<p>}
+</pre>
+Controller obsahuje dvě akce a to vlastní zobrazení v indexAction a metodu, která záznamy vytváří logAction. V logAction je vidět výhoda neexistence schématu, protože jsem si přidal další informace bez potřeby měnit schéma databáze.
+<h3>PHP a CouchDb</h3>
+Použil jsem knihovnu <a href="http://weierophinney.net/phly/">Phly_Couch pro práci s CouchDb</a>, jen jsem musel funkci lehce aktualizovat pro současnou verzi CouchDb 1.0.1, kterou jsem použil.</p>
+
+<p>Aktualizovanou verzi Phly_CouchDb najdete v mém <a href="http://github.com/abtris/phly">forku na githubu</a>, celou ukázkovou aplikaci <a href="http://github.com/abtris/phplogger-couchdb">php_couchdb_logger</a> také.</p>
+
+<p>Pro přístup ke CouchDb můžete použít i jiné knihovny, například <a href="http://arbitracker.org/phpillow.html">PHPillow</a>, která vypadá celkem aktualizovaně. Já jsem použil knihovnu, kterou napsal Matthew Weier O&rsquo;Phinney hlavně proto, že je psaná přímo pro Zend Framework. Má přehledný a dobře napsaný kód, kde jsem si upravil jen to co jsem se potřeboval.
+<h3>CouchDb</h3>
+Na Mac OS X si můžete nainstalovat CouchDb jako na linuxu ze zdrojáků nebo použít balík, který mi přijde ideální. Podrobné informace o <a href="http://wiki.apache.org/couchdb/Installation">instalaci jsou ve wiki</a>, případně se podívejte tam.
+<h3>Závěr</h3>
+Myslím, že to je jednoduchý příklad jak například použít CouchDb, který se pro začátek práce s CouchDb může hodit. Pokud chcete dělat náročnějši vyhledavání na logy, je potřeba použit <a href="http://github.com/rnewson/couchdb-lucene/">CouchDb Lucene</a>. Pokud se chcete dozvědět více o CouchDb tak doporučuji jít na přednášku <a href="http://webexpo.cz/prednasky/development/">Karla Minaříka na letošním Webexpu</a>.</p>
+
+<p>V dalším pokračování si ukážeme jak by se to dělalo v MongoDb.</p>
+
+        </div>
+        
+
+<footer>
+  <p class="meta">
+    <span class="byline author vcard">Posted by <span class="fn">Author&#39;s name</span></span>
+    
+    <time>Aug 24, 2010</time>
+    
+      <span class="categories">
+        Tags:
+        
+          <a class="category" href="https://blog.prskavec.net/tags/couchdb">couchdb</a>  <a class="category" href="https://blog.prskavec.net/tags/nosql">nosql</a>  <a class="category" href="https://blog.prskavec.net/tags/zend-framework">zend framework</a>  
+    
+    </span>
+  </p>
+
+  
+  
+
+  
+
+  <p class="meta">
+    
+        <a class="basic-alignment left" href="https://blog.prskavec.net/2010/07/14/jak-jsem-si-koupil-amazon-kindle/" title="Jak jsem si koupil Amazon Kindle">Jak jsem si koupil Amazon Kindle</a>
+    
+
+    
+      <a class="basic-alignment right" href="https://blog.prskavec.net/2010/08/31/upgrade-android-na-t-mobile-g1-z-1-6-na-2-2/" title="Upgrade Androidu na T-mobile G1 z 1.6 na 2.2 (aktualizováno 22.3.2011)">Upgrade Androidu na T-mobile G1 z 1.6 na 2.2 (aktualizováno 22.3.2011)</a>
+    
+  </p>
+  
+    
+      <div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'prskavecblog';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    
+  
+</footer>
+
+      </article>
+    </div>
+    
+
+<aside class="sidebar thirds">
+  <section class="first odd">
+
+    
+      <h1>Sidebar Header</h1>
+    
+
+    <p>
+      
+        Here&rsquo;s a <a href="https://www.google.com" target="_blank">link to google</a>
+  </br>
+  Second line
+  </br>
+  Third line
+  This line has two spaces in the end to create a new line using markdown
+  Forth line
+      
+    </p>
+  </section>
+
+
+
+  
+  <ul class="sidebar-nav">
+    <li class="sidebar-nav-item">
+      <a target="_blank" href="https://github.com/abtris/" title="https://github.com/abtris/"><i class="fa fa-github fa-3x"></i></a>
+      <a target="_blank" href="https://bitbucket.org/abtris/" title="https://bitbucket.org/abtris/"><i class="fa fa-bitbucket fa-3x"></i></a>
+      
+      <a target="_blank" href="https://twitter.com/abtris/" title="https://twitter.com/abtris/"><i class="fa fa-twitter fa-3x"></i></a>
+      <a target="_blank" href="https://keybase.io/abtris/" title="https://keybase.io/abtris/"><i class="fa fa-key fa-3x"></i></a> 
+      
+      
+      
+      
+      
+      
+
+    
+    
+    </li>
+  </ul>
+
+  
+
+  
+    
+      <section class="odd">
+        
+          <h1>Sidebar Links</h1>
+        
+        
+          <li>
+            <a href="https://blog.prskavec.net/categories/hugo/" title="Hugo" >Hugo</a>
+          </li>
+        
+          <li>
+            <a href="https://blog.prskavec.net/" title="Homepage" >Homepage</a>
+          </li>
+        
+          <li>
+            <a href="https://www.google.com" title="Google" >Google</a>
+          </li>
+        
+      </section>
+    
+  
+
+  
+  
+  
+    
+      <section class="even">
+        <h1>Recent Posts</h1>
+        <ul id="recent_posts">
+          
+            <li class="post">
+              <a href="/2017/06/28/jam-stack/">JAM stack</a>
+            </li>
+          
+            <li class="post">
+              <a href="/2017/04/21/docker-multi-stage-build/">Docker - multi stage build</a>
+            </li>
+          
+            <li class="post">
+              <a href="/2016/12/20/jenkins-declarative-pipelines/">Jenkins Declarative Pipelines</a>
+            </li>
+          
+            <li class="post">
+              <a href="/2016/10/31/jenkins-2-dot-0-novinky-a-vylepseni-2-dot-cast/">Jenkins 2.0 - novinky a vylepšení - 2.část</a>
+            </li>
+          
+            <li class="post">
+              <a href="/2016/10/26/jenkins-2-dot-0-novinky-a-vylepseni/">Jenkins 2.0 - novinky a vylepšení</a>
+            </li>
+          
+        </ul>
+      </section>
+    
+  
+
+</aside>
+
+  </div>
+</div>
+
+<footer role="contentinfo">
+  <p>Copyright &copy; 2017 Author&#39;s name - <a href="https://blog.prskavec.net/license/">License</a> -
+  <span class="credit">Powered by <a target="_blank" href="https://gohugo.io">Hugo</a> and <a target="_blank" href="https://github.com/parsiya/hugo-octopress/">Hugo-Octopress</a> theme.
+</p>
+
+</footer>
+
+
+</body>
+</html>
+

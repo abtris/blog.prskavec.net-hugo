@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teched on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/teched/</link>
+    <description>Recent content in Teched on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Fri, 30 Apr 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/teched/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Subversion dnes a zítra</title>
+      <link>https://blog.prskavec.net/2010/04/30/subversion-dnes-a-zitra/</link>
+      <pubDate>Fri, 30 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2010/04/30/subversion-dnes-a-zitra/</guid>
+      <description>Já osobně jsem začal pracovat s někde kolem roku 2000 se systémem CVS z kterého jsem nebyl vůbec nadšený, hned jak jsem se pokusil něco přejmenovat. Později jsem přešel na Subversion, který mě v té době nadechl a to mi celkem vydrželo po dlouhou dobu než jsem před několika lety začal koketovat s distribuovanými systémy a teď asi rok už aktivně používám Git a pře ním jsem si hrál s Bazaar a Mercurialem.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mongodb on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/mongodb/</link>
+    <description>Recent content in Mongodb on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Fri, 28 Jan 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/mongodb/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Zend Framework a NoSQL pro ukládání logů ve webových aplikací, díl druhý o MongoDb</title>
+      <link>https://blog.prskavec.net/2011/01/28/zend-framework-a-nosql-pro-ukladani-logu-ve-webovych-aplikaci-druhy-dil-o-mongodb/</link>
+      <pubDate>Fri, 28 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2011/01/28/zend-framework-a-nosql-pro-ukladani-logu-ve-webovych-aplikaci-druhy-dil-o-mongodb/</guid>
+      <description>Jak už jsem psal v minulém díle o CouchDb není žádný problém v použití dokumentových databází na logy. Výhodou je že se nemusíte starat o schema, což se u aplikace tohoto druhu opravdu hodí.
+Pro napojení Zend Frameworku na logování do MongoDb musíte mít nainstalovanou MongoDb extenzi do PHP. Bez ní se bohužel neobejdete. Log writer si vytvoříte snadno pomocí extenze Zend_Log_Writer_Abstract a provedete drobné úpravy pro práci s MongoDb jak obsahuje ukázka.</description>
+    </item>
+    
+  </channel>
+</rss>

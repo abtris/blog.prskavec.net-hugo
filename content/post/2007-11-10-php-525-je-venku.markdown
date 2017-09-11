@@ -1,0 +1,14 @@
+---
+date: 2007-11-10T00:00:00Z
+meta:
+  _use_texy: "1"
+published: true
+status: publish
+tags:
+- php
+title: PHP 5.2.5 je venku!
+type: post
+url: /2007/11/10/php-525-je-venku/
+---
+
+<p>Venku je nov&#xE1; verze PHP, ke stažen&#xED; na na <a href="http://www.php.net/downloads.php">php.net</a>. Kompletn&#xED; <a href="http://www.php.net/ChangeLog-5.php#5.2.5">seznam změn</a> obsahuje přes 60 oprav a někter&#xE9; jsou z hlediska bezpečnosti velmi z&#xE1;važn&#xE9;. V&#x161;em uživatelům PHP je doporučen&#xFD; upgrade na tuto verzi. Připom&#xED;n&#xE1;m pro ty co použ&#xED;vaj&#xED; PHP4, podpora pro PHP4 vypr&#x161;&#xED; na konci roku tedy 31.12.2007. </p>

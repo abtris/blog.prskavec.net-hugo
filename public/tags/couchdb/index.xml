@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Couchdb on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/couchdb/</link>
+    <description>Recent content in Couchdb on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Tue, 24 Aug 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/couchdb/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Zend Framework a NoSQL pro ukládání logů ve webových aplikací, díl prvnío CouchDb</title>
+      <link>https://blog.prskavec.net/2010/08/24/zend-framework-a-nosql-pro-ukladani-logu-ve-webovych-aplikaci-dil-1-couchdb/</link>
+      <pubDate>Tue, 24 Aug 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2010/08/24/zend-framework-a-nosql-pro-ukladani-logu-ve-webovych-aplikaci-dil-1-couchdb/</guid>
+      <description>Použití databáze pro ukládání logů se používá často pro analýzu logů. Technicky napojit databázi RBMS (MySQL) pomocí Zend_Log_Writer_Db není žádný problém. Ale vidím tu nevýhodu v tom, že musíte mít schema podle toho co ukládáte za logy. Pokud se rozhodnete použít NOSQL databázi (CouchDb, MongoDb) nemusíte se o schema starat.
+V tomto článku si napsat vlastní Zend_Log_Writer pro CouchDb a jak si potom lehce zobrazíme příslušné logy. Napíšeme si také jednoduchou map funkci pro view v CouchDb, kterou v aplikaci použijeme.</description>
+    </item>
+    
+  </channel>
+</rss>

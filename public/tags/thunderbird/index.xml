@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thunderbird on Prskavčí blog</title>
+    <link>https://blog.prskavec.net/tags/thunderbird/</link>
+    <description>Recent content in Thunderbird on Prskavčí blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-CZ</language>
+    <lastBuildDate>Wed, 10 Dec 2008 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.prskavec.net/tags/thunderbird/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mozilla Thunderbird 3.0 beta 1</title>
+      <link>https://blog.prskavec.net/2008/12/10/mozilla-thunderbird-30-beta-1/</link>
+      <pubDate>Wed, 10 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.prskavec.net/2008/12/10/mozilla-thunderbird-30-beta-1/</guid>
+      <description>Seznam novinek je najdete v každém příspěvku co jsem četl, ale jak to vypadá když to pustíte a je to změna k lepšímu? Novinky  záložky pro zobrazování e-mailových zpráv vylepšení IMAPu pro rychlejší zobrazování zpráv vylepšené okno pro rychlé čtení nový správce doplňků vylepšený správce adres vylepšený import mailů z jiných klentů integrace s vyhledáváním ve Windows Vista integrace s Mac OS X Address Book (nevyzkoušeno, nemám Mac X)  První spuštění Inovovaný průvodce vytvářením účtu.</description>
+    </item>
+    
+  </channel>
+</rss>
