@@ -1,6 +1,6 @@
 ---
 categories: [events]
-comments: true
+comments: false
 date: 2012-12-19T00:00:00Z
 title: "RailsGirls v Praze"
 url: /2012/12/19/railsgirls-v-praze/
@@ -8,11 +8,9 @@ url: /2012/12/19/railsgirls-v-praze/
 
 V Praze 14-15. 12. 2012 se uskutečnil jedinečný projekt v rámci mezinárodní komunity, která se zaměřuje na to dostat do technice ženy a dívky.
 
-<!--more-->
+<!-- more -->
 
-{% blockquote RailsGirls website, http://railsgirls.com %}
 Our aim is to give tools and a community for women to understand technology and to build their ideas. We do this by providing a great experience on building things and by making technology more approachable.
-{% endblockquote %}
 
 Já jsem se celé akce zúčastnil jako jeden z organizátorů a také jsem trochu přispěl jako kouč. Osobně se mi nápad celé akce velmi líbí a jsem rád, že jsem se toho účastnil. Do Prahy celou akci přivedla Cristina Santamarina, která organizuje RailsGirls Berlin.
 
@@ -47,11 +45,12 @@ Karel Minařík, Ladislav Prskavec, Jana Dvořáková, Jiří Kubíček, Adam Kl
 
 - v sobotu nás překvapilo náledí ale přesto dorazilo 27 účastníků
 - začalo se [úvodem do programování](http://data.karmi.cz/railsgirls/railsgirls-introduction-to-programming.html#0) od Karla Minaříka
-<!-- {{< figure class="center" src="/images/railsgirls_001.jpg" title=""RailsGirls - úvodní přednáška"" >}} -->
+{{< figure class="center" src="/images/railsgirls_001.jpg" title="RailsGirls - úvodní přednáška" >}}
+
 
 - po přestávce na skvělé kafe od [Virtualmaster](http://virtualmaster.com) si všichni zkoušeli základy Ruby pomocí [TryRuby](http://tryruby.org) nebo IRB (Interactive Ruby Shell).
 - po obědě jsme se vrhli na [tutorial](http://guides.railsgirls.com/app/), Karel celý tutorial ukázal a potom jsme v jednotlivých týmech projeli tutorial podrobně znovu.
-{{< figure class="center" src="/images/railsgirls_002.jpg" title=""RailsGirls - coding"" >}}
+{{< figure class="center" src="/images/railsgirls_002.jpg" title="RailsGirls - coding" >}}
 - kdo byl dříve hotov tak potom mohl tutorial vylepšovat, obarvovat apod.
 
 
@@ -72,5 +71,3 @@ Karel Minařík, Ladislav Prskavec, Jana Dvořáková, Jiří Kubíček, Adam Kl
 
 ## Další RailsGirls
 S ostatními co jsme se shodli, že pokračování bude. Dostali jsme pozitivní zpětnou vazbu ode všech kdo se účastnili a za to jsme rádi. Chtěli bychom mít lepší prostor, se spolehlivým internetem. Vylepšit rozdělení do skupin, přidat další věci kolem.
-
-

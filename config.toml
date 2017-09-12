@@ -44,21 +44,15 @@ post = "/blog/:year/:month/:title/" # change the post URL to look like the old o
   sidebarRecentLimit = 5
 
   # Sidebar header - passed to markdownify so you can write markdown here
-  sidebarHeader = "Sidebar Header"
+  sidebarHeader = "Odkazy"
 
   # Sidebar text also supports markdown
   # New lines can be added with </br> or normal markdown (two spaces at the end of line or two new lines).
   # when adding two new lines, remember to remove the indentation otherwise the new line will be treated as a codeblock
-  sidebarText = """Here's a [link to google](https://www.google.com)
-  </br>
-  Second line
-  </br>
-  Third line
-  This line has two spaces in the end to create a new line using markdown
-  Forth line
+  sidebarText = """
   """
   # Sidebar menu - if true will add a sidebar menu between sidebar text and recent posts
-  sidebarMenuEnabled = true
+  sidebarMenuEnabled = false
   sidebarMenuHeader = "Sidebar Links"
 
   # sidebar links
@@ -77,22 +71,22 @@ post = "/blog/:year/:month/:title/" # change the post URL to look like the old o
 
   # If set to true, navigation menu links will open in a new window with the exception of links to root ("/")
   # If this item does not exist or set to false, then navigation menu links will open in the same window
-  navigationNewWindow = true
+  navigationNewWindow = false
 
   # If false, all of blog post will appear on front page (and in pagination)
   truncate = true
 
   # Author's name (appears in meta tags and under posts)
-  author = "Author's name"
+  author = "Ladislav Prskavec"
 
   # This text appears in the site header under website title
-  subtitle = "Subtitle appears under website title"
+  subtitle = ""
 
   # Search engine URL
   searchEngineURL = "https://www.google.com/search"
 
   # Text of the "Continue Reading" label. &rarr; == right arrow, but it gets messed up in the string so it was added to index.html manually
-  continueReadingText = "Would you like to know more?"
+  continueReadingText = "Dále"
 
   # Google analytics code - remove if you do not have/want Google Analytics - needs JavaScript
   # googleAnalytics = "UA-XXXXX-X"
@@ -138,16 +132,22 @@ post = "/blog/:year/:month/:title/" # change the post URL to look like the old o
 [[menu.main]]
   Name = "Blog"
   URL = "/"
-  weight = -5
+  weight = 1
 
 [[menu.main]]
-  Name = "Google"
-  URL = "https://www.google.com/"
-  weight = -5
+  Name = "Přednášky"
+  URL = "/prednasky/"
+  weight = 2
 
 [[menu.main]]
-  Name = "This theme on Github"
-  URL = "https://www.github.com/parsiya/hugo-octopress"
+  Name = "Školení a kurzy"
+  URL = "/skoleni-a-kurzy/"
+  weight = 3
+
+[[menu.main]]
+  Name = "Kontakt"
+  URL = "/kontakt/"
+  weight = 4
 
 
 # Sidebar menus
