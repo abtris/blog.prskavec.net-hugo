@@ -1,4 +1,5 @@
-baseurl = "https://blog.prskavec.net"
+baseurl = "https://reporter-wax-30177.netlify.com"
+
 disablePathToLower = false
 languageCode = "cs-CZ"
 title = "Prskavčí blog"
