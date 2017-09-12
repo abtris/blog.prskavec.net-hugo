@@ -1,9 +1,10 @@
 ---
-date: 2007-10-11T00:00:00Z
-type: page
+title: "Školení a kurzy"
+date: 2017-09-12T16:46:41+02:00
 url: /skoleni-a-kurzy/
-title: Školení a kurzy
+type: page
 ---
+
 
 Školení a kurzy vám udělám na míru. Máte-li zájem o školení, pošlete svou poptávku na [email](mailto:ladislav@prskavec.net?subject=Popt%C3%A1vka%20-%20Kurzy%20Git%20a%20Jenkins).
 

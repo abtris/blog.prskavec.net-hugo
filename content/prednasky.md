@@ -1,6 +1,7 @@
 ---
-layout: page
-title: Přednášky
+title: "Přednášky"
+date: 2017-09-12T16:46:13+02:00
+type: page
 ---
 
 ## 2015
