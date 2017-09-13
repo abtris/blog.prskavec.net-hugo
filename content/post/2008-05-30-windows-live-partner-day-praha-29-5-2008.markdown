@@ -1,13 +1,9 @@
 ---
 date: 2008-05-30T00:00:00Z
-meta:
-  _edit_last: "1"
-  _encloseme: "1"
-  _pingme: "1"
 published: true
 status: publish
 tags:
-- live.com
+- events
 - microsoft
 - php
 title: Windows Live Partner Day - Praha 29. 5. 2008

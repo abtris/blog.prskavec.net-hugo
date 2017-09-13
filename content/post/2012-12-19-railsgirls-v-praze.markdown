@@ -1,5 +1,7 @@
 ---
-categories: [events]
+tags: 
+ - events
+ - ruby
 comments: false
 date: 2012-12-19T00:00:00Z
 title: "RailsGirls v Praze"

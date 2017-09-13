@@ -3,7 +3,7 @@ date: 2008-06-02T00:00:00Z
 published: true
 status: publish
 tags:
-- mobil
+- android
 title: Android žije!
 type: post
 url: /2008/06/02/android-zije/

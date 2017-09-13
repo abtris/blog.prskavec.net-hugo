@@ -1,8 +1,8 @@
 ---
-categories:
-- continuous integration
-- konference
-- webexpo2011
+tags:
+- continuous-integration
+- events
+- webexpo
 comments: true
 date: 2011-09-25T00:00:00Z
 title: Deployment prakticky - WebExpo 2011

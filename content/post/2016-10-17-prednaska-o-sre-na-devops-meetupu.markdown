@@ -1,6 +1,7 @@
 ---
-categories: []
 comments: true
+tags: 
+ - sre
 date: 2016-10-17T00:00:00Z
 title: Přednáška o SRE na DevOPS meetupu
 url: /2016/10/17/prednaska-o-sre-na-devops-meetupu/

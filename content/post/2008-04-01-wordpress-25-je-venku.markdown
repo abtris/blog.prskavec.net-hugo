@@ -1,13 +1,8 @@
 ---
 date: 2008-04-01T00:00:00Z
-meta:
-  _encloseme: "1"
-  _pingme: "1"
-  _use_texy: "1"
 published: true
 status: publish
 tags:
-- internet
 - php
 - wordpress
 title: Wordpress 2.5 je venku

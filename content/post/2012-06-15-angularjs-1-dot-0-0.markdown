@@ -1,5 +1,7 @@
 ---
-categories: [angularjs]
+tags: 
+ - angularjs
+ - javascript
 comments: true
 date: 2012-06-15T00:00:00Z
 title: AngularJS 1.0.0

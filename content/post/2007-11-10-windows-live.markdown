@@ -1,13 +1,9 @@
 ---
 date: 2007-11-10T00:00:00Z
-meta:
-  _encloseme: "1"
-  _pingme: "1"
-  _use_texy: "1"
 published: true
 status: publish
 tags:
-- microsoft
+- windows
 - wordpress
 title: Windows Live
 type: post

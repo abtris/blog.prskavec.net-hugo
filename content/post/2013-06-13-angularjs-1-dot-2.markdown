@@ -1,5 +1,7 @@
 ---
-categories: [javascript]
+tags: 
+ - javascript
+ - angularjs
 comments: true
 date: 2013-06-13T00:00:00Z
 title: Jaký bude AngularJS 1.2?

@@ -1,6 +1,7 @@
 ---
-categories: []
 comments: true
+tags: 
+ - tools
 date: 2015-12-03T00:00:00Z
 title: Nástroje co používám pro vývoj a správu
 url: /2015/12/03/nastroje-co-pouzivam-pro-vyvoj-a-spravu/

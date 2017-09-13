@@ -1,13 +1,10 @@
 ---
 date: 2009-09-24T00:00:00Z
-meta:
-  _edit_last: "1"
-  _encloseme: "1"
-  _pingme: "1"
 published: true
 status: publish
 tags:
 - cucumber
+- events
 - openmeeting
 - selenium
 title: OpenMeeting 24.9. na téma Testování webových aplikací

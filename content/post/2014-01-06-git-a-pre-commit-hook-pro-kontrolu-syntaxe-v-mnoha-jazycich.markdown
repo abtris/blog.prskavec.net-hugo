@@ -1,5 +1,6 @@
 ---
-categories: [git]
+tags:
+ - git
 comments: true
 date: 2014-01-06T00:00:00Z
 title: Git a pre-commit hook pro kontrolu syntaxe

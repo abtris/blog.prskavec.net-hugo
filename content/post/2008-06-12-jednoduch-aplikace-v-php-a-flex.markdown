@@ -4,7 +4,7 @@ published: true
 status: publish
 tags:
 - adobe
-- adobe air
+- adobe-air
 - flex
 - php
 title: Jednoduchá aplikace v PHP a Flex

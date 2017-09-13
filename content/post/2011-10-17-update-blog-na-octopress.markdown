@@ -1,5 +1,7 @@
 ---
-categories: null
+tags:
+ - octopress
+ - ruby
 comments: true
 date: 2011-10-17T00:00:00Z
 title: Update blog na Octopress

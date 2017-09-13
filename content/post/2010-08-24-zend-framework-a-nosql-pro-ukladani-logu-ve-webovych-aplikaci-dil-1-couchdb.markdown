@@ -1,16 +1,12 @@
 ---
 date: 2010-08-24T00:00:00Z
-meta:
-  _edit_last: "1"
-  _encloseme: "1"
-  _pingme: "1"
-  _wp_old_slug: ""
 published: true
 status: publish
 tags:
 - couchdb
 - nosql
-- zend framework
+- zend-framework
+- php
 title: Zend Framework a NoSQL pro ukládání logů ve webových aplikací, díl prvnío CouchDb
 type: post
 url: /2010/08/24/zend-framework-a-nosql-pro-ukladani-logu-ve-webovych-aplikaci-dil-1-couchdb/

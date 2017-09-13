@@ -1,15 +1,11 @@
 ---
 date: 2010-04-30T00:00:00Z
-meta:
-  _edit_last: "1"
-  _encloseme: "1"
-  _pingme: "1"
 published: true
 status: publish
 tags:
-- akce
+- events
 - scm
-- subversion
+- svn
 - teched
 title: Subversion dnes a zítra
 type: post

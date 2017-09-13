@@ -1,12 +1,10 @@
 ---
 date: 2009-02-09T00:00:00Z
-meta:
-  _edit_last: "1"
-  _encloseme: "1"
 published: true
 status: publish
 tags:
-- subversion
+- svn
+- scm
 title: Subversion a directive SVNIndexXSLT
 type: post
 url: /2009/02/09/subversion-a-directive-svnindexxslt/

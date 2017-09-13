@@ -1,5 +1,6 @@
 ---
-categories: [deployment,docker]
+tags:
+ - docker
 comments: true
 date: 2013-11-28T00:00:00Z
 title: docker

@@ -1,13 +1,10 @@
 ---
 date: 2009-12-11T00:00:00Z
-meta:
-  _edit_last: "1"
-  _encloseme: "1"
-  _pingme: "1"
 published: true
 status: publish
 tags:
 - hudson
+- jenkins
 - php
 - phpundercontrol
 - phpunit

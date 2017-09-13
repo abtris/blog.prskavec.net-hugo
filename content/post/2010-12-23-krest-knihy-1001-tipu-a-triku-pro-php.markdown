@@ -1,15 +1,10 @@
 ---
 date: 2010-12-23T00:00:00Z
-meta:
-  _edit_last: "1"
-  _encloseme: "1"
-  _pingme: "1"
-  _wp_old_slug: ""
 published: true
 status: publish
 tags:
-- akce
-- php1001
+- events
+- php
 title: Křest knihy 1001 tipů a triků pro PHP
 type: post
 url: /2010/12/23/krest-knihy-1001-tipu-a-triku-pro-php/

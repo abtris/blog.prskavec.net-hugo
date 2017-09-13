@@ -1,15 +1,10 @@
 ---
 date: 2009-07-01T00:00:00Z
-meta:
-  _edit_last: "1"
-  _encloseme: "1"
 published: true
 status: publish
 tags:
 - android
-- g1
 - gtd
-- todo
 title: GTD a Android
 type: post
 url: /2009/07/01/gtd-a-android/

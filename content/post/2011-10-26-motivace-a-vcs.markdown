@@ -1,5 +1,8 @@
 ---
-categories: [vcs]
+tags: 
+ - scm
+ - git
+ - svn
 comments: true
 date: 2011-10-26T00:00:00Z
 title: Motivace a Verzovací systémy

@@ -1,15 +1,11 @@
 ---
 date: 2009-07-20T00:00:00Z
-meta:
-  _edit_last: "1"
-  _encloseme: "1"
-  _pingme: "1"
 published: true
 status: publish
 tags:
 - pear
 - php
-- zend server
+- zend
 title: PEAR a Zend Server CE 4.0.4
 type: post
 url: /2009/07/20/pear-a-zend-server-ce-4-0-4/

@@ -3,9 +3,8 @@ date: 2008-04-10T00:00:00Z
 published: true
 status: publish
 tags:
-- internet
 - scm
-- subversion
+- svn
 title: StatSVN a FishEYE
 type: post
 url: /2008/04/10/statsvn-a-fisheye/

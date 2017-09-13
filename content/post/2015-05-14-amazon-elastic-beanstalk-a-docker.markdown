@@ -1,6 +1,8 @@
 ---
-categories: [docker]
 comments: true
+tags: 
+ - docker
+ - aws
 date: 2015-05-14T00:00:00Z
 title: Amazon Elastic Beanstalk a docker
 url: /2015/05/14/amazon-elastic-beanstalk-a-docker/

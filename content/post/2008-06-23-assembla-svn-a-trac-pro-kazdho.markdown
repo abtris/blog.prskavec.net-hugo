@@ -1,14 +1,11 @@
 ---
 date: 2008-06-23T00:00:00Z
-meta:
-  _edit_last: "1"
-  _encloseme: "1"
-  _pingme: "1"
 published: true
 status: publish
 tags:
 - git
-- subversion
+- svn
+- scm
 title: 'Assembla: SVN a Trac pro každého'
 type: post
 url: /2008/06/23/assembla-svn-a-trac-pro-kazdho/

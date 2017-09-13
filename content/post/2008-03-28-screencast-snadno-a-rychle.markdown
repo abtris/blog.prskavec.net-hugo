@@ -1,13 +1,8 @@
 ---
 date: 2008-03-28T00:00:00Z
-meta:
-  _edit_last: "1"
-  _use_texy: "1"
 published: true
 status: publish
 tags:
-- microsoft
-- ostatnÃ­
 - windows
 title: Screencast snadno a rychle
 type: post

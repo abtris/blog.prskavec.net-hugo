@@ -1,14 +1,12 @@
 ---
 date: 2011-01-28T00:00:00Z
-meta:
-  _encloseme: "1"
-  _pingme: "1"
 published: true
 status: publish
 tags:
 - mongodb
 - nosql
-- zend framework
+- zend-framework
+- php
 title: Zend Framework a NoSQL pro ukládání logů ve webových aplikací, díl druhý o
   MongoDb
 type: post

@@ -1,16 +1,9 @@
 ---
 date: 2010-08-31T00:00:00Z
-meta:
-  _edit_last: "1"
-  _encloseme: "1"
-  _pingme: "1"
-  wpsd_autopost: "1"
 published: true
 status: publish
 tags:
 - android
-- cyanogenMod 6
-- g1
 title: Upgrade Androidu na T-mobile G1 z 1.6 na 2.2 (aktualizováno 22.3.2011)
 type: post
 url: /2010/08/31/upgrade-android-na-t-mobile-g1-z-1-6-na-2-2/

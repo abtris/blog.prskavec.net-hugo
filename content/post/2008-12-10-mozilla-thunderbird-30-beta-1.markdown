@@ -1,10 +1,5 @@
 ---
 date: 2008-12-10T00:00:00Z
-meta:
-  _aioseop_description: NovÃ¡ verze poÅ¡tovnÃ­ho programu Thunderbird 3.1
-  _edit_last: "1"
-  _encloseme: "1"
-  _pingme: "1"
 published: true
 status: publish
 tags:

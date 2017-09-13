@@ -1,5 +1,6 @@
 ---
-categories: [css]
+tags: 
+ - css
 comments: true
 date: 2012-03-01T00:00:00Z
 title: Jak snadno pracovat s CSS sprites

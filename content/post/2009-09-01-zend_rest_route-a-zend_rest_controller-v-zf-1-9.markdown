@@ -1,14 +1,12 @@
 ---
 date: 2009-09-01T00:00:00Z
-meta:
-  _edit_last: "1"
-  _encloseme: "1"
 published: true
 status: publish
 tags:
 - rest
+- php
 - zend
-- zend framework
+- zend-framework
 title: Zend_Rest_Route a  Zend_Rest_Controller v ZF 1.9
 type: post
 url: /2009/09/01/zend_rest_route-a-zend_rest_controller-v-zf-1-9/

@@ -1,13 +1,11 @@
 ---
 date: 2009-02-26T00:00:00Z
-meta:
-  _edit_last: "1"
-  _encloseme: "1"
-  _pingme: "1"
 published: true
 status: publish
 tags:
-- continuous integration
+- continuous-integration
+- hudson
+- php
 title: Hudson a PHP
 type: post
 url: /2009/02/26/hudson-a-php/

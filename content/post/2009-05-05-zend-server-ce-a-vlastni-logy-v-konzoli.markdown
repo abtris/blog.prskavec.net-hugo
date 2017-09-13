@@ -1,15 +1,11 @@
 ---
 date: 2009-05-05T00:00:00Z
-meta:
-  _edit_last: "1"
-  _encloseme: "1"
-  _pingme: "1"
 published: true
 status: publish
 tags:
 - php
-- zend framework
-- zend server
+- zend-framework
+- zend-server
 title: Zend Server CE a vlastni logy v konzoli
 type: post
 url: /2009/05/05/zend-server-ce-a-vlastni-logy-v-konzoli/

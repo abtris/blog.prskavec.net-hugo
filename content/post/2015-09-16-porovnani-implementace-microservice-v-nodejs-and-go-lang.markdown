@@ -1,7 +1,9 @@
 ---
-categories: []
 comments: true
 date: 2015-09-16T00:00:00Z
+tags:
+  - nodejs
+  - golang
 title: Porovnání implementace service v NodeJS a Go lang
 url: /2015/09/16/porovnani-implementace-microservice-v-nodejs-and-go-lang/
 ---

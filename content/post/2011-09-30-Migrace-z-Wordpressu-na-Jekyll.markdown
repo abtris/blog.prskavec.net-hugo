@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - wordpress
 - jekyll
 comments: true

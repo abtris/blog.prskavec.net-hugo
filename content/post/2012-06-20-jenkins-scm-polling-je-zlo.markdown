@@ -1,5 +1,6 @@
 ---
-categories: [jenkins]
+tags: 
+ - jenkins
 comments: true
 date: 2012-06-20T00:00:00Z
 title: Jenkins SCM polling je zlo!

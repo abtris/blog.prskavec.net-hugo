@@ -1,12 +1,7 @@
 ---
 date: 2008-12-23T00:00:00Z
-meta:
-  _edit_last: "1"
 published: true
 status: publish
-tags:
-- ostatnÃ­
-- pf
 title: PF 2009
 type: post
 url: /2008/12/23/pf-2009/

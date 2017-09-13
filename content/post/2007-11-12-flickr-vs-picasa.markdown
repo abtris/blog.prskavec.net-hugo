@@ -1,12 +1,9 @@
 ---
 date: 2007-11-12T00:00:00Z
-meta:
-  _use_texy: "1"
 published: true
 status: publish
 tags:
 - fotky
-- internet
 title: Flickr vs Picasa
 type: post
 url: /2007/11/12/flickr-vs-picasa/

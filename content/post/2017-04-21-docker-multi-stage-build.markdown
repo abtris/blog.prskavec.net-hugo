@@ -1,5 +1,6 @@
 ---
-categories: [docker]
+categories: 
+- docker
 comments: true
 date: 2017-04-21T00:00:00Z
 title: Docker - multi stage build

@@ -1,16 +1,12 @@
 ---
 date: 2009-06-23T00:00:00Z
-meta:
-  _edit_last: "1"
-  _encloseme: "1"
-  _pingme: "1"
 published: true
 status: publish
 tags:
 - ide
 - komodo
 - netbeans
-- zend studio
+- zend-studio
 title: Vi a integrace s IDE
 type: post
 url: /2009/06/23/vi-a-integrace-s-ide/

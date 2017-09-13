@@ -1,13 +1,8 @@
 ---
 date: 2009-09-14T00:00:00Z
-meta:
-  _edit_last: "1"
-  _encloseme: "1"
-  _pingme: "1"
 published: true
 status: publish
 tags:
-- ie8 bug
 - microsoft
 - msie
 title: IE 8 bug s cookie a doménou jobs.cz

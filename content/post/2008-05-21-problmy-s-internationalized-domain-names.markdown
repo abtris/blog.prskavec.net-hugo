@@ -1,12 +1,9 @@
 ---
 date: 2008-05-21T00:00:00Z
-meta:
-  _encloseme: "1"
-  _pingme: "1"
 published: true
 status: publish
 tags:
-- internet
+- others
 title: Problémy s Internationalized domain names
 type: post
 url: /2008/05/21/problmy-s-internationalized-domain-names/

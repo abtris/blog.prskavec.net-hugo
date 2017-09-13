@@ -1,16 +1,11 @@
 ---
 date: 2008-03-31T00:00:00Z
-meta:
-  _edit_last: "1"
-  _encloseme: "1"
-  _pingme: "1"
-  _use_texy: "1"
 published: true
 status: publish
 tags:
 - microsoft
 - scm
-- subversion
+- svn
 - windows
 title: Subversion pod Windows
 type: post

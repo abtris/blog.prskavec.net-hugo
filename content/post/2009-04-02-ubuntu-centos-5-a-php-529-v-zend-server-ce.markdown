@@ -1,9 +1,5 @@
 ---
 date: 2009-04-02T00:00:00Z
-meta:
-  _edit_last: "1"
-  _encloseme: "1"
-  _pingme: "1"
 published: true
 status: publish
 tags:
@@ -11,7 +7,7 @@ tags:
 - linux
 - php
 - ubuntu
-- zend server
+- zend-server
 title: Ubuntu, CentOS 5 a PHP 5.2.9 v Zend Server CE
 type: post
 url: /2009/04/02/ubuntu-centos-5-a-php-529-v-zend-server-ce/

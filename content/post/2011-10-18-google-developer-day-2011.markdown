@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - google
 - web
 comments: true

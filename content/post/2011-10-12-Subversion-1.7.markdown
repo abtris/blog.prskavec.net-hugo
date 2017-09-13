@@ -1,5 +1,7 @@
 ---
-categories: null
+tags: 
+ - svn
+ - scm
 comments: true
 date: 2011-10-12T00:00:00Z
 title: Subversion 1.7

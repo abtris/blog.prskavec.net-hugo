@@ -5,7 +5,7 @@ published: true
 status: publish
 tags:
 - scm
-- subversion
+- svn
 title: Subversion 1.5 vydán!
 type: post
 url: /2008/06/23/subversion-15-vydn/

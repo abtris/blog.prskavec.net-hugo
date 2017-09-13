@@ -1,17 +1,11 @@
 ---
 date: 2009-10-23T00:00:00Z
-meta:
-  _edit_last: "1"
-  _encloseme: "1"
-  _pingme: "1"
 published: true
 status: publish
 tags:
 - php
 - xdebug
 - zend
-- zend server
-- zend studio
 title: Co mě zaujalo na ZendConu 2009
 type: post
 url: /2009/10/23/co-me-zaujalo-na-zendconu-2009/

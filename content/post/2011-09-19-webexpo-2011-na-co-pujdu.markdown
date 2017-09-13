@@ -3,8 +3,8 @@ date: 2011-09-19T00:00:00Z
 published: true
 status: publish
 tags:
-- konference
-- webexpo2011
+- events
+- webexpo
 title: WebExpo 2011 - Na co půjdu
 type: post
 url: /2011/09/19/webexpo-2011-na-co-pujdu/

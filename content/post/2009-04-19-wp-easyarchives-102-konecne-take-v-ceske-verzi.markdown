@@ -1,9 +1,5 @@
 ---
 date: 2009-04-19T00:00:00Z
-meta:
-  _edit_last: "1"
-  _encloseme: "1"
-  _pingme: "1"
 published: true
 status: publish
 tags:

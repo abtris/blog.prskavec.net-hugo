@@ -1,14 +1,11 @@
 ---
 date: 2009-04-29T00:00:00Z
-meta:
-  _edit_last: "1"
-  _encloseme: "1"
-  _pingme: "1"
 published: true
 status: publish
 tags:
-- continuous integration
+- continuous-integration
 - hudson
+- jenkins
 - php
 title: PhpHudson
 type: post

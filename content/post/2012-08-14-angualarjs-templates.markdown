@@ -1,5 +1,7 @@
 ---
-categories: [javascript,angularjs]
+tags: 
+ - javascript
+ - angularjs
 comments: true
 date: 2012-08-14T00:00:00Z
 title: Šablony v AngularJS

@@ -4,7 +4,7 @@ published: true
 status: publish
 tags:
 - adobe
-- adobe air
+- adobe-air
 - akce
 - flex
 - javascript

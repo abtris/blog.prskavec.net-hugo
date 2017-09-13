@@ -1,13 +1,10 @@
 ---
 date: 2011-02-02T00:00:00Z
-meta:
-  _edit_last: "1"
-  _encloseme: "1"
-  _pingme: "1"
 published: true
 status: publish
 tags:
 - virtualizace
+- cloud
 title: Vytváření vývojového Virtuálního prostředí pomocí VirtualBoxu a Vagrantu
 type: post
 url: /2011/02/02/vytvareni-vyvojoveho-virtualniho-prostredi-s-pomoci-virtualboxu-a-vagrantu/

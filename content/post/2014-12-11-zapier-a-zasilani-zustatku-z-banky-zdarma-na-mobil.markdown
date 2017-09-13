@@ -1,5 +1,6 @@
 ---
-categories: [web]
+tags:
+ - zapier
 comments: true
 date: 2014-12-11T00:00:00Z
 title: Zapier a zasílání zůstatku z banky zdarma na mobil

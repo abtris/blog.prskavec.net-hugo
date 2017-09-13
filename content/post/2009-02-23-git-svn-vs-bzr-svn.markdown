@@ -1,14 +1,12 @@
 ---
 date: 2009-02-23T00:00:00Z
-meta:
-  _edit_last: "1"
-  _encloseme: "1"
-  _pingme: "1"
 published: true
 status: publish
 tags:
 - bazaar
 - git
+- svn
+- scm
 title: Git-SVN vs Bzr-SVN
 type: post
 url: /2009/02/23/git-svn-vs-bzr-svn/

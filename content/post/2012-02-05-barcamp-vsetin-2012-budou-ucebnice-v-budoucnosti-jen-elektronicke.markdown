@@ -1,5 +1,8 @@
 ---
-categories: [barcamp,ibooks]
+tags: 
+ - barcamp
+ - events
+ - ibooks
 comments: true
 date: 2012-02-05T00:00:00Z
 title: Barcamp Vsetín 2012 - Budou učebnice v budoucnosti jen elektronické?

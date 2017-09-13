@@ -1,13 +1,9 @@
 ---
 date: 2007-11-24T00:00:00Z
-meta:
-  _encloseme: "1"
-  _pingme: "1"
-  _use_texy: "1"
 published: true
 status: publish
 tags:
-- internet
+- tools
 title: Jak přidat funkce obvyklé v Opera Mail do Thunderbirda
 type: post
 url: /2007/11/24/jak-pridat-funkce-obvykl-v-opera-mail-do-thunderbirda/

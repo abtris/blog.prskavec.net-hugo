@@ -1,12 +1,10 @@
 ---
 date: 2008-09-23T00:00:00Z
-meta:
-  _edit_last: "1"
 published: true
 status: publish
 tags:
 - jquery
-- zend framework
+- zend-framework
 title: Zend Framework 1.6 a ajax pomocí jQuery
 type: post
 url: /2008/09/23/zend-framework-16-a-ajax-pomoc-jquery/

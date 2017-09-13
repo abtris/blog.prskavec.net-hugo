@@ -1,13 +1,10 @@
 ---
 date: 2010-05-26T00:00:00Z
-meta:
-  _edit_last: "1"
-  _encloseme: "1"
-  _pingme: "1"
 published: true
 status: publish
 tags:
-- subversion
+- svn
+- scm
 title: Subversion post-commit pro více projektů v jednom repository
 type: post
 url: /2010/05/26/subversion-post-commit-pro-vice-projektu-v-jednom-repository/

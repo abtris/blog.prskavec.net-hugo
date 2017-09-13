@@ -1,16 +1,10 @@
 ---
 date: 2010-09-12T00:00:00Z
-meta:
-  _edit_last: "1"
-  _encloseme: "1"
-  _pingme: "1"
-  _wp_old_slug: ""
 published: true
 status: publish
 tags:
-- konference
+- events
 - webexpo
-- webexpo2010
 title: Webexpo 2010 - Na co půjdu na konferenci
 type: post
 url: /2010/09/12/webexpo-2010-na-co-pujdu-na-konferenci/

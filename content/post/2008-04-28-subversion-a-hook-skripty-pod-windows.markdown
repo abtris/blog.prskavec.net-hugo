@@ -1,13 +1,10 @@
 ---
 date: 2008-04-28T00:00:00Z
-meta:
-  _edit_last: "1"
 published: true
 status: publish
 tags:
-- ostatnÃ­
 - scm
-- subversion
+- svn
 - windows
 title: Subversion a hook skripty pod Windows
 type: post

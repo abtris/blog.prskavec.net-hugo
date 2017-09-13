@@ -3,7 +3,7 @@ date: 2008-04-07T00:00:00Z
 published: true
 status: publish
 tags:
-- internet
+- events
 - php
 - webcamp
 title: WebCamp'08 rozhovor s organizátory

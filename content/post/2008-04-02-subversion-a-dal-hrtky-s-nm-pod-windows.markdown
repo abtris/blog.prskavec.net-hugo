@@ -1,16 +1,11 @@
 ---
 date: 2008-04-02T00:00:00Z
-meta:
-  _edit_last: "1"
-  _encloseme: "1"
-  _pingme: "1"
-  _use_texy: "1"
 published: true
 status: publish
 tags:
 - php
 - scm
-- subversion
+- svn
 title: Subversion a další hrátky s ním pod Windows
 type: post
 url: /2008/04/02/subversion-a-dal-hrtky-s-nm-pod-windows/

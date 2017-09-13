@@ -6,7 +6,7 @@ status: publish
 tags:
 - ide
 - scm
-- subversion
+- svn
 title: AnkhSVN 2.0 je konečně finální
 type: post
 url: /2008/07/10/ankhsvn-20-je-konecne-finln/

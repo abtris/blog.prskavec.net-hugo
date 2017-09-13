@@ -1,13 +1,12 @@
 ---
 date: 2008-06-29T00:00:00Z
-meta:
-  _edit_last: "1"
 published: true
 status: publish
 tags:
 - phing
 - php
-- subversion
+- svn
+- scm
 title: Phing - SvnLogTask
 type: post
 url: /2008/06/29/phing-svnlogtask/

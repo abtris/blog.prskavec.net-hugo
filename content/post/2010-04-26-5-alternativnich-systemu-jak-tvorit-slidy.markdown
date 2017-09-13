@@ -1,17 +1,12 @@
 ---
 date: 2010-04-26T00:00:00Z
-meta:
-  _edit_last: "1"
-  _encloseme: "1"
-  _pingme: "1"
 published: true
 status: publish
 tags:
 - html
 - javascript
 - jush
-- ostatnÃ­
-- slidy
+- tools
 title: 5 alternativních systémů jak tvořit slidy
 type: post
 url: /2010/04/26/5-alternativnich-systemu-jak-tvorit-slidy/

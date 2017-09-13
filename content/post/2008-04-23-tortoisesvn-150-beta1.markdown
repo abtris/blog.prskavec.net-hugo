@@ -1,14 +1,10 @@
 ---
 date: 2008-04-23T00:00:00Z
-meta:
-  _edit_last: "1"
-  _encloseme: "1"
-  _pingme: "1"
 published: true
 status: publish
 tags:
 - scm
-- subversion
+- svn
 - windows
 title: TortoiseSVN 1.5.0-beta1
 type: post

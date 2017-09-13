@@ -1,5 +1,6 @@
 ---
-categories: [jenkins]
+tags:
+ - jenkins
 comments: true
 date: 2013-09-05T00:00:00Z
 title: Jenkins polling a git-notify

@@ -1,5 +1,6 @@
 ---
-categories: [jenkins]
+tags: 
+ - jenkins
 comments: true
 date: 2016-10-26T00:00:00Z
 title: Jenkins 2.0 - novinky a vylepšení

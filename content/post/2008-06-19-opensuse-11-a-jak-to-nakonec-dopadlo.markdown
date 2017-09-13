@@ -1,11 +1,9 @@
 ---
 date: 2008-06-19T00:00:00Z
-meta:
-  _edit_last: "1"
 published: true
 status: publish
 tags:
-- ostatnÃ­
+- linux
 title: OpenSuSE 11 a jak to nakonec dopadlo
 type: post
 url: /2008/06/19/opensuse-11-a-jak-to-nakonec-dopadlo/

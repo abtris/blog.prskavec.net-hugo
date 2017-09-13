@@ -1,6 +1,10 @@
 ---
-categories: [docker]
 comments: true
+tags:
+ - docker
+ - coreos
+ - messos
+ - kubernetes
 date: 2015-02-07T00:00:00Z
 title: Docker cluster management
 url: /2015/02/07/docker-cluster-management/

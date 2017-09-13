@@ -1,14 +1,11 @@
 ---
 date: 2007-11-13T00:00:00Z
-meta:
-  _encloseme: "1"
-  _pingme: "1"
-  _use_texy: "1"
 published: true
 status: publish
 tags:
 - microsoft
-- vista
+- tools
+- windows
 title: Switcher for Windows Vista
 type: post
 url: /2007/11/13/switcher/

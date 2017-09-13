@@ -1,5 +1,7 @@
 ---
-categories: [webexpo,konference]
+tags: 
+ - webexpo
+ - events
 comments: true
 date: 2012-09-24T00:00:00Z
 title: Webexpo 2012

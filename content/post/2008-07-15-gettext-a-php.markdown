@@ -1,14 +1,10 @@
 ---
 date: 2008-07-15T00:00:00Z
-meta:
-  _edit_last: "1"
-  _encloseme: "1"
-  _pingme: "1"
 published: true
 status: publish
 tags:
 - php
-- zend framework
+- zend-framework
 title: Gettext a PHP
 type: post
 url: /2008/07/15/gettext-a-php/

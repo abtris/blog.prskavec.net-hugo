@@ -1,13 +1,7 @@
 ---
 date: 2009-01-12T00:00:00Z
-meta:
-  _edit_last: "1"
-  _encloseme: "1"
-  _pingme: "1"
 published: true
 status: publish
-tags:
-- ostatnÃ­
 title: Top Ten 2008
 type: post
 url: /2009/01/12/top-ten-2008/

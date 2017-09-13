@@ -1,12 +1,10 @@
 ---
 date: 2008-05-05T00:00:00Z
-meta:
-  _edit_last: "1"
 published: true
 status: publish
 tags:
 - php
-- zend framework
+- zend-framework
 title: Zkušenosti s Zend_Auth_Adapter_Ldap
 type: post
 url: /2008/05/05/zkuenosti-s-zend_auth_adapter_ldap/

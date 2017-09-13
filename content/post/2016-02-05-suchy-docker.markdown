@@ -1,5 +1,6 @@
 ---
-categories: [docker]
+tags: 
+ - docker
 comments: true
 date: 2016-02-05T00:00:00Z
 title: Suchý docker

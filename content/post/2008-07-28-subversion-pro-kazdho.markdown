@@ -4,7 +4,7 @@ published: true
 status: publish
 tags:
 - scm
-- subversion
+- svn
 title: Subversion pro každého
 type: post
 url: /2008/07/28/subversion-pro-kazdho/

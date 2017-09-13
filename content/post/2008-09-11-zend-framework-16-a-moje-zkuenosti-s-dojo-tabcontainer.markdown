@@ -1,13 +1,11 @@
 ---
 date: 2008-09-11T00:00:00Z
-meta:
-  _edit_last: "1"
 published: true
 status: publish
 tags:
 - javascript
 - jquery
-- zend framework
+- zend-framework
 title: Zend Framework 1.6 a moje zkušenosti s Dojo TabContainer
 type: post
 url: /2008/09/11/zend-framework-16-a-moje-zkuenosti-s-dojo-tabcontainer/

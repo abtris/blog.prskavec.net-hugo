@@ -4,7 +4,7 @@ published: true
 status: publish
 tags:
 - linux
-- subversion
+- svn
 title: Export poslední revize ze Subversion
 type: post
 url: /2009/01/19/export-posledni-revize-ze-subversion/

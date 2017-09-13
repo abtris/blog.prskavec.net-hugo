@@ -1,9 +1,5 @@
 ---
 date: 2007-10-26T00:00:00Z
-meta:
-  blogger_author: abtris
-  blogger_blog: abtris.blogspot.com
-  blogger_permalink: /2007/10/xmlrpc-google-docs.html
 published: true
 status: publish
 tags:

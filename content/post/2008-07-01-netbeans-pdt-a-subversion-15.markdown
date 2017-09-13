@@ -6,7 +6,7 @@ status: publish
 tags:
 - ide
 - php
-- subversion
+- svn
 title: NetBeans, PDT a Subversion 1.5
 type: post
 url: /2008/07/01/netbeans-pdt-a-subversion-15/

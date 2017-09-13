@@ -1,17 +1,10 @@
 ---
 date: 2010-04-07T00:00:00Z
-meta:
-  _edit_last: "1"
-  _encloseme: "1"
-  _pingme: "1"
 published: true
 status: publish
 tags:
-- '#vyvojka'
 - iinfo
-- konference
-- ostatnÃ­
-- reportaz
+- events
 title: Internet Developer Forum 2010
 type: post
 url: /2010/04/07/internet-developer-forum-2010/

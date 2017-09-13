@@ -1,5 +1,7 @@
 ---
-categories: [serverless,aws]
+tags: 
+ - serverless
+ - aws
 comments: true
 date: 2016-06-06T00:00:00Z
 title: Serverless jako něco víc než Docker

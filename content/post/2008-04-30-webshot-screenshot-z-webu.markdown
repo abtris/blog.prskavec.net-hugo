@@ -1,7 +1,5 @@
 ---
 date: 2008-04-30T00:00:00Z
-meta:
-  _edit_last: "1"
 published: true
 status: publish
 tags:
