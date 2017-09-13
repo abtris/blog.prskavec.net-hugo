@@ -42,15 +42,16 @@ post = "/blog/:year/:month/:title/" # change the post URL to look like the old o
 
   # --- Start sidebar options ---
   # Number of last posts that will be displayed in the sidebar - set to 0 or remove to hide this section
-  sidebarRecentLimit = 5
+  sidebarRecentLimit = 10
 
   # Sidebar header - passed to markdownify so you can write markdown here
-  sidebarHeader = "Odkazy"
+  sidebarHeader = "Ladislav Prskavec"
 
   # Sidebar text also supports markdown
   # New lines can be added with </br> or normal markdown (two spaces at the end of line or two new lines).
   # when adding two new lines, remember to remove the indentation otherwise the new line will be treated as a codeblock
   sidebarText = """
+  <p style="margin-top:6px;"><img src="/images/avatar.jpg" style="float:left; margin-right:10px;" width="100" height="115" /><a href="http://github.com/abtris/">Programátor</a>, otec, <a href="http://www.dzogchen.cz">buddhista</a>, milovník dobrého jídla, knih, nových technologí a hraček pro všechny s&nbsp;duší dítěte.
   """
   # Sidebar menu - if true will add a sidebar menu between sidebar text and recent posts
   sidebarMenuEnabled = false
@@ -116,7 +117,7 @@ post = "/blog/:year/:month/:title/" # change the post URL to look like the old o
   """
 
   # Set to true to hide ReadingTime on posts
-  disableReadingTime = false
+  disableReadingTime = true
 
   # Set to true to disable downloading of remote Google fonts
   disableGoogleFonts = false

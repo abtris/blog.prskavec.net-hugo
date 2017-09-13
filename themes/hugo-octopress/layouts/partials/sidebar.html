@@ -64,9 +64,9 @@
   {{ with .Site.Params.sidebarRecentLimit }}
     {{ if not (eq . 0) }}
       <section class="even">
-        <h1>Recent Posts</h1>
+        <h1>Poslední příspěvky</h1>
         <ul id="recent_posts">
-          {{ range first . $.Site.Pages }}
+          {{ range first . (where $.Site.Pages "Section" "post") }}
             <li class="post">
               <a href="{{ .RelPermalink }}">{{ .Title }}</a>
             </li>
