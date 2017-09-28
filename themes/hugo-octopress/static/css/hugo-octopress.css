@@ -1417,6 +1417,7 @@ li pre code {
     background: none;
     border: none
 }
+
 .pre-code,
 html .gist .gist-file .gist-syntax .highlighttable pre,
 .highlighttable code {
@@ -2283,4 +2284,10 @@ h6 {
     bottom: 1rem;
     left:   1rem;
   }
+}
+
+pre {
+    padding: 10px;
+    width: 100%;
+    overflow: auto;
 }
