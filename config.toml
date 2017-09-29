@@ -34,8 +34,8 @@ post = "/blog/:year/:month/:title/" # change the post URL to look like the old o
 
 # Make tags and categories work
 [indexes]
-  tag = "tagy"
-  category = "kategorie"
+  tag = "Tags"
+  category = "Categories"
 
 
 [params]
