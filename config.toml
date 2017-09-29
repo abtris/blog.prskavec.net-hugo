@@ -15,6 +15,7 @@ disqusShortname = "prskavecblog"
 paginate = 6
 
 # Keep it as false please, the CSS file contains the code for highlighting
+pygmentsUseClassic = false
 pygmentsuseclasses = false
 pygmentsstyle = "solarized_dark"
 
@@ -23,7 +24,7 @@ pygmentsstyle = "solarized_dark"
 # Options are solarized_dark (octopress), solarized_dark256 and solarized_light
 
 # Highlight shortcode and code fences (```) will be treated similarly
-pygmentscodefences = true
+pygmentsCodeFences = true
 
 # pygments options can be added here (and in the highlight shortcode in the markdown file)
 # Hugo supports these pygments options: style, encoding, noclasses, hl_lines, linenos

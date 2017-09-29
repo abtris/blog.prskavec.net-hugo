@@ -29,15 +29,14 @@ Tak jako první jsem začal s migrací [www.prskavec.net](https://www.prskavec.n
 2. udělal jsem export z Ghost adminu
 3. použil jsem [ghostToHugo](https://github.com/jbarone/ghostToHugo) utilitu pro import obsahu.
 
-
-```
+{{< highlight bash "linenos=inline" >}}
 hugo new site www.prskavec.net-hugo
 
 ghostToHugo —location "Europe/Prague" prskavec-net.ghost.2017-08-22.json --hugo ./www.prskavec.net-hugo
 
 cd themes
 git clone https://github.com/vjeantet/hugo-theme-casper casper
-```
+{{< / highlight >}}
 
 Pro deploy jsem potom použil [Netlify](https://www.netlifycms.org/), které nahradilo můj VPS server, kde před tím běžel blog.
 
@@ -46,9 +45,9 @@ Pro deploy jsem potom použil [Netlify](https://www.netlifycms.org/), které nah
 1. našel jsem podobný vzhled [octopress pro hugo](https://github.com/parsiya/Hugo-Octopress)
 2. použil jsem import v hugo
 
-```
+{{< highlight bash "linenos=inline" >}}
 hugo import jekyll blog.prskavec.net/source blog.prskavec.net-hugo
-```
+{{< / highlight >}}
 
 3. potom jsem musel projít všechny posty (150+) a udělat trochu úpravy v metadatech, protože tam byli věci ješte z dob importu Wordpressu.
 
