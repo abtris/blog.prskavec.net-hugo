@@ -4,8 +4,22 @@ date: 2017-09-12T16:46:13+02:00
 type: page
 ---
 
+## 2017
+
+* 15.10.2017 [jOpenSpace 2017](http://www.jopenspace.cz/) - JAMstack ([slides](https://speakerdeck.com/abtris/jamstack))
+* 27.4.2017 CircleCI 2.0 First steps in Beta ([slides](https://speakerdeck.com/abtris/circleci-2-dot-0-first-steps-in-beta))
+* 17.1.2017 Zonky, SRE in Startup ([slides](https://www.slideshare.net/ladislavprskavec/sre-in-startup))
+
+## 2016
+
+* 12.12.2016 Datascript: Serverless Architecture ([slides](https://speakerdeck.com/abtris/datascript-serverless-architecture))
+* 27.8.2016 Nette Capmp - CI and CD ([slides](https://speakerdeck.com/abtris/ci-and-cd))
+* 30.6.2016 PragueJS - Serverless Architecture ([slides](https://speakerdeck.com/abtris/serverless-architecture-praguejs-30-dot-6-2016))
+* 9.3.2016 - IPEX Meetup, Brno - How to easy deploy app into any cloud ([slides](https://speakerdeck.com/abtris/how-to-easy-deploy-app-into-any-cloud))
+
 ## 2015
 
+* 12.11.2015 - The Go Language Meetup in Prague, Node vs Go ([slides](https://speakerdeck.com/abtris/node-vs-go-datadog-and-heroku-parsing-log-service))
 * 5.5.2015 [Docker meetup, Praha](http://www.meetup.com/Docker-Prague-Czech-Republic/events/221368157/) - Docker Elastic Beanstalk
 * 11.4.2015 [Devel.cz](http://devel.cz/konference) - Docker včera, dnes a zítra
 
