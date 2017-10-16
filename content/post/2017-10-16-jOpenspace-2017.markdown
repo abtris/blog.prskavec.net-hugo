@@ -1,0 +1,24 @@
+---
+title: "jOpenspace 2017 a moje přednáška o JAMstacku"
+date: 2017-10-16T11:46:48+02:00
+tags: 
+ - jamstack
+---
+
+Tento víkend jsem ze účastnil devátého ročníku [jOpenspace](http://jopenspace.cz). Tato ne-konference pro 42 lidí je úplně něco jiného než ostatní akce kam jsem se v poslední době dostal. 
+
+![](/images/jopenspace/jopenspace2017.jpg)
+
+Za prvé, každý má svoji přednášku, svých 10 minut a ostatní mají téma na které si s ním mohou pohovořit. Na spoustě konferencí se mluví o networkingu, ale tady běží od začátku do konce a můžu říct, že jsem od doby OpenMeetingů nepotkal tolik zajímavých lidí na jednom místě.
+
+Celé je to skvěle organizované a žádné problémy jsem nezaznamenal. Hodnocení přednášek online a ceny pro nejlepší čtyři to jen okoření. Všem děkuji, že jsem se umístil na třetím místě, byla obrovská konkurence a jsem rád, že moje téma zaujalo.
+
+## Moje přednáška o JAMstack
+
+[JAMstack](https://www.jamstack.org) je moderní architektura pro návrh webu za použití [statických genrátorů](https://www.staticgen.com/) a [headless cms](https://headlesscms.org/). Pokud se vám téma libí sledujte podcast [JAMstack Radio](https://www.heavybit.com/library/podcasts/jamstack-radio/).
+
+<script async class="speakerdeck-embed" data-id="15af5f8fddec4ad5a066cbe8f8431ab6" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
+## Shrnutí
+
+Další přednášky byla na různá témata, vládl hodně Kotlin a Typescript. Ale nejlepší přednáška byla Petra Hamerníka z [Geneea](https://www.geneea.com/) o Generování textu (natural language generation - NLG). Je neuvěřitelné jako toto odvětví už je vyspělé a celé články o fotbalu můžou psát počítače.
