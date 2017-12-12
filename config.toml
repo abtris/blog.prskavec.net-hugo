@@ -11,6 +11,7 @@ metadataformat = "yaml"
 # Note it's not under [params] anymore
 # disqusShortname = ""
 
+
 # Number of blog posts in each pagination page
 paginate = 6
 
@@ -40,6 +41,8 @@ post = "/blog/:year/:month/:title/" # change the post URL to look like the old o
 
 
 [params]
+  # IntenseDebate code
+  intenseDebateId = "20dba5e33c5c213b9f46a13cc37e06a5"
 
   # --- Start sidebar options ---
   # Number of last posts that will be displayed in the sidebar - set to 0 or remove to hide this section
