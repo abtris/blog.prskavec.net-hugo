@@ -54,3 +54,6 @@ type: page
 
 Slidy z přednášek jsou k dispozici na [slideshare](https://www.slideshare.net/ladislavprskavec/presentations). 
 
+## Moje účast v podcastech
+
+* [CZ Podcast 160 - Site Reliability Engineering](https://soundcloud.com/czpodcast-1/cz-podcast-160-site-reliability-engineering)
