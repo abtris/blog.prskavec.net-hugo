@@ -1,4 +1,4 @@
-baseurl = "https://blog.prskavec.net"
+baseURL = "/"
 
 disablePathToLower = false
 languageCode = "cs-CZ"
