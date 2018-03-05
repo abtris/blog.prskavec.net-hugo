@@ -4,6 +4,10 @@ date: 2017-09-12T16:46:13+02:00
 type: page
 ---
 
+## 2018
+
+* 22.2.2018 - [Únorový meetup v Representu](https://www.meetup.com/Prague-Ruby-Meetup/events/247577634/) JAMstack ([slides](https://speakerdeck.com/abtris/jamstack-1))
+
 ## 2017
 
 * 15.10.2017 [jOpenSpace 2017](http://www.jopenspace.cz/) - JAMstack ([slides](https://speakerdeck.com/abtris/jamstack))
@@ -57,3 +61,4 @@ Slidy z přednášek jsou k dispozici na [slideshare](https://www.slideshare.net
 ## Moje účast v podcastech
 
 * [CZ Podcast 160 - Site Reliability Engineering](https://soundcloud.com/czpodcast-1/cz-podcast-160-site-reliability-engineering)
+* [Kafemlejnek.tv - Díl 30. – JAM stack](https://kafemlejnek.tv/dil-30-jam-stack/)
