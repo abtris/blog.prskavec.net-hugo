@@ -17,7 +17,7 @@ type: page
 ## 2016
 
 * 12.12.2016 Datascript: Serverless Architecture ([slides](https://speakerdeck.com/abtris/datascript-serverless-architecture))
-* 27.8.2016 Nette Capmp - CI and CD ([slides](https://speakerdeck.com/abtris/ci-and-cd))
+* 27.8.2016 Nette Camp - CI and CD ([slides](https://speakerdeck.com/abtris/ci-and-cd))
 * 30.6.2016 PragueJS - Serverless Architecture ([slides](https://speakerdeck.com/abtris/serverless-architecture-praguejs-30-dot-6-2016))
 * 9.3.2016 - IPEX Meetup, Brno - How to easy deploy app into any cloud ([slides](https://speakerdeck.com/abtris/how-to-easy-deploy-app-into-any-cloud))
 
