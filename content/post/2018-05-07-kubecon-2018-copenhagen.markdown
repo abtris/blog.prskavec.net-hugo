@@ -17,7 +17,7 @@ Množství paralelních přednášek bylo šílené, ale jejich kvalita velice r
 
 ## Hlavní trendy
 
-Hlavní projekty jsou dnes pěkně v přehledu CNCF.
+Hlavní projekty jsou dnes pěkně v přehledu CNCF. Kubernetes (k8s) je první projekt, který dosáhl úrovně [Graduated](https://www.cncf.io/projects/).
 
 - [landscape.cncf.io](https://landscape.cncf.io)
 
@@ -26,7 +26,7 @@ Největší hype je kolem service meshu. Který používat? Mám to vůbec použ
 Spousta otázek na které není jednoduché odpovědět a můžete si naběhnout. Je potřeba být opatrný a postupovat krok za krokem, projekt po projektu.
 
 - Service meshe (Istio, Linkerd, Contour)
-- Prometheus standard - řeší longterm storage, federace a gitops nad dashboardy, alerty
+- Prometheus je monitoring standard pro k8s - [řeší se longterm storage](https://github.com/improbable-eng/thanos), federace a gitops nad [dashboardy, alerty](https://www.youtube.com/watch?v=b7-DtFfsL6E)
 - K8s operátory a další rozšíření  - mrkněte na [awesome-operators](https://github.com/operator-framework/awesome-operators)
 - Hybrid cloud solutions - několik řešení jako Cloud Foundery, ale hodně nových startupů, které do toho jdou taky
 - Security services - spousta projetků (TUF, Spiffe, Spire, Open Policy Agent) a i firem (Aquasecurity, Twistlock, Blackduck)
