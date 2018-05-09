@@ -6,7 +6,7 @@ type: page
 
 ## 2018
 
-* 10. 4. 2018 – [JsDevMeetup](https://www.meetup.com/GDG-%C4%8CVUT-Prague/) Moderní webová architektura založená na JavaScriptu a API ([slides](https://www.slideshare.net/ladislavprskavec/modern-web-architecturebrbased-on-js-api-and-markup))
+* 10.4.2018 – [JsDevMeetup](https://www.meetup.com/GDG-%C4%8CVUT-Prague/) Moderní webová architektura založená na JavaScriptu a API ([slides](https://www.slideshare.net/ladislavprskavec/modern-web-architecturebrbased-on-js-api-and-markup))
 
 * 22.2.2018 - [Únorový meetup v Representu](https://www.meetup.com/Prague-Ruby-Meetup/events/247577634/) JAMstack ([slides](https://speakerdeck.com/abtris/jamstack-1))
 
