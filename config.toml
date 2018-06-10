@@ -36,8 +36,8 @@ post = "/blog/:year/:month/:title/" # change the post URL to look like the old o
 
 # Make tags and categories work
 [indexes]
-  tag = "Tags"
-  category = "Categories"
+  tag = "tags"
+  category = "categories"
 
 [privacy]
   [privacy.disqus]

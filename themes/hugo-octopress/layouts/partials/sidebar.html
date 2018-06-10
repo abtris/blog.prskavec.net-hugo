@@ -27,13 +27,18 @@
       {{ with .Site.Params.bitbucket }}<a target="_blank" href="{{ . }}" title="{{ . }}"><i class="fa fa-bitbucket fa-3x"></i></a>{{ end }}
       {{ with .Site.Params.gitlab }}<a target="_blank" href="{{ . }}" title="{{ . }}"><i class="fa fa-gitlab fa-3x"></i></a>{{ end }}
       {{ with .Site.Params.twitter }}<a target="_blank" href="{{ . }}" title="{{ . }}"><i class="fa fa-twitter fa-3x"></i></a>{{ end }}
-      {{ with .Site.Params.keybase }}<a target="_blank" href="{{ . }}" title="{{ . }}"><i class="fa fa-key fa-3x"></i></a>{{ end }} <!-- added keybase -->
+      {{ if not .Site.Params.fontAwesome }}
+        {{ with .Site.Params.keybase }}<a target="_blank" href="{{ . }}" title="{{ . }}"><i class="fa fa-keybase fa-3x"></i></a>{{ end }} <!-- added keybase -->
+      {{ else }}
+        {{ with .Site.Params.keybase }}<a target="_blank" href="{{ . }}" title="{{ . }}"><i class="fa fa-key fa-3x"></i></a>{{ end }} <!-- added keybase -->
+      {{ end }}
       {{ with .Site.Params.linkedin }}<a target="_blank" href="{{ . }}" title="{{ . }}"><i class="fa fa-linkedin fa-3x"></i></a>{{ end }}
       {{ with .Site.Params.stackOverflow }}<a target="_blank" href="{{ . }}" title="{{ . }}"><i class="fa fa-stack-overflow fa-3x"></i></a>{{ end }}
       {{ with .Site.Params.googleplus }}<a target="_blank" href="{{ . }}" title="{{ . }}"><i class="fa fa-google-plus fa-3x"></i></a>{{ end }}
       {{ with .Site.Params.facebook }}<a target="_blank" href="{{ . }}" title="{{ . }}"><i class="fa fa-facebook fa-3x"></i></a>{{ end }}
       {{ with .Site.Params.youtube }}<a target="_blank" href="{{ . }}" title="{{ . }}"><i class="fa fa-youtube fa-3x"></i></a>{{ end }}
       {{ with .Site.Params.instagram }}<a target="_blank" href="{{ . }}" title="{{ . }}"><i class="fa fa-instagram fa-3x"></i></a>{{ end }}
+      {{ with .Site.Params.bitcoin }}<a target="_blank" href="{{ . }}" title="{{ . }}"><i class="fa fa-bitcoin fa-3x"></i></a>{{ end }}
 
     <!-- don't need RSS here anymore -->
     <!-- {{ if .Site.Params.rss }}<a href="{{ "/index.xml" | absURL }}" type="application/rss+xml" title="RSS"><i class="fa fa-rss-square fa-3x"></i></a>{{ end }} -->
@@ -64,16 +69,18 @@
   {{ with .Site.Params.sidebarRecentLimit }}
     {{ if not (eq . 0) }}
       <section class="even">
-        <h1>Poslední příspěvky</h1>
+        <h1>Recent Posts</h1>
         <ul id="recent_posts">
-          {{ range first . (where $.Site.Pages "Section" "post") }}
-            <li class="post">
-              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-            </li>
+          {{ $pages := where $.Site.Pages "Type" "post" }}
+          {{ range first . $pages }}
+            {{ if .IsPage }}
+              <li class="post">
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              </li>
+            {{ end }}
           {{ end }}
         </ul>
       </section>
     {{ end }}
   {{ end }}
-
 </aside>

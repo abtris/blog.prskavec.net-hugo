@@ -1,5 +1,9 @@
 # Hugo-Octopress
-Hugo-Octopress is a port of the classic [Octopress][octopress-link] theme to [Hugo][hugo-link]. For a live demo please see my personal website at [https://parsiya.net](https://parsiya.net).
+Hugo-Octopress is a port of the classic [Octopress][octopress-link] theme to [Hugo][hugo-link].
+
+For a demo website using the vanilla theme please visit [http://hugo-octopress-test.s3-website-us-east-1.amazonaws.com/](http://hugo-octopress-test.s3-website-us-east-1.amazonaws.com/).
+
+My personal website runs a modified version of the theme (mainly modified index): [https://parsiya.net](https://parsiya.net).
 
 ## Contents
 - [Config file parameters](#config)
@@ -21,7 +25,9 @@ Hugo-Octopress is a port of the classic [Octopress][octopress-link] theme to [Hu
 - [Table of contents](#tableofcontents)
 - [Not Found or 404.html](#notfound)
 - [Taxonomy pages](#taxonomy)
+- [Individual pages](#page)
 - [Disqus](#disqus)
+- [Twitter Card](#twitter)
 - [Issues/TODO](#issues)
 - [Attribution](#attribution)
 - [Ported by](#portedby)
@@ -43,7 +49,6 @@ theme = "hugo-octopress"
 # Disable comments for any individual post by adding "comments: false" in its frontmatter
 disqusShortname = "Your disqus shortname"
 
-
 # Number of blog posts in each pagination page
 paginate = 6
 
@@ -52,79 +57,82 @@ paginate = 6
 post = "/blog/:year-:month-:day-:title/"
 
 # Make tags and categories work
-[indexes]
-	tag = "tags"
-	category = "categories"
+# As of Hugo v0.33 these are not needed anymore
+# [indexes]
+#   tag = "tags"
+#   category = "categories"
 
 [params]
 
-	# If false, all of blog post will appear on front page (and in pagination)
-	truncate = true
+  # If false, all of blog post will appear on front page (and in pagination)
+  truncate = true
 
-	# Author's name (appears in meta tags and under posts)
-	author = "Author's name"
+  # Author's name (appears in meta tags and under posts)
+  author = "Author's name"
 
-	# This text appears in site header under website title
-	subtitle = "Subtitle appears under website title"
+  # This text appears in site header under website title
+  subtitle = "Subtitle appears under website title"
 
-	# Search engine URL
-	searchEngineURL = "https://www.google.com/search"
+  # Search engine URL
+  searchEngineURL = "https://www.google.com/search"
 
-	# Text of the "Continue Reading" label. &rarr; == right arrow, but it gets messed up in the string so it was added to index.html manually
-	continueReadingText = "Would you like to know more?"
+  # Text of the "Continue Reading" label. &rarr; == right arrow, but it gets messed up in the string so it was added to index.html manually
+  continueReadingText = "Would you like to know more?"
 
-	# Google analytics code - remove if you do not have/want Google Analytics - needs JavaScript
-	googleAnalytics = "UA-XXXXX-X"
+  # Google analytics code - remove if you do not have/want Google Analytics - needs JavaScript
+  googleAnalytics = "UA-XXXXX-X"
+
+  # Optional piwik tracking
+  #[params.analytics.piwik]
+  #  URL = "https://stats.example.com"
+  #  ID = "42"
 
   # Switch to true to enable RSS icon link
-	rss = true
+  rss = true
 
   # Set to true to use a text label for RSS instead of an icon
   # This is overwritten by the "rss" setting
   textrss = false
 
-	# Website's default description
-	defaultDescription = ""
+  # Website's default description
+  defaultDescription = ""
 
-	# Populate this with your own search keywords - these will appear in meta tags
-	# defaultKeywords = ["keyword1" , "keyword2" , "keyword3" , "keyword4"]
+  # Populate this with your own search keywords - these will appear in meta tags
+  # defaultKeywords = ["keyword1" , "keyword2" , "keyword3" , "keyword4"]
 
   # Set to true to hide ReadingTime on posts
   disableReadingTime = false
 
   # Set to true to disable downloading of remote Google fonts
   disableGoogleFonts = false
+
+  # Remove or Set to false to use local fonts
+  remoteFonts = false
+
+  # Remove or set to false to use FontAwesome CDN, otherwise the theme uses ForkAwesome local fonts.
+  # fontAwesome = false
 ```
 
 ## <a name="highlight"></a>Code highlight
-Octopress classic theme uses the pygments' `solarized dark` for highlighting. It is not installed by default. You can get it from https://github.com/john2x/solarized-pygment. It has three options:
-
-* solarized_light: default option after installation
-* solarized_dark: use this to re-create the Octopress classic theme highlighting
-* solarized_dark256
+The theme now supports the built-in Chroma highlighter. However, Chroma does not support the pygments `solarized dark` style. It's added to the CSS instead and must be enabled with `pygmentsuseclasses = true` in the config file. To use the Chroma highlighter, you need to disable Pygments with `pygmentsUseClassic=false`.
 
 The following options control code highlighting:
 
 ``` toml
-[params]
-  # Keep it as false please, the CSS file contains the code for highlighting
-  pygmentsuseclasses = false
+# Highlight shortcode and code fences (```) will be treated similarly
+pygmentscodefences = true
 
-  # If nothing is set, then solarized_light is used
-  pygmentsstyle = "solarized_dark"
+# Use CSS for highlighting
+pygmentsuseclasses = true
 
-  # Highlight shortcode and code fences (```) will be treated similarly
-  pygmentscodefences = true
-
-  # pygments options can be added here (and in the highlight shortcode in the markdown file)
-  # Hugo supports these pygments options: style, encoding, noclasses, hl_lines, linenos
-  # for example: pygmentsoptions = "linenos=true"
+# pygments options can be added here (and in the highlight shortcode in the markdown file)
+# Hugo supports these pygments options: style, encoding, noclasses, hl_lines, linenos
+# for example: pygmentsoptions = "linenos=true"
 ```
 
 For more information see [Syntax Highlighting](https://gohugo.io/extras/highlighting/) in Hugo's documentation.
 
 ## <a name="markdown"></a>Markdown options
-
 Blackfriday is Hugo's markdown engine. For a list of options see [Configure Blackfriday rendering](https://gohugo.io/overview/configuration/#configure-blackfriday-rendering). Blackfriday options can be set as follows:
 
 ``` toml
@@ -168,7 +176,7 @@ Links are sorted according to weight from left to right. For example a link with
 [params]
   # If set to true, navigation menu links will open in a new window with the exception of links to root ("/")
   # If this item does not exist or is set to false, then navigation menu links will open in the same window
-	navigationNewWindow = true
+  navigationNewWindow = true
 ```
 
 Search engine can also be customized:
@@ -237,22 +245,22 @@ Icons are from [http://fontawesome.io](http://fontawesome.io) by Dave Gandy. To 
 This menu can be enabled by setting `sidebarMenuEnabled` to `true`. It has two parts:
 
 * A header that appears inside the `<h1>` tag on top. It can be set by `sidebarMenuHeader`. This part only supports text.
-* A series of links. They can be configured similar to navigation menu items by using the `[[menu.sidebar]]` tag:
+* A series of links. They can be configured similar to navigation menu items by using the `[[menu.sidebar]]` tag. Set `sidebarNewWindow` to `true` to open these links in a new window
 
-        [[menu.sidebar]]
-          Name = "Google"
-          URL = "https://www.google.com"
-          weight = 0
+``` toml
+[[menu.sidebar]]
+  Name = "Google"
+  URL = "https://www.google.com"
+  weight = 0
 
-        [[menu.sidebar]]
-          Name = "Hugo"
-          URL = "/categories/hugo/"
-          weight = 1
-
-  * Set `sidebarNewWindow` to `true` to open these links in a new window.
+[[menu.sidebar]]
+  Name = "Hugo"
+  URL = "/categories/hugo/"
+  weight = 1
+```
 
 ### <a name="sidebarrecent"></a>Recent posts
-Last x posts can be displayed in the sidebar. This number is controlled by `sidebarRecentLimit`. To hide this section either remove `sidebarRecentLimit` or set it to zero.
+Last x posts can be displayed in the sidebar. This number is controlled by `sidebarRecentLimit`. To hide this section either remove `sidebarRecentLimit` from the config file or set it to zero.
 
 ## <a name="shortcodes"></a>Shortcodes
 Creating [shortcodes](https://gohugo.io/extras/shortcodes/) in Hugo was surprisingly easy (and one of the reasons I switched to it). I used two plugins in Octopress that I re-created in Hugo using shortcodes. They add captions to code blocks and images. These shortcodes are located at `layouts/shortcodes/`.
@@ -332,24 +340,24 @@ My original mistake was to repeat `'.source.gfm'` before the `imgcap` snippet, s
 You can trigger the shortcodes by entering `imgcap` and `codecap` respectively and then pressing enter. You can change these keywords by modifying the `prefix` tag. After inserting the shortcode, the cursor will go to the first location which is designated by `$1`. After entering the first parameter you can go to `$2` and then `$3` using `tab`.
 
 ## <a name="summary"></a>Hugo page summary bug
-If no page summary is designated in the post, Hugo will use first 70 words (HTML tags are stripped). The result is usually ugly. Instead use the summary divider `<!--more-->` to specify where the summary ends in post source.
+Hugo will use first 70 words of the post if it does not have a summary divider. The result is usually not pretty and contains raw HTML. To avoid this, always use the summary divider `<!--more-->` to designate summary.
 
 Hugo currently does not display reference style links in post summary. Because it takes everything before the summary divider and passes it to the Markdown engine (currently BlackFriday) and if your reference style links are at the bottom of the page (they usually are), they are not included. As a result your reference style links will be treated as unformatted text. You can read more about this bug [here](https://discuss.gohugo.io/t/markdown-content-renders-as-regular-text-in-summary/1396/12).
 
-To be more specific, reference style links look like this:
+Reference style links look like this:
 
 ``` markdown
-This is a link to [Google][google-link].
+This is a link to [Example][example-link].
 
 More stuff here.
 
 Usually at the end of the markdown file.
-[google-link]: https://www.google.com
+[example-link]: https://www.example.com
 ```
 
 There are two workarounds:
 
-1. Do not use reference style links in summary. Use normal links like `[Google](https://www.google.com)`.
+1. Do not use reference style links in summary. Use normal links like `[Example](https://www.example.com)`.
 2. Put the reference links before the summary divider.
 
 ## <a name="licensepage"></a>License page
@@ -371,27 +379,27 @@ There two ways to enable the ToC:
 
 1. Each post/page can have a variable named `toc` in its frontmatter. This needs to be set to `true`.
 
-```
-title: "title"
-date: 2016-04-01T20:22:37-04:00
-draft: false
-toc: true
-```
+    ``` yaml
+    title: "title"
+    date: 2016-04-01T20:22:37-04:00
+    draft: false
+    toc: true
+    ```
 
 2. Global setting is available in the config file, `tableOfContents` under `[Params]` needs to be set to `true`.
 
-```
-[Params]
-  tableOfContents = true
-```
+    ``` toml
+    [Params]
+      tableOfContents = true
+    ```
 
-The `toc` variable in frontmatter has priority. If it is set to `false` then `tableOfContents` in the config file is ignored. Depending on your usage, you can not use it in the config file and set it for individual pages. Otherwise, it can be enabled for all pages and disabled for specific pages in the frontmatter.
+The `toc` variable in frontmatter has priority. If it is set to `false` then `tableOfContents` in the config file is ignored. You skip it in the config file and set it for individual pages or enable it for all pages and disable it for specific pages in their frontmatter.
 
 ## <a name="notfound"></a>Not Found or 404.html
-The `404.html` has two optional parameters and both support markdown:
+The `404.html` page has two optional parameters and both support markdown:
 
-* notFoundHeader: 404 page title
-* notFoundText: 404 page text
+* `notFoundHeader`: 404 page title
+* `notFoundText`: 404 page text
 
 If they are not set in the config file, a default page is generated.
 
@@ -410,6 +418,19 @@ For example:
 
 To revert back to ByCount sort, remove `sortTaxonomyAlphabetical` or set it to false.
 
+Note: As of Hugo 0.33, `indexes` has been removed. If your taxonomy pages are not rendered, please update to the latest version of Hugo. Templates are now at:
+
+* `/layouts/category/category.html`
+* `/layouts/tag/tag.html`
+
+## <a name="page"></a>Individual pages
+Individual pages can be created in two ways:
+
+* Create a new content file in `content/page`.
+* Set the type of page to `page` in frontmatter. E.g. `type: page`.
+
+The template to individual page is at `Hugo-Octopress/layouts/page/single.html`. It can be overridden by a file in the website's `layouts/page/single.html`.
+
 ## <a name="disqus"></a>Disqus
 Hugo supports Disqus. Note that previously Disqus short name was `[params]/disqusShortname` but it stopped working. It's most likely because my custom variable had the same name as Hugo's internal variable for Disqus. Disqus shortname is now directly in the config file (similar to baseurl for example):
 
@@ -418,6 +439,35 @@ disqusShortname = "whatever"
 ```
 
 The disqus partial is at `layouts/partials/disqus.html`. By default it does not add Disqus when you are testing on localhost using the test server. This can be disabled (e.g. if you want to test Disqus locally) by commenting the `if and return` lines in the partial above.
+
+## <a name="twitter"></a>Twitter Card
+Twitter card support can be enabled in the config file under `Params`:
+
+``` toml
+[params]
+  # Twitter card config
+  # Enable with this.
+  twitterCardEnabled = true
+  # Don't include the @.
+  # twitterCardSite = 
+  twitterCardDomain = "parsiya.net"
+  # Don't include the @.
+  twitterCardAuthor = "CryptoGangsta"
+```
+
+After Twitter card is enabled, you can add summary images to your posts via front matter through `twitterImage`:
+
+``` yaml
+twitterImage: 02-fuzzer-crash.png
+```
+
+**Note:** Image URL should be relative to the page, otherwise the final URL will not be correct. In short, image URL should be part of the page bundle. In this case, both `index.md` and `02-fuzzer-crash.png` are in the same root directory. If the image is in a subdirectory of page bundle, it can be added like this:
+
+``` yaml
+twitterImage: images/02-fuzzer-crash.png
+```
+
+The template can be modified at `Hugo-Octopress/partials/custom_twitter_card.html`.
 
 ## <a name="issues"></a>Issues/TODO
 If you discover any issues/bugs or want new features please use the Github issue tracker. Please keep in my mind that development has not been my day job for quite a while and I may be slow in fixing things (don't be surprised if I ask you about details).
@@ -428,6 +478,7 @@ If you discover any issues/bugs or want new features please use the Github issue
 * [Octopress](octopress-link) is created by [Brandon Mathis](https://github.com/imathis). Octopress source can be found on [https://github.com/imathis/octopress](https://github.com/imathis/octopress).
 * Some code was taken from the [Hyde-x](https://github.com/zyro/hyde-x) Hugo theme by [Andrei Mihu](http://andreimihu.com/).
 * Sidebar icons are from Font Awesome by Dave Gandy - http://fontawesome.io.
+* Special thanks to everyone who has helped me with pull requests and issues.
 
 ## <a name="Ported by"></a>Ported by
 Ported by Parsia Hakimian:
