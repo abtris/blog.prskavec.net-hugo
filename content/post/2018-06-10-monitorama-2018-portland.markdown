@@ -1,5 +1,5 @@
 ---
-title: "Konference Monitorama 2018 v Portlandu (PDX)"
+title: "Monitorama Konference 2018 v Portlandu"
 date: 2018-06-09T19:44:25-07:00
 tags:
  - conference
