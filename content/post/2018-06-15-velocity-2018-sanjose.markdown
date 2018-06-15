@@ -1,4 +1,9 @@
-# Velocity 2018 San Jose
+---
+title: "Velocity Konference 2018 v San Jose"
+date: 2018-06-15T12:17:25-07:00
+tags:
+ - conference
+---
 
 Tento rok jsem dostal příležitost se podívat na [O’Reilly konferenci Velocity](https://conferences.oreilly.com/velocity/vl-ca) v San Jose, která se konala od 12 do 14 června. Současně běžela ve stejném místě konference Fluent Conf, který je zaměřené více na webový vývoj. Velocity je zaměřená na DevOps ve všech různých směrech.
 
