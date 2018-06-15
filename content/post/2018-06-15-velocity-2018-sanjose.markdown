@@ -18,4 +18,4 @@ Session jsou vždy trochu problém, zavisí co si vyberete. Pokud znáte předn�
 
 Videa by měli být dostupné pokud máte vy nebo vaše firma O’Reilly Subscription. Netuším zda některá budou veřejně přístupná.
 
-Každopádně bych konferenci úplně nedoporučil každému vzhledem k ceně a vytěžených vědomostí. Hodí se to spíš pro Enterprise firmy. Pro technické znalosti jsou lepší úzce zaměřené konference jako Monitorama.
+Každopádně bych konferenci úplně nedoporučil každému vzhledem k ceně a vytěžených vědomostí. Hodí se to spíš pro Enterprise firmy. Pro technické znalosti jsou lepší úzce zaměřené konference jako [Monitorama](/blog/2018/06/monitorama-konference-2018-v-portlandu/).
