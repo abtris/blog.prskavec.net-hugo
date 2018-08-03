@@ -12,7 +12,7 @@ Celá konference byla ve 4 sálech a to jeden hlavní, který se po keynote rozd
 
 ## Co to SRE je?
 
-Pokud nevíte [co to je SRE](http://blog.prskavec.net/2016/03/co-to-je-sre/), tak kromě mého článku existuje skvělá kniha [Site Reliability Engineering](http://shop.oreilly.com/product/0636920041528.do) od lidí z Googlu, kde se všechno detailně vysvětluje a skoro každý přenášející něco z knihy citoval. Je to taková bible SRE a vůbec první kniha zastřešujíc tento obor.
+Pokud nevíte [co to je SRE](https://blog.prskavec.net/2016/03/co-to-je-sre/), tak kromě mého článku existuje skvělá kniha [Site Reliability Engineering](https://shop.oreilly.com/product/0636920041528.do) od lidí z Googlu, kde se všechno detailně vysvětluje a skoro každý přenášející něco z knihy citoval. Je to taková bible SRE a vůbec první kniha zastřešujíc tento obor.
 
 <!--more-->
 
@@ -54,8 +54,8 @@ Hodně je vidět jaký velký rozdíl a kolik práce to dá pokud chcete firmu p
 
 Skvělá přednáška o tom jak nemůžete věřit každému grafu v monitoringu. Doporučuji schlédnout až bude video, bylo tam hodně příkladů. Jde o to, že věci, které uváděl nejsou pro mě například vůbec nové díky lekcím z numerické matematiky a statistiky na ČVUT, ale ne každý má statistický background a nebývá to až tak běžná součást Computer Science.
 
-### Next-generation Alerting and Fault Detection - Dieter Plaetinck, [raintank](http://raintank.io)
-Dieter hodně zdůrazňoval použití machine learning na detekci anomálií a to jak to prakticky moc nefunguje a proto se uchylujeme k streamovanému zpracování dat pomocí nástrojů jako je Spark nebo Riemann.io. Ale nejzajímavější věc zmíněná v přednášce je [Bosun](https://bosun.org), také IDE pro alerting, kde se dá dělat historický testing, ladění alertů, vyhodnocování na základě dalších dat. Pro podrobosti doporučuji projít články na [blogu](http://dieter.plaetinck.be).
+### Next-generation Alerting and Fault Detection - Dieter Plaetinck, [raintank](https://raintank.io)
+Dieter hodně zdůrazňoval použití machine learning na detekci anomálií a to jak to prakticky moc nefunguje a proto se uchylujeme k streamovanému zpracování dat pomocí nástrojů jako je Spark nebo Riemann.io. Ale nejzajímavější věc zmíněná v přednášce je [Bosun](https://bosun.org), také IDE pro alerting, kde se dá dělat historický testing, ladění alertů, vyhodnocování na základě dalších dat. Pro podrobosti doporučuji projít články na [blogu](https://dieter.plaetinck.be).
 
 
 ### DNS @ Shopify - Emil Stolarsky, Shopify
@@ -82,8 +82,8 @@ Projekt bohužel není open source, ale snad jednou bude. Díky spoustě googler
 
 ## Odkazy na zdroje
 
-- http://www.franklinangulo.com/blog/2016/7/11/srecon-2016-dublin-day-1
-- http://www.slideshare.net/goldshtn/the-next-linux-superpower-ebpf-primer
+- https://www.franklinangulo.com/blog/2016/7/11/srecon-2016-dublin-day-1
+- https://www.slideshare.net/goldshtn/the-next-linux-superpower-ebpf-primer
 - https://github.com/dastergon/awesome-sre
 
 Budu se snažit průběžně doplňovat zdroje a přidám odkazy na videa až budou.

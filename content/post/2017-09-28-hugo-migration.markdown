@@ -1,20 +1,20 @@
 ---
 title: "Migrace na statický generátor Hugo z Ghost a Octopress"
 date: 2017-09-28T11:46:48+02:00
-tags: 
+tags:
  - jamstack
  - hugo
  - golang
 ---
 
-Mám dva blogy, tento v češtině, který poháněl nejdříve Wordpress potom jsem ho migroval na Jekyll a [Octopress](http://octopress.org/), a [druhý v angličtině](https://www.prskavec.net), který běžel na publikačním systému [Ghost](https://ghost.org/). 
+Mám dva blogy, tento v češtině, který poháněl nejdříve Wordpress potom jsem ho migroval na Jekyll a [Octopress](https://octopress.org/), a [druhý v angličtině](https://www.prskavec.net), který běžel na publikačním systému [Ghost](https://ghost.org/).
 
-V posledním roce se objevili problémy na Ghostu s novou verzí, nexistoval přímý upgrade. Tak jsem musel udělat export a když jsem se snažil instalovat novou verzi tak jsem zjistil, že nefuguje zase s poslední verzí NodeJS 8, kterou jsem měl na serveru. 
+V posledním roce se objevili problémy na Ghostu s novou verzí, nexistoval přímý upgrade. Tak jsem musel udělat export a když jsem se snažil instalovat novou verzi tak jsem zjistil, že nefuguje zase s poslední verzí NodeJS 8, kterou jsem měl na serveru.
 
 Tak jsem se rozhodl pro radikální změnu, delší dobu jsem chtěl vyřešit několik věcí.
 
 - migraci na TLS od Let's encrypt
-- mít CDN pro static assety 
+- mít CDN pro static assety
 - zrychlit publikační workflow, abych vystačil jen s Githubem
 - otestovat Netlify o kterém jsem mluvil v [předchozím příspěvku](https://blog.prskavec.net/2017/06/28/jam-stack/)
 - přejít z NodeJS a Ruby na Golang [statický generátor Hugo](https://gohugo.io/), který je rychlý, dobře udržovaný a není pro mě problém si tam upravit co potřebuju

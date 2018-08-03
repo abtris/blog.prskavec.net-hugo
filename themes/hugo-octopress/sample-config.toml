@@ -1,4 +1,4 @@
-baseurl = "http://example.com"
+baseurl = "https://example.com"
 disablePathToLower = false
 languageCode = "en-us"
 title = "Site title"

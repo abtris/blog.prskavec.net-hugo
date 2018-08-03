@@ -35,7 +35,7 @@ Nejprve standarní řešení přes Ldap modul v PHP. Něco o našem LDAPu, použ
             return false;
         }
     }</pre>
-V Zendu se to řeší pomocí tohoto kódu, který je odvozen od toho v <a href="http://framework.zend.com/manual/en/zend.ldap.html">manuálu</a>, ale musel projít úpravou v sekci $options, protože LDAP modul v Auth nějak nepočítá s tím, že nemáte uživatele pro přístup k Ldapu, což je pokud vím dost běžná situace.
+V Zendu se to řeší pomocí tohoto kódu, který je odvozen od toho v <a href="https://framework.zend.com/manual/en/zend.ldap.html">manuálu</a>, ale musel projít úpravou v sekci $options, protože LDAP modul v Auth nějak nepočítá s tím, že nemáte uživatele pro přístup k Ldapu, což je pokud vím dost běžná situace.
 <pre name='code' class="php">class AuthController extends Zend_Controller_Action
 {
     function indexAction()
@@ -90,4 +90,4 @@ ldap.server1.useSsl = true
 ldap.server1.baseDn = "ou=People,ou=usermap,o=cvut,c=cz"
 ldap.server1.bindRequiresDn = true
 ldap.server1.accountFilterFormat = "(&amp;(objectClass=person)(uid=%s))"</pre>
-v další fázi se obvykle ještě snažíme vytáhnout některá data jako je osobní číslo podle kterého se potom pracuje s aplikací, ale to bude dobře možné až pomocí <a href="http://framework.zend.com/wiki/display/ZFPROP/Zend_Ldap_Ext+Proposal">Zend_Ldap_Ext</a>, která je zatím ve vývoji, ale můžete samozřejmě použít stávající Ldap funkce v php.
+v další fázi se obvykle ještě snažíme vytáhnout některá data jako je osobní číslo podle kterého se potom pracuje s aplikací, ale to bude dobře možné až pomocí <a href="https://framework.zend.com/wiki/display/ZFPROP/Zend_Ldap_Ext+Proposal">Zend_Ldap_Ext</a>, která je zatím ve vývoji, ale můžete samozřejmě použít stávající Ldap funkce v php.

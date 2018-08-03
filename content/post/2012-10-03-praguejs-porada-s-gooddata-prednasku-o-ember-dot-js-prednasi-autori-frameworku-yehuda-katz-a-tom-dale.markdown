@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
  - praguejs
  - javascript
 comments: true
@@ -9,11 +9,11 @@ title: PragueJS pořádá s GoodData přednášku o Ember.js. Přednáší auto�
 url: /2012/10/03/praguejs-porada-s-gooddata-prednasku-o-ember-dot-js-prednasi-autori-frameworku-yehuda-katz-a-tom-dale/
 ---
 
-Ve čtvrtek 11.10. proběhne [javascriptový meetup](http://praguejs.cz) v [Node5](http://node5.cz) s tématem [Ember.js](http://emberjs.com). GoodData přivezou do Prahy hlavní vývojáře tohoto frameworku.
+Ve čtvrtek 11.10. proběhne [javascriptový meetup](https://praguejs.cz) v [Node5](https://node5.cz) s tématem [Ember.js](https://emberjs.com). GoodData přivezou do Prahy hlavní vývojáře tohoto frameworku.
 
 <!--more-->
 
-Oba představitelé pracuji pro startup [Tilde.io](http://www.tilde.io/), který společně založili, jehož hlavní náplní je dodávat kompletní řešení pro prostředí moderního webu.
+Oba představitelé pracuji pro startup [Tilde.io](https://www.tilde.io/), který společně založili, jehož hlavní náplní je dodávat kompletní řešení pro prostředí moderního webu.
 
 *Yehuda Katz* je hlavní vývojář mnoha projektů, včetně Ruby on Rails, jQuery a Ember.js.
 
@@ -21,8 +21,8 @@ Oba představitelé pracuji pro startup [Tilde.io](http://www.tilde.io/), který
 
 
 
-Začátek v 18h v prostorách Node5 v Praze. Přihlásit se můžete na <a href="http://srazy.info/js-meetup/2731">srazy.info</a> nebo na <a href="https://www.facebook.com/events/460090940679989/">facebooku</a>.
+Začátek v 18h v prostorách Node5 v Praze. Přihlásit se můžete na <a href="https://srazy.info/js-meetup/2731">srazy.info</a> nebo na <a href="https://www.facebook.com/events/460090940679989/">facebooku</a>.
 
 
-Více infomací na <a href="http://praguejs.cz">praguejs.cz</a>.
+Více infomací na <a href="https://praguejs.cz">praguejs.cz</a>.
 

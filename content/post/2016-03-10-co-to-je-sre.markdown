@@ -1,13 +1,13 @@
 ---
 comments: true
-tags: 
+tags:
  - sre
 date: 2016-03-10T00:00:00Z
 title: Co to je SRE?
 url: /2016/03/10/co-to-je-sre/
 ---
 
-Včera jsem měl [přednášku v Brně o dockeru](http://srazy.info/jak-nejlepe-nasadit-docker-kontejnery-do-cloudu/6197) a ptal jsem se lidí kolem na meetup a v hospodě potom zda znají Site Reliability Engineering (SRE) ze svého okolí. Tento koncept od Googlu rozšiřuje klasické pojetí DevOps a myslím, že je to jedna z nejlepších věcí co Google vymyslel.
+Včera jsem měl [přednášku v Brně o dockeru](https://srazy.info/jak-nejlepe-nasadit-docker-kontejnery-do-cloudu/6197) a ptal jsem se lidí kolem na meetup a v hospodě potom zda znají Site Reliability Engineering (SRE) ze svého okolí. Tento koncept od Googlu rozšiřuje klasické pojetí DevOps a myslím, že je to jedna z nejlepších věcí co Google vymyslel.
 
 Můžete to slyšet přímo od Bena Treynora. Poslechněte jeho skvělou přednášku [Keys to SRE z SRECon14](https://www.usenix.org/conference/srecon14/technical-sessions/presentation/keys-sre).
 
@@ -17,7 +17,7 @@ Díky, že jste přímo neutekli na přednášku Bena Treynora, podívejte se na
 
 Jestli jste se snažili někdy ve firmě zavést DevOps tak jste možná narazili, případně říkáte, že máte DevOps, ale často to úplně ve všem nepomohlo.
 
-Přišel jsem před 7 lety do [LMC](http://www.lmc.eu). Měli jsme všecho rozdělené na týmy podle toho co kdo dělal a přišlo nám to tehdy logické. Produkt měl svůj tým, QA měl svůj tým, Support, Ops, Sales, Marketing a Development také. Development byl ještě rozdělný na tři týmy podle specializace (interní systémy, B2C). A ještě jsme měli externí partnery. Také jsme měli release 3-4 krát do roka a celkem to fungovalo.
+Přišel jsem před 7 lety do [LMC](https://www.lmc.eu). Měli jsme všecho rozdělené na týmy podle toho co kdo dělal a přišlo nám to tehdy logické. Produkt měl svůj tým, QA měl svůj tým, Support, Ops, Sales, Marketing a Development také. Development byl ještě rozdělný na tři týmy podle specializace (interní systémy, B2C). A ještě jsme měli externí partnery. Také jsme měli release 3-4 krát do roka a celkem to fungovalo.
 
 Potom, ale přišla revoluce. Měli jsme skvělé školení od produktového vývoje a ve firmě se všechno začalo měnit. Vytvořili se produktové týmy. Každý tým měl scrummastera, produkťáka, ux a programátory, kterří dělali i QA. Jediné co zůstalo bylo Operations. Potom jsem z firmy odešel a nevím zda se v tom posunuly dál, ale to je dost těžký krok zvláště pro větší firmu.
 
@@ -33,4 +33,4 @@ Klíčový rozdíl mezi SRE a DevOPS jsou error buggety. Aby jste neměli válku
 
 Budget musíte měřit a mít to v monitoringu, kde na to vidí jak DEV tak SRE tým. Když je DEV tým pod limitem svého error budgetu, může provádět deploy. Po překročení limitu nesmí nasazovat. To má tu výhodu, že je to čirá matematika, nikde tam není boj o moc apod. DEV se naučí hlídat si svůj error budget a PR, které mají málo testů nebo mají jiná rizika nebudou mít tak jednoduchý život.
 
-Samozřejmě to není všechno kolem SRE, je toho mnohem více. Pro ty, které SRE problematika zajímá tak doporučuji sledovat [SRE Weekly](http://sreweekly.com/) nebo se zůčastnit [SRECon 2016](https://www.usenix.org/conference/srecon16).
+Samozřejmě to není všechno kolem SRE, je toho mnohem více. Pro ty, které SRE problematika zajímá tak doporučuji sledovat [SRE Weekly](https://sreweekly.com/) nebo se zůčastnit [SRECon 2016](https://www.usenix.org/conference/srecon16).

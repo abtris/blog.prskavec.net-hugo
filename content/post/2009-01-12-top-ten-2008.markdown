@@ -9,15 +9,15 @@ url: /2009/01/12/top-ten-2008/
 
 Jako jiné blogy, jsem udělal žebříček podle toho kolik lidí který příspěvek shlédlo.
 
-<a href="http://blog.prskavec.net/2008/04/wordpress-themes/">Wordpress Themes</a>
-<a href="http://blog.prskavec.net/2008/09/zend-framework-16-a-moje-zkuenosti-s-dojo-tabcontainer/">Zend Framework 1.6 a moje zkušenosti s Dojo TabContainer</a>
-<a href="http://blog.prskavec.net/2008/09/zend-framework-16-a-ajax-pomoc-jquery/">Zend Framework 1.6 a ajax pomocí jQuery</a>
-<a href="http://blog.prskavec.net/2008/07/subversion-pro-kazdho/">Subversion pro každého</a>
-<a href="http://blog.prskavec.net/2008/07/gettext-a-php/">Gettext a PHP</a>
-<a href="http://blog.prskavec.net/2008/03/subversion-pod-windows/">Subversion pod Windows</a>
-<a href="http://blog.prskavec.net/2008/11/phpundercontrol-vs-xinc/">phpUnderControl vs Xinc</a>
-<a href="http://blog.prskavec.net/2008/07/netbeans-pdt-a-subversion-15/">NetBeans, PDT a Subversion 1.5</a>
-<a href="http://blog.prskavec.net/2008/06/jednoduch-aplikace-v-php-a-flex/">Jednoduchá aplikace v PHP a Flex</a>
-<a href="http://blog.prskavec.net/2007/11/tvorba-caroveho-kodu-v-php/">Tvorba čárového kódu v PHP</a>
+<a href="https://blog.prskavec.net/2008/04/wordpress-themes/">Wordpress Themes</a>
+<a href="https://blog.prskavec.net/2008/09/zend-framework-16-a-moje-zkuenosti-s-dojo-tabcontainer/">Zend Framework 1.6 a moje zkušenosti s Dojo TabContainer</a>
+<a href="https://blog.prskavec.net/2008/09/zend-framework-16-a-ajax-pomoc-jquery/">Zend Framework 1.6 a ajax pomocí jQuery</a>
+<a href="https://blog.prskavec.net/2008/07/subversion-pro-kazdho/">Subversion pro každého</a>
+<a href="https://blog.prskavec.net/2008/07/gettext-a-php/">Gettext a PHP</a>
+<a href="https://blog.prskavec.net/2008/03/subversion-pod-windows/">Subversion pod Windows</a>
+<a href="https://blog.prskavec.net/2008/11/phpundercontrol-vs-xinc/">phpUnderControl vs Xinc</a>
+<a href="https://blog.prskavec.net/2008/07/netbeans-pdt-a-subversion-15/">NetBeans, PDT a Subversion 1.5</a>
+<a href="https://blog.prskavec.net/2008/06/jednoduch-aplikace-v-php-a-flex/">Jednoduchá aplikace v PHP a Flex</a>
+<a href="https://blog.prskavec.net/2007/11/tvorba-caroveho-kodu-v-php/">Tvorba čárového kódu v PHP</a>
 
 Jsem rád, že se některé články líbíli i když většinou žádná extra diskuze neproběhla, za ohlasy ke všem článkům všem přispěvovatelům děkuji a snad to se mnou vydržíte i v novém roce.

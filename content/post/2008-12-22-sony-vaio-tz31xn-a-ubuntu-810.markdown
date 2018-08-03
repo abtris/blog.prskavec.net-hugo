@@ -63,7 +63,7 @@ apt-get install subversion
 
 potom je potřeba stáhnout nejnovější verzi ze SVN a tu zkompilovat
 <pre>
-svn co http://svn.mediati.org/svn/r5u870/trunk/ webcam
+svn co https://svn.mediati.org/svn/r5u870/trunk/ webcam
 cd webcam
 make
 make install

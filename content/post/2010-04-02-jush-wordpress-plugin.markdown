@@ -10,7 +10,7 @@ type: post
 url: /2010/04/02/jush-wordpress-plugin/
 ---
 
-Pokud chcete použít ve Wordpressu <a href="http://php.vrana.cz/vytvareni-odkazu-do-dokumentace.php">odkazy do dokumentace</a> pomocí <a href="http://jush.sourceforge.net/">JUSH</a>, můžete použít <a href="http://github.com/abtris/jushplugin">plugin do Wordpressu</a>.
+Pokud chcete použít ve Wordpressu <a href="https://php.vrana.cz/vytvareni-odkazu-do-dokumentace.php">odkazy do dokumentace</a> pomocí <a href="https://jush.sourceforge.net/">JUSH</a>, můžete použít <a href="https://github.com/abtris/jushplugin">plugin do Wordpressu</a>.
 
 <strong>Ukázka:</strong>
 <pre class="jush">

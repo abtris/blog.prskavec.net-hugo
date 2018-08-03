@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
  - javascript
  - angularjs
 comments: true
@@ -8,7 +8,7 @@ title: Šablony v AngularJS
 url: /2012/08/14/angualarjs-templates/
 ---
 
-Pokud začínáte s [AngularJS](http://www.angularjs.org) je dobré pro aplikace použít [angular-seed](https://github.com/angular/angular-seed).
+Pokud začínáte s [AngularJS](https://www.angularjs.org) je dobré pro aplikace použít [angular-seed](https://github.com/angular/angular-seed).
 
 <!--more-->
 
@@ -34,7 +34,7 @@ Tento způsob se hodí při vývoji, abyste měli šablony samostatně pro přeh
 
 ## Inline šablony
 
-V manuálu najdete jak vkládat [šablony](http://docs.angularjs.org/api/ng.directive:script), přímo do stránek pomocí script tagu.
+V manuálu najdete jak vkládat [šablony](https://docs.angularjs.org/api/ng.directive:script), přímo do stránek pomocí script tagu.
 
     <script type="text/ng-template" id="partial1.html">
     <p>This is the partial for view 1.</p>
@@ -49,7 +49,7 @@ Ty se dají použít velmi dobře. Pokud je to menší kód, ale jinak je lepš�
 
 Jak jsem to konzultoval s Vojtou Jínou z AngularJS teamu. Pro development je dobré použít jednotlivé šablony samostatně, ale pro nasazení je dobré spojit šablony do jednoho souboru, abyste ušetřili requesty.
 
-Dá se použít například [GruntJS](http://gruntjs.com/) script pro vložení samostaných šablon pro vývoj do inline šablon. Ukázkový script udělal [Vojta Jína](https://github.com/vojtajina).
+Dá se použít například [GruntJS](https://gruntjs.com/) script pro vložení samostaných šablon pro vývoj do inline šablon. Ukázkový script udělal [Vojta Jína](https://github.com/vojtajina).
 
 {% gist 3347478 %}
 

@@ -36,30 +36,30 @@ Pokud nemáte zkušenost s gitem, tak rozvedu ten git push. Ostatní mohou odsta
 
 Git jako distribuovaný systém funguje jen lokálně a může mít svoje vzdálené kopie repository podobně jako v architektuře klient server (Subversion). Ale nemusí mít jen jedno místo kam se zdrojový kód odesílá pomocí git push. Toho se dá využít a používá se to tak, že kromě serveru kam ukládáte zdrojový kód (u mě například Github.com), který je označený jako origin (git push origin master - odešle kód tam), mohu například přidat místo kde se pushem přímo nasadí (git push heroku master - kód se odešle na cloud Heroku a dojde k jeho nasazení). Obdobně kromě místa, lze použít určité větve a mít na serveru hook script, který detekuje změny a provede nasazení.
 <ul>
-	<li><a href="http://stackoverflow.com/questions/279169/deploy-a-project-using-git">http://stackoverflow.com/questions/279169/deploy-a-project-using-git</a></li>
-	<li><a href="http://ryanflorence.com/deploying-websites-with-a-tiny-git-hook">http://ryanflorence.com/deploying-websites-with-a-tiny-git-hook </a></li>
+	<li><a href="https://stackoverflow.com/questions/279169/deploy-a-project-using-git">https://stackoverflow.com/questions/279169/deploy-a-project-using-git</a></li>
+	<li><a href="https://ryanflorence.com/deploying-websites-with-a-tiny-git-hook">https://ryanflorence.com/deploying-websites-with-a-tiny-git-hook </a></li>
 </ul>
 <h2 id="jak_to_nechat_na_jinch">Jak to nechat na jiných</h2>
 Pokud můžete a děláte projekt, kde se můžete dovolit využít hostingu, cloudu, který deployment vyřeší za vás, udělejte to. Ušetří vám to čas i prostředky. Samozřejmě ne vždy to jde, ale pro ty případy tu bude další kapitola.
-<h3 id="herokucom"><a href="http://heroku.com">Heroku.com</a></h3>
+<h3 id="herokucom"><a href="https://heroku.com">Heroku.com</a></h3>
 <ul>
-	<li>Ruby, Node.js, Closure, Java (CLI client, rake pro příkazy jako jsou migrace db, hodně dodatečných služeb - <a href="http://addons.heroku.com/">http://addons.heroku.com/</a>)</li>
+	<li>Ruby, Node.js, Closure, Java (CLI client, rake pro příkazy jako jsou migrace db, hodně dodatečných služeb - <a href="https://addons.heroku.com/">https://addons.heroku.com/</a>)</li>
 	<li>částečná podpora pro PHP a Python přes Facebook - <a href="https://developers.facebook.com/blog/post/558/">https://developers.facebook.com/blog/post/558/</a>.</li>
 </ul>
 Další služby, recenze některých jsem dělal dříve.
-- <a href="http://www.pagodabox.com">http://www.pagodabox.com</a>
-- <a href="http://phpfog.com">http://phpfog.com</a>
-- <a href="http://orchestra.io/">http://orchestra.io/</a>
-- <a href="http://www.engineyard.com">http://www.engineyard.com</a>
-- <a href="http://cloudcontrol.com/">http://cloudcontrol.com/</a>
-- <a href="http://relbit.com">http://relbit.com</a>
-- <a href="http://nodester.com/">http://nodester.com/</a>
+- <a href="https://www.pagodabox.com">https://www.pagodabox.com</a>
+- <a href="https://phpfog.com">https://phpfog.com</a>
+- <a href="https://orchestra.io/">https://orchestra.io/</a>
+- <a href="https://www.engineyard.com">https://www.engineyard.com</a>
+- <a href="https://cloudcontrol.com/">https://cloudcontrol.com/</a>
+- <a href="https://relbit.com">https://relbit.com</a>
+- <a href="https://nodester.com/">https://nodester.com/</a>
 
 Samozřejmě jsem nemohl vyzkoušet podrobně každou cloudovou službu, na to nemám rozpočet a ne každá má k dispozici zdarma potřebný program pro vývojáře. Důležité aspoň pro mě je podpora práce z CLI kvůli možnosti automatizace, případně nějaké API, které to umožňuje. A také podpora vlastního nastavení a úkolů, aby jste mohli například automaticky spustit test nebo migraci databáze. Svoje zkušenosti nebo rady a doporučení uveďte do komentářů, budu rád.
 <h2 id="jak_si_to_vyrobit_sm">Jak si to vyrobit sám</h2>
 <h3 id="rozdlen_nstroj_pro_deployment">Rozdělení nástrojů pro deployment</h3>
 <ul>
-	<li>balíčkovací systémy (<a href="http://en.wikipedia.org/wiki/Listofsoftwarepackagemanagement_systems">http://en.wikipedia.org/wiki/List<em>of</em>software<em>package</em>management_systems</a>)
+	<li>balíčkovací systémy (<a href="https://en.wikipedia.org/wiki/Listofsoftwarepackagemanagement_systems">https://en.wikipedia.org/wiki/List<em>of</em>software<em>package</em>management_systems</a>)
 <ul>
 	<li>podle operačního systému (RPM, DEB)</li>
 	<li>podle jazyka (phar, pear, gem, npm, cpan)</li>
@@ -67,19 +67,19 @@ Samozřejmě jsem nemohl vyzkoušet podrobně každou cloudovou službu, na to n
 </li>
 	<li>nástroje
 <ul>
-	<li>capistrano - <a href="http://capify.org/">http://capify.org/</a></li>
-	<li>fabric - <a href="http://fabfile.org">http://fabfile.org</a></li>
-	<li>cfengine - <a href="http://cfengine.com/">http://cfengine.com/</a></li>
-	<li>puppet - <a href="http://puppetlabs.com/">http://puppetlabs.com/</a></li>
-	<li>chef - <a href="http://www.opscode.com/">http://www.opscode.com/</a></li>
-	<li>ant - <a href="http://ant.apache.org/">http://ant.apache.org/</a>, maven - <a href="http://maven.apache.org/">http://maven.apache.org/</a>, buildr - <a href="http://buildr.apache.org/">http://buildr.apache.org/</a></li>
+	<li>capistrano - <a href="https://capify.org/">https://capify.org/</a></li>
+	<li>fabric - <a href="https://fabfile.org">https://fabfile.org</a></li>
+	<li>cfengine - <a href="https://cfengine.com/">https://cfengine.com/</a></li>
+	<li>puppet - <a href="https://puppetlabs.com/">https://puppetlabs.com/</a></li>
+	<li>chef - <a href="https://www.opscode.com/">https://www.opscode.com/</a></li>
+	<li>ant - <a href="https://ant.apache.org/">https://ant.apache.org/</a>, maven - <a href="https://maven.apache.org/">https://maven.apache.org/</a>, buildr - <a href="https://buildr.apache.org/">https://buildr.apache.org/</a></li>
 	<li>make, rake, phake, phing apod.</li>
 </ul>
 </li>
 </ul>
 <h3 id="capistrano">Capistrano</h3>
 Instalace
-- pro instalaci potřebujete ruby (windows - <a href="http://rubyinstaller.org/">http://rubyinstaller.org/</a>, mac - součást OS)
+- pro instalaci potřebujete ruby (windows - <a href="https://rubyinstaller.org/">https://rubyinstaller.org/</a>, mac - součást OS)
 - pokud budete deployment dělat pro ruby aplikaci nepotřebujete samozřejmě railsless-deploy
 <pre><code>gem install capistrano capistrano-ext railsless-deploy
 </code></pre>
@@ -107,10 +107,10 @@ cap apache:restart
 </code></pre>
 <h3 id="praktick_ukzka_capistrana_na_videu">Praktická ukázka Capistrana na videu</h3>
 <ul>
-	<li>používám virtuální server pro deployment, který je vytvořen pomocí Vagrant (<a href="http://www.vagrantup.com">www.vagrantup.com</a>) a Chef</li>
+	<li>používám virtuální server pro deployment, který je vytvořen pomocí Vagrant (<a href="https://www.vagrantup.com">www.vagrantup.com</a>) a Chef</li>
 	<li>ukázka jak se vytváří Jenkins server pro testovaní - <a href="https://github.com/abtris/vagrant-hudson">https://github.com/abtris/vagrant-hudson</a></li>
 </ul>
-<iframe width="420" height="315" src="http://www.youtube.com/embed/MisWQe4JhEQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/MisWQe4JhEQ" frameborder="0" allowfullscreen></iframe>
 <h2 id="jenkins_jak_se_to_dl_v_jobscz">Jenkins - jak se to dělá v Jobs.cz</h2>
 <ul>
 	<li>v LMC (jobs.cz, prace.cz) je vývoj v Javě a PHP. Pro oboje používáme od roku 2008 na build Hudson dnes Jenkins. Pro Javu se přechází na build postavená na Mavenu a v PHP používáme build napsaný v Antu, který vytváří RPM balíčky pro nasazení CFEngine nebo pomocí skriptu přímo z Jenkins.</li>
@@ -282,24 +282,24 @@ K nejznámějším nástrojům patří CFEngine, Puppet a Chef.
 2005 - Puppet
 2009 - CFEngine 3, Chef
 </code></pre>
-O chefu jsem se zmiňoval již dříve, je vhodný právě například pro tvorbu virtualizací ve velkém. Pro příklad uvedu cluster <a href="http://blog.cyclecomputing.com/2011/09/new-cyclecloud-cluster-is-a-triple-threat-30000-cores-massive-spot-instances-grill-chef-monitoring-g.html">Nostromu</a>, který měl 30 000 jader.
+O chefu jsem se zmiňoval již dříve, je vhodný právě například pro tvorbu virtualizací ve velkém. Pro příklad uvedu cluster <a href="https://blog.cyclecomputing.com/2011/09/new-cyclecloud-cluster-is-a-triple-threat-30000-cores-massive-spot-instances-grill-chef-monitoring-g.html">Nostromu</a>, který měl 30 000 jader.
 
 Puppet
-- http://www.puppetlabs.com
+- https://www.puppetlabs.com
 - napsaný v Ruby, odvozený od cfengine
 - klient aktualizuje konfiguraci v pravidelných intervalech a reportuje zpět na server (Puppet Master)
 - perfektní pro “sysadmins”
 - deklarativní popis nastaveni
 
 Chef
-- http://www.opscode.com/chef
+- https://www.opscode.com/chef
 - v Ruby, odvozený od Puppetu
 - Ruby DSL
 - cloud provisioning
 - imperativní popis, více flexibilní, více pro “vývojáře”
 - pokud by vás to zajímalo doporučuji zajít na <a href="bit.ly/skolenichef">školení Radima Marka</a> (GoodData) - s kódem WEBEXPO2011 by měla být sleva 15%
 <h2 id="slidy">Slidy</h2>
-<div style="width:425px" id="__ss_9388737"> <strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/ladislavprskavec/deployment-prakticky" title="Deployment prakticky" target="_blank">Deployment prakticky</a></strong> <iframe src="http://www.slideshare.net/slideshow/embed_code/9388737" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> <div style="padding:5px 0 12px"> View more <a href="http://www.slideshare.net/" target="_blank">presentations</a> from <a href="http://www.slideshare.net/ladislavprskavec" target="_blank">Ladislav Prskavec</a> </div> </div>
+<div style="width:425px" id="__ss_9388737"> <strong style="display:block;margin:12px 0 4px"><a href="https://www.slideshare.net/ladislavprskavec/deployment-prakticky" title="Deployment prakticky" target="_blank">Deployment prakticky</a></strong> <iframe src="https://www.slideshare.net/slideshow/embed_code/9388737" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> <div style="padding:5px 0 12px"> View more <a href="https://www.slideshare.net/" target="_blank">presentations</a> from <a href="https://www.slideshare.net/ladislavprskavec" target="_blank">Ladislav Prskavec</a> </div> </div>
 <h2 id="zvr_co_si_odnst">Závěr - co si odnést</h2>
 <ul>
 	<li>Existují kvalitní nástroje pro deployment, použijte je!</li>
@@ -308,7 +308,7 @@ Chef
 	<li>Uspoříte velké náklady, protože čas ztraceny deploymentem nepřináší žádný zisk.</li>
 </ul>
 
-{% blockquote Ladislav Prskavec - Kurz Jenkins http://webexpo.cz/academy/kurzy/jenkins-jak-na-continuous-integration-v-php WebExpo Academy %}
+{% blockquote Ladislav Prskavec - Kurz Jenkins https://webexpo.cz/academy/kurzy/jenkins-jak-na-continuous-integration-v-php WebExpo Academy %}
 <h4>Jenkins - jak na Continuous Integration v PHP</h4>
 Pochopení a využití procesu Continuous Integration s využitím nástroje Jenkins vám pomůže zvýšit kvalitu softwaru, který vyvíjíte, a zároveň snížit čas na jeho dodávku. Continuous Integration vám umožňuje kontrolovat kvalitu softwaru průběžně po malých částech a minimalizovat tak riziko rozsáhlých chyb, jak tomu bylo v případě klasického vodopádového přístupu.
 {% endblockquote %}

@@ -11,11 +11,11 @@ url: /2009/07/01/php-bytekit/
 ---
 
 <h3>Bytekit</h3>
-<p><a href="http://www.bytekit.org/">Bytekit</a> je nová extenze pro PHP, která umožňuje analyzovat PHP kód na úrovni opcodes, které generuje compiler v PHP. Také nám umožňuje pomocí disassembleru sledovat jak probíhá program na úrovni compileru. Je to další z nástrojů, které umožní zlepšit kvalitu kódu a určitě přinese řadu další analytických nástrojů. Autorem je Stefan Esser, kterého jistě každý zná. Jeho <a href="http://www.suspekt.org/">blog</a> a příspěvky k bezpečnosti PHP jsou známy. </p>
+<p><a href="https://www.bytekit.org/">Bytekit</a> je nová extenze pro PHP, která umožňuje analyzovat PHP kód na úrovni opcodes, které generuje compiler v PHP. Také nám umožňuje pomocí disassembleru sledovat jak probíhá program na úrovni compileru. Je to další z nástrojů, které umožní zlepšit kvalitu kódu a určitě přinese řadu další analytických nástrojů. Autorem je Stefan Esser, kterého jistě každý zná. Jeho <a href="https://www.suspekt.org/">blog</a> a příspěvky k bezpečnosti PHP jsou známy. </p>
 
 <h3>Bytekit-cli</h3>
 <p>
-Samotná extenze, ale není všechno. Abychom mohli ji dobře využít tak <a href="http://sebastian-bergmann.de/archives/871-bytekit-cli.html">Sebastian Bergmann</a> vytvořil <a href="http://github.com/sebastianbergmann/bytekit-cli/tree/master">bytekit-cli</a>, které nám umožní ho využít.
+Samotná extenze, ale není všechno. Abychom mohli ji dobře využít tak <a href="https://sebastian-bergmann.de/archives/871-bytekit-cli.html">Sebastian Bergmann</a> vytvořil <a href="https://github.com/sebastianbergmann/bytekit-cli/tree/master">bytekit-cli</a>, které nám umožní ho využít.
 V článku od SB jsou pěkné příklady, které doporučuji vyzkoušet. Bytekit zatím není dostupné přes PECL tak ho musíte zkompilovat ze zdrojového kódu, známým postupem (phpize, configure, make, make install) a zkompilovanou extenzi přidat do konfigurace PHP. Potom si z githubu můžete stáhnout aktuální verzi bitekit-cli a můžete si hrát.</p>
 
 Například otestuji jak je na tom s přímým výstupem Zend Framework.
@@ -117,7 +117,7 @@ abtris@ubuntu# bytekit --rule=DirectOutput ZendFramework/
     in ZendFramework/library/Zend/Tool/Framework/Client/Console.php:194
 </pre>
 
-Používá Zend Framework někde EVAL? 
+Používá Zend Framework někde EVAL?
 
 <pre>
 abtris@ubuntu#bytekit --rule=DisallowedOpcodes:EVAL ZendFramework/
@@ -156,6 +156,6 @@ abtris@ubuntu#bytekit --rule=DisallowedOpcodes:EVAL ZendFramework/
 </pre>
 
 <h3>Závěr</h3>
-<p>Stefan Esser ve své <a href="http://www.suspekt.org/downloads/DPC_Secure_Programming_With_The_Zend_Framework.pdf">přednášce o bezpečnosti Zend Frameworku</a> se zmiňuje o možnosti například kontrolovat EVAL v pre-commitu tasku, obdobně jako například dnes kontroluji syntaxi php.</p> 
-<p>Koncem září se budu věnovat porovnání PHP Frameworků z hlediska nástrojů pro QA, které jsem dělal v článku <a href="http://blog.prskavec.net/2009/03/pdepend-a-php-frameworky/">pDepend a php frameworky</a>, uvidíme jak jednotlivé frameworky za tu dobu pokročili a také si budu všímat frameworků pomocí dalších nástrojů mezi které bytekit jistě zahrnu.</p>
-<p>Nesmím opomenout připomenout také, že je venku PHP 5.3, na které se čekalo poměrně dlouho a doufám jen, že nebude tolik plné chyb jako jeho přechůdci 5.2 a 5.1. Uvidíme zda na příchod PHP 5.3 jsou připraveny i jiné frameworky než <a href="http://nettephp.com">Nette</a>.</p> 
+<p>Stefan Esser ve své <a href="https://www.suspekt.org/downloads/DPC_Secure_Programming_With_The_Zend_Framework.pdf">přednášce o bezpečnosti Zend Frameworku</a> se zmiňuje o možnosti například kontrolovat EVAL v pre-commitu tasku, obdobně jako například dnes kontroluji syntaxi php.</p>
+<p>Koncem září se budu věnovat porovnání PHP Frameworků z hlediska nástrojů pro QA, které jsem dělal v článku <a href="https://blog.prskavec.net/2009/03/pdepend-a-php-frameworky/">pDepend a php frameworky</a>, uvidíme jak jednotlivé frameworky za tu dobu pokročili a také si budu všímat frameworků pomocí dalších nástrojů mezi které bytekit jistě zahrnu.</p>
+<p>Nesmím opomenout připomenout také, že je venku PHP 5.3, na které se čekalo poměrně dlouho a doufám jen, že nebude tolik plné chyb jako jeho přechůdci 5.2 a 5.1. Uvidíme zda na příchod PHP 5.3 jsou připraveny i jiné frameworky než <a href="https://nettephp.com">Nette</a>.</p>

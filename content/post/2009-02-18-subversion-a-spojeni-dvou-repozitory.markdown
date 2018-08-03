@@ -26,8 +26,8 @@ Já jsem pro spojení obou repozitory, to se dá udělat také různě. Napadaj�
 <ol>
 	<li>Vygenerovat diff patche pro jednotlivé revize v nové repozitory a ty aplikovat postupně na WC ze původního repozitory.</li>
 <li>Udělat dump repozitory pomocí <code>svnadmin dump</code> a potom použít příkaz <code>svnadmin load</code>  s nastavením <code class="option">--parent-dir</code> a import provést do jiné branche.</li>
-	<li><del datetime="2009-02-19T08:58:49+00:00">Udělat dump pomocí <code>svnadmin dump</code> s parametrem <code>--incremental</code> a se stejným parametrem jej i importovat. Tento postup uvádějí <a href="http://svnbook.red-bean.com/en/1.5/svn.reposadmin.maint.html#svn.reposadmin.maint.tk.svnadmin" target="_blank">v manuálu</a>, ale nemám ho zatím odzkoušený.</del></li>
-       <li>můžete také použít <a href="http://svn.borg.ch/svndumptool/">svndumptool</a> a udělat merge na úrovni dump souborů, to mi přijde nejlepší řešení pokud požadujete jednu větev vývoje.</li>
+	<li><del datetime="2009-02-19T08:58:49+00:00">Udělat dump pomocí <code>svnadmin dump</code> s parametrem <code>--incremental</code> a se stejným parametrem jej i importovat. Tento postup uvádějí <a href="https://svnbook.red-bean.com/en/1.5/svn.reposadmin.maint.html#svn.reposadmin.maint.tk.svnadmin" target="_blank">v manuálu</a>, ale nemám ho zatím odzkoušený.</del></li>
+       <li>můžete také použít <a href="https://svn.borg.ch/svndumptool/">svndumptool</a> a udělat merge na úrovni dump souborů, to mi přijde nejlepší řešení pokud požadujete jednu větev vývoje.</li>
 
 </ol>
 Pokud máte nějaké jiné zkušenosti se spojováním repozitory doufám, že to uvedete v komentářích. Ozvěte se také pokud by byl zájem, můžu uvést nějaký příklad s tím jak se to dělá pomocí příkazového řádku, krok za krokem.

@@ -14,7 +14,7 @@ Gettext je Open Source nástroj na překlad aplikací. Kdo s tímto nástrojem p
 
 Getext má jedinou nevýhodu, kterou lze celkem přejít, nejde přímo lidsky číst, ukládájí se v binárním tvaru do souboru s příponou *.mo. Pokud používáte nějakou vlastní metodu pro překlad určitě to bude něco z toho co nabízí Zend Framework (ZF) v Zend_Translate (pole, csv, xml – tbx, xliff, xmltm, gettext) nebo nějakou metodu založenou na databázi. Sám jsem zkusil během let většinu těchto metod a celkem se s nimi pracovalo dobře pokud se aplikace moc nerozrostla a případně pokud neměl překládat někdo kdo neuměl pracovat s prostředím ve kterém jsem pracoval.
 
-Na Gettextu se mi líbí hlavně aplikace pro editaci <a href="http://www.poedit.net">poEdit</a>. Aplikace umí parsovat zdrojové kódy pro překlad. To je asi nejlepší co moje dřívější metody nikdy neměli, gettext si najde sám co překládat a umožňuje použít už hotové překlady pro automatické překlady.
+Na Gettextu se mi líbí hlavně aplikace pro editaci <a href="https://www.poedit.net">poEdit</a>. Aplikace umí parsovat zdrojové kódy pro překlad. To je asi nejlepší co moje dřívější metody nikdy neměli, gettext si najde sám co překládat a umožňuje použít už hotové překlady pro automatické překlady.
 
 Pro práci s Gettextem potřebujete buď ZF nebo extenze pro gettext. ZF v 1.5 zatím nepodporuje množná čísla.
 
@@ -36,13 +36,13 @@ Aplikace poEdit je podle mě asi nejznámější a teké nejlepší pro práci s
 
 Pro práci s ZF je jen potřeba přidat pro v konfiguraci další koncovky do PHP parseru, já jsem používal překlad kromě php skriptech také v v phtml. Bez úpravy nastavení by nenašel xgettext vaše řetězce k předkladu.
 
-<a href="http://blog.prskavec.net/wp-content/uploads/2008/07/image1.png"></a>
+<a href="https://blog.prskavec.net/wp-content/uploads/2008/07/image1.png"></a>
 
 Osobně se mi líbí na gettextu, že můžu mít poEdit současně otevřený s Eclipse nebo jiným editorem a překlady průběžně doplňovat a když je to větší projekt tak jednoduše to celé dělám v jednom jazyce případně v CZ, EN variantě a potom může kdokoliv lehce přeložit text do dalšího jazyka.
 
-Zdrojáky ukázky jsou ke stažení na <a href="http://ladislav.prskavec.net/download/gettext.zip">zip archivu</a>.
+Zdrojáky ukázky jsou ke stažení na <a href="https://ladislav.prskavec.net/download/gettext.zip">zip archivu</a>.
 
-V ZF 1.6 budou změny v <a href="http://weblog.ronnieweb.net/index.php?text=21-nove-view-helpery-a-zmeny-v-zend-translate-v-zend-frameworku-1-6">Zend_Translate</a>.
+V ZF 1.6 budou změny v <a href="https://weblog.ronnieweb.net/index.php?text=21-nove-view-helpery-a-zmeny-v-zend-translate-v-zend-frameworku-1-6">Zend_Translate</a>.
 
 
 Používá někdo nějakou vlastní metodu s parsováním pro překlad textů obdobně jako to dělá getext?

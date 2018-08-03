@@ -1,6 +1,6 @@
 ---
 author: Ladislav Prskavec
-tags: 
+tags:
  - zdrojak
  - books
 comments: false
@@ -11,4 +11,4 @@ url: /2013/06/01/zdrojak-dan-menard-instant-angularjs-starter-recenze-prvni-knih
 
 Javascriptový framework AngularJS se stává čím dám tím populárnější. Letos vyjde několik prvních knih na něj zaměřených. Recenzi té úplně první z nich vám dnes nabízíme.
 
-Více na [zdrojak.cz](http://www.zdrojak.cz/clanky/menard-instant-angularjs-starter-recenze/)
+Více na [zdrojak.cz](https://www.zdrojak.cz/clanky/menard-instant-angularjs-starter-recenze/)

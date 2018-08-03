@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
  - jenkins
 comments: true
 date: 2016-10-26T00:00:00Z
@@ -56,7 +56,7 @@ node {
    }
 }
 ```
-Jenkinsfile je [DSL](https://en.wikipedia.org/wiki/Domain-specific_language) v programovacím jazyku [Groovy](http://www.groovy-lang.org) obsahuje blok s názvem `node` kde si definujete, kde a co se má co spouštět. V ukázce tam není žádná podmínka a tak Jenkins rozhodně sám kde to spustí. Pokud by jste to chtěli upřesnit tak se dá se specifikovat zda to má být master nebo naopak, že to nemá být master (doporučeno) a také jde přímo označit agenta (slave), kterého máte připojeného k Jenkins masteru. Může to být instance na Amazon Web Services (AWS) nebo v jiném cloudu, tak jakýkoliv jiný počítač, který si k tomu určíte a pustíte na něm potřebného klienta.
+Jenkinsfile je [DSL](https://en.wikipedia.org/wiki/Domain-specific_language) v programovacím jazyku [Groovy](https://www.groovy-lang.org) obsahuje blok s názvem `node` kde si definujete, kde a co se má co spouštět. V ukázce tam není žádná podmínka a tak Jenkins rozhodně sám kde to spustí. Pokud by jste to chtěli upřesnit tak se dá se specifikovat zda to má být master nebo naopak, že to nemá být master (doporučeno) a také jde přímo označit agenta (slave), kterého máte připojeného k Jenkins masteru. Může to být instance na Amazon Web Services (AWS) nebo v jiném cloudu, tak jakýkoliv jiný počítač, který si k tomu určíte a pustíte na něm potřebného klienta.
 
 Další klíčovým slovem je `stage`, kde si názvem rozdělíme pipeline do nějakých logických celků. Tyto části, pokud to má smysl, můžeme zpracovávat paralelně jako je to v ukázce v části `Build`. Využití paralelního zpracování je tam, kde chcete zkrátit čas celého build a pokud na to máte volné prostředky (agenty).
 

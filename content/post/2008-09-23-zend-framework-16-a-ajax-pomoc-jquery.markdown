@@ -10,7 +10,7 @@ type: post
 url: /2008/09/23/zend-framework-16-a-ajax-pomoc-jquery/
 ---
 
-Jak jsem psal v <a href="http://blog.prskavec.net/?p=163">Zend Framework 1.6 a moje zkušenosti s Dojo TabContainer</a>, nakonec jsem použil jQuery. Ve formuláři se dají měnit některá data, které jsou závislá na dalších, které automaticky předvyplňuji a na to jsem použil při změnách ajax. Docela mě potěšilo jak jednoduše a pěkně se to dá udělat pomocí <a href="http://jquery.com/">jQuery</a>.
+Jak jsem psal v <a href="https://blog.prskavec.net/?p=163">Zend Framework 1.6 a moje zkušenosti s Dojo TabContainer</a>, nakonec jsem použil jQuery. Ve formuláři se dají měnit některá data, které jsou závislá na dalších, které automaticky předvyplňuji a na to jsem použil při změnách ajax. Docela mě potěšilo jak jednoduše a pěkně se to dá udělat pomocí <a href="https://jquery.com/">jQuery</a>.
 <pre name='code' class="php">&lt;script&gt;
 $(document).ready(function(){
      $("#example &gt; ul").tabs();

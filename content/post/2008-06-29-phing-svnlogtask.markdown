@@ -12,7 +12,7 @@ type: post
 url: /2008/06/29/phing-svnlogtask/
 ---
 
-<a href="http://phing.info/trac/">Phing</a> obsahuje ve verzi 2.3 tyto Tasky pro práci se Subversion.
+<a href="https://phing.info/trac/">Phing</a> obsahuje ve verzi 2.3 tyto Tasky pro práci se Subversion.
 <ul>
 	<li>SvnCheckoutTask</li>
 	<li>SvnExportTask</li>
@@ -27,7 +27,7 @@ To se hodí a také ve svém buildu používám tento postup:
 	<li>vygeneruju API dokumentaci pro build (PhpDocumentorTask)</li>
 	<li>všechno zakomprimuji do souboru s dokumentací a se zdrojáky a uložím kam potřebuju (ZipTask)</li>
 </ol>
-V postupu je něco co není standardní součástí <a href="http://phing.info/docs/guide/current/">Phingu</a> i když si myslím, že se to tam objeví. Phing pro práci se SVN používá <a href="http://pear.php.net/package/VersionControl_SVN/">VersionControl_SVN</a> 0.3.1 alpha. Bohužel neexistuje zatím stable verze této PEAR knihovny což je škoda, protože funguje celkem dobře a má implementováno vše co potřebuji. Když používáte VersionControl_SVN dá se pracovat s několika návratovými typy:
+V postupu je něco co není standardní součástí <a href="https://phing.info/docs/guide/current/">Phingu</a> i když si myslím, že se to tam objeví. Phing pro práci se SVN používá <a href="https://pear.php.net/package/VersionControl_SVN/">VersionControl_SVN</a> 0.3.1 alpha. Bohužel neexistuje zatím stable verze této PEAR knihovny což je škoda, protože funguje celkem dobře a má implementováno vše co potřebuji. Když používáte VersionControl_SVN dá se pracovat s několika návratovými typy:
 <ul>
 	<li>VERSIONCONTROL_SVN_FETCHMODE_ASSOC,</li>
 	<li>VERSIONCONTROL_SVN_FETCHMODE_OBJECT,</li>
@@ -48,7 +48,7 @@ jsem nahradil tímto kódem
 		// subclasses.
 		if ($mode=="log")
 		{
-		$options = array('fetchmode' => VERSIONCONTROL_SVN_FETCHMODE_XML, 'svn_path' => $this->getSvnPath());		
+		$options = array('fetchmode' => VERSIONCONTROL_SVN_FETCHMODE_XML, 'svn_path' => $this->getSvnPath());
 		}
 		else
 		{
@@ -77,13 +77,13 @@ class SvnLogTask extends SvnBaseTask
      */
     public function setXML($str) {
         $this->xml = $str;
-    }   
+    }
     /**
      * The setter for the attribute "verbose"
      */
     public function setVerbose($str) {
         $this->verbose = $str;
-    }       
+    }
 	/**
 	 * The main entry point
 	 *
@@ -92,22 +92,22 @@ class SvnLogTask extends SvnBaseTask
 	function main()
 	{
 		$this->setup('log');
-		$this->log("Log SVN"); 
-       
+		$this->log("Log SVN");
+
          $switches = array('verbose' => $this->verbose);
          $output=$this->run(array(), $switches);
 
         $doc = new DOMDocument();
-        $doc->formatOutput = true;        
-        $doc->loadXML($output);             
-        // output format 
-        
+        $doc->formatOutput = true;
+        $doc->loadXML($output);
+        // output format
+
         if ($this->xml=="true")
-        {        
+        {
           $doc->save($this->getToDir()."/".$this->name);
         }
         else
-        {                 
+        {
          // print in plain
          $xsl = new DOMDocument;
          $xsl->load(dirname(__FILE__).'\LogTxt.xsl');
@@ -122,14 +122,14 @@ class SvnLogTask extends SvnBaseTask
          $rep[1] = " ";
          $rep[2] = "";
          $after=preg_replace($pat, $rep, $output);
-         $str=str_replace("\\n ","\n", $after);         
+         $str=str_replace("\\n ","\n", $after);
          file_put_contents($this->getToDir()."/".$this->name,$str);
         }
     }
 }
 </pre>
 
-Potom se to dá už použít v <code>build.xml</code>. 
+Potom se to dá už použít v <code>build.xml</code>.
 <pre name='code' class="xml">
         &lt;taskdef name="svnlog" classname="phing.tasks.ext.svn.SvnLogTask" /&gt;
         &lt;svnlog
@@ -145,21 +145,21 @@ Moje vlastní XSLT transformace (<code>phing\tasks\ext\svn\LogTxt.xsl</code>) na
 
 <pre name='code' class="xml">
 &lt;?xml version="1.0"?&gt;
-&lt;xsl:stylesheet version="1.0" 
-xmlns:xsl="http://www.w3.org/1999/XSL/Transform"&gt;
- 
-&lt;xsl:template match="log"&gt;       			
+&lt;xsl:stylesheet version="1.0"
+xmlns:xsl="https://www.w3.org/1999/XSL/Transform"&gt;
+
+&lt;xsl:template match="log"&gt;
 			CHANGELOG\n
 			&lt;xsl:apply-templates select='logentry'/&gt;
 &lt;/xsl:template&gt;
- 
- 
-&lt;xsl:template match="logentry"&gt;       
+
+
+&lt;xsl:template match="logentry"&gt;
 			\n R&lt;xsl:apply-templates select='@revision'/&gt;\n
 			&lt;xsl:apply-templates select='date' /&gt; - &lt;xsl:apply-templates select='author'/&gt;\n
-			&lt;xsl:apply-templates select='msg'/&gt;\n			
+			&lt;xsl:apply-templates select='msg'/&gt;\n
 &lt;/xsl:template&gt;
- 
+
 &lt;/xsl:stylesheet&gt;
 </pre>
 Nakonec přidám ještě moje build.propeties a buid.xml jednoho moje projektu pro ilustraci.
@@ -177,20 +177,20 @@ Tady v build.propeties si všimněte jen jediného detailu, ale ten vás může 
 &lt;?xml version="1.0" ?&gt;
 &lt;project name="akce2" basedir="." default="main"&gt;
 
-    &lt;!-- Sets the DSTAMP, TSTAMP and TODAY properties --&gt;  
-    &lt;tstamp/&gt;  
-  
-    &lt;!-- Load our configuration --&gt;  
+    &lt;!-- Sets the DSTAMP, TSTAMP and TODAY properties --&gt;
+    &lt;tstamp/&gt;
+
+    &lt;!-- Load our configuration --&gt;
     &lt;property file="./build.properties" /&gt;
     &lt;taskdef name="svnlog" classname="phing.tasks.ext.svn.SvnLogTask" /&gt;
-    
+
     &lt;property name="package"  value="${phing.project.name}" override="true" /&gt;
     &lt;property name="builddir" value="${tmp}/build/${phing.project.name}" override="true" /&gt;
     &lt;property name="srcdir"   value="${project.basedir}" override="true" /&gt;
 
 
     &lt;target name="svn" description="SVN executes"&gt;
-         &lt;!-- Export HEAD copy do /tmp/ --&gt;       
+         &lt;!-- Export HEAD copy do /tmp/ --&gt;
        &lt;svnexport
        svnpath="${svnpath}"
        repositoryurl="${rep}"
@@ -200,15 +200,15 @@ Tady v build.propeties si všimněte jen jediného detailu, ale ten vás může 
         &lt;svnlastrevision
            svnpath="${svnpath}"
            workingcopy="${wc}"
-           propertyname="svn.lastrevision"/&gt;       
-        &lt;!-- Vygenerování aktuálního logu --&gt;           
+           propertyname="svn.lastrevision"/&gt;
+        &lt;!-- Vygenerování aktuálního logu --&gt;
         &lt;svnlog
            svnpath="${svnpath}"
            repositoryurl="${rep}"
            name="CHANGELOG"
            xml="false"
            verbose="true"
-           todir="${tmp}\export\${phing.project.name}"/&gt;    
+           todir="${tmp}\export\${phing.project.name}"/&gt;
     &lt;/target&gt;
 
     &lt;target name="phpdoc" description="API Documentation" depends="svn"&gt;
@@ -219,13 +219,13 @@ Tady v build.propeties si všimněte jen jediného detailu, ale ten vás může 
           defaultpackagename="Akce2008"
           output="HTML:default:default"&gt;
            &lt;fileset dir="${tmp}/export/${phing.project.name}"&gt;
-              &lt;include name="*/*.php" /&gt;      
+              &lt;include name="*/*.php" /&gt;
               &lt;exclude name="inc/phpmailer/**" /&gt;
               &lt;exclude name="build/**" /&gt;
            &lt;/fileset&gt;
             &lt;projdocfileset dir="."&gt;
                   &lt;include name="CHANGELOG" /&gt;
-             &lt;/projdocfileset&gt;           
+             &lt;/projdocfileset&gt;
         &lt;/phpdoc&gt;
       &lt;/target&gt;
 
@@ -239,9 +239,9 @@ Tady v build.propeties si všimněte jen jediného detailu, ale ten vás může 
     &lt;!-- Main Target --&gt;
     &lt;target name="main" description="main target" depends="phpdoc"&gt;
         &lt;!-- Zdrojové kódy pro příslušnou revizi --&gt;
-        &lt;zip destfile="${builddir}/${phing.project.name}-R${svn.lastrevision}-${DSTAMP}${TSTAMP}.zip" basedir="${tmp}/export/${phing.project.name}" /&gt;                    
+        &lt;zip destfile="${builddir}/${phing.project.name}-R${svn.lastrevision}-${DSTAMP}${TSTAMP}.zip" basedir="${tmp}/export/${phing.project.name}" /&gt;
         &lt;!-- Vygenerovanou dokumentaci přesunu do ZIP s číslem příslušné revize --&gt;
-        &lt;zip destfile="${builddir}/${phing.project.name}-apidocs-R${svn.lastrevision}-${DSTAMP}${TSTAMP}.zip" basedir="${builddir}/apidocs" /&gt;        
+        &lt;zip destfile="${builddir}/${phing.project.name}-apidocs-R${svn.lastrevision}-${DSTAMP}${TSTAMP}.zip" basedir="${builddir}/apidocs" /&gt;
         &lt;!-- Smazaní temp adresáře --&gt;
         &lt;delete dir="${builddir}/apidocs" includeemptydirs="true" verbose="true" failonerror="true" /&gt;
 
@@ -254,4 +254,4 @@ pear channel-discover pear.phing.info
 pear install -a phing/phing
 pear install channel://pear.php.net/VersionControl_SVN-0.3.1
 </pre>
-Doufám, že někomu rady budou k užitku, Phing je skvělý produkt i když většina asi dá za přednost <a href="http://ant.apache.org/">Antu</a> pokud nedělají čistě PHP.
+Doufám, že někomu rady budou k užitku, Phing je skvělý produkt i když většina asi dá za přednost <a href="https://ant.apache.org/">Antu</a> pokud nedělají čistě PHP.

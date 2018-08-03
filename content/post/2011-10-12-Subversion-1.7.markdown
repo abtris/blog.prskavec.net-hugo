@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
  - svn
  - scm
 comments: true
@@ -14,13 +14,13 @@ Myslím, že vetšina lidí si shlédnutí roadmapy Subversion a čekaní 2 roky
 
 ## Novinky ve verzi 1.7
 
-Byla opraveny [spousty chyb](http://svn.apache.org/repos/asf/subversion/tags/1.7.0/CHANGES) což jistě všichni uživatelé ocení. A přidáno několik novinek, ty nejvýznamější zmínim dále.
+Byla opraveny [spousty chyb](https://svn.apache.org/repos/asf/subversion/tags/1.7.0/CHANGES) což jistě všichni uživatelé ocení. A přidáno několik novinek, ty nejvýznamější zmínim dále.
 
 <!--more-->
 
 ### WC-NG
 
-Za dlouho očekávanou novou verzí pracovní kopie (WC, working copy) je centralizace adresářů `.svn` do jednoho podobně jako to mají jiné verzovací systémy. Používá se nějaká forma SQLite, ale autoři upozorňují, že není bezpečné přistupovat k souboru s metadaty běžnými nástroji pro SQLite. 
+Za dlouho očekávanou novou verzí pracovní kopie (WC, working copy) je centralizace adresářů `.svn` do jednoho podobně jako to mají jiné verzovací systémy. Používá se nějaká forma SQLite, ale autoři upozorňují, že není bezpečné přistupovat k souboru s metadaty běžnými nástroji pro SQLite.
 
 ### HTTPv2
 
@@ -28,7 +28,7 @@ Nový jednoduší HTTP protokol má samozřejmě hlavně zvýšit výkon SVN, kd
 
 ### svnrdump
 
-Příkaz `svnrdump` umožňuje to samé jako `svnadmin dump` na serveru i vzdáleně. Pokud jste ve staré verzi chtěli zálohovat pomocí svnadmin, museli jste mít přístup přímo k file systému, kde byl svn server. To teď odpadá. 
+Příkaz `svnrdump` umožňuje to samé jako `svnadmin dump` na serveru i vzdáleně. Pokud jste ve staré verzi chtěli zálohovat pomocí svnadmin, museli jste mít přístup přímo k file systému, kde byl svn server. To teď odpadá.
 
 ### svn patch
 
@@ -38,8 +38,8 @@ Příkaz `svnrdump` umožňuje to samé jako `svnadmin dump` na serveru i vzdál
 
 Postupně se objevují binární balíčky s Subversion 1.7
 
-- Windows: [VisualSVN server](http://www.visualsvn.com/server/download/)
+- Windows: [VisualSVN server](https://www.visualsvn.com/server/download/)
 
 ## Závěr
 
-Nic převratného se nestalo, Subversion postupuje dále správným směrem a doufám, že další plánované změny budou probíhat trochu rychleji. Pokud Subversion nepoužíváte a chcete můžete se dozvědět více [na mém školení, nejbližší je 20-21.10.2011](http://www.gopas.cz/Kurzy/Katalog-kurzu/Programovani/Design-architektura-metody-vyvoje/Verzovaci-system-Subversion-GOC1014.aspx).
+Nic převratného se nestalo, Subversion postupuje dále správným směrem a doufám, že další plánované změny budou probíhat trochu rychleji. Pokud Subversion nepoužíváte a chcete můžete se dozvědět více [na mém školení, nejbližší je 20-21.10.2011](https://www.gopas.cz/Kurzy/Katalog-kurzu/Programovani/Design-architektura-metody-vyvoje/Verzovaci-system-Subversion-GOC1014.aspx).

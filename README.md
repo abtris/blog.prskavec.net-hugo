@@ -28,7 +28,7 @@ hugo new content/post/{date-YY-MM_DD}+{name}.markdown
 hugo server
 ```
 
-You can look at preview on [http://localhost:1313](http://localhost:1313).
+You can look at preview on [https://localhost:1313](https://localhost:1313).
 
 ## Publish
 

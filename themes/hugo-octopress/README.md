@@ -1,7 +1,7 @@
 # Hugo-Octopress
 Hugo-Octopress is a port of the classic [Octopress][octopress-link] theme to [Hugo][hugo-link].
 
-For a demo website using the vanilla theme please visit [http://hugo-octopress-test.s3-website-us-east-1.amazonaws.com/](http://hugo-octopress-test.s3-website-us-east-1.amazonaws.com/).
+For a demo website using the vanilla theme please visit [https://hugo-octopress-test.s3-website-us-east-1.amazonaws.com/](https://hugo-octopress-test.s3-website-us-east-1.amazonaws.com/).
 
 My personal website runs a modified version of the theme (mainly modified index): [https://parsiya.net](https://parsiya.net).
 
@@ -39,7 +39,7 @@ My personal website runs a modified version of the theme (mainly modified index)
 Hugo-Octopress can be configured by modifying the parameters in the [configuration file](https://gohugo.io/overview/configuration/). A working config file `sample-config.toml` is provided. Some miscellaneous parameters are explained below:
 
 ``` toml
-baseurl = "http://example.com"
+baseurl = "https://example.com"
 disablePathToLower = false
 languageCode = "en-us"
 title = "Site title"
@@ -212,7 +212,7 @@ sidebarText = """Here's a [link to google](https://www.google.com)
 Second line
 </br>
 Third line
-This line has two spaces in the end to create a new line using markdown  
+This line has two spaces in the end to create a new line using markdown
 Forth line
 """
 ```
@@ -239,7 +239,7 @@ Icon sequence can be configured in `layouts/partials/sidebar.html` (look for `<l
 
 Code to display links (and the idea to use these icons) is from [Hyde-x](https://github.com/zyro/hyde-x/).
 
-Icons are from [http://fontawesome.io](http://fontawesome.io) by Dave Gandy. To use icons with square dark backgrounds add `-square`. For example `<i class="fa fa-twitter-square fa-3x"></i>`. Size can be from 1 to 5 use `fa-lg` to make them adaptive.
+Icons are from [https://fontawesome.io](https://fontawesome.io) by Dave Gandy. To use icons with square dark backgrounds add `-square`. For example `<i class="fa fa-twitter-square fa-3x"></i>`. Size can be from 1 to 5 use `fa-lg` to make them adaptive.
 
 ### <a name="sidebarmenu"></a>Sidebar menu
 This menu can be enabled by setting `sidebarMenuEnabled` to `true`. It has two parts:
@@ -449,7 +449,7 @@ Twitter card support can be enabled in the config file under `Params`:
   # Enable with this.
   twitterCardEnabled = true
   # Don't include the @.
-  # twitterCardSite = 
+  # twitterCardSite =
   twitterCardDomain = "parsiya.net"
   # Don't include the @.
   twitterCardAuthor = "CryptoGangsta"
@@ -476,8 +476,8 @@ If you discover any issues/bugs or want new features please use the Github issue
 
 ## <a name="attribution"></a>Attribution
 * [Octopress](octopress-link) is created by [Brandon Mathis](https://github.com/imathis). Octopress source can be found on [https://github.com/imathis/octopress](https://github.com/imathis/octopress).
-* Some code was taken from the [Hyde-x](https://github.com/zyro/hyde-x) Hugo theme by [Andrei Mihu](http://andreimihu.com/).
-* Sidebar icons are from Font Awesome by Dave Gandy - http://fontawesome.io.
+* Some code was taken from the [Hyde-x](https://github.com/zyro/hyde-x) Hugo theme by [Andrei Mihu](https://andreimihu.com/).
+* Sidebar icons are from Font Awesome by Dave Gandy - https://fontawesome.io.
 * Special thanks to everyone who has helped me with pull requests and issues.
 
 ## <a name="Ported by"></a>Ported by
@@ -490,5 +490,5 @@ Ported by Parsia Hakimian:
 Open sourced under the [MIT license](https://github.com/parsiya/Hugo-Octopress/blob/master/LICENSE.md).
 
 <!-- Links -->
-[octopress-link]: http://octopress.org
+[octopress-link]: https://octopress.org
 [hugo-link]: https://gohugo.io

@@ -1,5 +1,5 @@
 ---
-categories: 
+categories:
 - docker
 comments: true
 date: 2017-04-21T00:00:00Z
@@ -77,4 +77,4 @@ Máte dva image jeden pro produkci a druhý můžete klidne smazat.
 
 ## Závěr
 
-Tato inovace zjednodušší život mnoha lidem a je to super. Pokud si to chcete vyzkoušet můžete na [webu v bez nutnosti instalovat si poslední Docker](http://training.play-with-docker.com/multi-stage/).
+Tato inovace zjednodušší život mnoha lidem a je to super. Pokud si to chcete vyzkoušet můžete na [webu v bez nutnosti instalovat si poslední Docker](https://training.play-with-docker.com/multi-stage/).

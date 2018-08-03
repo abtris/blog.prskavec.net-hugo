@@ -79,4 +79,4 @@ Na závěr bych chtěl shrnout co by jste si měli odnést těchto 4 věci:
 	<li>na 		subversion se stále pracuje</li>
 	<li>existují 		distribuované verzovací systémy a přinášejí něco nového</li>
 </ul>
-Tento článek je přepis mojí přednášky na <a href="http://www.slideshare.net/ladislavprskavec/subversion-dnes-a-ztra">Teched 2010</a>.
+Tento článek je přepis mojí přednášky na <a href="https://www.slideshare.net/ladislavprskavec/subversion-dnes-a-ztra">Teched 2010</a>.

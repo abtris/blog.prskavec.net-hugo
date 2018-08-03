@@ -10,7 +10,7 @@ type: post
 url: /2011/04/10/php-a-rabbitmq/
 ---
 
-V poslední době se objevilo hodně článků o <a href="http://www.rabbitmq.com/">RabbitMQ</a> a připravuje se <a href="http://manning.com/videla/">kniha</a> kde většina příkladů je v PHP.  Připravil jsem malou demonstraci jak se message queue dobře využit. RabbitMQ je napsaný v Erlangu podobně jako CouchDB a hodí ke zpracování dávkových úloh. V demonstraci využívám knihovnu <a href="http://code.google.com/p/wkhtmltopdf/">wkhtmltopdf</a> která umí zpracovat html stránku na PDF, používá k tomu webkit jádro.
+V poslední době se objevilo hodně článků o <a href="https://www.rabbitmq.com/">RabbitMQ</a> a připravuje se <a href="https://manning.com/videla/">kniha</a> kde většina příkladů je v PHP.  Připravil jsem malou demonstraci jak se message queue dobře využit. RabbitMQ je napsaný v Erlangu podobně jako CouchDB a hodí ke zpracování dávkových úloh. V demonstraci využívám knihovnu <a href="https://code.google.com/p/wkhtmltopdf/">wkhtmltopdf</a> která umí zpracovat html stránku na PDF, používá k tomu webkit jádro.
 <h2>Design</h2>
 Malý design aplikace jsem zvolil takto:  <img class="aligncenter" title="rabbitmq_design" src="https://github.com/abtris/php-rabbitmq-wkhtmltox-demo/raw/master/docs/design.png" alt="" width="600" />
 <h2>Kód</h2>

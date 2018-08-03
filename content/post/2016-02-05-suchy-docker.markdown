@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
  - docker
 comments: true
 date: 2016-02-05T00:00:00Z
@@ -7,7 +7,7 @@ title: Suchý docker
 url: /2016/02/05/suchy-docker/
 ---
 
-[Suchý únor](http://suchejunor.cz/) je skvělá akce a tak jsem říkal, zda s Dockerem nebudeme také na suchu. Našťěstí včera se situace změnila a vyšli nové verze Docker Engine, Docker Swarm and Docker Compose.
+[Suchý únor](https://suchejunor.cz/) je skvělá akce a tak jsem říkal, zda s Dockerem nebudeme také na suchu. Našťěstí včera se situace změnila a vyšli nové verze Docker Engine, Docker Swarm and Docker Compose.
 
 
 {% blockquote Docker docs https://docs.docker.com/engine/breaking_changes/ %}
@@ -16,9 +16,9 @@ Pokud budete upgradovat, buďte opatrní, nový formát image není zpětně kom
 
 V originálu si novinky můžete prostudovat na blogu Dockeru:
 
-- [Docker 1.10: New Compose file, improved security, networking and much more!](http://blog.docker.com/2016/02/docker-1-10/)
-- [Docker Engine 1.10 Security Improvements](http://blog.docker.com/2016/02/docker-engine-1-10-security/)
-- [Compose 1.6: New Compose file for defining networks and volumes](http://blog.docker.com/2016/02/compose-1-6/)
+- [Docker 1.10: New Compose file, improved security, networking and much more!](https://blog.docker.com/2016/02/docker-1-10/)
+- [Docker Engine 1.10 Security Improvements](https://blog.docker.com/2016/02/docker-engine-1-10-security/)
+- [Compose 1.6: New Compose file for defining networks and volumes](https://blog.docker.com/2016/02/compose-1-6/)
 
 pokud si chcete přečíst novinky v češtině pokračujte v mém článku.
 
@@ -83,5 +83,5 @@ Spousta drobných změn, které mi nepřišli už důležité.
 
 Každý release přinese spoustu změn. Celý ekosystém dockeru je poměrně mladý, ale o to [více dynamický](https://twitter.com/icecrime/status/694558000615288834).
 
-V Praze se každý měsíc konají [docker meetupy](http://www.meetup.com/Docker-Prague-Czech-Republic/), pokud vás tato problematika zajímá. Přijďte nebo nabídněte svoji přednášku pořadatelům.
+V Praze se každý měsíc konají [docker meetupy](https://www.meetup.com/Docker-Prague-Czech-Republic/), pokud vás tato problematika zajímá. Přijďte nebo nabídněte svoji přednášku pořadatelům.
 
