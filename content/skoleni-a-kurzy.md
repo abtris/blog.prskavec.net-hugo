@@ -31,7 +31,7 @@ Osnova:
 
 Pochopení a využití procesu Continuous Integration s využitím nástroje Jenkins vám pomůže zvýšit kvalitu softwaru, který vyvíjíte, zároveň sníží čas na jeho dodávku. Continuous Integration vám umožňuje kontrolovat kvalitu softwaru průběžně po malých částech a minimalizovat riziko rozsáhlých chyb, jak tomu bylo v případě klasického vodopádového přístupu.
 
-Školení používá ukázky v PHP, Ruby, Go a [Javascript](http://bit.ly/LO7Bvd) a operační systém MacOS X nebo Linux.
+Školení používá ukázky v PHP, Ruby, Go a [Javascript](https://bit.ly/LO7Bvd) a operační systém MacOS X nebo Linux.
 
 Osnova:
 

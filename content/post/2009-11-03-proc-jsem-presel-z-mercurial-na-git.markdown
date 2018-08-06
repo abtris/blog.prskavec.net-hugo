@@ -20,11 +20,11 @@ Ale protože pracuju na linuxu, pro verzování lokálních projektů a pracovn�
 Proč jsem nejdříve zvolil Mercurial?
 <ol>
 	<li>Bitbucket, jednoduchý, přehledný, rychlý a privatní repository v free variantě (proti Github.com)</li>
-	<li>Jednoduší přechod z SVN (viz <a href="http://svn.prskavec.net/ch07.html#id3029856">Přechod od Subversion k Mercurial</a>)</li>
+	<li>Jednoduší přechod z SVN (viz <a href="https://svn.prskavec.net/ch07.html#id3029856">Přechod od Subversion k Mercurial</a>)</li>
 </ol>
 Proč jsem přešel na Git ?
 <ol>
-	<li><a href="http://www.karmi.cz/">Karel Minařík</a> mě přesvědčil o výhodách Gitu a odpovídal mě na dotazy, které jsem měl a předvedl mi killer feature (git-filter-branch).</li>
+	<li><a href="https://www.karmi.cz/">Karel Minařík</a> mě přesvědčil o výhodách Gitu a odpovídal mě na dotazy, které jsem měl a předvedl mi killer feature (git-filter-branch).</li>
 	<li>Mercurial mi při práci na projektu vyhodil tuto zprávu "files over 10MB may cause memory and performance problems".</li>
 	<li>Zvykl jsem si na syntax Gitu, udělal jsem si hromadu aliasů a to chce prostě trochu čas.</li>
 </ol>

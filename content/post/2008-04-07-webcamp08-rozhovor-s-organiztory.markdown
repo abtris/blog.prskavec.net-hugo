@@ -11,7 +11,7 @@ type: post
 url: /2008/04/07/webcamp08-rozhovor-s-organiztory/
 ---
 
-Celkově lze konstatovat, že konference <a href="http://blog.prskavec.net/?p=39">WebCamp'08</a> byla úspěšná. Organizátoři <a href="http://php.vrana.cz">Jakub Vrána</a> a <a href="http://www.interval.cz">Vilém Málek</a> poskytli odpověď na pár otázek.
+Celkově lze konstatovat, že konference <a href="https://blog.prskavec.net/?p=39">WebCamp'08</a> byla úspěšná. Organizátoři <a href="https://php.vrana.cz">Jakub Vrána</a> a <a href="https://www.interval.cz">Vilém Málek</a> poskytli odpověď na pár otázek.
 <h4>Kdy vznikla myšlenka na to uspořádat WebCamp a koho to vlastně napadlo?</h4>
 Jakub Vrána: Já jsem měl předloni nápad uspořádat PHP konferenci, který jsem ale neuskutečnil. Proto když Vilém loni na podzim přišel s myšlenkou uspořádat konferenci o webdesignu, tak mě oslovil, jestli nechci uspořádat druhý den o webdevelopmentu.
 

@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
  - webexpo
  - events
 comments: true
@@ -14,29 +14,29 @@ Ocenil jsem na webexpu spoustu malých zlepšení, cedulka byla oboustranná. Ka
 
 ## Pátek 21.9.2012
 
-V pátek jsem začal v Development Hall na přednášce [Ano, Chefe!](http://www.slideshare.net/karmi/shells-kitchen-infrastructure-as-code-webexpo-2012) Karel Minařík, Vojtěch Hýža byli úžasní, ale nevím zda to bylo pochopitelné pro všechny, já mám s Chefem zkušenosti a tak jsem si to skvěle užil.
+V pátek jsem začal v Development Hall na přednášce [Ano, Chefe!](https://www.slideshare.net/karmi/shells-kitchen-infrastructure-as-code-webexpo-2012) Karel Minařík, Vojtěch Hýža byli úžasní, ale nevím zda to bylo pochopitelné pro všechny, já mám s Chefem zkušenosti a tak jsem si to skvěle užil.
 
 Po pauze kdy jsem si dal něco k obědu, těstoviny s masem nebyly špatné.
 
 Byl jsem na několika přednáškách v bussiness hall, kterým jsem moc nerozumněl a moc mi to nedalo.
 
-Další přednášku Mr. LAW and the Typos od Josefa Pospíšila jsem viděl už na Ruby srazu. Jak dělat agilně pokud jste na to sami. Tohle téma je trochu specifické. Důležitost testování a správně nastavené komunikace s klientem je klíčová. Pepa jel prezentaci z Ipadu a měl jí vytvořenou pomocí aplikace [Haiku Deck](http://www.haikudeck.com/).
+Další přednášku Mr. LAW and the Typos od Josefa Pospíšila jsem viděl už na Ruby srazu. Jak dělat agilně pokud jste na to sami. Tohle téma je trochu specifické. Důležitost testování a správně nastavené komunikace s klientem je klíčová. Pepa jel prezentaci z Ipadu a měl jí vytvořenou pomocí aplikace [Haiku Deck](https://www.haikudeck.com/).
 
 Přednáška Jakuba Nešetřila Jak (ne)dělat API mi moc nového neřekla, protože Apiary.io už používám a toto téma se zajímám delší dobu. Každopádně developer co dělá api a nepoužívá Apiary.io by měl začít.
 
-Poslední přednáška Bena Kamense o [Khan Academy](http://www.khanacademy.org/) mě zaujala rozborem A/B testování za použití frameworku Abingo (např. implementace v [Ruby](http://www.bingocardcreator.com/abingo), dále je v [Pythonu](https://github.com/kamens/gae_bingo) a DotNet).
+Poslední přednáška Bena Kamense o [Khan Academy](https://www.khanacademy.org/) mě zaujala rozborem A/B testování za použití frameworku Abingo (např. implementace v [Ruby](https://www.bingocardcreator.com/abingo), dále je v [Pythonu](https://github.com/kamens/gae_bingo) a DotNet).
 
-Kromě výzvy k překládání do [češtiny](http://josefstepanek.cz/2283/pojdte-spoluutvaret-budoucnost-vzdelavani.html) bylo asi kolem testování, že nemůžete výsledkům vždy věřit. Na příkladu A/A testování je vidět, že pokud obě skupiny mají různé výsledky je něco špatně.
+Kromě výzvy k překládání do [češtiny](https://josefstepanek.cz/2283/pojdte-spoluutvaret-budoucnost-vzdelavani.html) bylo asi kolem testování, že nemůžete výsledkům vždy věřit. Na příkladu A/A testování je vidět, že pokud obě skupiny mají různé výsledky je něco špatně.
 
 Večer byl raut, ten byl celkem zajímavý, potkal jsem se s mnoha lidmi. Je byl poněkud hladový.
 
 ## Sobota 22.9.2012
 
-V sobotu jsem začal na přednášce Nepoužívejte Git jako SVN! Vašek představil workflow [Git-flow](http://nvie.com/posts/a-successful-git-branching-model/), [Github flow](http://scottchacon.com/2011/08/31/github-flow.html) a Medio workflow.
+V sobotu jsem začal na přednášce Nepoužívejte Git jako SVN! Vašek představil workflow [Git-flow](https://nvie.com/posts/a-successful-git-branching-model/), [Github flow](https://scottchacon.com/2011/08/31/github-flow.html) a Medio workflow.
 
 Trochu mi chybělo v přednášce detailní vysvětlení rebase.
 
-{% blockquote Scott Chacon http://git-scm.com/book/en/Git-Branching-Rebasing The Perils of Rebasing %}
+{% blockquote Scott Chacon https://git-scm.com/book/en/Git-Branching-Rebasing The Perils of Rebasing %}
 Do not rebase commits that you have pushed to a public repository.
 {% endblockquote %}
 

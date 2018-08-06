@@ -1,6 +1,6 @@
 ---
 comments: true
-tags: 
+tags:
  - tools
 date: 2015-12-03T00:00:00Z
 title: Nástroje co používám pro vývoj a správu
@@ -11,7 +11,7 @@ Sublime Text, Terminal
 
 ## Sublime Text jako vývojové prostředí
 
-[Sublime](http://www.sublimetext.com/) používá dost lidí, u nás v Apiary je to rozdělné mezi Emacs, Vim, Sublime, Atom a Webstorm. Řekl bych, že Sublime je asi nejvíc používaný, ale to se také mění. Já ho preferuju hlavně pro jeho rychlost startu.
+[Sublime](https://www.sublimetext.com/) používá dost lidí, u nás v Apiary je to rozdělné mezi Emacs, Vim, Sublime, Atom a Webstorm. Řekl bych, že Sublime je asi nejvíc používaný, ale to se také mění. Já ho preferuju hlavně pro jeho rychlost startu.
 
 <a href="{{ root_url }}/images/sublime.png"><img class="center" src="{{ root_url }}/images/sublime.png" alt="Sublime Text" /></a>
 
@@ -50,8 +50,8 @@ Používám tyto balíčky:
 Možná se divíte, že terminál uvádím, ale i tady lze nastavit tisíce věcí.
 
 - [iTerm2](https://www.iterm2.com/)
-- [oh-my-zsh](http://ohmyz.sh/)
-- [ack](http://beyondgrep.com/)
+- [oh-my-zsh](https://ohmyz.sh/)
+- [ack](https://beyondgrep.com/)
 - [dotfiles](https://dotfiles.github.io/)
 
 Pokud používáte pro programování bash doporučuji na Macu, hlavně upgradovat přes homebrew na verzi 4, která bohužel stále není v základu Mac OS X.

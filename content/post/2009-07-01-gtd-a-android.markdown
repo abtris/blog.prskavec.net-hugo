@@ -10,20 +10,20 @@ type: post
 url: /2009/07/01/gtd-a-android/
 ---
 
-O GTD většina vás asi slyšela, pokud ne doporučuji si tuto knihu o timemanagmentu přečíst, dokáže všem zaměstnaným lidem pomoci zvládat svoji práci lépe a efektivně a vyšetřit čas i na další věci, které nestíháte. České vydání knihy <a href="http://www.mitvsehotovo.cz">David Allen: Mít vše Hotovo</a>, vydal Jan Melvin Publishing a současně spustili webové stránky, které se této problematice věnují, o různých platformách byla řeč a já přidám malé info o Androidu. Na Marketu najdete tyto aplikace, které se dají pro GTD použít, ja jsem ještě přidal aspekt propojení s <a href="http://www.rememberthemilk.com">RTM</a>, které používám.
+O GTD většina vás asi slyšela, pokud ne doporučuji si tuto knihu o timemanagmentu přečíst, dokáže všem zaměstnaným lidem pomoci zvládat svoji práci lépe a efektivně a vyšetřit čas i na další věci, které nestíháte. České vydání knihy <a href="https://www.mitvsehotovo.cz">David Allen: Mít vše Hotovo</a>, vydal Jan Melvin Publishing a současně spustili webové stránky, které se této problematice věnují, o různých platformách byla řeč a já přidám malé info o Androidu. Na Marketu najdete tyto aplikace, které se dají pro GTD použít, ja jsem ještě přidal aspekt propojení s <a href="https://www.rememberthemilk.com">RTM</a>, které používám.
 <h3>Seznam testovaných programů pro Android</h3>
 <ul>
-	<li>ActionComplete - <a title="http://www.actioncomplete.com/" rel="nofollow" href="http://www.actioncomplete.com/">http://www.actioncomplete.com/</a></li>
-	<li>Shuffle - <a title="http://code.google.com/p/android-shuffle/" rel="nofollow" href="http://code.google.com/p/android-shuffle/">http://code.google.com/p/android-shuffle/</a></li>
-	<li>Next Action - <a title="http://code.google.com/p/nextaction/" rel="nofollow" href="http://code.google.com/p/nextaction/">http://code.google.com/p/nextaction/</a></li>
-	<li>Astrid - <a class="urlextern" title="http://code.google.com/p/android-astrid/" rel="nofollow" href="http://code.google.com/p/android-astrid/">http://code.google.com/p/android-astrid/</a> (RTM synchronizace)</li>
-	<li>RTM tasks - <a title="http://mischost.googlepages.com/androidrtm" rel="nofollow" href="http://mischost.googlepages.com/androidrtm">http://mischost.googlepages.com/androidrtm</a> (RTM synchronizace)</li>
-	<li>TooDo - <a title="http://getsatisfaction.com/e2m/" rel="nofollow" href="http://getsatisfaction.com/e2m/">http://getsatisfaction.com/e2m/</a> (RTM, Toodledo synchronizace, Smart Folders, Lists, Contexts)</li>
+	<li>ActionComplete - <a title="https://www.actioncomplete.com/" rel="nofollow" href="https://www.actioncomplete.com/">https://www.actioncomplete.com/</a></li>
+	<li>Shuffle - <a title="https://code.google.com/p/android-shuffle/" rel="nofollow" href="https://code.google.com/p/android-shuffle/">https://code.google.com/p/android-shuffle/</a></li>
+	<li>Next Action - <a title="https://code.google.com/p/nextaction/" rel="nofollow" href="https://code.google.com/p/nextaction/">https://code.google.com/p/nextaction/</a></li>
+	<li>Astrid - <a class="urlextern" title="https://code.google.com/p/android-astrid/" rel="nofollow" href="https://code.google.com/p/android-astrid/">https://code.google.com/p/android-astrid/</a> (RTM synchronizace)</li>
+	<li>RTM tasks - <a title="https://mischost.googlepages.com/androidrtm" rel="nofollow" href="https://mischost.googlepages.com/androidrtm">https://mischost.googlepages.com/androidrtm</a> (RTM synchronizace)</li>
+	<li>TooDo - <a title="https://getsatisfaction.com/e2m/" rel="nofollow" href="https://getsatisfaction.com/e2m/">https://getsatisfaction.com/e2m/</a> (RTM, Toodledo synchronizace, Smart Folders, Lists, Contexts)</li>
 	<li>gTasx (Google Tasks)</li>
 </ul>
-Screenshoty z aplikací najdete na v <a href="http://www.flickr.com/photos/abtris/sets/72157618227761030/">galerii</a>.
+Screenshoty z aplikací najdete na v <a href="https://www.flickr.com/photos/abtris/sets/72157618227761030/">galerii</a>.
 <h3>ActionComplete 1.3.0</h3>
-Tento program se mi docela líbí, má pěkné ovládání. Dobrá a jednoduchá navigace, nevychází tolik přímo z GTD v pojmenování, ale vše potřebné je tu dostupné. Zálohovat data lze na kartu, bohužel chybí jakákoliv synchronizace s online systémem. Zatím na stránkách je naznačeno, že budou další produkty, které to budou řešit. Ale já nechci mít něco dalšího a dalšího.<a title="Screenshots" href="http://www.slideshare.net/burnayev/actioncomplete-screenshots-1248218">
+Tento program se mi docela líbí, má pěkné ovládání. Dobrá a jednoduchá navigace, nevychází tolik přímo z GTD v pojmenování, ale vše potřebné je tu dostupné. Zálohovat data lze na kartu, bohužel chybí jakákoliv synchronizace s online systémem. Zatím na stránkách je naznačeno, že budou další produkty, které to budou řešit. Ale já nechci mít něco dalšího a dalšího.<a title="Screenshots" href="https://www.slideshare.net/burnayev/actioncomplete-screenshots-1248218">
 </a>
 <h3>Shuffle 1.1.1</h3>
 Shuffle mi přijde jako nejlepší GTD aplikace pro Android, má jednoduché příjemné ovládání. Dobře se s ní pracuje, ale zásadní nevýhoda je v absence zálohování a synchronizace dat.

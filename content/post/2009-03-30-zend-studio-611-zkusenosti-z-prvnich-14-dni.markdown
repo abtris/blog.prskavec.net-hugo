@@ -78,4 +78,4 @@ Pro externí program který mi dělá balíky jsem potřeboval přidat program a
 
 Run → External Tools → External Tools configurations
 
-<a href="http://blog.prskavec.net/wp-content/uploads/2009/03/external_tools_filter.jpg"><img class="aligncenter size-medium wp-image-448" src="http://blog.prskavec.net/wp-content/uploads/2009/03/external_tools_filter-300x224.jpg" alt="external_tools_filter" width="300" height="224" /></a>
+<a href="https://blog.prskavec.net/wp-content/uploads/2009/03/external_tools_filter.jpg"><img class="aligncenter size-medium wp-image-448" src="https://blog.prskavec.net/wp-content/uploads/2009/03/external_tools_filter-300x224.jpg" alt="external_tools_filter" width="300" height="224" /></a>

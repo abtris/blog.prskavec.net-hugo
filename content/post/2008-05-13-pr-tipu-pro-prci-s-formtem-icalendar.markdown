@@ -10,7 +10,7 @@ type: post
 url: /2008/05/13/pr-tipu-pro-prci-s-formtem-icalendar/
 ---
 
-Dělám na PHP aplikaci, která kromě RSS generuje také <a href="http://cs.wikipedia.org/wiki/ICalendar">iCalendar</a> pro Lighting a iCal na Mac OS X. Někomu stačí asi <a href="http://tools.ietf.org/html/rfc2445">RFC 2445</a> a hravě si s tím poradí, ale pro ty ostatní pár tipů, které mi pomohli a které mě trochu mátli. Ještě může bý napomocný <a href="http://www.kanzaki.com/docs/ical/">iCalendar Specification Excerpts</a>.  Data mám v mysql kde je datum a čas odděleně a pokud událost nemá čas (je <code>NULL</code>) tak je to celodenní událost. Pokud má jen čas od tak končí za nějakou stanovenou dobu třeba 90 min jako ve škole. Pokud má jen datum od tak je to jednodenní akce.  Pár zásad při tvorbě iCalendar exportu
+Dělám na PHP aplikaci, která kromě RSS generuje také <a href="https://cs.wikipedia.org/wiki/ICalendar">iCalendar</a> pro Lighting a iCal na Mac OS X. Někomu stačí asi <a href="https://tools.ietf.org/html/rfc2445">RFC 2445</a> a hravě si s tím poradí, ale pro ty ostatní pár tipů, které mi pomohli a které mě trochu mátli. Ještě může bý napomocný <a href="https://www.kanzaki.com/docs/ical/">iCalendar Specification Excerpts</a>.  Data mám v mysql kde je datum a čas odděleně a pokud událost nemá čas (je <code>NULL</code>) tak je to celodenní událost. Pokud má jen čas od tak končí za nějakou stanovenou dobu třeba 90 min jako ve škole. Pokud má jen datum od tak je to jednodenní akce.  Pár zásad při tvorbě iCalendar exportu
 <ul>
 	<li>jednotlivé tagy jsou velkými písmeny a na samostatných řádcích</li>
 	<li>tagy jsou volitelné a je jich mnoho vyberte si ty které opravdu potřebujete</li>
@@ -28,7 +28,7 @@ Dělám na PHP aplikaci, která kromě RSS generuje také <a href="http://cs.wik
 	<li><code>SUMMARY</code> - nadpis</li>
 	<li><code>LOCATION</code> - místo konání akce</li>
 </ul>
-Formát si zkontrolujte <a href="http://severinghaus.org/projects/icv/">validátorem</a>, to nikdy neškodí.  Já potom zkouším genrovaný iCalendar v Lightingu, Windows Calendar a Google Calendar. iCal pro Mac OS X nemám snad to v něm bude fungovat také.  Pro správné zobrazení češtiny v Google calendar nezapomeňte hlavičku, ostatní si poradí i bez ní, nevím proč Google ne. <code>header("Content-Type: text/<a href="http://www.dadsplan.com/">calendar</a>; charset=utf-8"); header("Content-Disposition: attachment; filename=calendar.ics");</code> Základní objekt iCalendar, který popisuje "Den oslav dobytí Bastily" jako událost konající se od 14. července 1997 17:00 (UTC) do 15. července 1997 03:59:59 (UTC)
+Formát si zkontrolujte <a href="https://severinghaus.org/projects/icv/">validátorem</a>, to nikdy neškodí.  Já potom zkouším genrovaný iCalendar v Lightingu, Windows Calendar a Google Calendar. iCal pro Mac OS X nemám snad to v něm bude fungovat také.  Pro správné zobrazení češtiny v Google calendar nezapomeňte hlavičku, ostatní si poradí i bez ní, nevím proč Google ne. <code>header("Content-Type: text/<a href="https://www.dadsplan.com/">calendar</a>; charset=utf-8"); header("Content-Disposition: attachment; filename=calendar.ics");</code> Základní objekt iCalendar, který popisuje "Den oslav dobytí Bastily" jako událost konající se od 14. července 1997 17:00 (UTC) do 15. července 1997 03:59:59 (UTC)
 <pre>BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//hacksw/handcal//NONSGML v1.0//EN

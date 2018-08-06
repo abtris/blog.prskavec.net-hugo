@@ -12,11 +12,11 @@ type: post
 url: /2010/02/25/jetbrains-phpstorm/
 ---
 
-Vývojových prostředí pro PHP je docela hojnost. Sám používám v práci Zend Studio 7.1 a doma Netbeans 6.8. Minulý rok přišla firma JetBrains, která je známá svým IDE pro Javu IDEA, s vývojovým prostředím pro PHP, které se jmenuje <a href="http://www.jetbrains.com/webide/features/index.html#PHP_IDE">PhpStorm (dříve WebIDE)</a>. V současné době je nové IDE stále ve vývoji. Brzo se dočkáme beta verze a myslím do léta snad i finální verze.
+Vývojových prostředí pro PHP je docela hojnost. Sám používám v práci Zend Studio 7.1 a doma Netbeans 6.8. Minulý rok přišla firma JetBrains, která je známá svým IDE pro Javu IDEA, s vývojovým prostředím pro PHP, které se jmenuje <a href="https://www.jetbrains.com/webide/features/index.html#PHP_IDE">PhpStorm (dříve WebIDE)</a>. V současné době je nové IDE stále ve vývoji. Brzo se dočkáme beta verze a myslím do léta snad i finální verze.
 
-<a href="http://blogs.jetbrains.com/webide/">PhpStorm</a> (dále PS) je na platformě IDEA, což považuji za velkou výhodu. Dají se použít pluginy pro Ideu v PhpStorm. Kvalita pluginů v Idea mi přijde o poznání lepší než pro Eclipse.
+<a href="https://blogs.jetbrains.com/webide/">PhpStorm</a> (dále PS) je na platformě IDEA, což považuji za velkou výhodu. Dají se použít pluginy pro Ideu v PhpStorm. Kvalita pluginů v Idea mi přijde o poznání lepší než pro Eclipse.
 
-[caption id="attachment_818" align="aligncenter" width="300" caption="JetBrains PhpStorm (WebIDE)"]<a href="http://blog.prskavec.net/wp-content/uploads/2010/02/PhpStormWI-94.335-1.png"><img src="http://blog.prskavec.net/wp-content/uploads/2010/02/PhpStormWI-94.335-1-300x266.png" alt="" width="300" height="266" class="size-medium wp-image-818" /></a>[/caption]
+[caption id="attachment_818" align="aligncenter" width="300" caption="JetBrains PhpStorm (WebIDE)"]<a href="https://blog.prskavec.net/wp-content/uploads/2010/02/PhpStormWI-94.335-1.png"><img src="https://blog.prskavec.net/wp-content/uploads/2010/02/PhpStormWI-94.335-1-300x266.png" alt="" width="300" height="266" class="size-medium wp-image-818" /></a>[/caption]
 
 <strong>Hlavní přednosti vidím v těchto bodech:</strong>
 <ul>
@@ -32,7 +32,7 @@ Vývojových prostředí pro PHP je docela hojnost. Sám používám v práci Ze
 </ul>
 
 Pěkná věc je třeba produktivity guide, radí co a jak dělat lépe:
-[caption id="attachment_828" align="aligncenter" width="300" caption="JetBrains PhpStorm Productivity Guide"]<a href="http://blog.prskavec.net/wp-content/uploads/2010/02/Screenshot-Productivity-Guide.png"><img src="http://blog.prskavec.net/wp-content/uploads/2010/02/Screenshot-Productivity-Guide-300x262.png" alt="JetBrains-PhpStorm-Productivity-Guide" width="300" height="262" class="size-medium wp-image-828" /></a>[/caption]
+[caption id="attachment_828" align="aligncenter" width="300" caption="JetBrains PhpStorm Productivity Guide"]<a href="https://blog.prskavec.net/wp-content/uploads/2010/02/Screenshot-Productivity-Guide.png"><img src="https://blog.prskavec.net/wp-content/uploads/2010/02/Screenshot-Productivity-Guide-300x262.png" alt="JetBrains-PhpStorm-Productivity-Guide" width="300" height="262" class="size-medium wp-image-828" /></a>[/caption]
 
 <strong>Nevýhody a nejasnosti v současnosti</strong>
 <ul>

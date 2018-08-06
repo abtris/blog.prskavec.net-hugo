@@ -38,4 +38,4 @@ Ty skripty samozřejmě mohou dělat mnohem více.
 
 Generovat můžete diff soubory pro jednotlivé revize a někam je ukládat:
 <code>svn diff path-to-working-copy -c revision_number --no-diff-deleted &gt;diff_revision_number.txt</code>
-Pokud potřebujete např. provést update a potom poslat mail doporučuju článek <a href="http://blog.pengoworks.com/index.cfm/2008/2/5/SVN-postcommit-for-Windows">SVN post-commit for Windows</a>, kde autor ve stejné době jako já řešil něco obdobného i když z jiného důvodu.
+Pokud potřebujete např. provést update a potom poslat mail doporučuju článek <a href="https://blog.pengoworks.com/index.cfm/2008/2/5/SVN-postcommit-for-Windows">SVN post-commit for Windows</a>, kde autor ve stejné době jako já řešil něco obdobného i když z jiného důvodu.

@@ -12,9 +12,9 @@ type: post
 url: /2008/06/12/jednoduch-aplikace-v-php-a-flex/
 ---
 
-Protože jsem byl na Adobe Air nedalo mi to a řekl jsem si že udělám jednoduchou aplikaci pro vyhledávání v našem univerzitním LDAPu. Stáhnul jsem si trial verzi Flex Builduru 3, to se ocení zvláště pokud chcete dát aplikaci nějaký design.  Výsledná aplikace vypadá takto, skládá se z několika prvků, textové pole (mx:TextInput), tlačítka (mx:Button), výběr (mx:ComboBox), ty jsou strčené do společného hboxu. Potom dole je umístěný datagrid (mx:DataGrid) pro zobrazování dat. <a href="http://blog.prskavec.net/wp-content/uploads/2008/06/image.png"><img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;margin: 5px;border-right-width: 0px" src="http://blog.prskavec.net/wp-content/uploads/2008/06/image-thumb.png" border="0" alt="image" width="404" height="314" /></a>
+Protože jsem byl na Adobe Air nedalo mi to a řekl jsem si že udělám jednoduchou aplikaci pro vyhledávání v našem univerzitním LDAPu. Stáhnul jsem si trial verzi Flex Builduru 3, to se ocení zvláště pokud chcete dát aplikaci nějaký design.  Výsledná aplikace vypadá takto, skládá se z několika prvků, textové pole (mx:TextInput), tlačítka (mx:Button), výběr (mx:ComboBox), ty jsou strčené do společného hboxu. Potom dole je umístěný datagrid (mx:DataGrid) pro zobrazování dat. <a href="https://blog.prskavec.net/wp-content/uploads/2008/06/image.png"><img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;margin: 5px;border-right-width: 0px" src="https://blog.prskavec.net/wp-content/uploads/2008/06/image-thumb.png" border="0" alt="image" width="404" height="314" /></a>
 <h3>Tvorba aplikace</h3>
-Vytvořte projekt: File -&gt; New -&gt; Flex project <a href="http://blog.prskavec.net/wp-content/uploads/2008/06/image1.png"><img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" src="http://blog.prskavec.net/wp-content/uploads/2008/06/image-thumb1.png" border="0" alt="image" width="625" height="558" /></a> Tady je vidět, že nejdůležitější je nastavit mx:HTTPService na komunikaci s naším PHP skriptem, který funguje normálně jako u webové aplikace nebo spíše u AJAXové aplikace. Data vracím v XML, aby se dobře zobrazovali pomocí datagridu, ale mohl by to být i obyčejný text.
+Vytvořte projekt: File -&gt; New -&gt; Flex project <a href="https://blog.prskavec.net/wp-content/uploads/2008/06/image1.png"><img style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px" src="https://blog.prskavec.net/wp-content/uploads/2008/06/image-thumb1.png" border="0" alt="image" width="625" height="558" /></a> Tady je vidět, že nejdůležitější je nastavit mx:HTTPService na komunikaci s naším PHP skriptem, který funguje normálně jako u webové aplikace nebo spíše u AJAXové aplikace. Data vracím v XML, aby se dobře zobrazovali pomocí datagridu, ale mohl by to být i obyčejný text.
 <pre>   			{txtInput.text}
    			{department.text}</pre>
 Tady je část mx:Script, která se stará o ošetření toho co přijde z PHP a zobrazuje to.
@@ -44,7 +44,7 @@ error_log("[".date('r')."] Query: ".$_REQUEST['query']." Department:".$_REQUEST[
 if ($_REQUEST['department']=="VIC")
 $vic=true;
 else
- $vic=false;    
+ $vic=false;
 
 include "inc/config.inc.php";
 include_once "inc/ldap_class.php";

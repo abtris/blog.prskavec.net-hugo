@@ -12,18 +12,18 @@ Vyvíjíte větší PHP projekt a potřebujete zlepšit koordinaci vašeho týmu
 
 <!--more-->
 
-Všechno ukazuji na praktických příkladech s pomocí Ubuntu a virtualizace (VirtualBox) a za použití nástroje [Vagrant](http://www.vagrantup.com).
+Všechno ukazuji na praktických příkladech s pomocí Ubuntu a virtualizace (VirtualBox) a za použití nástroje [Vagrant](https://www.vagrantup.com).
 
-## Osnova školení pro [WebExpo Academy](http://webexpo.cz/blog/#prskavec)
+## Osnova školení pro [WebExpo Academy](https://webexpo.cz/blog/#prskavec)
 
-- Automatizace buildu 
+- Automatizace buildu
 - Instalace Jenkins
-- Continuous Integration   
+- Continuous Integration
 - Continuous Inspection
-	- API dokumentace 
-	- Softwarove metriky	
+	- API dokumentace
+	- Softwarove metriky
 	- Duplicitni kod
-	- Coding standard	
+	- Coding standard
 	- Agregace vysledku
 - Automatizace automatizace
 - Continuous Delivery
@@ -44,10 +44,10 @@ Objednávky: <a href="mailto:academy@webexpo.net">academy@webexpo.net</a>, +420 
 
 ## Související články
 
-- [http://blog.prskavec.net/2009/12/php-codebrowser/](http://blog.prskavec.net/2009/12/php-codebrowser/)
-- [http://blog.prskavec.net/2009/02/hudson-a-php/](http://blog.prskavec.net/2009/02/hudson-a-php/)
-- [http://blog.prskavec.net/2009/04/phphudson/](http://blog.prskavec.net/2009/04/phphudson/)
-- [http://blog.prskavec.net/2009/03/pdepend-a-php-frameworky/](http://blog.prskavec.net/2009/03/pdepend-a-php-frameworky/)
-- [http://blog.prskavec.net/2009/03/pdepend-a-php-frameworky-dodatek/](http://blog.prskavec.net/2009/03/pdepend-a-php-frameworky-dodatek/)
-- [http://blog.prskavec.net/2008/11/phpundercontrol-vs-xinc/](http://blog.prskavec.net/2008/11/phpundercontrol-vs-xinc/)
-- [http://blog.prskavec.net/2008/06/phing-svnlogtask/](http://blog.prskavec.net/2008/06/phing-svnlogtask/)
+- [https://blog.prskavec.net/2009/12/php-codebrowser/](https://blog.prskavec.net/2009/12/php-codebrowser/)
+- [https://blog.prskavec.net/2009/02/hudson-a-php/](https://blog.prskavec.net/2009/02/hudson-a-php/)
+- [https://blog.prskavec.net/2009/04/phphudson/](https://blog.prskavec.net/2009/04/phphudson/)
+- [https://blog.prskavec.net/2009/03/pdepend-a-php-frameworky/](https://blog.prskavec.net/2009/03/pdepend-a-php-frameworky/)
+- [https://blog.prskavec.net/2009/03/pdepend-a-php-frameworky-dodatek/](https://blog.prskavec.net/2009/03/pdepend-a-php-frameworky-dodatek/)
+- [https://blog.prskavec.net/2008/11/phpundercontrol-vs-xinc/](https://blog.prskavec.net/2008/11/phpundercontrol-vs-xinc/)
+- [https://blog.prskavec.net/2008/06/phing-svnlogtask/](https://blog.prskavec.net/2008/06/phing-svnlogtask/)

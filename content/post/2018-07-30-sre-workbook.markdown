@@ -18,6 +18,6 @@ Druhá kniha je [zdarma dostupná v PDF do 23. srpna](https://landing.google.com
 
 ## Závěr
 
-Druhou knihu jsem přečetl za víkend a přínesla mi spoustu odpovědí, ale i otázek. Skvěle doplňuje první knihu a také přináší rozhled pokud potřebujete začít s SRE ve svojí firmě. Pokud vás zajímá jak dělají SRE jinde je dobrá kniha [Seeking SRE](http://shop.oreilly.com/product/0636920063964.do), kde najdete náhled jak dělat SRE v menším měřítku než je Google.
+Druhou knihu jsem přečetl za víkend a přínesla mi spoustu odpovědí, ale i otázek. Skvěle doplňuje první knihu a také přináší rozhled pokud potřebujete začít s SRE ve svojí firmě. Pokud vás zajímá jak dělají SRE jinde je dobrá kniha [Seeking SRE](https://shop.oreilly.com/product/0636920063964.do), kde najdete náhled jak dělat SRE v menším měřítku než je Google.
 
 Pokud si chcete popovídat jak děláme SRE mi v [Oracle Apiary](https://apiary.io), tak mě neváhajte kontaktovat, rád si o tom s každým promluvím. Také hledám nové lidi do mého SRE týmu, pokud máte zájem tak se mi ozvěte třeba přes [twitter](https://twitter.com/abtris).

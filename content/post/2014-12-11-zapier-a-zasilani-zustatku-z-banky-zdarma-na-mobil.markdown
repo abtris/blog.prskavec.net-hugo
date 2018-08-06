@@ -13,10 +13,10 @@ Banky posílají změnu zůstatku emailem a SMS. Za SMS začínájí účtovat t
 <!--more-->
 
 ## Pushover
-Služba [Pushover](https://pushover.net/) není zcela zdarma, ale zaplatíte jen jednorázově při nákupu aplikace nebo při aktivaci desktop notifkací. A získáte tím možnost zasílat notifikace skoro z čehokoliv a kam potřebujete. Můžete konfigurovat kdy nechcete být rušeni (noc, víkendy apod.). 
+Služba [Pushover](https://pushover.net/) není zcela zdarma, ale zaplatíte jen jednorázově při nákupu aplikace nebo při aktivaci desktop notifkací. A získáte tím možnost zasílat notifikace skoro z čehokoliv a kam potřebujete. Můžete konfigurovat kdy nechcete být rušeni (noc, víkendy apod.).
 
-## Parse emails by Zapier 
-Služba [Zapier](https://zapier.com/) má zajímavou [službu na parsování dat z emailu](http://parser.zapier.com/), která se zatím zdarma a nenašel jsem jinou, který by byla dobrá pro tento můj problém. Existují sice služby na parsování emailů, ale ty jsou spíše děláný na zpracování velkého množství emailů a nejsou zdarma.
+## Parse emails by Zapier
+Služba [Zapier](https://zapier.com/) má zajímavou [službu na parsování dat z emailu](https://parser.zapier.com/), která se zatím zdarma a nenašel jsem jinou, který by byla dobrá pro tento můj problém. Existují sice služby na parsování emailů, ale ty jsou spíše děláný na zpracování velkého množství emailů a nejsou zdarma.
 
 Na službě si zřídíte emailovou schránku na kterou si přepošlete email z banky, označíte si v něm část co chcete posílat na mobil. Služba potom toto políčko poskytne jako placeholder pro zpracování a poslání dále.
 

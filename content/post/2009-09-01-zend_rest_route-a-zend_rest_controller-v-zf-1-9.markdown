@@ -13,7 +13,7 @@ url: /2009/09/01/zend_rest_route-a-zend_rest_controller-v-zf-1-9/
 ---
 
 <h3>Proč REST a co to obnáší?</h3>
-V Zend Frameworku 1.9 byla přidána pro používání <a href="http://en.wikipedia.org/wiki/Representational_State_Transfer">REST</a> v url a v controlleru.
+V Zend Frameworku 1.9 byla přidána pro používání <a href="https://en.wikipedia.org/wiki/Representational_State_Transfer">REST</a> v url a v controlleru.
 
 REST je v módě a proto nám ho přidali i do ZF. Ne vážně samozřejmě každý teď dělá do REST. Implementace RESTu existuje v každém větším frameworku. V ZF už delší dobu je REST klient i server. Klienta můžete využít pro práci s mnohými službami na internetu (twitter, flickr, ...).
 
@@ -62,7 +62,7 @@ REST API je součástí mnoha z nich. Pokud máte aplikaci RESTful, není probl�
 </li>
 	<li>GET je get a všechny destruktivní akce jsou přes POST</li>
 </ul>
-Vzal jsem <a href="http://akrabat.com/zend-framework-tutorial/">základní tutorial z akrabatu</a> a modifikoval jsem ho pro použití s REST. Zdrojové kódy jsou k <a href="http://bitbucket.org/abtris/zf-tutorial-rest/">dispozici na bitbucketu</a>.
+Vzal jsem <a href="https://akrabat.com/zend-framework-tutorial/">základní tutorial z akrabatu</a> a modifikoval jsem ho pro použití s REST. Zdrojové kódy jsou k <a href="https://bitbucket.org/abtris/zf-tutorial-rest/">dispozici na bitbucketu</a>.
 
 Do bootstrapu je potřeba přidat definici pro Zend_Rest_Route
 
@@ -136,11 +136,11 @@ class AlbumsController extends Zend_Rest_Controller
             $this-&gt;view-&gt;form = $this-&gt;_form;
             $this-&gt;render('edit');
         }
-            
+
     }
 
-    public function postAction()        
-    { 
+    public function postAction()
+    {
         if ($this-&gt;_form-&gt;isValid($this-&gt;_request-&gt;getParams())) {
 	       $this-&gt;_albums-&gt;createRow($this-&gt;_form-&gt;getValues())-&gt;save();
            $this-&gt;_redirect('albums');
@@ -159,7 +159,7 @@ class AlbumsController extends Zend_Rest_Controller
         $this-&gt;view-&gt;headTitle($this-&gt;view-&gt;title, 'PREPEND');
 
         $this-&gt;view-&gt;form = $this-&gt;_form;
-        
+
     }
 
     public function editAction()
@@ -168,8 +168,8 @@ class AlbumsController extends Zend_Rest_Controller
         $this-&gt;view-&gt;headTitle($this-&gt;view-&gt;title, 'PREPEND');
         $album = $this-&gt;_albums-&gt;find($this-&gt;_getParam('edit'))-&gt;current();
 	    if ($album) {
-    	    $this-&gt;_form-&gt;populate($album-&gt;toArray());	
-	    }   
+    	    $this-&gt;_form-&gt;populate($album-&gt;toArray());
+	    }
     	$this-&gt;view-&gt;form = $this-&gt;_form;
     	$this-&gt;view-&gt;album = $album;
 
@@ -179,11 +179,11 @@ class AlbumsController extends Zend_Rest_Controller
     {
         $this-&gt;view-&gt;title = "Delete album";
         $this-&gt;view-&gt;headTitle($this-&gt;view-&gt;title, 'PREPEND');
-        
+
     	$album = $this-&gt;_albums-&gt;find($this-&gt;_getParam('id'))-&gt;current();
     	$album-&gt;delete();
         $this-&gt;_redirect('albums');
-	
+
     }
 }
 

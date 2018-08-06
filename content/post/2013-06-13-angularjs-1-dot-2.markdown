@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
  - javascript
  - angularjs
 comments: true
@@ -8,12 +8,12 @@ title: Jaký bude AngularJS 1.2?
 url: /2013/06/13/angularjs-1-dot-2/
 ---
 
-Pokud sledujete dění kolem frameworku [AngularJS](http://angularjs.org) tak jste jistě zaznamenali, že se pracuje na nové verzi 1.2, která je teď blízko k dokončení. V masteru mají dnes verzi pojmenovanou jako verzi 1.1.8 a brzy se snad dočkáme finální verze. Zkusím zde popsat nejdůležitější věci z [prezentace](https://docs.google.com/presentation/d/1WHCcp3G3HxoE7b_ut_ERKJF4zQK_P4qFlESjE2E9AUQ/preview?sle=true#slide=id.geaf70e8e_16) na meetupu 11.6. co prezentovali Igor Minár a Brad Green.
+Pokud sledujete dění kolem frameworku [AngularJS](https://angularjs.org) tak jste jistě zaznamenali, že se pracuje na nové verzi 1.2, která je teď blízko k dokončení. V masteru mají dnes verzi pojmenovanou jako verzi 1.1.8 a brzy se snad dočkáme finální verze. Zkusím zde popsat nejdůležitější věci z [prezentace](https://docs.google.com/presentation/d/1WHCcp3G3HxoE7b_ut_ERKJF4zQK_P4qFlESjE2E9AUQ/preview?sle=true#slide=id.geaf70e8e_16) na meetupu 11.6. co prezentovali Igor Minár a Brad Green.
 
 <!--more-->
 
-## ng-animate 
-[Deklarativní animace](http://yearofmoo-articles.github.io/angularjs-2nd-animation-article/app/#/) pro aplikace v Angularu. Podpora pro CSS animace a přechody s možností fallbacku pomocí JS. Pro vlastní animace je dobré použít některou s knihoven pro CSS animace (Greensock.js, [Animate.css](http://daneden.me/animate/), Custom CSS3 Keyframes).
+## ng-animate
+[Deklarativní animace](https://yearofmoo-articles.github.io/angularjs-2nd-animation-article/app/#/) pro aplikace v Angularu. Podpora pro CSS animace a přechody s možností fallbacku pomocí JS. Pro vlastní animace je dobré použít některou s knihoven pro CSS animace (Greensock.js, [Animate.css](https://daneden.me/animate/), Custom CSS3 Keyframes).
 Direktiva se stará o práci s DOMem, nastavuje potřebné třídy a timing, také zabraňuje vnořeným animacím.
 
 ## $http
@@ -40,11 +40,11 @@ Tato konstrukce nám umožní jednoduší zápis a není potřeba používat v c
 			<td>{{student.name}}</td>
 		</tr>
 		</body>
-		
+
 		function DemoController() {
 		 	this.students = [ ... ]
 		}
- 
+
 ## ng-if
 Tato direktiva přejatá z projektu AngularUI umožňuje udělat podmínku na kompilaci části šablony a reší některé problémy, které se nadali zvládnout pomocí ngShow a ngHide.
 
@@ -57,5 +57,5 @@ Konečně lze napsat:
 ## ngTouch
 Podpora pro touch eventy v ngClick a ngSwipe.
 
-## Shrnutí 
+## Shrnutí
 Přibude jestě několik vylepšení pro bezpečnost (CSP) a vylepší error hlášky, také by se měla zlepšit dokumentace a bude interaktivní tutorial. Dema a detaily najdete také ve videu na [youtube](https://www.youtube.com/watch?v=W13qDdJDHp8&feature=c4-overview).

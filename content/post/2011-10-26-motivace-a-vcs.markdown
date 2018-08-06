@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
  - scm
  - git
  - svn
@@ -17,7 +17,7 @@ Tak to trochu může lidem připadat, ale programátoři používají verzovací
 
 <!--more-->
 
-### Záloha a Obnova 
+### Záloha a Obnova
 Soubory, které ukládáme do verzovacího systému si nesou infomaci o času uložení a není problém skočit v čase co existuje repozitář kam chcete třeba co jste dělali 29.7.2009? Není problém.
 
 ### Synchronizace
@@ -36,7 +36,7 @@ Soubory jsem změněny, ale verzovací systém uchovává také zprávu, kde se 
 Každá změna je podepsaná a můžete kdykoliv zjistit, kdo který řádek modifikoval. To se hodí pokud potřebujete zjistit kdo změnu udělal.
 
 ### Pískoviště (sandbox)
-Výhoda verzovacích systémů je právě, že můžete pracovat na velkých změnách v izolované oblasti bez toho aby jste se báli, že ovlivníte celek. 
+Výhoda verzovacích systémů je právě, že můžete pracovat na velkých změnách v izolované oblasti bez toho aby jste se báli, že ovlivníte celek.
 
 ### Větve a merge
 Větve slouží jako velké pískoviště, můžete mít desítky větví, které mohou po dlouhou dobu fungovat izolovaně a později pokud budete chtít spojíte (merge) je kam potřebujete.
@@ -46,4 +46,4 @@ Sdílené adresáře jsou rychlé a jednoduché, ale rozhodně tyto vlastnosti v
 
 Verzovacích systémů jsou desítky, od SCCS (1972), přes CVS (1990), Subversion (2000) k distribuovaným jako je Darcs (2002), Git (2005) nebo Mercurial (2005). K nejnovějším přírůstkům patří Verocity (2011), které přidává například přímo podporu SCRUMu.
 
-Volbu nechám na vás u mě od roku 2009 [vítězí Git](http://blog.prskavec.net/2009/11/proc-jsem-presel-z-mercurial-na-git/) a ani za 2 roky se v tom nic nezměnilo.
+Volbu nechám na vás u mě od roku 2009 [vítězí Git](https://blog.prskavec.net/2009/11/proc-jsem-presel-z-mercurial-na-git/) a ani za 2 roky se v tom nic nezměnilo.

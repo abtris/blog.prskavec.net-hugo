@@ -37,7 +37,7 @@ Další drobné věci, které mě zaujali [Go registry od JFrog](https://jfrog.c
 
 ### Ostatní zajímavé příspěvky o konferenci:
 
-- [Copenhagen: KubeCon and CloudNativeCon 2018 Takeaways](http://aniszczyk.org/2018/05/06/copenhagen-kubecon-and-cloudnativecon-2018-takeaways/)
+- [Copenhagen: KubeCon and CloudNativeCon 2018 Takeaways](https://aniszczyk.org/2018/05/06/copenhagen-kubecon-and-cloudnativecon-2018-takeaways/)
 - [Everything announced at KubeCon + CloudNativeCon Europe 2018](https://venturebeat.com/2018/05/05/everything-announced-at-kubecon-cloudnativecon-europe-2018/)
 
 

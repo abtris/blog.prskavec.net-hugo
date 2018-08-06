@@ -32,4 +32,4 @@ Podle mě nejlepší přednáška z mého pohledu o tom jak automatizovat monito
 
 ## Závěr
 
-Pokud vás to zaujalo, tak se můžete 4-5. září zůčastnit evropské verze [Monitorami](https://monitorama.eu) v Amstrodamu. Bude to menší akce než v Portlandu, ale určitě to bude zajímavé také. Stálé jsou [otevřené CFP a můžete přihlásit svůj příspěvek](http://monitorama.eu/#cfp). Komunita kolem Monitoramy je velmi dobrá a lístky do Portlandu se vyprodali za necelých 24 hodin. Monitoringu se budeme také věnovat v jedné z [Hive talks](https://meetup.com/apiaryio) na podzim, tak pokud máte co řící tak mi pošlete návrh vaší přednášky.
+Pokud vás to zaujalo, tak se můžete 4-5. září zůčastnit evropské verze [Monitorami](https://monitorama.eu) v Amstrodamu. Bude to menší akce než v Portlandu, ale určitě to bude zajímavé také. Stálé jsou [otevřené CFP a můžete přihlásit svůj příspěvek](https://monitorama.eu/#cfp). Komunita kolem Monitoramy je velmi dobrá a lístky do Portlandu se vyprodali za necelých 24 hodin. Monitoringu se budeme také věnovat v jedné z [Hive talks](https://meetup.com/apiaryio) na podzim, tak pokud máte co řící tak mi pošlete návrh vaší přednášky.

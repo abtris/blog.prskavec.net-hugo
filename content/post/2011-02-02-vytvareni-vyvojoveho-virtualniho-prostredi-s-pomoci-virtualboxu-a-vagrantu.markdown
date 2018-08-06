@@ -10,13 +10,13 @@ type: post
 url: /2011/02/02/vytvareni-vyvojoveho-virtualniho-prostredi-s-pomoci-virtualboxu-a-vagrantu/
 ---
 
-<a href="http://www.virtualbox.org/">Oracle VirtualBox</a> je známé virtualizační prostředí pro platformy linux, mac a windows. Já VirtualBox používám na linux, mám na něm Ubuntu, které používám na školení Subversion nebo na vývoj webových aplikací jako server. Do nedávna jsem to používal na Macu nebo Linux pro běh Windows apod. O tomto používání nechci dnes mluvit.
+<a href="https://www.virtualbox.org/">Oracle VirtualBox</a> je známé virtualizační prostředí pro platformy linux, mac a windows. Já VirtualBox používám na linux, mám na něm Ubuntu, které používám na školení Subversion nebo na vývoj webových aplikací jako server. Do nedávna jsem to používal na Macu nebo Linux pro běh Windows apod. O tomto používání nechci dnes mluvit.
 
-<a href="http://www.vagrantup.com">Vagrant</a> je nástroj napsaný v Ruby, který nám umožňuje modifikovat virtualní stroj podle našich představ pomocí nějakého předpisu, který nám udělá co chceme. Ukážeme si to na příkladu, že připravím linuxový server pro webový vývoj s Apache, PHP5, MySQL, CouchDB.
+<a href="https://www.vagrantup.com">Vagrant</a> je nástroj napsaný v Ruby, který nám umožňuje modifikovat virtualní stroj podle našich představ pomocí nějakého předpisu, který nám udělá co chceme. Ukážeme si to na příkladu, že připravím linuxový server pro webový vývoj s Apache, PHP5, MySQL, CouchDB.
 
 Začneme instalací Vagrantu
 <pre class="code">sudo gem install vagrant
-vagrant box add base http://files.vagrantup.com/lucid32.box</pre>
+vagrant box add base https://files.vagrantup.com/lucid32.box</pre>
 Vytvoříme si ukázkový projekt.
 <pre class="code">mkdir vagrant-lamp
 cd vagrant-lamp
@@ -62,7 +62,7 @@ git
 mysql
 openssl
 php</pre>
-Potom si vytvoříme vlastní recept, který celou akci <a href="http://www.opscode.com/chef">Chefa</a> v Vagrantu bude řídit.
+Potom si vytvoříme vlastní recept, který celou akci <a href="https://www.opscode.com/chef">Chefa</a> v Vagrantu bude řídit.
 <pre>mkdir -p cookbooks/vagrant_main/recipes
 vim default.rb</pre>
 Přidáme potřebné recepty
@@ -100,7 +100,7 @@ end</pre>
 přidáme některé knihovny přímo z repository Subversion
 <pre># Retrieve webgrind for xdebug trace analysis
 subversion "Webgrind" do
-  repository "http://webgrind.googlecode.com/svn/trunk/"
+  repository "https://webgrind.googlecode.com/svn/trunk/"
   revision "HEAD"
   destination "/var/www/webgrind"
   action :sync
@@ -116,8 +116,8 @@ end</pre>
 a další
 <pre># Latest Zend Framework version
 subversion "Zend" do
-  # repository "http://framework.zend.com/svn/framework/standard/trunk/library/"
-  repository "http://framework.zend.com/svn/framework/standard/tags/release-1.11.3/library/"
+  # repository "https://framework.zend.com/svn/framework/standard/trunk/library/"
+  repository "https://framework.zend.com/svn/framework/standard/tags/release-1.11.3/library/"
   revision "HEAD"
   destination "/srv/lib/php/"
   action :sync

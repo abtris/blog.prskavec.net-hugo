@@ -30,7 +30,7 @@ url: /2009/02/03/uplna-lokalizace-wp-theme-inove-123/
 153:&lt;h3&gt;Meta&lt;/h3&gt;
 153:&lt;h3&gt;Meta&lt;/h3&gt;</pre>
 
-<p>Pro ty co umějí aplikovat patch je tu diff ze SVN: <a href="http://blog.prskavec.net/wp-content/uploads/2009/02/sidebar.diff">sidebar.diff</a></p>
+<p>Pro ty co umějí aplikovat patch je tu diff ze SVN: <a href="https://blog.prskavec.net/wp-content/uploads/2009/02/sidebar.diff">sidebar.diff</a></p>
 
 <p>Ve verzi iNove 1.2.3. je drobný bug (comments.php), díky kterému se nepřeloží některé věci pokud jste přihlášení, opraveno to bude v další verzi.</p>
 

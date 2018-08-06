@@ -38,11 +38,11 @@ while [ "$x" -le $COUNT ]; do
   echo $x &gt;&gt;$WC/trunk/testfile
   x=$(expr $x + 1)
   svn commit --message "Insert value $x"
-done 
+done
 svn up
 </pre>
 
-Testování jsem prováděl na Dellu D830 (2,4 GHz,Intel Core 2 Duo, 2GB RAM) v Ubuntu 8.10. 
+Testování jsem prováděl na Dellu D830 (2,4 GHz,Intel Core 2 Duo, 2GB RAM) v Ubuntu 8.10.
 
 Verze použitých programů:
 <ul>
@@ -85,7 +85,7 @@ Celá operace trvala vteřiny, ani jsem nepoznal, že pracuji s jiným SCM než 
         <li>git svn dcommit (25s)</li>
 </ol>
 
-Více o git a subversion najdete v článku <a href="http://www.root.cz/clanky/git-a-subversion/">Dana Horáka</a>.
+Více o git a subversion najdete v článku <a href="https://www.root.cz/clanky/git-a-subversion/">Dana Horáka</a>.
 
 <h3>Závěr</h3>
-Vím, že spousta lidí fandí gitu, ale mě vůbec zatím nepřesvědčil, zatím u mne vede <a href="http://bazaar-vcs.org/">Bazzar</a>. Možná je to problém jen git-svn a ne samotného gitu, ale tento druh spolupráce je hrozně pomalý.
+Vím, že spousta lidí fandí gitu, ale mě vůbec zatím nepřesvědčil, zatím u mne vede <a href="https://bazaar-vcs.org/">Bazzar</a>. Možná je to problém jen git-svn a ne samotného gitu, ale tento druh spolupráce je hrozně pomalý.

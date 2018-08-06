@@ -4,7 +4,7 @@ https://keybase.io/abtris
 
 I hereby claim:
 
-  * I am an admin of http://blog.prskavec.net
+  * I am an admin of https://blog.prskavec.net
   * I am abtris (https://keybase.io/abtris) on keybase.
   * I have a public key ASAAZQ6Q4Yo3CFX5b9jUKeu6hE-6v6hq2vZpCg87O16AhAo
 

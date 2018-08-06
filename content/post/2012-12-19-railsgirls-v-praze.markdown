@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
  - events
  - ruby
 comments: false
@@ -19,9 +19,9 @@ Já jsem se celé akce zúčastnil jako jeden z organizátorů a také jsem troc
 Celá organizace nebyla složitá a protože se mě dost lidí ptalo co a jak uvedu zde některá fakta jak příprava celé akce probíhala.
 
 - 30.8.2012 - [Cristina Santamarina](https://twitter.com/crissantamarina) poslal email do konference rubyonrails.cz, kde [Karel Minařík](https://twitter.com/karmiq) a další se ozvali, že to podpoří a rádi se zúčastní.
-- 11.10.2012 - Karel se mnou mluvil o RailsGirls na [PragueJS](http://praguejs.cz), a tak jsem se rozhodl se zapojit do organizace
-- 7.11.2012 - V rámci tradiční ["První středy"](http://srazy.info/prvni-streda-ruby-on-rails/), kdy se schází Ruby komunita ve Fraktal baru na Letné jsme získali první kouče.
-- 17.11.2012 - Celý organizační tým (Cristina Santamarina, Eliška Hutníková a Ladislav Prskavec) se setkal s několika kouči na [RuPy](http://rupy.eu) a doladily jsme detaily, které jsme řešili jen online
+- 11.10.2012 - Karel se mnou mluvil o RailsGirls na [PragueJS](https://praguejs.cz), a tak jsem se rozhodl se zapojit do organizace
+- 7.11.2012 - V rámci tradiční ["První středy"](https://srazy.info/prvni-streda-ruby-on-rails/), kdy se schází Ruby komunita ve Fraktal baru na Letné jsme získali první kouče.
+- 17.11.2012 - Celý organizační tým (Cristina Santamarina, Eliška Hutníková a Ladislav Prskavec) se setkal s několika kouči na [RuPy](https://rupy.eu) a doladily jsme detaily, které jsme řešili jen online
 - 5.12.2012 - Na další první středě jsme získali další kouče
 - 11.12.2012 - Po příjezdu Cristine do Prahy jsme měli koordinační oběd organizátorů, kde se řešili poslední detaily
 - 14-15.12.2012 - první RailsGirls v Praze, v Locusu ve Slezské
@@ -46,12 +46,12 @@ Karel Minařík, Ladislav Prskavec, Jana Dvořáková, Jiří Kubíček, Adam Kl
 #### Sobota
 
 - v sobotu nás překvapilo náledí ale přesto dorazilo 27 účastníků
-- začalo se [úvodem do programování](http://data.karmi.cz/railsgirls/railsgirls-introduction-to-programming.html#0) od Karla Minaříka
+- začalo se [úvodem do programování](https://data.karmi.cz/railsgirls/railsgirls-introduction-to-programming.html#0) od Karla Minaříka
 {{< figure class="center" src="/images/railsgirls_001.jpg" title="RailsGirls - úvodní přednáška" >}}
 
 
-- po přestávce na skvělé kafe od [Virtualmaster](http://virtualmaster.com) si všichni zkoušeli základy Ruby pomocí [TryRuby](http://tryruby.org) nebo IRB (Interactive Ruby Shell).
-- po obědě jsme se vrhli na [tutorial](http://guides.railsgirls.com/app/), Karel celý tutorial ukázal a potom jsme v jednotlivých týmech projeli tutorial podrobně znovu.
+- po přestávce na skvělé kafe od [Virtualmaster](https://virtualmaster.com) si všichni zkoušeli základy Ruby pomocí [TryRuby](https://tryruby.org) nebo IRB (Interactive Ruby Shell).
+- po obědě jsme se vrhli na [tutorial](https://guides.railsgirls.com/app/), Karel celý tutorial ukázal a potom jsme v jednotlivých týmech projeli tutorial podrobně znovu.
 {{< figure class="center" src="/images/railsgirls_002.jpg" title="RailsGirls - coding" >}}
 - kdo byl dříve hotov tak potom mohl tutorial vylepšovat, obarvovat apod.
 
@@ -66,7 +66,7 @@ Karel Minařík, Ladislav Prskavec, Jana Dvořáková, Jiří Kubíček, Adam Kl
 - 4 měli nějaké základy programovaní
 
 ### Napsali o nás
-- [Ruby, Ruby, Ruby!](http://www.lenilumpik.cz/2012/12/ruby-ruby-ruby/)
+- [Ruby, Ruby, Ruby!](https://www.lenilumpik.cz/2012/12/ruby-ruby-ruby/)
 
 ### Fotky
 - [Radek Slavičinský](https://www.icloud.com/photostream/#A1GWZuqD82Nj1)

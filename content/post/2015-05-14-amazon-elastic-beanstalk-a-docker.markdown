@@ -1,6 +1,6 @@
 ---
 comments: true
-tags: 
+tags:
  - docker
  - aws
 date: 2015-05-14T00:00:00Z
@@ -8,7 +8,7 @@ title: Amazon Elastic Beanstalk a docker
 url: /2015/05/14/amazon-elastic-beanstalk-a-docker/
 ---
 
-Amazon Elastic Beanstalk je Platform as Service podobný známému Heroku. Jen je součást Amazon Web Services. Podporuje řadu jazyků a v neposlední době přidal podporu [Dockeru](http://www.docker.io). Díky podpoře docker kontejnerů je možné pustit víceméně cokoliv.
+Amazon Elastic Beanstalk je Platform as Service podobný známému Heroku. Jen je součást Amazon Web Services. Podporuje řadu jazyků a v neposlední době přidal podporu [Dockeru](https://www.docker.io). Díky podpoře docker kontejnerů je možné pustit víceméně cokoliv.
 
 <!--more-->
 
@@ -85,7 +85,7 @@ files:
     owner: root
     owner: root
     content: |
-      proxy_pass                        http://docker;
+      proxy_pass                        https://docker;
       proxy_http_version                1.1;
       proxy_set_header  Host            $http_host;
       proxy_set_header  X-Real-IP       $remote_addr;

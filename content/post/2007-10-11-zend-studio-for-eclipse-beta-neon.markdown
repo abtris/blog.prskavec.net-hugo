@@ -18,4 +18,4 @@ Osobně mi PDT docela vyhovuje a nejvíc mi chybí asi podpora Zend Frameworku, 
 
 Další o novém Zendu:
 
-- [James McGlinn: Zend Studio “Neon” Beta](http://blog.phpdeveloper.co.nz/2007/10/10/zend-studio-neon-beta/)
+- [James McGlinn: Zend Studio “Neon” Beta](https://blog.phpdeveloper.co.nz/2007/10/10/zend-studio-neon-beta/)

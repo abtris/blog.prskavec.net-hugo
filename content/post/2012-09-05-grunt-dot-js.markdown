@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
  - javascript
 comments: true
 date: 2012-09-05T00:00:00Z
@@ -133,7 +133,7 @@ Grunt.js se dá dobře použít na vytvoření buildu, kde spojíte všechny jav
                     ' * <%= pkg.description %>\n' +
                     ' * @version v<%= pkg.version %> - ' + '<%= grunt.template.today("yyyy-mm-dd") %>\n' +
                     ' * @link <%= pkg.homepage %>\n' +
-                    ' * @license MIT License, http://www.opensource.org/licenses/MIT\n' +
+                    ' * @license MIT License, https://www.opensource.org/licenses/MIT\n' +
                     ' */'
             },
             concat: {
@@ -199,7 +199,7 @@ Grunt.js se dá dobře použít na vytvoření buildu, kde spojíte všechny jav
 
     };
 
-Grunt.js využívá například [Yeoman](http://yeoman.io), na tyto úkoly.
+Grunt.js využívá například [Yeoman](https://yeoman.io), na tyto úkoly.
 - kontrolu javascriptu pomocí JSHint
 - kompilace CoffeeScriptu a SASS souborů pro produkci
 - používá [r.js](https://github.com/jrburke/r.js/) ke kompilaci a optimalizaci

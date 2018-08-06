@@ -9,4 +9,4 @@ type: post
 url: /2008/04/26/wordpress-251/
 ---
 
-Nová aktualizace se objevila brzo po předchozí verzi, ale opravuje <a href="http://trac.wordpress.org/query?status=closed&amp;milestone=2.5.1&amp;resolution=fixed&amp;order=priority">mnoho bezpečnostních chyb</a> a proto nezapomeňte provést aktualizaci.
+Nová aktualizace se objevila brzo po předchozí verzi, ale opravuje <a href="https://trac.wordpress.org/query?status=closed&amp;milestone=2.5.1&amp;resolution=fixed&amp;order=priority">mnoho bezpečnostních chyb</a> a proto nezapomeňte provést aktualizaci.

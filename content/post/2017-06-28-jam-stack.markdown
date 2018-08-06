@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
  - jamstack
 comments: true
 date: 2017-06-28T00:00:00Z
@@ -27,16 +27,16 @@ Zajímavé řešení nění jen na Javascriptu, ale například na [WordPressu](
 
 ## API
 
-Samozřejmě nevystačíte jen statickými stránkami a potřebujete přidat funkce na zpracování formulářů nebo napojit na eshop. Například [Javascript Shopping Cart](https://snipcart.com) řeší eshop a můžete využít [Serverless](https://serverless.com/) a implementovat co potřebujete pokud využijete [GraphQL](http://graphql.org/) a například [Graphcool](https://www.graph.cool/) kombinuje GraphQL a AWS Lambdu i jiné FaaS.
+Samozřejmě nevystačíte jen statickými stránkami a potřebujete přidat funkce na zpracování formulářů nebo napojit na eshop. Například [Javascript Shopping Cart](https://snipcart.com) řeší eshop a můžete využít [Serverless](https://serverless.com/) a implementovat co potřebujete pokud využijete [GraphQL](https://graphql.org/) a například [Graphcool](https://www.graph.cool/) kombinuje GraphQL a AWS Lambdu i jiné FaaS.
 
 Další API které se používají například v Smashing magazine a jsou [open source](https://www.netlify.com/open-source/).
 
-## Markup 
+## Markup
 
-Statické generátory ([jekyll](http://jekyllrb.com/), [hugo](http://gohugo.io/)) jsou oblíbené a najdete jich velký seznam na [Top Open-Source Static Site Generators](https://www.staticgen.com/). Například Hugo je napsaný v Go langu a je velmi rychlý a stále se hodně rozvíjí. Jekyll se součást [Github Pages](https://pages.github.com/) a proto je hodně oblíbený mezi vývojáři na Githubu.
+Statické generátory ([jekyll](https://jekyllrb.com/), [hugo](https://gohugo.io/)) jsou oblíbené a najdete jich velký seznam na [Top Open-Source Static Site Generators](https://www.staticgen.com/). Například Hugo je napsaný v Go langu a je velmi rychlý a stále se hodně rozvíjí. Jekyll se součást [Github Pages](https://pages.github.com/) a proto je hodně oblíbený mezi vývojáři na Githubu.
 
 ## Závěr
 
-Pokud vás to zajímá tak doporučuji [podcast JAMstack Radio](http://www.heavybit.com/library/podcasts/jamstack-radio/ep-1-introducing-jamstack-radio/), kde je spousta zajímavých hostů a zdrojů k inspiraci.
+Pokud vás to zajímá tak doporučuji [podcast JAMstack Radio](https://www.heavybit.com/library/podcasts/jamstack-radio/ep-1-introducing-jamstack-radio/), kde je spousta zajímavých hostů a zdrojů k inspiraci.
 
 Pokud si chcete popovídat o GraphQL zastavte se na [Hive talks](https://www.meetup.com/apiaryio/events/240962821/) 11.7. v Karlíně.

@@ -39,6 +39,6 @@ Verze v go langu je na tom ještě trochu lépe hlavně s ohledem na stabilitu a
 
 ## Závěr
 
-Pokud vás toto zaujalo pojďte si popovídat o Go langu na první [Go lang meetup v Praze](http://srazy.info/golang-meetup/5676). Budeme mít lighting talk o tomto příkladu s dalšími detaily a zúčastní se i další firmy, které řeknou o svých zkušenostech. Pokud vás zajímají nějaké detaily o používaní Datadogu na Heroku tak se ozvěte v komentářích.
+Pokud vás toto zaujalo pojďte si popovídat o Go langu na první [Go lang meetup v Praze](https://srazy.info/golang-meetup/5676). Budeme mít lighting talk o tomto příkladu s dalšími detaily a zúčastní se i další firmy, které řeknou o svých zkušenostech. Pokud vás zajímají nějaké detaily o používaní Datadogu na Heroku tak se ozvěte v komentářích.
 
 

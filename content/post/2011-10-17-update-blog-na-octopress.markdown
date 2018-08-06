@@ -8,7 +8,7 @@ title: Update blog na Octopress
 url: /2011/10/17/update-blog-na-octopress/
 ---
 
-V [předchozím příspěvku](http://blog.prskavec.net/2011/09/Migrace-z-Wordpressu-na-Jekyll/) jsem psal jak jsem migroval na Jekyll. Základní verze Jekyllu je hodně omezená a dá dost práce vylepšit ho podle představ. Mě šlo hlavně o čitelnost nějaké drobnosti, které jsem si na tom udělal, ale nebyl jsem zcela spokojený. Když jsem hledal dále ve svět Jekyllu a stránek pro pages na githubu narazil jsem na [Octopress](http://octopress.org/), který je dokonalý blogovací framework. [Brandon Mathis](http://brandonmathis.com/) vytvořil krasný a funkční template, který má tyto vlastnosti:
+V [předchozím příspěvku](https://blog.prskavec.net/2011/09/Migrace-z-Wordpressu-na-Jekyll/) jsem psal jak jsem migroval na Jekyll. Základní verze Jekyllu je hodně omezená a dá dost práce vylepšit ho podle představ. Mě šlo hlavně o čitelnost nějaké drobnosti, které jsem si na tom udělal, ale nebyl jsem zcela spokojený. Když jsem hledal dále ve svět Jekyllu a stránek pro pages na githubu narazil jsem na [Octopress](https://octopress.org/), který je dokonalý blogovací framework. [Brandon Mathis](https://brandonmathis.com/) vytvořil krasný a funkční template, který má tyto vlastnosti:
 
 - má HTML5 template
 - mobile friendly
@@ -17,7 +17,7 @@ V [předchozím příspěvku](http://blog.prskavec.net/2011/09/Migrace-z-Wordpre
 - zvýrazňování zdrojové kódu (Solarized)
 - jednoduchá změna vzhledu pomocí Compass a Sass
 
-a další [pluginy](http://octopress.org/docs/plugins/), které jsou přesně co vývojář potřebuje. Pro mě jsou nejdůležitější
+a další [pluginy](https://octopress.org/docs/plugins/), které jsou přesně co vývojář potřebuje. Pro mě jsou nejdůležitější
 
 - Gist
 - jsFiddle

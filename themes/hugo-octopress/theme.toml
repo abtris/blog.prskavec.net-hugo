@@ -10,11 +10,11 @@ min_version = 0.14
 
 [author]
   name = "Parsia Hakimian"
-  homepage = "http://parsiya.net"
+  homepage = "https://parsiya.net"
 
 # If porting an existing theme
 [original]
   author = "Brandon Mathis"
   name = "Octopress classic theme"
-  homepage = "http://octopress.org"
+  homepage = "https://octopress.org"
   repo = "https://github.com/imathis/octopress/tree/master/.themes/classic"

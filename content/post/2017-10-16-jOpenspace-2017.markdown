@@ -1,11 +1,11 @@
 ---
 title: "jOpenspace 2017 a moje přednáška o JAMstacku"
 date: 2017-10-16T11:46:48+02:00
-tags: 
+tags:
  - jamstack
 ---
 
-Tento víkend jsem ze účastnil devátého ročníku [jOpenspace](http://jopenspace.cz). Tato ne-konference pro 42 lidí je úplně něco jiného než ostatní akce kam jsem se v poslední době dostal. 
+Tento víkend jsem ze účastnil devátého ročníku [jOpenspace](https://jopenspace.cz). Tato ne-konference pro 42 lidí je úplně něco jiného než ostatní akce kam jsem se v poslední době dostal.
 
 ![](/images/jopenspace/jopenspace2017.jpg)
 
