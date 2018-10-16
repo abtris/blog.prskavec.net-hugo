@@ -18,7 +18,7 @@ brew install hugo
 ## Create new content
 
 ```
-hugo new content/post/{date-YY-MM_DD}+{name}.markdown
+hugo new {date-YY-MM_DD}-{name}.markdown
 ```
 
 
