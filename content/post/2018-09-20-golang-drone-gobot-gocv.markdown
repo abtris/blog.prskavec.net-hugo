@@ -53,10 +53,9 @@ func main() {
 nebo můžete použít `netcat`
 
 ```bash
-$ netcat -u 192.168.10.1 8889
-command
-takeoff
-land
+$ echo -n "command" | netcat -u 192.168.10.1 8889
+$ echo -n "takeoff" | netcat -u 192.168.10.1 8889
+$ echo -n "land" | netcat -u 192.168.10.1 8889
 ```
 
 pokud použijeme Gobot, kód vypadá takto:
@@ -225,10 +224,9 @@ func main() {
 }
 ```
 
-Pokud chcete začít si hrát s dronem, můžete použít přímo nástroje v linuxu nebo mac os x jako je netcat kdy jste schopni posílat příkazy přímo dronu pomocí síťového protokolu UDP. 
+Pokud chcete začít si hrát s dronem, můžete použít přímo nástroje v linuxu nebo mac os x jako je netcat kdy jste schopni posílat příkazy přímo dronu pomocí síťového protokolu UDP.
 
-Když si chcete více hrát je dobré zapojit programovácí jazyk. Jednoduchý klient pro UDP napíšete v libovolném jazyce, mi jsme na Webexpu pracovali s Javascriptem a výsledky byli pěkné. 
+Když si chcete více hrát je dobré zapojit programovácí jazyk. Jednoduchý klient pro UDP napíšete v libovolném jazyce, mi jsme na Webexpu pracovali s Javascriptem a výsledky byli pěkné.
 
 Na práci s videem zatím nikdo nerozšířil Node.js verzi, ale určitě to půjde a časem to někdo dodělá. V Gobot frameworku to funguje, tam taky čteme video a dekodujeme ho pomocí `ffmpeg` a potom zpracujeme jednotlivé snímky. Například můžeme detekovat pohyb před kamerou, rozpoznat koho vidíme a detekovat, že vidíme lidi pomocí knihovny OpenCV.
-
 
