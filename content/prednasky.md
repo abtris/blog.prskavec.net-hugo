@@ -6,7 +6,7 @@ type: page
 
 ## 2018
 
-* 5-7.10.2018 - [jOpenSpace] - Hacking drone with Golang using OpenCV and Gobot ([slides](https://speakerdeck.com/abtris/hacking-drone-with-golang))
+* 5-7.10.2018 - [jOpenSpace](https://www.jopenspace.cz/2018.html) - Hacking drone with Golang using OpenCV and Gobot ([slides](https://speakerdeck.com/abtris/hacking-drone-with-golang))
 * 21.9.2018 - [Webexpo](https://www.webexpo.net/prague2018/talk?id=control-drone-using-your-computer) Workshop: Control Drone Using Your Computer
 * 10.4.2018 – [JsDevMeetup](https://www.meetup.com/GDG-%C4%8CVUT-Prague/) Moderní webová architektura založená na JavaScriptu a API ([slides](https://www.slideshare.net/ladislavprskavec/modern-web-architecturebrbased-on-js-api-and-markup))
 * 22.2.2018 - [Únorový meetup v Representu](https://www.meetup.com/Prague-Ruby-Meetup/events/247577634/) JAMstack ([slides](https://speakerdeck.com/abtris/jamstack-1))
