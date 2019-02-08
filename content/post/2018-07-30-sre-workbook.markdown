@@ -7,6 +7,7 @@ tags:
 
 
 První kniha o SRE vyšla před dvěma lety. Kniha nazvaná prostě [**Site Reliability Engineering**](https://landing.google.com/sre/book/index.html) je kompendium znalostí, které v Googlu nasbírali za řadu let a zárověň popisuje technologie, které Google používá a na kterých staví svoji infrastrukturu. Část poznatků a procesů  je univerzální, ale hodně toho je Google specifické, hlavně věci kolem technologií. Minulý týden v rámci konference Google Next 2018 vyšlo preview druhé knihy nazvané The Site Reliability Workbook.
+<!--more-->
 
 ![](/images/sre-workbook.jpg)
 
