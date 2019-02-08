@@ -7,7 +7,7 @@ tags:
 ---
 
 Ve volném časem se věnuju různým věcem a jedna z nich je hraní s Golangem a frameworkem pro IoT [Gobot](https://gobot.io) a [GoCV](https://gocv.io/).
-
+<!--more-->
 Gobot umí pracovat s mnoha zařízeními, já si hraju s dronem [Tello](https://store.dji.com/product/tello). Dron má 5Mpx kameru a můžete ho ovládat přes wifi. Protokol pro ovládání je celkem jednoduchý. Můžete používat ho přes UDP a to buď v ASCII nebo binárně.
 
 Tady je jednoduchý příklad, kde drone vzlétne a po chvíli přistane.
