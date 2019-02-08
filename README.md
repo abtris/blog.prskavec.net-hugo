@@ -15,10 +15,10 @@ brew install hugo
 ```
 
 
-## Create new content
+## Create new post
 
 ```
-hugo new {date-YY-MM_DD}-{name}.markdown
+hugo new post/`date +%Y-%m-%d`-{{name}}.markdown
 ```
 
 
