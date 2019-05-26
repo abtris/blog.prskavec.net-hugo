@@ -1,8 +1,9 @@
 ---
-title: "Kubecon 2018 - Copenhagen"
+title: "Kubecon EU 2018 - Copenhagen"
 date: 2018-05-07T16:43:37+02:00
 tags:
   - k8s
+  - conference
 ---
 
 Letos jsem poprvé byl na Kubeconu, který se konal v týdnu od 30.4. do 4.5 v Kodaňi. Kodaň je pěkné město a hotel Bella Sky je nádherná stavba.

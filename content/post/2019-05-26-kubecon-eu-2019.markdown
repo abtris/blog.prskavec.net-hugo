@@ -1,0 +1,41 @@
+---
+title: "Kubecon EU 2019 - Barcelona"
+date: 2019-05-26T09:21:48+02:00
+tags:
+  - k8s
+  - conference
+---
+
+Kubecon je největší evropká konference kolem Cloud Native and Kubernetes. Letos se konala v Barceloně a podle organizátorů tam bylo 7700 účastníků. Byli to tradičně tři dny plné přednášek a jeden den věnovaný workshopům. Letos jsme v Barceloně potkali mnohem více lidí z Česka než loni, je vidět, že zájem roste napříč firmami co poskytují Kubernetes jako službu i mezi koncovými uživateli.
+
+Na konferenci je vynikající jak rychle se objevují videa z přednášek, už v poslední den konference jich bylo dostupných [přes 200 na youtube kanálu CNCF](https://www.youtube.com/playlist?list=PLj6h78yzYM2PpmMAnvpvsnR4c27wJePh3). Mohl jsem si projít zajímavé přednášky, které se mi nevešli do mého programu. Vy teď budete mít všechny přednášky online.
+
+Někdo si řekne proč tedy jezdit na konferenci, která má veškerý obsah online hned o víkendu. Já vidím přínos v tom, že můžete mluvit s firmami co mají stánky a vyvětlují svoje produkty, můžete diskutovat přímo z těmi co konkrétním projektu pracují. Pokud se zapojíte jako přispěvatel do některého projektu, je to místo kde se potkáte s ostatními.
+
+Tento Kubecon byl můj druhý a od Kodaně minulý rok zase vyrostl ve velikosti asi o 1200 účastníků. Něco se zlepšilo v organizaci, něco bylo horší. Místo konference mi nepřišlo úplně šťastně zvolené a hlavně organizace sálů nebyla optimální. Celé to bylo rozdělené na dvě velké části mezi kterými bylo potřeba dost přecházet kvůli obědu, občerstvení apod. Konference párty byla na pěkném místě a povedla se lépe než loni. Barcelona je pěkné město a bylo tam příjemné pobýt.
+
+[Další ročník Kubecon EU](https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2020/) bude v Amstrodamu 30.3.-2.4.2020 a uvidíme zda se zase nafoukne nebo se to omezí na nějakou rozumnou velikost. Podle mě nechat konferenci na 5000 účastníkách by bohatě stačilo. Uvidíme zda se to změní nebo to bude jen růst v obří konferenci jako je dnes Amazon re:Invent.
+
+Mám pár věcí co mě hodně zaujali a které jsem neznal. Dost projektů je jen dospělejších a za ten rok udělali pěkný pokrok. Mě nejvíce chybí nadstavba pro vývojáře na samostatném kubernetesu, která umožní jednoduší používání a jenoduchý start pro úplné lidi v oboru.
+
+Jako vývojáře mě hodně zaujal projet [KIND na testování K8S v dockeru](https://github.com/kubernetes-sigs/kind). Jste si schopní nastartovat K8S cluster za 30s a pustit v něm testy například pokud vyvíjíte operátor a otestovat to e2e.
+
+Další zajímavý projekt je [telepresence](https://www.telepresence.io/reference/install), který umožňuje přípojit z lokálního počítače přímo do k8s clusteru a mít k němu plný přístup. Můžete vzít lokální aplikaci a nakradit lokální pod s tím v clusteru. Ideální pro debugging na integračním prostředí. Telepresence funguje 2-way proxy a pod posílá informace oběma směry využívající TCP inject.
+
+Zajímavý trend je [distroless](https://github.com/GoogleContainerTools/distroless), kde pří tvorbě docker images se snažíte vyhnout použití distribuce hlavně kvůli bezpečnosti a aby jste mohli přesně reprodukovat starší buildy.
+
+Pokud [nemáte rádi CLI tak pro práci s Kubernetes](https://www.youtube.com/watch?v=fOvpMfunD4s&list=PLvkBoi0G2JD5z0ACodCL38heEbswrRAkb&index=4&t=450s) můžete využít pěkné [rozšíření do VSCode - Kubernetes](https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools). Máte náhled na cluster a všechny detaily rovnou v editoru.
+
+Pokud pracujete se [service meshi](https://www.envoyproxy.io/learn/service-mesh), tak na konferenci byla uvedená novinka [SMI - A standard interface for service meshes on Kubernetes.](https://smi-spec.io/). Rozhraní umožní používat pomocí SMI různé service mesh technologie ať je to Istio, Linkerd nebo Consul.
+
+Další novinka, která mě potěšila bylo spojení projektů OpenCensus a OpenTracing do nového projektu [OpenTelemetry](https://opentelemetry.io/). Bude stačit jedna instrumentace kódu pro metriky i tracing.
+
+Zajímavý projekt je také [Grafana loki](https://github.com/grafana/loki), který ukazuje jiný směr než FluentD a jiní ve zpracování logů. Metoda index free, která je nekonstruje invertovaný index jako řešení na bázi Elasticsearch je mi blízké a index obsahuje jen timestamp, labels (stejné jako Prometheus) a message. Jediné co zatím chybí v aktuální verzi je alerting. Celý koncept si můžete přečíst v [design dokumentu](https://docs.google.com/document/d/11tjK_lvp1-SVsFZjgOTr1vV3-q6vBAsZYIQ5ZeYBkyM/view). [Slidy](https://speakerdeck.com/grafana/grafana-loki-like-prometheus-but-for-logs) jsou k náhlédnutí. Důležitá myšlenka je propojitelnost a [korelace napříč](https://speakerdeck.com/grafana/grafana-loki-like-prometheus-but-for-logs?slide=17) metrikami (Prometheus), logy (Loki) a distrubuted tracing.
+
+## Shrnutí
+
+Je vidět jak [ekosystém](https://landscape.cncf.io/) kolem Kubernetes stále roste. Některé projekty se vylepšují, já sleduji například [Brigade](https://brigade.sh/), který se [posunul, ale stále to není uplně dospělé](https://www.youtube.com/watch?v=NTeJzvtiLWo&list=PLvkBoi0G2JD5z0ACodCL38heEbswrRAkb). Nikdo třeba nemluvil o [Draftu](https://draft.sh/), projekt se nijak moc neposouvá, ale asi to čeká na [Helm 3](https://helm.sh/), který je teď v [alfa verzi](https://v3.helm.sh/docs/faq/).
+
+Já se snažím najít ideální workflow pro programátory pro práci a zaujal mě nástoj [Pulumi](https://www.pulumi.com/), který vám umožní místo YML souborů použít programovací jazyk, který jejich denní chleba. Podobnou strategii začíná dělat i Amazon s [CDK](https://docs.aws.amazon.com/cdk/latest/guide/what-is.html).
+
+Druhý cíl, který se snažím rozvíjet je kvalitní a dobře rostoucí řešení pro monitoring. Grafana labs se tomu věnují a měli několik kvalitních přednášek, doporučil bych hlavně [Fool-Proof Kubernetes Dashboards for Sleep-Deprived Oncalls - David Kaltschmidt](https://www.youtube.com/watch?v=YE2aQFiMGfY&list=PLvkBoi0G2JD5z0ACodCL38heEbswrRAkb).
