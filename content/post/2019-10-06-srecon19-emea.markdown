@@ -19,7 +19,7 @@ Když to srovnám s programem [devops.cz](https://www.devopsday.cz) nebo [devops
 
 Ale rád si s každým o SRE popovídám, rád bych také více rozšířil povědomý co to SRE je a kde jsou ty klíčové body, kde SRE může vám pomocí a zda vůbec SRE potřebujete, protože to samozřejmě není pro každého.
 
-[1]: https://mitpress.mit.edu/books/engineering-safer-world
-[2]: http://sunnyday.mit.edu/CAST-Handbook.pdf
-[3]: http://psas.scripts.mit.edu/home/
-[4]: https://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf
+[1]: [https://mitpress.mit.edu/books/engineering-safer-world](https://mitpress.mit.edu/books/engineering-safer-world)
+[2]: [CAST-Handbook](http://sunnyday.mit.edu/CAST-Handbook.pdf)
+[3]: [http://psas.scripts.mit.edu/home/](http://psas.scripts.mit.edu/home/)
+[4]: [Paper: How Complex System Fail](https://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf)
