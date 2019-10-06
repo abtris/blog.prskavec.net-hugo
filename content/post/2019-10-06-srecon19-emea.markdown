@@ -1,0 +1,25 @@
+---
+title: "SRECon EMEA 2019, Dublin"
+date: 2019-10-06T17:41:33+02:00
+---
+
+Tento rok jsem 2 až 4 října se zúčastnil v Dublinu konference [SRECon](https://www.usenix.org/conference/srecon19emea), která je jediná plně soustředěná na to co je Site Reliability Engineering jak to popisují [knihy](https://landing.google.com/sre/books/) Site Reliability Engineering a The Site Reliability Workbook od Google. Když to ještě doplníte o [Seeking SRE](https://www.oreilly.com/library/view/seeking-sre/9781491978856/) máte celou sbírku literatury.
+
+SRECon začal v roce 2014 s 276 lidmi, dnes na SREConu EMEA 2019 bylo 819 lidí. Už to není úplně neznámá věc, kterou znají jen zasvěcení lidmi s Google nebo ex-Googlery, kteří to zavedli někde jinde jako byl SoundCloud. Je vidět, že podobnou potřebu měli všichni velcí hráči na trhu a dnes Google, Amazon, Microsoft a mnozí další mají svoje SRE.
+
+Za tři dny přednášek a workshopů se opakovalo hodně to, že je to hlavně o kultuře než o tom jak se pozice jmenuje, o tom, že bezpečnost (vnitřní i vnější) je priorita. Že je potřeba přivést postupy, které se osvědčili v jiných odvětvích (CAST a STAMP [^1], [^2], [^3]).
+
+Taky se mi líbilo, že hodně lidí se soustředilo na machine learning a jak to nemá smysl pro hodně případů, kdy se to lidé snaží aplikovat pro malé množství dat na kterých trénujete modely a že lze docílit lepší výsledky heuristickou analýzou a statistikou. Diskuze o [agregaci percentilů pro latency](https://www.youtube.com/watch?v=lJ8ydIuPFeU&feature=youtu.be&t=9m15s) a že [Prometheus histogram] není [histogram](http://linuxczar.net/blog/2017/06/15/prometheus-histogram-2/). Lidé jsou ponořeni do problematiky a hodně pracují podle vědeckých článků a výzkumů. Některé mi zůstali v záložkách prohlížeče. Například tento o loadbalancerech [Maglev: A Fast and Reliable Software Network Load Balancer](https://ai.google/research/pubs/pub44824/) nebo tento post o [ML](http://heinrichhartmann.com/blog/all-is-loss.html) a různých [typech percentilů](http://heinrichhartmann.com/math/quantiles.html).
+
+Taky se všichni shodují, že problém je v komplexitě systémů [^4] a mi se musíme připravit na jejich selhání a minimalizovat možné škody, kterým lze zabránit pomocí třeba jen user experience. A neodvolávat se na lidskou chybu jak k tomu často dochází.
+
+Z Česka bylo letos jen pár lidí a přednášku měl jen [Vit Urbanec](https://www.usenix.org/conference/srecon19emea/presentation/urbanec) z Unity, která skvěle ukazovala na to, že když OPS přejmenujete na SRE tak tím SRE opravdu hned tak nezískáte.
+
+Když to srovnám s programem [devops.cz](https://www.devopsday.cz) nebo [devopssummit.cz](https://devopssummit.cz/program/) tak se řeší jiné věci než se aktuálně řeší v SRE.
+
+Ale rád si s každým o SRE popovídám, rád bych také více rozšířil povědomý co to SRE je a kde jsou ty klíčové body, kde SRE může vám pomocí a zda vůbec SRE potřebujete, protože to samozřejmě není pro každého.
+
+[1]: https://mitpress.mit.edu/books/engineering-safer-world
+[2]: http://sunnyday.mit.edu/CAST-Handbook.pdf
+[3]: http://psas.scripts.mit.edu/home/
+[4]: https://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf
