@@ -2,6 +2,6 @@
 command = "hugo -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
-  HUGO_VERSION = "0.58.3"
+  HUGO_VERSION = "0.80.0"
 [context.production.environment]
-  HUGO_VERSION = "0.58.3"
+  HUGO_VERSION = "0.80.0"
