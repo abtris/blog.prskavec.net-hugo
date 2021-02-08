@@ -1,0 +1,26 @@
+---
+title: "FOSDEM 6-7.2.2021, online"
+date: 2021-02-08T09:53:04+01:00
+---
+
+Tento rok se konference [FOSDEM](https://fosdem.org/2021/) nekonala v areálu univerzity v Bruselu jako obvykle, museli jsme si nechat ujít tradiční vafle i moje oblíbená žebra z místního smoking house. Pokud neznáte FOSDEM tak je to jedna z největších konferencí o Open Source, kde se lidé z celého světa potkávají nad velmi různými projekty. Rozmanitost jednotlivých tracků a velikost konference je úžasná. Celá akce je tradičně zdarma za podpory partnerů.
+
+Letos jsme se museli spokojit s online verzí, tak obsah byl redukován zhruba podle mě tak na polovinu obvyklého rozsahu než v předchozím roce. Většina přednášek byla předtočena a pouštěl je bot, který nemilosrdně zabil jakékoliv překročení vymezeného času.
+
+
+Já jsem navštívil svoje tradiční místnosti infra, golang a monitoring. Víc se toho online stihnout nadalo a ono ani když jste na místě není to o moc lepší, kapacita většiny místností je limitována a není občas jednoduché se dostat kam chcete, a proto online část je již tradičně k dispozici i na místě.
+
+Pár přednášek co mi přišli zajímavé:
+
+
+- [Stephane Jourdan: Infrastructure-as-code drifts aren't like Pokemon : you can't catch em all](https://fosdem.org/2021/schedule/event/iacdriftpokemon/) - zajímavý nástroj [driftctl](https://driftctl.com/), který umožňuje odchytit ruční změny v infrastruktuře, které například terraform nezachytí nebo vám nedá dost informací jako jsou například změny i IAM rolích apod.
+
+- [Jeff Knurek: A hands-off approach for your Terraform](https://fosdem.org/2021/schedule/event/handsoffapproachforterraform/) - pěkný přehled nástrojů, které je dobré používat při práci s terraformem např. [atlantis](https://www.runatlantis.io/), [tfarbe](https://github.com/jeff-knurek/tfarbe), [localstack](https://localstack.cloud/) a mnoho dalších
+
+- [Joe Elliott: Getting Started with Grafana Tempo](https://fosdem.org/2021/schedule/event/getting_started_tempo/) - autor Tempa nám řekl o chystaných vylepšeních a podpoře [ExempLARS](https://github.com/OpenObservability/OpenMetrics/blob/master/specification/OpenMetrics.md#exemplars) v Prometheusu. Tempo nově podporuje Azure cloud storage.
+
+- [Fabrízio Mello, Alvaro Hernandez: PostgreSQL Network Filter for EnvoyProxy](https://fosdem.org/2021/schedule/event/postgresql_filter_envoy/) - Envoy filter jako zdroj metrik pro databáze, tento projekt je opravdu skvělý a odbourává spoustu potenciálních potíží se sběrem metrik a v nové verzi 1.18 bude i terminace SSL. Zmíněný projekt [stackgres](https://stackgres.io/) pro běh Postgres na K8S.
+
+Během pár dní snad budou k dispozici i všechny videa se záznamy, teď už jsou slidy ve většině přednášek k dispozici.
+
+Jen doufám, že příští rok zase osobně v Bruselu.
