@@ -4,9 +4,17 @@ date: 2017-09-12T16:46:13+02:00
 type: page
 ---
 
+
+## 2020
+
+* 23.1.2020 - itSMF - Compliance as Code [slides](https://speakerdeck.com/abtris/compliance-as-code)
+* 4.6.2020 - Teststack Conference - Testing Infrastructure with Terratest [slides](https://speakerdeck.com/abtris/testing-infrastructure-with-terratest)
+
 ## 2019
 
-* 6.6.2019 - [Konference Test Stack](http://www.datascript.cz/test-stack/) - Testování infrastruktury
+* 1.11.2019 - ReactiveConf - JAMStack in 2019 [slides](https://speakerdeck.com/abtris/jamstack-in-2019)
+* 4.9.2019 - Golang Prague Meetup - TinyGo [slides](https://speakerdeck.com/abtris/tinygo)
+* 6.6.2019 - [Konference Test Stack](http://www.datascript.cz/test-stack/) - Testování infrastruktury [slides](https://speakerdeck.com/abtris/testing-cloud-infrastructure)
 * 23.4.2019 - [FullStack Meetup](https://www.meetup.com/Prague-Full-stack-Developers-Meetup/events/260057176/) - To be or not to be a full stack developer [slides](https://speakerdeck.com/abtris/to-be-or-not-to-be-a-full-stack-developer) - in English
 * 9.1.2019 - [Hive talks - Continuous Integration](https://www.meetup.com/apiaryio/events/257187270/) - CIE as SaaS. Why is Apiary using CircleCI? [slides](https://speakerdeck.com/abtris/cie-as-saas-why-is-apiary-using-circleci) and related blog post [What you need from your CI](https://blog.apiary.io/What-you-need-from-your-CI) - in English
 
