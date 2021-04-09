@@ -2,9 +2,9 @@
 title: "Go Embed a jak ho použít"
 date: 2021-04-09T07:38:44+02:00
 tags:
-	- go
-	- golang
-	- continuous-integration
+  - go
+  - golang
+  - continuous-integration
 ---
 
 V novém [Go 1.16](https://golang.org/doc/go1.16) kromě jiného přibyla nové directiva na úrovni balíčku `//go:embed`.
@@ -42,7 +42,7 @@ Když máte takto definované jaké soubory chcete použít tak vlastní použit
 ```go
 data, err := files.ReadFile("templates/go.yaml")
 if err != nil {
-		return "", fmt.Errorf("Error read file")
+    return "", fmt.Errorf("Error read file")
 }
 ```
 
