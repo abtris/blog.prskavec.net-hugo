@@ -1,7 +1,5 @@
 ---
 date: 2010-04-02T00:00:00Z
-published: true
-status: publish
 tags:
 - jush
 - wordpress

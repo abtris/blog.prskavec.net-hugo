@@ -1,7 +1,5 @@
 ---
 date: 2008-11-04T00:00:00Z
-published: true
-status: publish
 tags:
 - continuous-integration
 - php

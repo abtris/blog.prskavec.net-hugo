@@ -50,4 +50,4 @@ Další drobné věci, které mě zaujali [Go registry od JFrog](https://jfrog.c
 ## Závěr
 
 Většina cloudových poskytovatelů má hostovaný Kubernetes (k8s) buď již v ostrém provozu nebo ho letos chystají. Ekosystém kolem k8s se velice rozšířil a nebude to jednoduché pojmout.
-Pokud vás to zaujalo nebo jste Go lang programátoři, přijďte si o tom popovídat na [Golang meetup v Praze](https://www.meetup.com/Prague-Golang-Meetup/events/250136683/).
+Pokud vás to zaujalo nebo jste Go programátoři, přijďte si o tom popovídat na [Golang meetup v Praze](https://www.meetup.com/Prague-Golang-Meetup/events/250136683/).

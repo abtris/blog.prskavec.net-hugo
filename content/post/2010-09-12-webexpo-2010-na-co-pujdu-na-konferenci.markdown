@@ -1,9 +1,7 @@
 ---
 date: 2010-09-12T00:00:00Z
-published: true
-status: publish
 tags:
-- events
+- conference
 - webexpo
 title: Webexpo 2010 - Na co půjdu na konferenci
 type: post

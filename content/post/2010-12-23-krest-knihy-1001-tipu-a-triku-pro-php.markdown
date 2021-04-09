@@ -1,7 +1,5 @@
 ---
 date: 2010-12-23T00:00:00Z
-published: true
-status: publish
 tags:
 - events
 - php

@@ -2,7 +2,6 @@
 tags:
  - praguejs
  - javascript
-comments: true
 date: 2012-10-03T00:00:00Z
 title: PragueJS pořádá s GoodData přednášku o Ember.js. Přednáší autoři frameworku
   Yehuda Katz a Tom Dale.

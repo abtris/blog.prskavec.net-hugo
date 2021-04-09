@@ -1,10 +1,10 @@
 ---
-comments: true
 date: 2015-09-16T00:00:00Z
 tags:
   - nodejs
   - golang
-title: Porovnání implementace service v NodeJS a Go lang
+  - go
+title: Porovnání implementace service v NodeJS a Go
 url: /2015/09/16/porovnani-implementace-microservice-v-nodejs-and-go-lang/
 ---
 
@@ -33,12 +33,12 @@ Obě řešení zafungovala a za pár hodin práce jsme měli už přijatelné v�
 
 <a href="{{ root_url }}/images/drain/02.png"><img class="center" src="{{ root_url }}/images/drain/02.png" alt="Heroku monitoring - NodeJS" /></a>
 
-Verze v go langu je na tom ještě trochu lépe hlavně s ohledem na stabilitu a pamět. Tuto verzi jsme nechali potom trvale v běhu na nejmenším dynu k dispozici s monitoringem.
+Verze v Go je na tom ještě trochu lépe hlavně s ohledem na stabilitu a pamět. Tuto verzi jsme nechali potom trvale v běhu na nejmenším dynu k dispozici s monitoringem.
 
-<a href="{{ root_url }}/images/drain/03.png"><img class="center" src="{{ root_url }}/images/drain/03.png" alt="Heroku monitoring - Go lang" /></a>
+<a href="{{ root_url }}/images/drain/03.png"><img class="center" src="{{ root_url }}/images/drain/03.png" alt="Heroku monitoring - Go" /></a>
 
 ## Závěr
 
-Pokud vás toto zaujalo pojďte si popovídat o Go langu na první [Go lang meetup v Praze](https://srazy.info/golang-meetup/5676). Budeme mít lighting talk o tomto příkladu s dalšími detaily a zúčastní se i další firmy, které řeknou o svých zkušenostech. Pokud vás zajímají nějaké detaily o používaní Datadogu na Heroku tak se ozvěte v komentářích.
+Pokud vás toto zaujalo pojďte si popovídat o Go na první [Go meetup v Praze](https://srazy.info/golang-meetup/5676). Budeme mít lighting talk o tomto příkladu s dalšími detaily a zúčastní se i další firmy, které řeknou o svých zkušenostech. Pokud vás zajímají nějaké detaily o používaní Datadogu na Heroku tak se ozvěte v komentářích.
 
 

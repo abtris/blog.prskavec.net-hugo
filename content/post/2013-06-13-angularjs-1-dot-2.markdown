@@ -2,7 +2,6 @@
 tags:
  - javascript
  - angularjs
-comments: true
 date: 2013-06-13T00:00:00Z
 title: Jaký bude AngularJS 1.2?
 url: /2013/06/13/angularjs-1-dot-2/

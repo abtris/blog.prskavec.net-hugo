@@ -1,7 +1,5 @@
 ---
 date: 2009-04-19T00:00:00Z
-published: true
-status: publish
 tags:
 - wordpress
 title: WP-EasyArchives 1.0.2

@@ -2,7 +2,6 @@
 tags:
  - jenkins
  - php
-comments: true
 date: 2011-11-24T00:00:00Z
 title: Jenkins – použití Continuous Integration engine pro PHP
 url: /2011/11/24/jenkins-pouziti-continuous-integration-engine-pro-php/

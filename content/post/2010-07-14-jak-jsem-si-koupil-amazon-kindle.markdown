@@ -1,7 +1,5 @@
 ---
 date: 2010-07-14T00:00:00Z
-published: true
-status: publish
 tags:
 - ebook
 - kindle

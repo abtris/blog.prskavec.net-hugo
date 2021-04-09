@@ -1,7 +1,5 @@
 ---
 date: 2007-10-26T00:00:00Z
-published: true
-status: publish
 tags:
 - php
 title: XMLRPC a Google docs

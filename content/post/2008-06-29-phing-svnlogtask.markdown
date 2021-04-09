@@ -1,7 +1,5 @@
 ---
 date: 2008-06-29T00:00:00Z
-published: true
-status: publish
 tags:
 - phing
 - php

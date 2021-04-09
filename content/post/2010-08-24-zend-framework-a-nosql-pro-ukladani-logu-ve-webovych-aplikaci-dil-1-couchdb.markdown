@@ -1,7 +1,5 @@
 ---
 date: 2010-08-24T00:00:00Z
-published: true
-status: publish
 tags:
 - couchdb
 - nosql

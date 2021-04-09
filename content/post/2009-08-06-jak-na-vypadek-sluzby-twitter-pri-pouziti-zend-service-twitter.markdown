@@ -1,7 +1,5 @@
 ---
 date: 2009-08-06T00:00:00Z
-published: true
-status: publish
 tags:
 - php
 - twitter

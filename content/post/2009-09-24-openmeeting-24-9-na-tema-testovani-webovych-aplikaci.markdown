@@ -1,7 +1,5 @@
 ---
 date: 2009-09-24T00:00:00Z
-published: true
-status: publish
 tags:
 - cucumber
 - events

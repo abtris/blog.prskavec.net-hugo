@@ -1,6 +1,7 @@
 ---
-categories: [konference]
-comments: true
+tags:
+  - conference
+  - sre
 date: 2016-07-14T00:00:00Z
 title: SREcon'16 Europe
 url: /2016/07/14/srecon-16-europe/
@@ -29,7 +30,7 @@ Diskuze o tom kolik SRE lidí má být ve firmě byla celkem častá. Osobně se
 
 ### Doorman: Global Distributed Client-Side Rate Limiting - Jos Visser, Google
 
-Jos mluvil o projektu [Doorman](https://github.com/youtube/doorman), který používají v Youtube limitaci zdrojů v distribuovaném systému pro omezení zátěže MySQL. Doorman je napsaný v Go langu, používá pro komunikaci gRPC. Zajímavé je hlavně to, že nemá žádný diskový prostor pro ukládání stavu a drží informace jen v paměti. Pokud dojde k výpadku tak se pustí learning mode a od klientů se dozví všechno co potřebuje a potom pokračuje ve funkci.
+Jos mluvil o projektu [Doorman](https://github.com/youtube/doorman), který používají v Youtube limitaci zdrojů v distribuovaném systému pro omezení zátěže MySQL. Doorman je napsaný v Go, používá pro komunikaci gRPC. Zajímavé je hlavně to, že nemá žádný diskový prostor pro ukládání stavu a drží informace jen v paměti. Pokud dojde k výpadku tak se pustí learning mode a od klientů se dozví všechno co potřebuje a potom pokračuje ve funkci.
 
  ### Building and Running SRE Teams - Kurt Andersen, LinkedIn
 Kurt mluvil o knize [Team of Teams](https://www.amazon.com/Team-Teams-Rules-Engagement-Complex/dp/1591847486) a jak aplikovat vojenské postupy do SRE a systému rozhodování. Jako klíčové viděl hlavně posun důležitých rozhodnutí na lidi co jsou nejblíže tomu tu akci potom vykonat.

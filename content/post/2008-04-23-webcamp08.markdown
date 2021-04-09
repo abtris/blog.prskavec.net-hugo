@@ -1,9 +1,7 @@
 ---
 date: 2008-04-23T00:00:00Z
-published: true
-status: publish
 tags:
-- events
+- conference
 - php
 title: Webcamp'08
 type: post

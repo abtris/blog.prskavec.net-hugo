@@ -1,0 +1,57 @@
+---
+title: "Go Embed a jak ho použít"
+date: 2021-04-09T07:38:44+02:00
+tags:
+  - go
+  - golang
+  - continuous-integration
+---
+
+V novém [Go 1.16](https://golang.org/doc/go1.16) kromě jiného přibyla nové directiva na úrovni balíčku `//go:embed`.
+Ta umožňuje v čase kompilace zahrnout do binarního výstupu soubory, které potřebujete. Například CSS a JS pro váš webserver nebo zakladní konfigurační soubory v JSONu nebo YAMLu apod.
+
+Nebudu se zabývat všemy aspekty této directivy, to už skvěle udělal Ben Johnson v svém článku [How to Use //go:embed](https://blog.carlmjohnson.net/post/2021/how-to-use-go-embed/), který všem doporučuji přečíst.
+
+Teď k mému příkladu. Mám jednoduchý [CLI nástroj](https://github.com/abtris/ga-badge#cli) pro práci s [Github Actions](https://docs.github.com/en/actions), který generuje badge do readme a vytvoří zakladní workflow soubory pro moje nejpoužívanější použití v Go a Node.js.
+
+Právě ta druhá funkce kde se generuje Yaml soubor je skvělá pro `//go:embed`. Templates zůstanou v repozitáři jako soubory, ale nemusím je nikde stahovat nebo mít nějak extra v balíčku.
+
+Nejdříve co potřebujete. V `go.mod` mám definované tyto závislosti:
+
+
+```go
+module github.com/abtris/ga-badge
+
+go 1.16
+
+require github.com/urfave/cli/v2 v2.3.0
+```
+
+Jak vidíte je to jen Go 1.16+ a knihovna na práci s flagy pro CLI. Zvolil jsem tuto jednodušší knihovnu než moji obvyklou [cobra](https://cobra.dev/), protože nečekám, že by bylo potřeba více příkazů než 5. Ale i tak mi chyběl generátor, který CLI příkazdy sám vytváří, je to rychlejší než to psát.
+
+Go embed musíte definovat na úrovni celkého balíčku a nemůžete to definovat uvnitř funkcí. Já jsem zvolil kombinaci s [`embed.FS`](https://golang.org/pkg/embed/#FS), kdy přes masku máte přístup k celému stromu souborů, u mě jsou to všechny YAML soubory ve složce `templates`.
+
+```go
+//go:embed templates/*.yaml
+var files embed.FS
+```
+- https://github.com/abtris/ga-badge/blob/master/cli/main.go#L82-L83
+
+Když máte takto definované jaké soubory chcete použít tak vlastní použití je velmi jednoduché.
+
+```go
+data, err := files.ReadFile("templates/go.yaml")
+if err != nil {
+    return "", fmt.Errorf("Error read file")
+}
+```
+
+Soubor načtete jako `[]byte` a potom s ním pracujete standardně pomocí `io/ioutil` balíčku nebo co zrovna potřebujete.
+
+Použití je přímočaré a dá se velmi dobře použít v mnoha situacích. Zatím mám cesty k souborům na přímo, ale to se dá vylepšit přes funkci `ReadDir`, kdy si vrátíte kolekci `[]fs.DirEntry` se soubory v embed filesystému.
+
+```go
+templates, _ := fs.ReadDir(files, "templates")
+```
+
+Tak pokud používáte Go a potřebujete občas nějaký soubor přímo do zkompilovaného binárky tak teď víte jak na to.

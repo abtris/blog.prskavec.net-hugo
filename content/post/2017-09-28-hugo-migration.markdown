@@ -5,6 +5,7 @@ tags:
  - jamstack
  - hugo
  - golang
+ - go
 ---
 
 Mám dva blogy, tento v češtině, který poháněl nejdříve Wordpress potom jsem ho migroval na Jekyll a [Octopress](https://octopress.org/), a [druhý v angličtině](https://www.prskavec.net), který běžel na publikačním systému [Ghost](https://ghost.org/).

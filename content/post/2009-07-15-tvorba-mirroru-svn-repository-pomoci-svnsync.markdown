@@ -1,7 +1,5 @@
 ---
 date: 2009-07-15T00:00:00Z
-published: true
-status: publish
 tags:
 - subversion
 - svn

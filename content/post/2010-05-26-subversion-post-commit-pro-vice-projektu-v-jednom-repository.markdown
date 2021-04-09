@@ -1,7 +1,5 @@
 ---
 date: 2010-05-26T00:00:00Z
-published: true
-status: publish
 tags:
 - svn
 - scm
@@ -28,16 +26,16 @@ REPNAME="${1##*/}"
 SVNLOOK="/usr/bin/svnlook"
 AWK="/usr/bin/awk"
 GREP="/bin/egrep"
-ERR="/tmp/errors"  
+ERR="/tmp/errors"
 
 TEST=1
 
 CHANGED=`$SVNLOOK changed  -r "$REV" "$REPOS" | $AWK '{print $2}' | $GREP ^php_`
-for FILE in $CHANGED 
+for FILE in $CHANGED
 do
-	# echo $FILE &gt;&gt; $ERR 
+	# echo $FILE &gt;&gt; $ERR
 	TEST=0
-done 
+done
 
 if [ $TEST = 0 ]; then
 	/srv/svn/tools/commit-email.pl "$REPOS" "$REV" adresat@email.com -h svn.hostname.cz -s "SVN: $REPNAME" &gt; /tmp/postcommit-log 2&gt;&amp;1

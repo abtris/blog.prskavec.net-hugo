@@ -1,7 +1,5 @@
 ---
 date: 2009-09-01T00:00:00Z
-published: true
-status: publish
 tags:
 - rest
 - php

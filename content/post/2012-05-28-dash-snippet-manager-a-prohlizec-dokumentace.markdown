@@ -1,7 +1,6 @@
 ---
 tags:
  - tools
-comments: true
 date: 2012-05-28T00:00:00Z
 title: Dash - snippet manager a prohlížeč dokumentace
 url: /2012/05/28/dash-snippet-manager-a-prohlizec-dokumentace/

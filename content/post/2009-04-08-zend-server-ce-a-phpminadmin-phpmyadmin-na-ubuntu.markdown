@@ -1,7 +1,5 @@
 ---
 date: 2009-04-08T00:00:00Z
-published: true
-status: publish
 tags:
 - php
 - phpminadmin

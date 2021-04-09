@@ -1,7 +1,5 @@
 ---
 date: 2008-06-12T00:00:00Z
-published: true
-status: publish
 tags:
 - adobe
 - adobe-air

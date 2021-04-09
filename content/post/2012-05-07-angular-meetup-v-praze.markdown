@@ -3,7 +3,6 @@ tags:
  - angularjs
  - events
  - javascript
-comments: true
 date: 2012-05-07T00:00:00Z
 title: Angular Meetup v Praze
 url: /2012/05/07/angular-meetup-v-praze/

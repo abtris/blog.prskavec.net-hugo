@@ -3,7 +3,6 @@ tags:
  - jenkins
  - javascript
  - php
-comments: true
 date: 2012-06-14T00:00:00Z
 title: Jenkins - jak na Continuous Integration v PHP a Javascriptu 26.6.2012
 url: /2012/06/14/jenkins-jak-na-continuous-integration-v-php-a-javascriptu-26-dot-6-2012/

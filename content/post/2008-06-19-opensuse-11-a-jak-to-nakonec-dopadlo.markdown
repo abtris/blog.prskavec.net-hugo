@@ -1,7 +1,5 @@
 ---
 date: 2008-06-19T00:00:00Z
-published: true
-status: publish
 tags:
 - linux
 title: OpenSuSE 11 a jak to nakonec dopadlo

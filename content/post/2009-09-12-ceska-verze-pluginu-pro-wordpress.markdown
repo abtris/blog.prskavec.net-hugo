@@ -1,7 +1,5 @@
 ---
 date: 2009-09-12T00:00:00Z
-published: true
-status: publish
 tags:
 - wordpress
 title: Česká verze pluginů pro Wordpress

@@ -1,7 +1,5 @@
 ---
 date: 2008-06-02T00:00:00Z
-published: true
-status: publish
 tags:
 - android
 title: Android žije!

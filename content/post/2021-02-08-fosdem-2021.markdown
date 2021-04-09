@@ -1,6 +1,9 @@
 ---
 title: "FOSDEM 6-7.2.2021, online"
 date: 2021-02-08T09:53:04+01:00
+tags:
+  - fosdem
+  - conference
 ---
 
 Tento rok se konference [FOSDEM](https://fosdem.org/2021/) nekonala v areálu univerzity v Bruselu jako obvykle, museli jsme si nechat ujít tradiční vafle i moje oblíbená žebra z místního smoking house. Pokud neznáte FOSDEM tak je to jedna z největších konferencí o Open Source, kde se lidé z celého světa potkávají nad velmi různými projekty. Rozmanitost jednotlivých tracků a velikost konference je úžasná. Celá akce je tradičně zdarma za podpory partnerů.

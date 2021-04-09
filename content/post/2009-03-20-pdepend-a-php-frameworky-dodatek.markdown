@@ -1,7 +1,5 @@
 ---
 date: 2009-03-20T00:00:00Z
-published: true
-status: publish
 tags:
 - php
 - qa

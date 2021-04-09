@@ -2,7 +2,6 @@
 tags:
  - nodejs
  - raspberry
-comments: true
 date: 2012-07-28T00:00:00Z
 title: Raspberry Pi
 url: /2012/07/28/raspberry-pi/

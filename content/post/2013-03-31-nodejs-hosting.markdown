@@ -2,7 +2,6 @@
 tags:
  - javascript
  - nodejs
-comments: true
 date: 2013-03-31T00:00:00Z
 title: NodeJS Hosting
 url: /2013/03/31/nodejs-hosting/

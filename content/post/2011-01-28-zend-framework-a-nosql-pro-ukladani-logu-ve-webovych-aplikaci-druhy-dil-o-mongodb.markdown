@@ -1,7 +1,5 @@
 ---
 date: 2011-01-28T00:00:00Z
-published: true
-status: publish
 tags:
 - mongodb
 - nosql

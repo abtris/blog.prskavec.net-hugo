@@ -1,7 +1,5 @@
 ---
 date: 2009-02-26T00:00:00Z
-published: true
-status: publish
 tags:
 - continuous-integration
 - hudson

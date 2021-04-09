@@ -1,7 +1,5 @@
 ---
 date: 2010-06-28T00:00:00Z
-published: true
-status: publish
 tags:
 - web
 title: Adblock není vražda, ale zkuste si ho nechat zapnutý!

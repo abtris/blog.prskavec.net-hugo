@@ -1,7 +1,5 @@
 ---
 date: 2009-05-05T00:00:00Z
-published: true
-status: publish
 tags:
 - php
 - zend-framework

@@ -1,6 +1,9 @@
 ---
 title: 'SRECon EMEA 2019, Dublin'
 date: 2019-10-06T17:41:33+02:00
+tags:
+  - sre
+  - conference
 ---
 
 Tento rok jsem 2 až 4 října se zúčastnil v Dublinu konference [SRECon](https://www.usenix.org/conference/srecon19emea), která je jediná plně soustředěná na to co je Site Reliability Engineering jak to popisují [knihy](https://landing.google.com/sre/books/) Site Reliability Engineering a The Site Reliability Workbook od Google. Když to ještě doplníte o [Seeking SRE](https://www.oreilly.com/library/view/seeking-sre/9781491978856/) máte celou sbírku literatury.

@@ -1,10 +1,9 @@
 ---
-categories:
+tags:
 - docker
 comments: true
 date: 2017-04-21T00:00:00Z
 title: Docker - multi stage build
-url: /2017/04/21/docker-multi-stage-build/
 ---
 
 Tato novinka je dostupná v poslední verzi Dockeru 17.05, musíte mít [Edge edici](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac) a se zapnutými experimentálním funkcemi, ale objeví se to v další stabilní verzi. Je pro jistotu tady je výpis z mého `docker version`.
@@ -35,7 +34,7 @@ Server:
 
 O co vlastně jde v tom multi stage. Pokud potřebujete vyrobit image pro aplikaci, která má artefakty (C/C++, Go, Java, etc.) tak potřebujete jen malou část těch závislostí pro běh v produkci, ale při výrobě těchto artefaktů musíte nainstalovat hodně a většinou ne malých závislostí. Řešilo se to patternem builder za pomocí dvou Dockerfile souborů, ale teď existuje jednodušší řešení.
 
-Řešení v jednom souboru kde máte dvě sekce, každá začíná deklarací `FROM`. Tady je ukázka pro Go lang.
+Řešení v jednom souboru kde máte dvě sekce, každá začíná deklarací `FROM`. Tady je ukázka pro Go.
 
 ```
 FROM golang:1.8 as builder

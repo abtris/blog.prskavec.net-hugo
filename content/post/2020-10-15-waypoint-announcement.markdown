@@ -1,6 +1,9 @@
 ---
 title: "Hashicorp Waypoint"
 date: 2020-10-15T20:27:19+02:00
+tags:
+  - devops
+  - hashicorp
 ---
 
 Dnes jsem na twitteru viděl oznámení o novém softwaru od Hashicopu a po [Boundary](https://www.hashicorp.com/blog/hashicorp-boundary), který oznámili včera je [Waypoint](https://www.waypointproject.io/) další zajímavá novinka.

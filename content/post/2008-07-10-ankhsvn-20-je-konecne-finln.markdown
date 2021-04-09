@@ -1,8 +1,5 @@
 ---
 date: 2008-07-10T00:00:00Z
-meta: {}
-published: true
-status: publish
 tags:
 - ide
 - scm

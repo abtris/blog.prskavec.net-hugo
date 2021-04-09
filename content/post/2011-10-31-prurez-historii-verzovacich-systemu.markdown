@@ -2,7 +2,6 @@
 tags:
  - scm
  - git
-comments: true
 date: 2011-10-31T00:00:00Z
 title: Průřez historií verzovacích systémů
 url: /2011/10/31/prurez-historii-verzovacich-systemu/

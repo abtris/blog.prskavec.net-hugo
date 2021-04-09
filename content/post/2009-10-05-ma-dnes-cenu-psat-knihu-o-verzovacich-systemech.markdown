@@ -1,7 +1,5 @@
 ---
 date: 2009-10-05T00:00:00Z
-published: true
-status: publish
 tags:
 - git
 - mercurial

@@ -1,7 +1,5 @@
 ---
 date: 2009-01-28T00:00:00Z
-published: true
-status: publish
 tags:
 - pdt
 - ubuntu

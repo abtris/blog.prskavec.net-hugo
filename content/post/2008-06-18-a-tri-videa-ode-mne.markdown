@@ -1,7 +1,5 @@
 ---
 date: 2008-06-18T00:00:00Z
-published: true
-status: publish
 tags:
 - others
 title: a tři videa ode mne

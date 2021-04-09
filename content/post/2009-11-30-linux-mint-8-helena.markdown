@@ -1,7 +1,5 @@
 ---
 date: 2009-11-30T00:00:00Z
-published: true
-status: publish
 tags:
 - linux
 - mint
