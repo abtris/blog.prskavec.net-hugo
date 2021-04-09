@@ -1,6 +1,9 @@
 ---
 title: "Jaká je cesta k produkčnímu kódu?"
 date: 2019-08-15T09:39:48+02:00
+tags:
+  - reliability
+  - sre
 ---
 
 V poslední době jsem četl několik dobrých článků jak [Elixir + gRPC: the road to production](https://code.tubitv.com/elixir-grpc-the-road-to-production-5d7daad4945b) nebo [Don’t use Go’s default HTTP client (in production)](https://medium.com/@nate510/don-t-use-go-s-default-http-client-4804cb19f779) a zkoušel jsem hledat zda dokumentace v projektech vlastně učí vývojáře se zamyslet nad tím co poskytují jazyky jako základ a jak ve skutečnosti je potřeba potom aplikaci nastavit, aby šla provozovat dostatečně robustně a spolehlivě.

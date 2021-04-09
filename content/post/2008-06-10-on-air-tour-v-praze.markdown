@@ -1,11 +1,9 @@
 ---
 date: 2008-06-10T00:00:00Z
-published: true
-status: publish
 tags:
 - adobe
 - adobe-air
-- akce
+- conference
 - flex
 - javascript
 title: on Air Tour v Praze

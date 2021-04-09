@@ -1,7 +1,5 @@
 ---
 date: 2008-06-23T00:00:00Z
-published: true
-status: publish
 tags:
 - git
 - svn

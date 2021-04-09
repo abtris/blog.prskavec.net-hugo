@@ -1,7 +1,5 @@
 ---
 date: 2008-09-23T00:00:00Z
-published: true
-status: publish
 tags:
 - jquery
 - zend-framework

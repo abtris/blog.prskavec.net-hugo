@@ -1,7 +1,6 @@
 ---
 tags:
  - css
-comments: true
 date: 2012-03-01T00:00:00Z
 title: Jak snadno pracovat s CSS sprites
 url: /2012/03/01/jak-snadno-pracovat-s-css-sprites/

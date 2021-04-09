@@ -1,10 +1,9 @@
 ---
-tags: 
+tags:
  - jenkins
 comments: true
 date: 2016-12-20T00:00:00Z
 title: Jenkins Declarative Pipelines
-url: /2016/12/20/jenkins-declarative-pipelines/
 ---
 
 Dnes Jenkins [zveřejnil betu](https://jenkins.io/blog/2016/12/19/declarative-pipeline-beta/) nového formátu pro popis Continues Delivery Pipelines.

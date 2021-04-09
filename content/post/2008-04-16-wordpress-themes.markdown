@@ -1,7 +1,5 @@
 ---
 date: 2008-04-16T00:00:00Z
-published: true
-status: publish
 tags:
 - wordpress
 title: Wordpress Themes

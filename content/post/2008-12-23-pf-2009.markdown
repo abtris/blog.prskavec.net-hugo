@@ -1,7 +1,5 @@
 ---
 date: 2008-12-23T00:00:00Z
-published: true
-status: publish
 title: PF 2009
 type: post
 url: /2008/12/23/pf-2009/

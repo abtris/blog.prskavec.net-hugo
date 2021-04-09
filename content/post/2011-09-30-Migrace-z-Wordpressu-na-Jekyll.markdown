@@ -2,7 +2,7 @@
 tags:
 - wordpress
 - jekyll
-comments: true
+- jamstack
 date: 2011-09-30T00:00:00Z
 title: Migrace z Wordpressu na Jekyll
 url: /2011/09/30/Migrace-z-Wordpressu-na-Jekyll/

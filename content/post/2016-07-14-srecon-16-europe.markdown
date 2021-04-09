@@ -1,6 +1,7 @@
 ---
-categories: [konference]
-comments: true
+tags:
+  - conference
+  - sre
 date: 2016-07-14T00:00:00Z
 title: SREcon'16 Europe
 url: /2016/07/14/srecon-16-europe/

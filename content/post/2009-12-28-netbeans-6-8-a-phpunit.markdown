@@ -1,7 +1,5 @@
 ---
 date: 2009-12-28T00:00:00Z
-published: true
-status: publish
 tags:
 - ide
 - netbeans

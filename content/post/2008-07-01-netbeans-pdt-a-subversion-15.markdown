@@ -1,8 +1,5 @@
 ---
 date: 2008-07-01T00:00:00Z
-meta: {}
-published: true
-status: publish
 tags:
 - ide
 - php

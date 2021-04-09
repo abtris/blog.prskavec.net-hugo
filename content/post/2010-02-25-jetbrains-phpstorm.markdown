@@ -1,7 +1,5 @@
 ---
 date: 2010-02-25T00:00:00Z
-published: true
-status: publish
 tags:
 - ide
 - idea

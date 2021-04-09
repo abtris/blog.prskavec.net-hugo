@@ -1,9 +1,7 @@
 ---
 date: 2007-11-12T00:00:00Z
-published: true
-status: publish
 tags:
-- fotky
+- photos
 title: Flickr vs Picasa
 type: post
 url: /2007/11/12/flickr-vs-picasa/

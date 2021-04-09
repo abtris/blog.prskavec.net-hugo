@@ -3,6 +3,7 @@ title: "Hacking Drone s frameworkem GoBot a knihovnou GoCV (OpenCV)"
 date: 2018-09-20T10:46:45+02:00
 tags:
   - golang
+	- go
   - gobot
 ---
 

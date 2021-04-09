@@ -1,7 +1,5 @@
 ---
 date: 2009-02-03T00:00:00Z
-published: true
-status: publish
 tags:
 - wordpress
 title: Úplná lokalizace WP Theme iNove 1.2.3

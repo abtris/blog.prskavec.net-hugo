@@ -3,6 +3,7 @@ title: "Monitorama Konference 2018 v Portlandu"
 date: 2018-06-09T19:44:25-07:00
 tags:
  - conference
+ - monitoring
 ---
 
 Tento týden jsem se zúčastnil konference [Monitorama](https://monitorama.com) v Portlandu, která je zaměřená na monitoring. Je to třídenní konference s jedním sálem, kde nemusíte rozhodovat na co půjdete. Je to všechno o open source monitorovacích nástrojích, ale hojně podporované ze stran sponzorů. Normální přednášky nejsou na sponsory přímo napojené a ti mají vymezené 5 min sloty a ja na nich zda jich využijí a jak. Každý hlavně opakoval, že všichni nabírají, to už na IT konferencích je samozřejmé.

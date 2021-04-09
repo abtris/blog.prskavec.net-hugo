@@ -1,7 +1,5 @@
 ---
 date: 2008-12-10T00:00:00Z
-published: true
-status: publish
 tags:
 - mozilla
 - thunderbird

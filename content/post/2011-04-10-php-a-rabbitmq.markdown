@@ -1,7 +1,5 @@
 ---
 date: 2011-04-10T00:00:00Z
-published: true
-status: publish
 tags:
 - php
 - rabbitmq

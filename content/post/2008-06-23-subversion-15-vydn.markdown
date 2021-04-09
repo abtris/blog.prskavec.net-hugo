@@ -1,8 +1,5 @@
 ---
 date: 2008-06-23T00:00:00Z
-meta: {}
-published: true
-status: publish
 tags:
 - scm
 - svn

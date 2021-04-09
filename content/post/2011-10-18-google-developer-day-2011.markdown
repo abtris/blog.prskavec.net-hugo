@@ -1,8 +1,7 @@
 ---
 tags:
 - google
-- web
-comments: true
+- conference
 date: 2011-10-18T00:00:00Z
 title: Google Developer Day 2011
 url: /2011/10/18/google-developer-day-2011/

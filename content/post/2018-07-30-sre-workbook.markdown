@@ -3,6 +3,8 @@ title: "Recenze knihy: The Site Reliability Workbook"
 date: 2018-07-30T10:05:28+02:00
 tags:
   - books
+  - reliability
+  - sre
 ---
 
 

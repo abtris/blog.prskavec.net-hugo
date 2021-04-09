@@ -1,9 +1,7 @@
 ---
 date: 2010-04-30T00:00:00Z
-published: true
-status: publish
 tags:
-- events
+- conference
 - scm
 - svn
 - teched

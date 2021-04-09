@@ -1,9 +1,7 @@
 ---
 date: 2008-05-21T00:00:00Z
-published: true
-status: publish
 tags:
-- others
+- domains
 title: Problémy s Internationalized domain names
 type: post
 url: /2008/05/21/problmy-s-internationalized-domain-names/

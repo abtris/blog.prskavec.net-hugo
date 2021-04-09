@@ -1,7 +1,5 @@
 ---
 date: 2011-02-23T00:00:00Z
-published: true
-status: publish
 tags:
 - php
 - xdebug

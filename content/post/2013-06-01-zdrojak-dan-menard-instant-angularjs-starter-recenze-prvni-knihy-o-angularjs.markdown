@@ -1,9 +1,7 @@
 ---
-author: Ladislav Prskavec
 tags:
  - zdrojak
  - books
-comments: false
 date: 2013-06-01T00:00:00Z
 title: 'Zdroják - Dan Menard: Instant AngularJS Starter (recenze první knihy o AngularJS)'
 url: /2013/06/01/zdrojak-dan-menard-instant-angularjs-starter-recenze-prvni-knihy-o-angularjs/

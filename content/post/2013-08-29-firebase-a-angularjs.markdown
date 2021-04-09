@@ -2,7 +2,6 @@
 tags:
 - javascript
 - angularjs
-comments: true
 date: 2013-08-29T00:00:00Z
 title: Firebase a AngularJS
 url: /2013/08/29/firebase-a-angularjs/

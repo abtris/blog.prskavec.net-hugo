@@ -1,6 +1,9 @@
 ---
 title: "Site Reliable Engineering (SRE) a DevOPS"
 date: 2021-02-09T08:31:09+01:00
+tags:
+    - sre
+    - devops
 ---
 
 V neděli 7. února jsem na ClubHouse místnosti Cloud Native mluvil s několika hosty o SRE a DevOPS. Zkusím shrnout svůj pohled i sem na blog pro ty kdo tam nebyli.

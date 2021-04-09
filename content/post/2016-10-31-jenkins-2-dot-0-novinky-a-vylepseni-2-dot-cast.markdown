@@ -1,7 +1,6 @@
 ---
-categories:
+tags:
  - jenkins
-comments: true
 date: 2016-10-31T00:00:00Z
 title: Jenkins 2.0 - novinky a vylepšení - 2.část
 url: /2016/10/31/jenkins-2-dot-0-novinky-a-vylepseni-2-dot-cast/

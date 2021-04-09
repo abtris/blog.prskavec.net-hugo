@@ -1,7 +1,5 @@
 ---
 date: 2009-06-01T00:00:00Z
-published: true
-status: publish
 tags:
 - android
 - g1

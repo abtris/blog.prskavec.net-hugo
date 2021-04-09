@@ -1,7 +1,7 @@
 ---
 tags:
  - javascript
-comments: true
+ - nodejs
 date: 2012-09-05T00:00:00Z
 title: Grunt.js
 url: /2012/09/05/grunt-dot-js/

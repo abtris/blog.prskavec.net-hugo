@@ -1,7 +1,5 @@
 ---
 date: 2008-03-31T00:00:00Z
-published: true
-status: publish
 tags:
 - microsoft
 - scm

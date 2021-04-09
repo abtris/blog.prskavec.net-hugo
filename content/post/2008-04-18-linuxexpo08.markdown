@@ -1,9 +1,7 @@
 ---
 date: 2008-04-18T00:00:00Z
-published: true
-status: publish
 tags:
-- events
+- conference
 - linux
 title: LinuxExpo'08
 type: post

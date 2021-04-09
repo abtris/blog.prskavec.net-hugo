@@ -1,7 +1,5 @@
 ---
 date: 2007-11-07T00:00:00Z
-published: true
-status: publish
 tags:
 - wordpress
 title: Wordpress a Texy

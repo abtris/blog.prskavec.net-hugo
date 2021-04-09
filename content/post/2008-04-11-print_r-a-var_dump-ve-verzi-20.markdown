@@ -1,8 +1,5 @@
 ---
 date: 2008-04-11T00:00:00Z
-meta: {}
-published: true
-status: publish
 tags:
 - php
 title: print_r() a var_dump() ve verzi 2.0

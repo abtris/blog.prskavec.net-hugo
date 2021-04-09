@@ -1,9 +1,8 @@
 ---
 tags:
  - barcamp
- - events
+ - conference
  - ibooks
-comments: true
 date: 2012-02-05T00:00:00Z
 title: Barcamp Vsetín 2012 - Budou učebnice v budoucnosti jen elektronické?
 url: /2012/02/05/barcamp-vsetin-2012-budou-ucebnice-v-budoucnosti-jen-elektronicke/
@@ -17,7 +16,7 @@ Moje přednáška byla večer na střeše a sešla se nám malá skupina, kterou
 
 <!--more-->
 
-## Budou učebnice  v budoucnosti jen elektronické?
+## Budou učebnice v budoucnosti jen elektronické?
 
 Elektronické knihy procházejí změnami, všichni si pamatují čtení v palm pilotech a jak to změnil Kindle, když přišel s prvním velkým obchodem s knihami. Sám jsem si tehdy Kindle 2 koupil a na beletrii neznám nic lepšího. Ale řešil jsem problém, že mám manuály a další odborné knihy převážně v PDF a to se na tom Kindlu nedalo moc dobře číst. Potom přišel iPad a iBook od Apple, tam se dají dobře číst i PDF, ale jinak to je stejné jako u kindle s nevýhodou toho, že to není elektronický inkoust.
 

@@ -2,7 +2,7 @@
 tags:
  - octopress
  - ruby
-comments: true
+ - jamstack
 date: 2011-10-17T00:00:00Z
 title: Update blog na Octopress
 url: /2011/10/17/update-blog-na-octopress/

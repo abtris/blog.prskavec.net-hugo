@@ -1,9 +1,7 @@
 ---
 date: 2008-03-28T00:00:00Z
-published: true
-status: publish
 tags:
-- events
+- conference
 - php
 - webcamp
 title: WebCamp'08

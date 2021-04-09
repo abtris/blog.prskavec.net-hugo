@@ -1,7 +1,5 @@
 ---
 date: 2008-03-28T00:00:00Z
-published: true
-status: publish
 tags:
 - windows
 title: Screencast snadno a rychle

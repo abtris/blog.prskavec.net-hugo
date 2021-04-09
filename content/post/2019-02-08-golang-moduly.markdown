@@ -3,6 +3,7 @@ title: "Moduly v jazyku Go"
 date: 2019-02-08T12:08:30+01:00
 tags:
   - golang
+  - go
 ---
 
 

@@ -1,7 +1,5 @@
 ---
 date: 2007-11-24T00:00:00Z
-published: true
-status: publish
 tags:
 - tools
 title: Jak přidat funkce obvyklé v Opera Mail do Thunderbirda

@@ -3,7 +3,6 @@ tags:
   - angularjs
   - events
   - javascript
-comments: true
 date: 2012-03-27T00:00:00Z
 title: AngularJS v Praze
 url: /2012/03/27/angularjs-v-praze/

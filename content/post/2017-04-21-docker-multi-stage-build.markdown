@@ -1,10 +1,9 @@
 ---
-categories:
+tags:
 - docker
 comments: true
 date: 2017-04-21T00:00:00Z
 title: Docker - multi stage build
-url: /2017/04/21/docker-multi-stage-build/
 ---
 
 Tato novinka je dostupná v poslední verzi Dockeru 17.05, musíte mít [Edge edici](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac) a se zapnutými experimentálním funkcemi, ale objeví se to v další stabilní verzi. Je pro jistotu tady je výpis z mého `docker version`.

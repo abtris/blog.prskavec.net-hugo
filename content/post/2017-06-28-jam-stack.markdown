@@ -1,10 +1,8 @@
 ---
 tags:
  - jamstack
-comments: true
 date: 2017-06-28T00:00:00Z
 title: JAM stack
-url: /2017/06/28/jam-stack/
 ---
 
 Co to je [JAM Stack](https://jamstack.org/)? To je pojmenování moderního způsobu jak vytvářet weby pomocí clientského Javascriptu, API a Markupu.

@@ -3,7 +3,6 @@ tags:
  - scm
  - git
  - svn
-comments: true
 date: 2011-10-26T00:00:00Z
 title: Motivace a Verzovací systémy
 url: /2011/10/26/motivace-a-vcs/

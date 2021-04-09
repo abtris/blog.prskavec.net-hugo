@@ -1,7 +1,5 @@
 ---
 date: 2009-04-02T00:00:00Z
-published: true
-status: publish
 tags:
 - centos
 - linux

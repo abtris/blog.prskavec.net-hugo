@@ -1,7 +1,5 @@
 ---
 date: 2010-08-31T00:00:00Z
-published: true
-status: publish
 tags:
 - android
 title: Upgrade Androidu na T-mobile G1 z 1.6 na 2.2 (aktualizováno 22.3.2011)

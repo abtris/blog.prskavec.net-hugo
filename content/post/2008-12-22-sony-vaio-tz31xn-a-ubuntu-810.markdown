@@ -1,7 +1,5 @@
 ---
 date: 2008-12-22T00:00:00Z
-published: true
-status: publish
 tags:
 - ubuntu
 title: SONY VAIO TZ31XN a Ubuntu 8.10

@@ -1,11 +1,10 @@
 ---
 date: 2009-10-23T00:00:00Z
-published: true
-status: publish
 tags:
 - php
 - xdebug
 - zend
+- conference
 title: Co mě zaujalo na ZendConu 2009
 type: post
 url: /2009/10/23/co-me-zaujalo-na-zendconu-2009/

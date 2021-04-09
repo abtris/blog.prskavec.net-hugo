@@ -1,9 +1,6 @@
 ---
 date: 2009-05-16T00:00:00Z
-published: true
-status: publish
 tags:
-- search
 - wolfram
 title: Wolfram Alpha
 type: post
