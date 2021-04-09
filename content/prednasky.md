@@ -40,7 +40,7 @@ type: page
 
 ## 2015
 
-* 12.11.2015 - The Go Language Meetup in Prague, Node vs Go ([slides](https://speakerdeck.com/abtris/node-vs-go-datadog-and-heroku-parsing-log-service))
+* 12.11.2015 - The Go Meetup in Prague, Node vs Go ([slides](https://speakerdeck.com/abtris/node-vs-go-datadog-and-heroku-parsing-log-service))
 * 5.5.2015 [Docker meetup, Praha](https://www.meetup.com/Docker-Prague-Czech-Republic/events/221368157/) - Docker Elastic Beanstalk
 * 11.4.2015 [Devel.cz](https://devel.cz/konference) - Docker včera, dnes a zítra
 

@@ -33,7 +33,7 @@ Další API které se používají například v Smashing magazine a jsou [open 
 
 ## Markup
 
-Statické generátory ([jekyll](https://jekyllrb.com/), [hugo](https://gohugo.io/)) jsou oblíbené a najdete jich velký seznam na [Top Open-Source Static Site Generators](https://www.staticgen.com/). Například Hugo je napsaný v Go langu a je velmi rychlý a stále se hodně rozvíjí. Jekyll se součást [Github Pages](https://pages.github.com/) a proto je hodně oblíbený mezi vývojáři na Githubu.
+Statické generátory ([jekyll](https://jekyllrb.com/), [hugo](https://gohugo.io/)) jsou oblíbené a najdete jich velký seznam na [Top Open-Source Static Site Generators](https://www.staticgen.com/). Například Hugo je napsaný v Go a je velmi rychlý a stále se hodně rozvíjí. Jekyll se součást [Github Pages](https://pages.github.com/) a proto je hodně oblíbený mezi vývojáři na Githubu.
 
 ## Závěr
 

@@ -35,7 +35,7 @@ Server:
 
 O co vlastně jde v tom multi stage. Pokud potřebujete vyrobit image pro aplikaci, která má artefakty (C/C++, Go, Java, etc.) tak potřebujete jen malou část těch závislostí pro běh v produkci, ale při výrobě těchto artefaktů musíte nainstalovat hodně a většinou ne malých závislostí. Řešilo se to patternem builder za pomocí dvou Dockerfile souborů, ale teď existuje jednodušší řešení.
 
-Řešení v jednom souboru kde máte dvě sekce, každá začíná deklarací `FROM`. Tady je ukázka pro Go lang.
+Řešení v jednom souboru kde máte dvě sekce, každá začíná deklarací `FROM`. Tady je ukázka pro Go.
 
 ```
 FROM golang:1.8 as builder
