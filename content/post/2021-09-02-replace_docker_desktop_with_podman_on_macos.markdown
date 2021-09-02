@@ -5,7 +5,7 @@ date: 2021-09-02T18:09:52+02:00
 
 Poslední den v srpnu nám [Docker Inc.](https://www.docker.com/blog/updating-product-subscriptions/) oznámili novinky v podmínkách používání, které se týkají Docker Desktop což je asi nejvíce používaný způsob jak pracovat s dockerem na macOS. Možná si řeknete to se týká jen těch co pracují ve velké firmě a mě to netrápí. Určitě to tak může být.
 
-Já jsem si řekl, že mi linuxu stejně už docker nepoužíváme, pokud pracujete s kubernetes (k8s) tak tam ho také nepoužíváte. Tak jsem si říkal, zda ho vůbec potřebuje a není čas na změnu.
+Já jsem si řekl, že mi linuxu stejně už docker nepoužíváme, pokud pracujete s kubernetes (k8s) tak tam také pravděpodobně nepoužíváte docker. Tak jsem si říkal, zda docker vůbec potřebuji a není čas na změnu.
 
 Projekt [Podman](https://podman.io/) existuje přes 3 roky a na linuxu se stává standardem. Jak jsme na to s macOS?
 
@@ -52,7 +52,7 @@ qemu-system-x86_64: warning: host doesn't support requested feature: CPUID.80000
 
 ## Výroba docker image
 
-Vzal jsem [Dockerfile](https://github.com/apiaryio/apiary-client/blob/master/Dockerfile) a zkusil ho vyrobit.
+Vzal jsem [Dockerfile](https://github.com/apiaryio/apiary-client/blob/master/Dockerfile) a zkusil image vyrobit.
 
 ```
 podman build .
