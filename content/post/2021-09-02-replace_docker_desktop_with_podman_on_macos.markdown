@@ -17,6 +17,8 @@ Jednoduše přes Homebrew
 brew install podman
 ```
 
+### Apple Silicon (M1)
+
 Pokud máte Apple Silicon [můžete zkusit pokročilou verzi](https://github.com/containers/podman/blob/main/docs/tutorials/mac_experimental.md).
 
 Zatím totiž na M1 Apple dostanete tuto zprávu.
@@ -28,6 +30,8 @@ Error: due to missing upstream patches, Apple Silicon is not capable of running 
 ```
 
 Ale řešení bude a v experimentální verzi to můžete i zkusit nebo jako já sledovat až se [issue](https://github.com/containers/podman/issues/10577) vyřeší. Myslím, že prohlášení od dockeru pomůže rychle dotáhnout podman na macOS do plně funkční verze i pro Apple Silicon.
+
+### Intel Mac
 
 Pokud máte Intel mac tak vše funguje takto:
 
