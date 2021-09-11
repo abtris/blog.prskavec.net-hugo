@@ -88,7 +88,7 @@ post = "/blog/:year/:month/:title/" # change the post URL to look like the old o
   twitter = "https://twitter.com/abtris/"
   keybase = "https://keybase.io/abtris/"
   stackoverflow = ""
-  linkedin = ""
+  linkedin = "https://www.linkedin.com/in/ladislavprskavec/"
   googleplus = ""
   youtube = ""
   facebook = ""
@@ -172,9 +172,14 @@ post = "/blog/:year/:month/:title/" # change the post URL to look like the old o
   weight = 3
 
 [[menu.main]]
+  Name = "Příspěvky"
+  URL = "/posts/"
+  weight = 4
+
+[[menu.main]]
   Name = "Kontakt"
   URL = "/kontakt/"
-  weight = 4
+  weight = 5
 
 
 # Sidebar menus
