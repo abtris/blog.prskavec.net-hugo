@@ -44,7 +44,7 @@ post = "/blog/:year/:month/:title/" # change the post URL to look like the old o
     disable = true
   [privacy.googleAnalytics]
     anonymizeIP = true
-    disable = false
+    disable = true
     respectDoNotTrack = true
     useSessionStorage = true
   [privacy.instagram]
@@ -58,7 +58,7 @@ post = "/blog/:year/:month/:title/" # change the post URL to look like the old o
   [privacy.vimeo]
     disable = true
   [privacy.youtube]
-    disable = false
+    disable = true
     privacyEnhanced = true
 
 [params]
