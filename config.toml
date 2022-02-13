@@ -116,7 +116,7 @@ post = "/blog/:year/:month/:title/" # change the post URL to look like the old o
   continueReadingText = "Dále"
 
   # Google analytics code - remove if you do not have/want Google Analytics - needs JavaScript
-  googleAnalytics = "UA-79221-21"
+  # googleAnalytics = "UA-79221-21"
 
   # Switch to true to enable RSS icon link
   rss = true
