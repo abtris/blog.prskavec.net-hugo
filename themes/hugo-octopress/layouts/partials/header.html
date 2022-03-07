@@ -57,8 +57,8 @@
 
   <meta name="author" content="{{ .Site.Params.author }}">
 
-  <!-- outputs the generator version for usage tacking -->
-  {{ $.Hugo.Generator }}
+  <!-- Last Modified -->
+  {{ $.Lastmod }}
 
   <!-- Google Analytics -->
   {{ template "_internal/google_analytics_async.html" . }}
