@@ -1,0 +1,47 @@
+---
+title: "Webexpo 10-12.6.2022"
+date: 2022-06-12T16:42:03+02:00
+tags:
+  - webexpo
+  - conference
+---
+
+
+V tomto roce pro spoustu lidí první konference, která není virtuální. Musím se přiznat, že Webexpo za těch 14 let mám opravdu rád. Ne ani tak kvůli přednáškám, ale kvůli lidem. Skvělý tým organizátorů a tradiční networking je prostě nejlepší ze všech akcí co znám. Cítím se vždy jako doma, potkám spoustu známých a přátel co jsem dlouho neviděl, je to prostě super.
+
+Samozřejmě zajdu i na některé přednášky, ale protože Webexpo není zaměřeno na to co já dělám (SRE, Infrastructure, Management) tak jsou pro mě přednášky obohacující a snažím se vybírat si spíše podle přednášejících než podle toho co je v synopsi přednášky.
+
+Letos se mi líbíli tyto přednášky na kterých jsem byl:
+
+- [JAN ŘEZÁČ - DESIGN FOR BUSINESS IMPACT](https://www.webexpo.net/prague2022/talk/jan-rezac)
+V agentuře jsem nikdy nepracoval, ale přijde mi, že Honza ví jak to dělat opravdu dobře. Jako Freelancer jsem dělal pro různé klienty a problémy co se snaží svojí metodikou vyřešit důvěrně znám. Líbilo se mi jak přistupují ke vzdělávání interně a že myslí i na juniory.
+
+- [TOM KRCHA - BUILDING LOVABLE PRODUCTS](https://www.webexpo.net/prague2022/talk/tom-krcha)
+Přednáška o product designu, kterou jsem si nemohl nechat ujít. Toma znám mnoho let a jeho práci na Around mám opravdu rád a produkt rád používám.
+
+- [HONZA SLÁDEK - STATE OF THE CMS #FRONTENDISTI](https://www.webexpo.net/prague2022/talk/jan-sladek)
+CMS jsou tu s námi dost dlouho. Jejích králem je stále Wordpress, ale to není vždy nejlepší řešení pro každého. Jsou i tací jako já co prostě chtějí jen to statické HTML ;-) Dostali jsme skvělý přehled jaké typy CMS existují a jejich porovnání.
+
+![Honza Sládek](/images/webexpo2022/honzasladek.jpeg)
+
+- [EVA PAVLÍKOVÁ a KAREL MINAŘÍK - EXPERT VOLUNTEERING IS NOT A CHARITY](https://www.webexpo.net/prague2022/talk/eva-pavlikova)
+Přednášky s přesahem mám rád. Všichni jsme byli zasaženi covidem a nikdo nemůže být lhostejný k válce. Česko.digital je organizace které pomáhá celé společnosti a je skvělé kolik lidí se do té práce zapojilo na mnoha [projektech](https://cesko.digital/projects). Doufám, že se ještě najde víc partnerů co podpoří finačně jejich aktivity, aby tento projekt mohl pomáhat ještě lépe.
+
+- [RIKI FRIDRICH - PROMISES ARE MUCH BETTER THAN YOU THINK](https://www.webexpo.net/prague2022/talk/riki-fridrich)
+Riki je hvězda na Webexpu a jeho přednášky jsou vždy vtipné a něco mě naučí. Naštěstí nejsem frontendista, ale stále jsem se aspoň naučil kdy mám použít promise a kdy async await.
+
+- [ROBIN POKORNÝ - RAILWAY ORIENTED TYPESCRIPT](https://www.webexpo.net/prague2022/talk/railway-oriented-typescript)
+Robin s Martinem založili Frontendisty před lety a je to skvělá vyvojářská komunita a stáli za celou sekcí v Kine Lucerna, kterou začal Martin a končila Robinovou přednáškou. Musím gratulovat Webexpu pro tak skvělou spolupráci, celý lineup byl výborný. Robin nás zasvětil do světa [Scotta Wlaschina o Railway Oriented Programming](https://vimeo.com/113707214), který tento přístup propaguje mnoho let ve světě FSharpu. Robin nám prakticky ukázal jak se to dá dělat v Typescriptu.
+
+![Robin Pokorný](/images/webexpo2022/robin.jpeg)
+
+
+- WEBEXPO PITCHING COMPETITION
+Vojta Roček a Sebastian Sulma měli skvělý lineup startupů a byla radost to poslouchat. Nakonec vyhrál [Stacktape](https://stacktape.com/) a určitě to někdy vyzkouším.
+
+## Shrnutí
+
+Tento ročník byla zase skvělý, Lucerna a celý prostor konference má úžasnou atmostféru a turisti se vám zase pletou pod nohy. Na snídani si můžete zajít do [Myšáka](https://www.mysak.ambi.cz/en/), na oběd zaskočit do [Dim Sum Spot](https://dimsumspot.cz/palackeho) a odpoledne na pivo do [Lokalu](https://www.ujirata.lokal.cz/en/). Cestou na party, která je na lodi u Palackého mostu se stavíte u [Meat Vandals](https://www.meatvandals.cz/), to je krása Prahy.
+
+Tak na shledanou zase příští rok 2023!
+
