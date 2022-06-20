@@ -5,6 +5,13 @@ type: page
 ---
 
 
+## 2022
+* 31.5.2022 - Go Prague Meetup - Getting started with fuzzing [slides](https://speakerdeck.com/abtris/getting-started-with-fuzzing) - in English
+
+## 2021
+
+* 31.3.2021 - junior.guru - JAMStack 2021 [slides](https://speakerdeck.com/abtris/jamstack-in-2021)
+* 2.3.2021 - Cloud Native Prague Meetup - How we build services in Oracle Cloud Infrastructure [slides](https://speakerdeck.com/abtris/how-we-build-services-in-oracle-cloud-infrastructure)
 ## 2020
 
 * 23.1.2020 - itSMF - Compliance as Code ([slides](https://speakerdeck.com/abtris/compliance-as-code))
