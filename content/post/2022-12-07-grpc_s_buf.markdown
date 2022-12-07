@@ -1,0 +1,147 @@
+---
+title: "GRPC s Buf"
+date: 2022-12-07T10:46:18+01:00
+---
+
+Pokud pracujete s [Protocol Buffers](https://developers.google.com/protocol-buffers/) tak celá léta jste byli odkázani na generátor `protoc`, který je napsaný v [CPP](https://github.com/protocolbuffers/protobuf#protobuf-runtime-installation). Je to dobré řešení, ale musíte trochu řešit, aby vám to šlo všude správně nainstalovat, včetně pluginů apod.
+
+Před časem se objevila firma [Buf](https://buf.build/), kteří se snaží vylepšit celkově práci s Protocol buffers pro každého kdo chce je efektivně a jednoduše používat zejména v týmu. Vylepšují celé workflow a jejich obchodní model je kolem [Buf Schema Registry](https://buf.build/product/bsr/), je to placená služba. Zatím nemám názor nakolik je to užitečné, aby je to uživilo. Přide mi to podobné jako co dělá [Apollo pro GraphQL](https://www.apollographql.com/graphos).
+
+V říjnu mě zaujalo, ale něco jiného na [blogu](https://buf.build/blog/bufs-new-compiler) zveřejnili článek o tom, že přepsali celý kompiler do Go. To jsem musel vyzkoušet, jak dobrá zkušenost to bude. Zkusil jsem to na klasickém helloworld příkladu a popíšu v čem byli problémy a jak to celé funguje.
+
+Svůj příklad jsem dal do [repository](https://github.com/abtris/build.buf-example), kde můžete si to stáhnout pokud to budete chtít vyzkoušet sami.
+
+Testoval jsem to M1 Mac mini co používám jako svůj hlavní počítač s posledním MacOS Ventura. Jako první krok je potřeba nainstalovat jejich CLI.
+
+```
+brew install bufbuild/buf/buf
+```
+
+Ale zde byl první problém, `buf` je alias pro `brew upgrade`, [issue](https://github.com/ohmyzsh/ohmyzsh/issues/11169), tak musíte vypnout případně `brew` plugin in zsh pokud máte jako já tento problém, nebo si udělat nějaký alias co nebude v konfliktu. Já jsem to vyřešil pomocí [`Makefile`](https://github.com/abtris/build.buf-example/blob/master/Makefile) kde mám cestu k nástroji explicitně uvedenou.
+
+Jak jsem pochopil tak konfigurace generátoru se dělá pomocí YAML souborů.
+
+
+Ten nejdůležitější je `buf.gen.yaml`:
+
+- verze pro buf.build
+
+```yaml
+version: v1
+plugins:
+  - plugin: buf.build/protocolbuffers/go
+    out: proto/
+    opt: paths=source_relative
+  - plugin: buf.build/grpc/go
+    out: proto/
+    opt: paths=source_relative
+```
+
+- verze pro `protoc`, kde musíte doinstalovat do systému `protoc`
+
+```yaml
+version: v1
+plugins:
+  - plugin: go
+    out: proto/
+    opt: paths=source_relative
+  - plugin: go-grpc
+    out: proto/
+    opt: paths=source_relative
+```
+
+- instalace pluginů pro `protoc` je jednoduchá, zase přes `brew` pokud by jste to potřebovali
+
+```
+brew install protoc-gen-go protoc-gen-go-grpc
+```
+
+Druhý konfigurační soubor `buf.work.yaml` nám určuje, kde jsou `*.proto` soubory.
+
+```yaml
+version: v1
+directories:
+  - proto
+```
+
+Poslední konfigurační soubory `buf.yaml` nám určuje chování pro jednotlivé služby, jak se detekují breaking changes a jak funguje linting.
+
+```yaml
+version: v1
+breaking:
+  use:
+    - FILE
+lint:
+  use:
+    - DEFAULT
+```
+
+Vlastní protobuf soubor je jednoduchý v tomto příkladě. Chování [linteru se dá nastavit](https://docs.buf.build/tour/lint-your-api), zda vyžaduje suffix Service jako v tomto případě apod.
+
+```proto
+syntax = "proto3";
+
+package helloworld.v1;
+
+option go_package = "github.com/abtris/buf.build-example/helloworld/v1;helloworldv1";
+
+// The greeting service definition.
+service GreeterService {
+  // Sends a greeting
+  rpc SayHello (SayHelloRequest) returns (SayHelloResponse) {}
+}
+
+// The request message containing the user's name.
+message SayHelloRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings
+message SayHelloResponse {
+  string message = 1;
+}
+```
+
+Lint se pustí pomocí
+
+```
+buf lint
+```
+
+Generování kódu, který používáme v klientu a serveru dostaneme pomocí
+
+```
+buf generate
+```
+
+Výstupem jsou potom `helloworld.pb.go` a `helloworld_grpc.pb.go`, které potom importujeme do kódu serveru a klienta a základ je hotový.
+
+Server pustíme pomocí.
+
+```
+go run greeter_server/main.go
+```
+
+a v druhém terminálu pustíme klient
+
+```
+go run greeter_client/main.go
+```
+
+pro test místo klienta můžete použít [`grpcurl`](https://github.com/fullstorydev/grpcurl)
+
+```
+grpcurl -plaintext -d '{"name":"World"}' localhost:50051 helloworld.v1.GreeterService/SayHello
+```
+
+díky [GRPC reflection](https://github.com/grpc/grpc/blob/master/doc/server-reflection.md) můžete listovat metody apod.
+
+```
+$ grpcurl -plaintext localhost:50051 list
+grpc.reflection.v1alpha.ServerReflection
+helloworld.v1.GreeterService
+```
+
+Pokud pracujete s GRPC a Go tak se mi ozvěte budeme věnovat nějaký další [Go meetup](https://www.gomeetupprague.cz/) tomuto tématu.
+
+
