@@ -3,9 +3,9 @@ title: "Pozor na základní nastavení http klienta v Go (a nejen tam)"
 date: 2023-01-25T08:25:52+01:00
 ---
 
-O tomto problému se napsalo mnoho článků, ale stále vidím ten problém, který se vrací dokola a dokola. Většina programovacích jazyků nemá základní nastavení pro HTTP dělané pro běh v produkci. Budeme si to demostrovat na příkladu Go, ale ostatní jazyky jsou na tom často podpobně, někdy lépe někdy hůře.
+O tomto problému se napsalo mnoho článků, ale stále vidím ten problém, který se vrací dokola a dokola. Většina programovacích jazyků nemá základní nastavení pro HTTP dělané pro běh v produkci. Budeme si to demonstrovat na příkladu Go, ale ostatní jazyky jsou na tom často podobně, někdy lépe někdy hůře.
 
-Pokud vemete standardní knihovnu a budete chtít udělat request tak vám vyjde něco takového.
+Pokud vezmete standardní knihovnu a budete chtít udělat request tak vám vyjde něco takového.
 
 ```go
 func main() {
@@ -33,7 +33,7 @@ var DefaultTransport RoundTripper = &Transport{
 }
 ```
 
-Podle toho se váš HTTP klient bude chovat, všechy timeouty jsou definovány zda nemůžete jedoduše to klienta později zasáhnout.
+Podle toho základního nastavení se váš HTTP klient bude chovat, všechny nastavené timeouty jsou definovány a vy nemůžete jednoduše to klienta později zasáhnout.
 
 Pokud to chcete vylepšit, tak pokud vám stačí sáhnout na základní timeout můžete to nastavit takto:
 
@@ -167,4 +167,6 @@ SetWriteDeadline(deadline time.Time) error
 
 Tady se dá například prodloužit deadline requestu, pokud to je potřeba. Celou [diskuzi o manipulaci timeoutu v Handleru najde na Githubu](https://github.com/golang/go/issues/16100).
 
-Pokud vás tohle třeba trochu zaujalo tak si přijďte popovídát o Go and release 1.20 na [další Pražský Go meetup 21.února](https://www.meetup.com/prague-golang-meetup/events/291042846/).
+Proto nezapomínejte nastavit HTTP klienty pro produkci, testuje performance, měřte latency a podle toho si upravte nastavení, je dobře vědět kde máte limity a podle toho si to nastavit. Nenechávejte to základním nastavení, v produkci to může způsobovat nepříjemné chyby, které se špatně odhalují, protože často působí jako náhodné chyby.
+
+Pokud vás tohle třeba trochu zaujalo tak si přijďte popovídat o Go and release 1.20 na [další Pražský Go meetup 21.února](https://www.meetup.com/prague-golang-meetup/events/291042846/).
