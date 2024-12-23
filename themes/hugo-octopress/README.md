@@ -6,32 +6,34 @@ For a demo website using the vanilla theme please visit [https://hugo-octopress-
 My personal website runs a modified version of the theme (mainly modified index): [https://parsiya.net](https://parsiya.net).
 
 ## Contents
-- [Config file parameters](#config)
-- [Code highlight](#highlight)
-- [Navigation menu](#menu)
-- [Markdown options](#markdown)
-- [CSS override](#cssoverride)
-- [Sidebar](#sidebarlinks)
-  - [Sidebar text](#sidebartext)
-  - [Social network icons](#sidebarsocial)
-  - [Sidebar menu](#sidebarmenu)
-  - [Recent posts](#sidebarrecent)
-- [Shortcodes](#shortcodes)
-  - [Code caption](#codecaption)
-  - [Image caption](#imgcap)
-    - [Atom snippets for shortcodes](#snippets)
-- [Hugo page summary bug](#summary)
-- [License page](#licensepage)
-- [Table of contents](#tableofcontents)
-- [Not Found or 404.html](#notfound)
-- [Taxonomy pages](#taxonomy)
-- [Individual pages](#page)
-- [Disqus](#disqus)
-- [Twitter Card](#twitter)
-- [Issues/TODO](#issues)
-- [Attribution](#attribution)
-- [Ported by](#portedby)
-- [Theme license](#themelicense)
+- [Hugo-Octopress](#hugo-octopress)
+  - [Contents](#contents)
+  - [Configuration](#configuration)
+  - [Code highlight](#code-highlight)
+  - [Markdown options](#markdown-options)
+  - [CSS override](#css-override)
+  - [Navigation menu](#navigation-menu)
+  - [Sidebar](#sidebar)
+    - [Sidebar text](#sidebar-text)
+    - [Social network icons](#social-network-icons)
+    - [Sidebar menu](#sidebar-menu)
+    - [Recent posts](#recent-posts)
+  - [Shortcodes](#shortcodes)
+    - [Code caption](#code-caption)
+    - [Image caption](#image-caption)
+      - [Atom snippets for shortcodes](#atom-snippets-for-shortcodes)
+  - [Hugo page summary bug](#hugo-page-summary-bug)
+  - [License page](#license-page)
+  - [Table of contents](#table-of-contents)
+  - [Not Found or 404.html](#not-found-or-404html)
+  - [Taxonomy pages](#taxonomy-pages)
+  - [Individual pages](#individual-pages)
+  - [Disqus](#disqus)
+  - [Twitter Card](#twitter-card)
+  - [Issues/TODO](#issuestodo)
+  - [Attribution](#attribution)
+  - [Ported by](#ported-by)
+  - [Theme license](#theme-license)
 
 ![screenshot](https://raw.githubusercontent.com/parsiya/Hugo-Octopress/master/images/screenshot.png)
 
@@ -47,7 +49,7 @@ theme = "hugo-octopress"
 
 # Disqus shortcode
 # Disable comments for any individual post by adding "comments: false" in its frontmatter
-disqusShortname = "Your disqus shortname"
+# disqusShortname = "Your disqus shortname"
 
 # Number of blog posts in each pagination page
 paginate = 6
