@@ -13,7 +13,7 @@ metadataformat = "yaml"
 
 
 # Number of blog posts in each pagination page
-paginate = 6
+pagination.pagerSize = 6
 
 # Keep it as false please, the CSS file contains the code for highlighting
 pygmentsUseClassic = false
@@ -52,7 +52,7 @@ post = "/blog/:year/:month/:title/" # change the post URL to look like the old o
     simple = false
   [privacy.speakerDeck]
     disable = true
-  [privacy.twitter]
+  [privacy.x]
     disable = true
     enableDNT = false
   [privacy.vimeo]
